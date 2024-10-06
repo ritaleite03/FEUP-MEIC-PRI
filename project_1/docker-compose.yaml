@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: pri_postgres
+    image: postgres:11
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pg!password
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    container_name: pri_pgadmin
+    image: dpage/pgadmin4:7
+    environment:
+      PGADMIN_DEFAULT_EMAIL: postgres@pri.com
+      PGADMIN_DEFAULT_PASSWORD: pg!password
+    ports:
+      - "4321:80"
+    depends_on:
+      - postgres
