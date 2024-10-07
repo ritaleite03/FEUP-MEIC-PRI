@@ -1,5 +1,3 @@
-CREATE SCHEMA IF EXISTS pri_proj;
-
 CREATE TABLE "disease"
 (
     id SERIAL,
