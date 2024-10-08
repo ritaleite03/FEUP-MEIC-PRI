@@ -3,7 +3,7 @@ import json
 from bs4 import BeautifulSoup
 from string import ascii_uppercase
 
-VALID_KEYS = ['Overview', 'Symptoms', 'Causes', 'Risk factors', 'Complications', 'Prevention']
+VALID_KEYS = ['Overview', 'Symptoms', 'Causes', 'Risk factors', 'Complications', 'Prevention', 'Treatment', 'Diagnosis']
 
 def get_diseases_url(url: str):
     response = requests.get(url)
@@ -19,14 +19,25 @@ def get_diseases_url(url: str):
     print("Error in get_diseases_url")
     return []
 
-def get_diseases_info(disease: str, url: str):
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-    session = requests.Session() 
+def get_second_url(soup):
+    anchor = soup.find("a", attrs={"id":"et_genericNavigation_diagnosis-treatment"})
+    if anchor:
+        return "https://www.mayoclinic.org" +  anchor['href']
+    else:
+        li = soup.find("li", attrs={"data-active":"false"})
+        if li:
+            return "https://www.mayoclinic.org" + li.find("a")['href']
+    return None
+
+def get_first_page_info(disease: str, url: str, headers, session):
     try:
         session.get('https://www.mayoclinic.org', headers=headers)        
         response = session.get(url, headers=headers)
         if response.status_code == 200:
-            soup = BeautifulSoup(response.content, 'html.parser')            
+            soup = BeautifulSoup(response.content, 'html.parser')
+
+            second_url = get_second_url(soup)
+            
             content_div = soup.find('div', class_='content')
             headers = {'Overview': "", 'Symptoms': "", 'Causes': "", 'Risk factors': "", 'Complications': "", 'Prevention': ""}
             if content_div:
@@ -49,7 +60,7 @@ def get_diseases_info(disease: str, url: str):
                         if disease == h2_text:
                             h2_text = 'Overview'
                         headers[h2_text] = " ".join(content_between).replace('\n', ' ')
-                    return headers
+                    return headers, second_url
                 else:
                     print(f"Error finding the first_div of the disease {disease}")
                     return None
@@ -62,13 +73,92 @@ def get_diseases_info(disease: str, url: str):
                     else:
                         section_text = section.find('div', class_='cmp-text__rich-content').get_text(separator=' ', strip=True)
                         headers[title] = section_text
-                return headers
+                return headers, second_url
         else:
             print(f"Error accessing the URL: {url} of the disease {disease} - Status code: {response.status_code}")
             return None
     except requests.RequestException as e:
         print(f"Request error for {url}: {e}")
         return None
+
+# apenas para a funcao 'get_second_page_info'
+def get_section_information(section):
+    text = ""
+    section_content = section.findChild(recursive=False)
+    for child in section_content.findChildren(recursive=False)[1:]:
+        text += child.text.replace('\n', ' ').strip() + " "
+    return text
+
+def get_second_page_info(url, headers, session):
+    info = {'Diagnosis': "", 'Treatment': ""}
+
+    if url is None:
+        return info
+
+    try:
+        session.get('https://www.mayoclinic.org', headers=headers)
+        response = session.get(url, headers=headers)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.content, 'html.parser')
+            reference_div = soup.find('div', attrs={'class':'content'})
+
+            if reference_div:
+                content_div = reference_div.findChild('div', attrs={'class':None})
+                formatted_text = ""
+
+                for child in content_div.findChildren(recursive=False):
+                    if child.text == "Diagnosis":
+                        continue
+
+                    if child.text == "Treatment":
+                        info['Diagnosis'] = formatted_text
+                        formatted_text = ""
+                        continue
+
+                    child_classes = child.get("class")
+
+                    if child_classes and any((True for class_ in child_classes if class_ in ['mc-callout', 'acces-list-container', 'rc-list', 'access-modal'])):
+                        continue
+
+                    if child_classes and any((True for class_ in child_classes if class_ in ['thin-content-by', 'requestappt'])):
+                        info['Treatment'] = formatted_text
+                        break
+
+                    formatted_text += child.text.strip().replace('\n', ' ') + " "
+
+                return info
+            
+            else:
+                diagnosis_section = soup.find("section", attrs={"aria-labelledby":"diagnosis"})
+                treatment_section = soup.find("section", attrs={"aria-labelledby":"treatment"})
+
+                if diagnosis_section:
+                    info['Diagnosis'] = get_section_information(diagnosis_section)
+                if treatment_section:
+                    info['Treatment'] = get_section_information(treatment_section)
+
+                return info
+
+    except requests.RequestException as e:
+        print(f"Request error for {url}: {e}")
+        return None
+    
+    return info
+
+def get_disease_info(disease: str, url: str):
+
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+    session = requests.Session() 
+
+    info = {}
+
+    first_page_info, second_url = get_first_page_info(disease, url, headers, session)
+    second_page_info = get_second_page_info(second_url, headers, session)
+
+    info.update(first_page_info)
+    info.update(second_page_info)
+
+    return info
 
 all_diseases_url = []
 
@@ -81,9 +171,9 @@ with open('mayo_diseases.json', 'w', encoding='UTF-8') as file:
     all_diseases = {}
 
     for disease, url in all_diseases_url:
-        disease_info = get_diseases_info(disease, url)
+        disease_info = get_disease_info(disease, url)
         if disease_info:
-            disease_info = {key: disease_info[key] for key in disease_info.keys() if key in VALID_KEYS}
+            disease_info = {key: disease_info[key].strip() for key in disease_info.keys() if key in VALID_KEYS}
             all_diseases[disease] = disease_info
     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
         
