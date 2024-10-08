@@ -1,5 +1,9 @@
 import requests
+import json
 from bs4 import BeautifulSoup
+from string import ascii_uppercase
+
+VALID_KEYS = ['Overview', 'Symptoms', 'Causes', 'Risk factors', 'Complications', 'Prevention']
 
 def get_diseases_url(url: str):
     response = requests.get(url)
@@ -66,45 +70,20 @@ def get_diseases_info(disease: str, url: str):
         print(f"Request error for {url}: {e}")
         return None
 
-def clean_value(value):
-    if not value or value.strip() == "":
-        return "NULL"
-    escaped_value = value.replace("'", "''")
-    return f"'{escaped_value}'"
-
-all_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 all_diseases_url = []
 
-for letter in all_letters:
+for letter in ascii_uppercase:
     url = f"https://www.mayoclinic.org/diseases-conditions/index?letter={letter}"
     names = get_diseases_url(url)
     all_diseases_url.extend(names)
 
-with open('diseases_info.sql', 'w', encoding='utf-8') as sql_file:
-    sql_file.write('''DROP TABLE IF EXISTS diseases;\n\n''')
-    
-    sql_file.write('''CREATE TABLE diseases (
-        name TEXT PRIMARY KEY,
-        overview TEXT,
-        symptoms TEXT,
-        causes TEXT,
-        risk_factors TEXT,
-        complications TEXT,
-        prevention TEXT
-    );\n\n''')
+with open('mayo_diseases.json', 'w', encoding='UTF-8') as file:
+    all_diseases = {}
 
     for disease, url in all_diseases_url:
         disease_info = get_diseases_info(disease, url)
         if disease_info:
-            insert_command = f'''INSERT INTO diseases (name, overview, symptoms, causes, risk_factors, complications, prevention) 
-            VALUES (
-                '{disease.replace("'", "''")}', 
-                {clean_value(disease_info['Overview'])}, 
-                {clean_value(disease_info['Symptoms'])}, 
-                {clean_value(disease_info['Causes'])}, 
-                {clean_value(disease_info['Risk factors'])}, 
-                {clean_value(disease_info['Complications'])}, 
-                {clean_value(disease_info['Prevention'])}
-            );\n'''
-            sql_file.write(insert_command)
-
+            disease_info = {key: disease_info[key] for key in disease_info.keys() if key in VALID_KEYS}
+            all_diseases[disease] = disease_info
+    json.dump(all_diseases, file, ensure_ascii=False, indent=4)
+        
