@@ -3,7 +3,7 @@ import json
 from bs4 import BeautifulSoup
 from string import ascii_uppercase
 
-VALID_KEYS = ['Overview', 'Symptoms', 'Causes', 'Risk factors', 'Complications', 'Prevention', 'Treatment', 'Diagnosis']
+VALID_KEYS = ['Overview', 'Symptoms', 'Causes', 'Risk factors', 'Complications', 'Prevention', 'Treatment', 'Diagnosis', 'Name']
 
 def get_diseases_url(url: str):
     response = requests.get(url)
@@ -150,7 +150,7 @@ def get_disease_info(disease: str, url: str):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     session = requests.Session() 
 
-    info = {}
+    info = {'Name':disease}
 
     first_page_info, second_url = get_first_page_info(disease, url, headers, session)
     second_page_info = get_second_page_info(second_url, headers, session)
@@ -168,12 +168,13 @@ for letter in ascii_uppercase:
     all_diseases_url.extend(names)
 
 with open('mayo_diseases.json', 'w', encoding='UTF-8') as file:
-    all_diseases = {}
+    all_diseases = []
 
     for disease, url in all_diseases_url:
         disease_info = get_disease_info(disease, url)
         if disease_info:
             disease_info = {key: disease_info[key].strip() for key in disease_info.keys() if key in VALID_KEYS}
-            all_diseases[disease] = disease_info
+            all_diseases.append(disease_info)
+
     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
         
