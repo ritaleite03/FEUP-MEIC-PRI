@@ -3,6 +3,7 @@ import json
 from bs4 import BeautifulSoup
 import requests
 from string import ascii_uppercase
+import re
 
 
 def get_full_info(section):
@@ -34,7 +35,7 @@ def get_disease_info(disease_page):
 
         for row in rows:
             if row.find('th') and row.find('th').text == "Other names": 
-                disease_info["Alias"] = row.find('td').text.strip().replace("\n", " ")
+                disease_info["Alias"] = re.sub(r'\[\d+\]', '', row.find('td').text.strip().replace("\n", " "))
             elif row.find('th') and row.find('th').text == "Specialty":
                 disease_info["Specialty"] = row.find('td').text.strip().replace("\n", " ")
  
@@ -62,35 +63,34 @@ def get_disease_info(disease_page):
     return disease_info
 
 
-def extract_diseases_from_section(section):
-
-    disease_list = {}
-
-    # Add disease names from the current section
-    for line in section.text.splitlines():
-        line = line.strip()
-        if line and line != "== Notes ==":  # Add only non-empty lines
-            line = line.split("/")[0]
-
-            disease_page = wiki_wiki.page(line)
-    
-            if not disease_page.exists():
-                print("Disease not found: " + line)
-                continue
-    
-            disease_list[disease_page.title] = (get_disease_info(disease_page))
-    
-    # Recursively add disease names from subsections
-    for subsection in section.sections:
-        disease_list |= extract_diseases_from_section(subsection)
-
-    return disease_list
+# def extract_diseases_from_section(section):
+#
+#     disease_list = {}
+#
+#     # Add disease names from the current section
+#     for line in section.text.splitlines():
+#         line = line.strip()
+#         if line and line != "== Notes ==":  # Add only non-empty lines
+#             line = line.split("/")[0].split(",")[0].split(";")[0]
+#
+#             disease_page = wiki_wiki.page(line)
+#
+#             if not disease_page.exists():
+#                 print("Disease not found: " + line)
+#                 continue
+#
+#             disease_list[disease_page.title] = (get_disease_info(disease_page))
+#
+#     # Recursively add disease names from subsections
+#     for subsection in section.sections:
+#         disease_list |= extract_diseases_from_section(subsection)
+#
+#     return disease_list
 
 
 wiki_wiki = wikipediaapi.Wikipedia('PRI-Proj', 'en')
 
 all_diseases = {}
-
 for letter in ascii_uppercase:
     page = wiki_wiki.page(f"List_of_diseases_({letter})")
 
@@ -99,13 +99,22 @@ for letter in ascii_uppercase:
     
     else:
         # Extract diseases from the main sections
-        for section in page.sections:
-            all_diseases |= (extract_diseases_from_section(section))
+        # for section in page.sections:
+        #     all_diseases |= (extract_diseases_from_section(section))
+
+        for link in page.links.keys():
+            if link.startswith("List of") or link.startswith("Outline of"):
+                continue;
+            disease_page = wiki_wiki.page(link)
+            if not disease_page.exists():
+                print("Disease not found: " + link)
+                continue
+            all_diseases[link] = get_disease_info(disease_page)
 
 with open('wikipedia_diseases.json', 'w', encoding='UTF-8') as file:
     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
             
-    # with open('wikipedia_diseases.json', 'w', encoding='UTF-8') as file:
-    #     all_diseases = {}
-    #     all_diseases |= {"Acute myeloid leukemia": get_disease_info(wiki_wiki.page("Acute myeloid leukemia"))}
-    #     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
+# with open('wikipedia_diseases.json', 'w', encoding='UTF-8') as file:
+#     all_diseases = {}
+#     all_diseases |= {"Acute myeloid leukemia": get_disease_info(wiki_wiki.page("Acute myeloid leukemia"))}
+#     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
