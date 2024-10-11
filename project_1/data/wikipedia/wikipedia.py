@@ -5,6 +5,23 @@ import requests
 from string import ascii_uppercase
 import re
 
+def get_wikipedia_revision_info(page_title):
+    # URL to get the last revision date (rvlimit=1 gives the latest one)
+    url_last_revision = f"https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles={page_title}&rvlimit=1&rvprop=timestamp&format=json"
+    
+    # URL to get all revisions (rvprop=ids for only revision IDs)
+    url_total_revisions = f"https://en.wikipedia.org/w/api.php?action=query&prop=revisions&titles={page_title}&rvlimit=max&rvprop=ids&format=json"
+    
+    # Get the last revision date
+    last_revision_response = requests.get(url_last_revision).json()
+    page_info = next(iter(last_revision_response['query']['pages'].values()))
+    last_revision_date = page_info['revisions'][0]['timestamp']
+    
+    # Get the total number of revisions
+    total_revisions_response = requests.get(url_total_revisions).json()
+    total_revisions = len(total_revisions_response['query']['pages'][str(page_info['pageid'])]['revisions'])
+
+    return total_revisions, last_revision_date
 
 def get_full_info(section):
     full_info = {}
@@ -25,7 +42,7 @@ def get_disease_info(disease_page):
     if response.status_code != 200:
         print(f"Request error for {url}")
         return None
-    
+
     soup = BeautifulSoup(response.content, 'html.parser')
 
     table = soup.find('table', {'class': 'infobox'})
@@ -59,6 +76,8 @@ def get_disease_info(disease_page):
             disease_info["Risk factors"] = get_full_info(section)
         elif section.title == "Complications":
             disease_info["Complications"] = get_full_info(section)
+
+    disease_info["Total Revisions"], disease_info["Last Revision Date"] = get_wikipedia_revision_info(disease_page.title)
 
     return disease_info
 
