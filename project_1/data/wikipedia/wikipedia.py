@@ -37,7 +37,8 @@ def get_disease_info(disease_page):
             if row.find('th') and row.find('th').text == "Other names": 
                 disease_info["Alias"] = re.sub(r'\[\d+\]', '', row.find('td').text.strip().replace("\n", " "))
             elif row.find('th') and row.find('th').text == "Specialty":
-                disease_info["Specialty"] = row.find('td').text.strip().replace("\n", " ")
+                spec = row.find('td').text.strip().replace("\n", " ")
+                disease_info["Specialty"] = [spec.strip() for spec in spec.split(",")]
  
     disease_info["Overview"] = disease_page.summary.strip().replace("\n", " ")
 
@@ -103,12 +104,12 @@ for letter in ascii_uppercase:
 
         for link in page.links.keys():
             if link.startswith("List of") or link.startswith("Outline of"):
-                continue;
+                continue
             disease_page = wiki_wiki.page(link)
             if not disease_page.exists():
                 print("Disease not found: " + link)
                 continue
-            all_diseases[link] = get_disease_info(disease_page)
+            all_diseases[disease_page.title] = get_disease_info(disease_page)
 
 with open('wikipedia_diseases.json', 'w', encoding='UTF-8') as file:
     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
