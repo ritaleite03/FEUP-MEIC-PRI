@@ -31,17 +31,30 @@ merged_df = pd.DataFrame.from_dict(merged_json, orient='index')
 # plt.title("Percentage of empty values ​​per column",pad=50)
 # plt.show()
 
-
-# ver percentagem do tamanho médio das entradas em cada coluna
-def mean_string_length(column):
-    strings = column.dropna().astype(str)
-    string_lengths = strings.apply(len)
-    return string_lengths.mean()
-
-mean_lengths = merged_df.apply(mean_string_length)
-mean_lengths = mean_lengths.dropna()
+# ver percentagem de entradas vazias em cada coluna (não vai aparecer no pie chart o "overview" pq a percentagem é 0%)
+missing_percentages = merged_df.isnull().mean() * 100
+missing_percentages = missing_percentages[missing_percentages > 0]
 
 plt.figure(figsize=(8, 8))
-plt.pie(mean_lengths, labels=mean_lengths.index, autopct='%1.1f%%', startangle=90)
-plt.title("Average String Length per Column", pad=50)
+wedges, texts = plt.pie(missing_percentages, startangle=90)
+plt.title("Percentage of empty values ​​per column",pad=50)
+legend_labels = [f'{name}: {value:.1f}%' for name, value in zip(missing_percentages.index, missing_percentages / missing_percentages.sum() * 100)]
+plt.legend(legend_labels, title="Columns", bbox_to_anchor=(1.05, 1), loc='upper left')
 plt.show()
+
+# ver percentagem do tamanho médio das entradas em cada coluna
+#def mean_string_length(column):
+#    strings = column.dropna().astype(str)
+#    string_lengths = strings.apply(len)
+#    return string_lengths.mean()
+#
+#mean_lengths = merged_df.apply(mean_string_length)
+#mean_lengths = mean_lengths.dropna()
+#
+#plt.figure(figsize=(8, 8))
+#wedges, texts = plt.pie(mean_lengths, startangle=90)
+#plt.title("Average String Length per Column", pad=50)
+#legend_labels = [f'{name}: {value:.1f}%' for name, value in zip(mean_lengths.index, mean_lengths / mean_lengths.sum() * 100)]
+#plt.legend(legend_labels, title="Columns", bbox_to_anchor=(1.05, 1), loc='upper left')
+#plt.show()
+
