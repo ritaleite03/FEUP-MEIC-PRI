@@ -39,8 +39,7 @@ def get_disease_info(disease_page):
             elif row.find('th') and row.find('th').text == "Specialty":
                 disease_info["Specialty"] = row.find('td').text.strip().replace("\n", " ")
  
-
-    disease_info["Overview"] = disease_page.summary
+    disease_info["Overview"] = disease_page.summary.strip().replace("\n", " ")
 
     for section in disease_page.sections:
         if section.text.strip() == "":
