@@ -1009,7 +1009,6 @@
     },
     "migraine": {
         "Caused By": [
-            "unknown",
             "psychological stress"
         ]
     },
@@ -1673,7 +1672,6 @@
     },
     "male infertility": {
         "Caused By": [
-            "unknown",
             "oligospermia",
             "aspermia"
         ]
@@ -2184,9 +2182,7 @@
         ]
     },
     "fibromyalgia": {
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "anxiety disorder": {
         "Characteristics": [
@@ -3453,7 +3449,6 @@
     },
     "intracranial aneurysm": {
         "Caused By": [
-            "unknown",
             "connective tissue disease"
         ]
     },
@@ -3545,9 +3540,7 @@
         "Different From": [
             "dementia with Lewy bodies"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "Emery-Dreifuss muscular dystrophy": {
         "Caused By": [
@@ -4080,9 +4073,7 @@
         ]
     },
     "inclusion body myositis": {
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "nocardiosis": {
         "Caused By": [
@@ -10606,7 +10597,6 @@
     },
     "immune-mediated necrotizing myopathy": {
         "Caused By": [
-            "unknown",
             "statin"
         ]
     },
@@ -10858,9 +10848,7 @@
         "Different From": [
             "Asperger syndrome"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "common cold": {
         "Caused By": [
@@ -10898,9 +10886,7 @@
         ]
     },
     "frontotemporal dementia": {
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "dissociative amnesia": {
         "Different From": [

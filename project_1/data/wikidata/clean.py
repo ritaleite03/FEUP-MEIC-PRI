@@ -29,7 +29,10 @@ def clean(file_content):
 
         for k,v in KEYS.items():
             if k in disease and disease[k]["value"].strip() != "":
-                temp[v] = disease[k]["value"].split(", ")
+                items = disease[k]["value"].split(", ")
+                if "unknown" in items:
+                    items.remove("unknown")
+                temp[v] = items
 
         content_cleaned[disease_name] = temp
 

@@ -941,7 +941,6 @@
             "ketorolac"
         ],
         "Caused By": [
-            "unknown",
             "psychological stress"
         ]
     },
@@ -5246,7 +5245,6 @@
             "erectile dysfunction"
         ],
         "Caused By": [
-            "unknown",
             "oligospermia",
             "aspermia"
         ]
@@ -7655,9 +7653,7 @@
             "etanercept",
             "guaifenesin"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "orchitis": {
         "Specialty": [
@@ -15101,7 +15097,6 @@
             "computed tomography"
         ],
         "Caused By": [
-            "unknown",
             "connective tissue disease"
         ]
     },
@@ -15706,9 +15701,7 @@
         "Different From": [
             "dementia with Lewy bodies"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "gonadal dysgenesis": {
         "Specialty": [
@@ -19172,9 +19165,7 @@
             "muscle biopsy",
             "electromyography"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "Sprengel's deformity": {
         "Specialty": [
@@ -45335,7 +45326,6 @@
             "muscle weakness"
         ],
         "Caused By": [
-            "unknown",
             "statin"
         ]
     },
@@ -46142,9 +46132,7 @@
         "Different From": [
             "Asperger syndrome"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "Addison's disease": {
         "Specialty": [
@@ -47045,9 +47033,7 @@
             "magnetic resonance imaging",
             "autopsy"
         ],
-        "Caused By": [
-            "unknown"
-        ]
+        "Caused By": []
     },
     "dissociative amnesia": {
         "Specialty": [
