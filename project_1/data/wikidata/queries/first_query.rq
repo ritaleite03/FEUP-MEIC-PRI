@@ -4,7 +4,6 @@ SELECT ?diseaseLabel
       (GROUP_CONCAT(DISTINCT ?medicalExamsLabel; separator=", ") as ?medicalExams)
       (GROUP_CONCAT(DISTINCT ?drugLabel; separator=", ") as ?drugs)
       (GROUP_CONCAT(DISTINCT ?transmissionProcessLabel; separator=", ") as ?transmissionProcesses)
-      (GROUP_CONCAT(DISTINCT ?minIncubationLabel; separator=", ") as ?minIncubationTime)
 WHERE {
     # disease instance of class of disease
     ?disease wdt:P31 wd:Q112193867.
@@ -46,23 +45,14 @@ WHERE {
       FILTER(LANG(?transmissionProcessLabel) = "en").
     }
   
-    # minimal incubation period in humans
-    OPTIONAL {
-      ?disease wdt:P3488 ?minIncubation.
-      ?minIncubation rdfs:label ?minIncubationLabel.
-      FILTER(LANG(?minIncubationLabel) = "en").
-    }
-  
     FILTER(
       BOUND(?speciality)           || 
       BOUND(?symptom)              || 
       BOUND(?medicalExam)          ||
       BOUND(?drug)                 ||
-      BOUND(?transmissionProcess)  ||
-      BOUND(?minIncubation)       
+      BOUND(?transmissionProcess)  
     )
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
  } 
 GROUP BY ?disease ?diseaseLabel
-ORDER BY ?disease

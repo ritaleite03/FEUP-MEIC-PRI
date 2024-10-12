@@ -1,0 +1,67 @@
+SELECT ?diseaseLabel 
+      (GROUP_CONCAT(DISTINCT ?treatmentLabel; separator=", ") as ?treatments)
+      (GROUP_CONCAT(DISTINCT ?geneticAssociationLabel; separator=", ") as ?geneticAssociations)
+      (GROUP_CONCAT(DISTINCT ?prevalenceLabel; separator=", ") as ?prevalence)
+      (GROUP_CONCAT(DISTINCT ?riskFactorLabel; separator=", ") as ?riskFactors)
+      (GROUP_CONCAT(DISTINCT ?ageOnsetLabel; separator=", ") as ?ageOnsets)
+      (GROUP_CONCAT(DISTINCT ?oppositeOfLabel; separator=", ") as ?oppositOf)
+WHERE {
+    # disease instance of class of disease
+    ?disease wdt:P31 wd:Q112193867.
+    ?disease rdfs:label ?diseaseLabel.
+    FILTER(LANG(?diseaseLabel) = "en").
+  
+    # possible treatment
+    OPTIONAL {
+      ?disease wdt:P924 ?treatment.
+      ?treatment rdfs:label ?treatmentLabel.
+      FILTER(LANG(?treatmentLabel) = "en").
+    }
+  
+    # genetic association
+    OPTIONAL {
+      ?disease wdt:P2293 ?geneticAssociation.
+      ?geneticAssociation rdfs:label ?geneticAssociationLabel.
+      FILTER(LANG(?geneticAssociationLabel) = "en").
+    }
+  
+    # prevalence
+    OPTIONAL {
+      ?disease wdt:P1193 ?prevalence_.
+      ?prevalence_ rdfs:label ?prevalenceLabel.
+      FILTER(LANG(?prevalenceLabel) = "en").
+    }
+  
+    # risk factor
+    OPTIONAL {
+      ?disease wdt:P5642 ?riskFactor.
+      ?riskFactor rdfs:label ?riskFactorLabel.
+      FILTER(LANG(?riskFactorLabel) = "en").
+    }
+ 
+    # age of onset
+    OPTIONAL {
+      ?disease wdt:P2841 ?ageOnset.
+      ?ageOnset rdfs:label ?ageOnsetLabel.
+      FILTER(LANG(?ageOnsetLabel) = "en").
+    }
+  
+    # opposite of
+    OPTIONAL {
+      ?disease wdt:P461 ?oppositeOf_.
+      ?oppositeOf_ rdfs:label ?oppositeOfLabel.
+      FILTER(LANG(?oppositeOfLabel) = "en").
+    }
+ 
+    FILTER(
+      BOUND(?treatment)            ||
+      BOUND(?geneticAssociation)   ||
+      BOUND(?prevalence_)          ||
+      BOUND(?riskFactor)           ||
+      BOUND(?ageOnset)             ||
+      BOUND(?oppositeOf_)
+    )
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+ } 
+GROUP BY ?disease ?diseaseLabel

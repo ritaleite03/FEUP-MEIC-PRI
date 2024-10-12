@@ -9,14 +9,16 @@ KEYS = {
     'medicalExams': 'Medical Exams',
     'drugs': 'Drugs and Therapy',
     'transmissionProcesses': 'Transmission Processes',
-    'minIncubationTime': 'Min Incubation Period',
-    'maxIncubationTime': 'Max Incubation Period',
     'anatomicalLocation': 'Anatomical Location',
     'characteristics': 'Characteristics',
-    'commonCategories': 'Common Categories',
     'diffFrom': 'Different From',
     'causes': 'Caused By',
-    'canCause': 'Can Cause'
+    'canCause': 'Can Cause',
+    'treatments': 'Treatments List',
+    'geneticAssociations': 'Genetic Associations',
+    'riskFactors': 'Risk Factors List',
+    'ageOnsets': 'Age Onsets',
+    'oppositOf': 'Opposit Of'
 }
 
 def clean(file_content):
@@ -46,12 +48,15 @@ def clean(file_content):
 if __name__ == "__main__":
     f1_content = get_json("./raw_data/first_query.json")
     f2_content = get_json("./raw_data/second_query.json")
+    f3_content = get_json("./raw_data/third_query.json")
 
     f1_cleaned = clean(f1_content)
     f2_cleaned = clean(f2_content)
+    f3_cleaned = clean(f3_content)
 
     write_to_file("./data/first_query.json", f1_cleaned)
     write_to_file("./data/second_query.json", f2_cleaned)
+    write_to_file("./data/third_query.json", f3_cleaned)
 
 
 
