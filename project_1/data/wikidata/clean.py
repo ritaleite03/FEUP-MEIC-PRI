@@ -32,6 +32,10 @@ def clean(file_content):
                 items = disease[k]["value"].split(", ")
                 if "unknown" in items:
                     items.remove("unknown")
+
+                    if len(items) == 0:
+                        continue
+                
                 temp[v] = items
 
         content_cleaned[disease_name] = temp

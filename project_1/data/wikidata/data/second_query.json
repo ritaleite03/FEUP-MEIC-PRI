@@ -2181,9 +2181,7 @@
             "bleeding"
         ]
     },
-    "fibromyalgia": {
-        "Caused By": []
-    },
+    "fibromyalgia": {},
     "anxiety disorder": {
         "Characteristics": [
             "anxiousness"
@@ -3539,8 +3537,7 @@
     "Lewy body dementia": {
         "Different From": [
             "dementia with Lewy bodies"
-        ],
-        "Caused By": []
+        ]
     },
     "Emery-Dreifuss muscular dystrophy": {
         "Caused By": [
@@ -4072,9 +4069,7 @@
             "peritoneum"
         ]
     },
-    "inclusion body myositis": {
-        "Caused By": []
-    },
+    "inclusion body myositis": {},
     "nocardiosis": {
         "Caused By": [
             "Nocardia transvalensis",
@@ -10847,8 +10842,7 @@
     "Alzheimer's disease": {
         "Different From": [
             "Asperger syndrome"
-        ],
-        "Caused By": []
+        ]
     },
     "common cold": {
         "Caused By": [
@@ -10885,9 +10879,7 @@
             "Variola virus (vaccinia)"
         ]
     },
-    "frontotemporal dementia": {
-        "Caused By": []
-    },
+    "frontotemporal dementia": {},
     "dissociative amnesia": {
         "Different From": [
             "Amnesia"
