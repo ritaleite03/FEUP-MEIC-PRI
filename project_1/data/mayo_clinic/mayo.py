@@ -117,7 +117,7 @@ def get_second_page_info(url, headers, session):
 
                     child_classes = child.get("class")
 
-                    if child_classes and any((True for class_ in child_classes if class_ in ['mc-callout', 'acces-list-container', 'rc-list', 'access-modal'])):
+                    if child_classes and any((True for class_ in child_classes if class_ in ['mc-callout', 'acces-list-container', 'rc-list', 'access-modal', 'video', 'EmbedVideo'])):
                         continue
 
                     if child_classes and any((True for class_ in child_classes if class_ in ['thin-content-by', 'requestappt'])):
@@ -167,14 +167,14 @@ for letter in ascii_uppercase:
     names = get_diseases_url(url)
     all_diseases_url.extend(names)
 
+all_diseases = {}
+for disease, url in all_diseases_url:
+    disease_info = get_disease_info(disease, url)
+    if disease_info:
+        disease_info = {key: disease_info[key].strip() for key in disease_info.keys() if key in VALID_KEYS}
+        all_diseases[disease] = disease_info
+
+
 with open('mayo_diseases.json', 'w', encoding='UTF-8') as file:
-    all_diseases = {}
-
-    for disease, url in all_diseases_url:
-        disease_info = get_disease_info(disease, url)
-        if disease_info:
-            disease_info = {key: disease_info[key].strip() for key in disease_info.keys() if key in VALID_KEYS}
-            all_diseases[disease] = disease_info
-
     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
         

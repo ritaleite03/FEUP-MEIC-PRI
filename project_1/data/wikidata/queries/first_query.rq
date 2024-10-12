@@ -1,0 +1,68 @@
+SELECT ?diseaseLabel 
+      (GROUP_CONCAT(DISTINCT ?specialityLabel; separator=", ") as ?specialities) 
+      (GROUP_CONCAT(DISTINCT ?symptomLabel; separator=", ") as ?symptoms)
+      (GROUP_CONCAT(DISTINCT ?medicalExamsLabel; separator=", ") as ?medicalExams)
+      (GROUP_CONCAT(DISTINCT ?drugLabel; separator=", ") as ?drugs)
+      (GROUP_CONCAT(DISTINCT ?transmissionProcessLabel; separator=", ") as ?transmissionProcesses)
+      (GROUP_CONCAT(DISTINCT ?minIncubationLabel; separator=", ") as ?minIncubationTime)
+WHERE {
+    # disease instance of class of disease
+    ?disease wdt:P31 wd:Q112193867.
+    ?disease rdfs:label ?diseaseLabel.
+    FILTER(LANG(?diseaseLabel) = "en").
+    
+    # health specialty
+    OPTIONAL {
+      ?disease wdt:P1995 ?speciality.
+      ?speciality rdfs:label ?specialityLabel.
+      FILTER(LANG(?specialityLabel) = "en").
+    }
+    
+    # symptoms and signs
+    OPTIONAL {
+      ?disease wdt:P780 ?symptom.
+      ?symptom rdfs:label ?symptomLabel.
+      FILTER(LANG(?symptomLabel) = "en").
+    }
+  
+    # medical examination
+    OPTIONAL {
+      ?disease wdt:P923 ?medicalExam.
+      ?medicalExam rdfs:label ?medicalExamsLabel.
+      FILTER(LANG(?medicalExamsLabel) = "en").
+    }
+  
+    # drug or therapy used for treatment
+    OPTIONAL {
+      ?disease wdt:P2176 ?drug.
+      ?drug rdfs:label ?drugLabel.
+      FILTER(LANG(?drugLabel) = "en").
+    }
+  
+    # disease transmission process
+    OPTIONAL {
+      ?disease wdt:P1060 ?transmissionProcess.
+      ?transmissionProcess rdfs:label ?transmissionProcessLabel.
+      FILTER(LANG(?transmissionProcessLabel) = "en").
+    }
+  
+    # minimal incubation period in humans
+    OPTIONAL {
+      ?disease wdt:P3488 ?minIncubation.
+      ?minIncubation rdfs:label ?minIncubationLabel.
+      FILTER(LANG(?minIncubationLabel) = "en").
+    }
+  
+    FILTER(
+      BOUND(?speciality)           || 
+      BOUND(?symptom)              || 
+      BOUND(?medicalExam)          ||
+      BOUND(?drug)                 ||
+      BOUND(?transmissionProcess)  ||
+      BOUND(?minIncubation)       
+    )
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+ } 
+GROUP BY ?disease ?diseaseLabel
+ORDER BY ?disease

@@ -1,0 +1,78 @@
+SELECT ?diseaseLabel 
+      (GROUP_CONCAT(DISTINCT ?maxIncubationLabel; separator=", ") as ?maxIncubationTime)
+      (GROUP_CONCAT(DISTINCT ?anatomicalLocationLabel; separator=", ") as ?anatomicalLocation)
+      (GROUP_CONCAT(DISTINCT ?characteristicLabel; separator=", ") as ?characteristics)
+      (GROUP_CONCAT(DISTINCT ?commonCategoryLabel; separator=", ") as ?commonCategories)
+      (GROUP_CONCAT(DISTINCT ?diffFromLabel; separator=", ") as ?diffFrom)
+      (GROUP_CONCAT(DISTINCT ?causeLabel; separator=", ") as ?causes)
+      (GROUP_CONCAT(DISTINCT ?canCauseLabel; separator=", ") as ?canCause)
+WHERE {
+    # disease instance of class of disease
+    ?disease wdt:P31 wd:Q112193867.
+    ?disease rdfs:label ?diseaseLabel.
+    FILTER(LANG(?diseaseLabel) = "en").
+  
+    # maximal incubation period in humans
+    OPTIONAL {
+      ?disease wdt:P3487 ?maxIncubation.
+      ?maxIncubation rdfs:label ?maxIncubationLabel.
+      FILTER(LANG(?maxIncubationLabel) = "en").
+    }
+  
+    # anatomical location
+    OPTIONAL {
+      ?disease wdt:P927 ?anatomicalLocation_.
+      ?anatomicalLocation_ rdfs:label ?anatomicalLocationLabel.
+      FILTER(LANG(?anatomicalLocationLabel) = "en").
+    }
+  
+    # has characteristic
+    OPTIONAL {
+      ?disease wdt:P1552 ?characteristic.
+      ?characteristic rdfs:label ?characteristicLabel.
+      FILTER(LANG(?characteristicLabel) = "en").
+    }
+  
+    # Commons category
+    OPTIONAL {
+      ?disease wdt:P373 ?commonCategory.
+      ?commonCategory rdfs:label ?commonCategoryLabel.
+      FILTER(LANG(?commonCategoryLabel) = "en").
+    }
+  
+    # different from
+    OPTIONAL {
+      ?disease wdt:P1889 ?diffFrom_.
+      ?diffFrom_ rdfs:label ?diffFromLabel.
+      FILTER(LANG(?diffFromLabel) = "en").
+    }
+  
+    # has cause
+    OPTIONAL {
+      ?disease wdt:P828 ?cause.
+      ?cause rdfs:label ?causeLabel.
+      FILTER(LANG(?causeLabel) = "en").
+    }
+  
+    # has effect
+    OPTIONAL {
+     ?disease wdt:P1542 ?canCause_. 
+     ?canCause_ rdfs:label ?canCauseLabel.
+      FILTER(LANG(?canCauseLabel) = "en").
+    }
+ 
+ 
+    FILTER(
+      BOUND(?maxIncubation)        ||
+      BOUND(?anatomicalLocation_)  ||
+      BOUND(?characteristic)       ||
+      BOUND(?commonCategory)       ||
+      BOUND(?diffFrom_)            ||
+      BOUND(?cause)                ||
+      BOUND(?canCause_)
+    )
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+ } 
+GROUP BY ?disease ?diseaseLabel
+ORDER BY ?disease
