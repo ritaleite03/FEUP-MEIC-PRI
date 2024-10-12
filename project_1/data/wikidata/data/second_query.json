@@ -4,31 +4,39 @@
             "diabetes",
             "type-1 diabetes",
             "gestational diabetes",
-            "maturity-onset diabetes of the young",
             "syndrome of Inappropriate antidiuretic hormone secretion",
-            "type 2 diabetes",
             "Latent autoimmune diabetes",
+            "maturity-onset diabetes of the young",
+            "type 2 diabetes",
             "nephrogenic syndrome of inappropriate antidiuresis"
         ],
         "Caused By": [
-            "mutation",
             "cranial trauma",
-            "idiopathy",
             "hypopituitarism",
+            "mutation",
             "autoimmunity",
-            "infection",
-            "tumor"
+            "tumor",
+            "idiopathy",
+            "infection"
         ],
         "Can Cause": [
             "headache",
-            "dehydration",
             "constipation",
+            "dehydration",
             "tachycardia",
-            "electrolyte imbalance",
-            "seizure",
-            "insomnia",
             "hypotension",
-            "weight loss"
+            "weight loss",
+            "electrolyte imbalance",
+            "insomnia",
+            "seizure"
+        ]
+    },
+    "diabetic retinopathy": {
+        "Caused By": [
+            "diabetes"
+        ],
+        "Can Cause": [
+            "blindness"
         ]
     },
     "bubonic plague": {
@@ -48,6 +56,29 @@
             "Black Death"
         ]
     },
+    "chromosome abnormality": {
+        "Can Cause": [
+            "chromosomal disease"
+        ]
+    },
+    "anthracosis": {
+        "Caused By": [
+            "coal dust exposure"
+        ],
+        "Can Cause": [
+            "stroke"
+        ]
+    },
+    "McKusick type metaphyseal dysplasia": {
+        "Can Cause": [
+            "dwarfism"
+        ]
+    },
+    "congenital lactase deficiency": {
+        "Can Cause": [
+            "lactose intolerance"
+        ]
+    },
     "chikungunya": {
         "Caused By": [
             "Chikungunya virus"
@@ -56,21 +87,9 @@
             "chikungunya epidemic on Réunion"
         ]
     },
-    "autoimmune hepatitis": {
+    "placental abruption": {
         "Can Cause": [
-            "liver cirrhosis"
-        ]
-    },
-    "severe acute respiratory syndrome": {
-        "Different From": [
-            "South African Revenue Service",
-            "SARS-CoV-2"
-        ],
-        "Caused By": [
-            "SARS-CoV-1"
-        ],
-        "Can Cause": [
-            "2002–2004 SARS outbreak"
+            "asphyxia neonatorum"
         ]
     },
     "plague": {
@@ -83,9 +102,116 @@
             "Yersinia pestis"
         ],
         "Can Cause": [
-            "plague epidemic",
             "Black Death",
-            "Plague of Justinian"
+            "Plague of Justinian",
+            "plague epidemic"
+        ]
+    },
+    "phobia": {
+        "Different From": [
+            "anxiety",
+            "non-medical phobia"
+        ],
+        "Can Cause": [
+            "fear"
+        ]
+    },
+    "mercury poisoning": {
+        "Different From": [
+            "mercury exposure"
+        ],
+        "Caused By": [
+            "mercury"
+        ],
+        "Can Cause": [
+            "fatigue",
+            "mental disorder",
+            "inflammation",
+            "tremor",
+            "anorexia",
+            "aneuploidy",
+            "miscarriage",
+            "pulmonary fibrosis",
+            "anxiety",
+            "insomnia",
+            "hypersalivation",
+            "dysmenorrhea",
+            "enteritis",
+            "chronic respiratory failure",
+            "pseudobulbar affect",
+            "central nervous system disease",
+            "restrictive lung disease",
+            "memory loss",
+            "kidney disease"
+        ]
+    },
+    "precocious puberty": {
+        "Can Cause": [
+            "child sexual abuse"
+        ]
+    },
+    "rubella": {
+        "Different From": [
+            "Różyczka"
+        ],
+        "Caused By": [
+            "Rubella virus"
+        ],
+        "Can Cause": [
+            "cataract",
+            "Forchheimer spots"
+        ]
+    },
+    "ischemia": {
+        "Can Cause": [
+            "amaurosis fugax"
+        ]
+    },
+    "aspiration pneumonia": {
+        "Can Cause": [
+            "pneumonia"
+        ]
+    },
+    "human papillomavirus infection": {
+        "Caused By": [
+            "human papilloma virus"
+        ],
+        "Can Cause": [
+            "wart"
+        ]
+    },
+    "heart arrhythmia": {
+        "Can Cause": [
+            "heart failure"
+        ]
+    },
+    "coronary artery disease": {
+        "Caused By": [
+            "arteriosclerosis"
+        ],
+        "Can Cause": [
+            "myocardial infarction",
+            "angina pectoris"
+        ]
+    },
+    "hepatitis": {
+        "Caused By": [
+            "intoxication",
+            "hepatitis E virus",
+            "hepatitis delta virus",
+            "Hepatitis A virus",
+            "Hepatitis C virus",
+            "autoimmunity",
+            "alcoholism",
+            "Hepatitis B virus"
+        ],
+        "Can Cause": [
+            "liver cirrhosis"
+        ]
+    },
+    "asbestosis": {
+        "Can Cause": [
+            "lung cancer"
         ]
     },
     "liver cirrhosis": {
@@ -93,22 +219,85 @@
             "liver"
         ],
         "Caused By": [
-            "Indian childhood cirrhosis",
             "HFE hereditary haemochromatosis",
-            "autoimmune hepatitis",
+            "Indian childhood cirrhosis",
             "primary sclerosing cholangitis",
+            "autoimmune hepatitis",
+            "Wilson disease",
             "hepatitis",
-            "alcoholism",
-            "Wilson disease"
+            "alcoholism"
         ],
         "Can Cause": [
-            "liver failure",
-            "liver cancer"
+            "liver cancer",
+            "liver failure"
+        ]
+    },
+    "autoimmune hepatitis": {
+        "Can Cause": [
+            "liver cirrhosis"
+        ]
+    },
+    "lymphedema": {
+        "Can Cause": [
+            "Stemmer sign"
+        ]
+    },
+    "congenital heart disease": {
+        "Can Cause": [
+            "asphyxia neonatorum"
+        ]
+    },
+    "myelodysplastic syndrome": {
+        "Can Cause": [
+            "ineffective erythropoiesis"
+        ]
+    },
+    "infant respiratory distress syndrome": {
+        "Can Cause": [
+            "asphyxia neonatorum"
+        ]
+    },
+    "delusional disorder": {
+        "Different From": [
+            "schizoid personality disorder"
+        ],
+        "Can Cause": [
+            "delusion"
+        ]
+    },
+    "encephalopathy": {
+        "Can Cause": [
+            "headache"
+        ]
+    },
+    "severe acute respiratory syndrome": {
+        "Different From": [
+            "SARS-CoV-2",
+            "South African Revenue Service"
+        ],
+        "Caused By": [
+            "SARS-CoV-1"
+        ],
+        "Can Cause": [
+            "2002–2004 SARS outbreak"
         ]
     },
     "tobacco use disorder": {
         "Can Cause": [
             "fetal nicotine spectrum disorder"
+        ]
+    },
+    "cerebrovascular disease": {
+        "Can Cause": [
+            "brain death"
+        ]
+    },
+    "Cogan syndrome": {
+        "Can Cause": [
+            "fatigue",
+            "vasculitis",
+            "keratitis",
+            "fever"
         ]
     },
     "patulous eustachian tube": {
@@ -140,6 +329,101 @@
             "thrombophilia"
         ]
     },
+    "asphyxia neonatorum": {
+        "Caused By": [
+            "congenital diaphragmatic hernia",
+            "placental insufficiency",
+            "intrauterine growth restriction",
+            "cephalopelvic disproportion",
+            "umbilical cord prolapse",
+            "infant respiratory distress syndrome",
+            "oligohydramnios",
+            "congenital heart disease",
+            "placental abruption"
+        ],
+        "Can Cause": [
+            "intellectual disability",
+            "epilepsy",
+            "cerebral palsy",
+            "hypoxemia"
+        ]
+    },
+    "lead poisoning": {
+        "Caused By": [
+            "lead compound",
+            "lead"
+        ],
+        "Can Cause": [
+            "Burton line"
+        ]
+    },
+    "ornithosis": {
+        "Caused By": [
+            "Chlamydophila psittaci"
+        ],
+        "Can Cause": [
+            "Psittacosis outbreak of 1929–1930"
+        ]
+    },
+    "methanol poisoning": {
+        "Caused By": [
+            "methanol"
+        ],
+        "Can Cause": [
+            "headache",
+            "blindness",
+            "conjunctivitis",
+            "giddiness",
+            "dermatitis",
+            "neural tube defect",
+            "optic nerve disease",
+            "optic atrophy",
+            "developmental toxicity",
+            "encephalopathy",
+            "peripheral neuropathy",
+            "parkinsonian syndrome",
+            "insomnia"
+        ]
+    },
+    "ichthyosis": {
+        "Can Cause": [
+            "cataract"
+        ]
+    },
+    "Epstein–Barr virus infection": {
+        "Caused By": [
+            "Epstein–Barr virus"
+        ],
+        "Can Cause": [
+            "infectious mononucleosis",
+            "Burkitt lymphoma",
+            "nasopharynx carcinoma",
+            "chronic active EBV infection",
+            "Epstein–Barr virus-positive DLBCL",
+            "NOS",
+            "Epstein-Barr virus-associated lymphoproliferative diseases"
+        ]
+    },
+    "primary sclerosing cholangitis": {
+        "Can Cause": [
+            "liver cirrhosis"
+        ]
+    },
+    "erosive pustular dermatitis of the scalp": {
+        "Can Cause": [
+            "cicatricial alopecia"
+        ]
+    },
+    "HFE hereditary haemochromatosis": {
+        "Can Cause": [
+            "liver cirrhosis"
+        ]
+    },
+    "tic disorder": {
+        "Can Cause": [
+            "tic"
+        ]
+    },
     "pancreatitis": {
         "Anatomical Location": [
             "pancreas"
@@ -151,202 +435,6 @@
     "hereditary folate malabsorption": {
         "Can Cause": [
             "folate deficiency"
-        ]
-    },
-    "placental abruption": {
-        "Can Cause": [
-            "asphyxia neonatorum"
-        ]
-    },
-    "encephalopathy": {
-        "Can Cause": [
-            "headache"
-        ]
-    },
-    "rubella": {
-        "Different From": [
-            "Różyczka"
-        ],
-        "Caused By": [
-            "Rubella virus"
-        ],
-        "Can Cause": [
-            "cataract",
-            "Forchheimer spots"
-        ]
-    },
-    "phobia": {
-        "Different From": [
-            "anxiety",
-            "non-medical phobia"
-        ],
-        "Can Cause": [
-            "fear"
-        ]
-    },
-    "mercury poisoning": {
-        "Different From": [
-            "mercury exposure"
-        ],
-        "Caused By": [
-            "mercury"
-        ],
-        "Can Cause": [
-            "fatigue",
-            "mental disorder",
-            "miscarriage",
-            "pulmonary fibrosis",
-            "inflammation",
-            "anorexia",
-            "aneuploidy",
-            "anxiety",
-            "tremor",
-            "memory loss",
-            "kidney disease",
-            "hypersalivation",
-            "dysmenorrhea",
-            "enteritis",
-            "insomnia",
-            "chronic respiratory failure",
-            "pseudobulbar affect",
-            "central nervous system disease",
-            "restrictive lung disease"
-        ]
-    },
-    "precocious puberty": {
-        "Can Cause": [
-            "child sexual abuse"
-        ]
-    },
-    "heart arrhythmia": {
-        "Can Cause": [
-            "heart failure"
-        ]
-    },
-    "human papillomavirus infection": {
-        "Caused By": [
-            "human papilloma virus"
-        ],
-        "Can Cause": [
-            "wart"
-        ]
-    },
-    "asphyxia neonatorum": {
-        "Caused By": [
-            "cephalopelvic disproportion",
-            "intrauterine growth restriction",
-            "oligohydramnios",
-            "placental abruption",
-            "congenital diaphragmatic hernia",
-            "placental insufficiency",
-            "congenital heart disease",
-            "umbilical cord prolapse",
-            "infant respiratory distress syndrome"
-        ],
-        "Can Cause": [
-            "epilepsy",
-            "intellectual disability",
-            "cerebral palsy",
-            "hypoxemia"
-        ]
-    },
-    "ichthyosis": {
-        "Can Cause": [
-            "cataract"
-        ]
-    },
-    "hepatitis": {
-        "Caused By": [
-            "Hepatitis A virus",
-            "intoxication",
-            "hepatitis E virus",
-            "hepatitis delta virus",
-            "Hepatitis C virus",
-            "autoimmunity",
-            "alcoholism",
-            "Hepatitis B virus"
-        ],
-        "Can Cause": [
-            "liver cirrhosis"
-        ]
-    },
-    "cerebrovascular disease": {
-        "Can Cause": [
-            "brain death"
-        ]
-    },
-    "anthracosis": {
-        "Caused By": [
-            "coal dust exposure"
-        ],
-        "Can Cause": [
-            "stroke"
-        ]
-    },
-    "ischemia": {
-        "Can Cause": [
-            "amaurosis fugax"
-        ]
-    },
-    "Cogan syndrome": {
-        "Can Cause": [
-            "keratitis",
-            "fatigue",
-            "vasculitis",
-            "fever"
-        ]
-    },
-    "hematopoietic stem cell transplantation": {
-        "Can Cause": [
-            "Graft versus tumor effect"
-        ]
-    },
-    "oligohydramnios": {
-        "Characteristics": [
-            "abnormally low value"
-        ],
-        "Can Cause": [
-            "asphyxia neonatorum"
-        ]
-    },
-    "demyelinating disease": {
-        "Can Cause": [
-            "demyelination"
-        ]
-    },
-    "methanol poisoning": {
-        "Caused By": [
-            "methanol"
-        ],
-        "Can Cause": [
-            "blindness",
-            "conjunctivitis",
-            "parkinsonian syndrome",
-            "insomnia",
-            "headache",
-            "dermatitis",
-            "neural tube defect",
-            "encephalopathy",
-            "peripheral neuropathy",
-            "optic nerve disease",
-            "optic atrophy",
-            "developmental toxicity",
-            "giddiness"
-        ]
-    },
-    "chromosome abnormality": {
-        "Can Cause": [
-            "chromosomal disease"
-        ]
-    },
-    "infant respiratory distress syndrome": {
-        "Can Cause": [
-            "asphyxia neonatorum"
-        ]
-    },
-    "aspiration pneumonia": {
-        "Can Cause": [
-            "pneumonia"
         ]
     },
     "cryoglobulinemia": {
@@ -372,205 +460,22 @@
             "asphyxia neonatorum"
         ]
     },
-    "primary sclerosing cholangitis": {
+    "glycerol kinase deficiency": {
         "Can Cause": [
-            "liver cirrhosis"
+            "Hyperglycerolemia"
         ]
     },
-    "HFE hereditary haemochromatosis": {
-        "Can Cause": [
-            "liver cirrhosis"
-        ]
-    },
-    "McKusick type metaphyseal dysplasia": {
-        "Can Cause": [
-            "dwarfism"
-        ]
-    },
-    "congenital lactase deficiency": {
-        "Can Cause": [
-            "lactose intolerance"
-        ]
-    },
-    "asbestosis": {
-        "Can Cause": [
-            "lung cancer"
-        ]
-    },
-    "erosive pustular dermatitis of the scalp": {
-        "Can Cause": [
-            "cicatricial alopecia"
-        ]
-    },
-    "coronary artery disease": {
-        "Caused By": [
-            "arteriosclerosis"
+    "oligohydramnios": {
+        "Characteristics": [
+            "abnormally low value"
         ],
-        "Can Cause": [
-            "angina pectoris",
-            "myocardial infarction"
-        ]
-    },
-    "delusional disorder": {
-        "Different From": [
-            "schizoid personality disorder"
-        ],
-        "Can Cause": [
-            "delusion"
-        ]
-    },
-    "lead poisoning": {
-        "Caused By": [
-            "lead compound",
-            "lead"
-        ],
-        "Can Cause": [
-            "Burton line"
-        ]
-    },
-    "ornithosis": {
-        "Caused By": [
-            "Chlamydophila psittaci"
-        ],
-        "Can Cause": [
-            "Psittacosis outbreak of 1929–1930"
-        ]
-    },
-    "thyroid adenoma": {
-        "Anatomical Location": [
-            "thyroid gland"
-        ],
-        "Can Cause": [
-            "thyroid nodule"
-        ]
-    },
-    "diabetic retinopathy": {
-        "Caused By": [
-            "diabetes"
-        ],
-        "Can Cause": [
-            "blindness"
-        ]
-    },
-    "tic disorder": {
-        "Can Cause": [
-            "tic"
-        ]
-    },
-    "lymphedema": {
-        "Can Cause": [
-            "Stemmer sign"
-        ]
-    },
-    "congenital heart disease": {
         "Can Cause": [
             "asphyxia neonatorum"
         ]
     },
-    "myelodysplastic syndrome": {
+    "demyelinating disease": {
         "Can Cause": [
-            "ineffective erythropoiesis"
-        ]
-    },
-    "Brugada syndrome": {
-        "Can Cause": [
-            "Ventricular Fibrillation"
-        ]
-    },
-    "aortic valve insufficiency": {
-        "Anatomical Location": [
-            "aortic valve"
-        ],
-        "Can Cause": [
-            "Watson's water hammer pulse"
-        ]
-    },
-    "paranoid schizophrenia": {
-        "Different From": [
-            "paranoid personality disorder",
-            "paranoia",
-            "paranoial schizophrenia"
-        ],
-        "Can Cause": [
-            "paranoid delusion"
-        ]
-    },
-    "sideroblastic anaemia P": {
-        "Can Cause": [
-            "ineffective erythropoiesis"
-        ]
-    },
-    "pigment dispersion syndrome": {
-        "Can Cause": [
-            "pigmentary glaucoma"
-        ]
-    },
-    "coronavirus disease": {
-        "Different From": [
-            "SARS-CoV-1",
-            "COVID-19",
-            "Kovid",
-            "SARS-CoV-2"
-        ],
-        "Caused By": [
-            "Human coronavirus OC43",
-            "Human coronavirus HKU1",
-            "Human coronavirus 229E",
-            "SARS-CoV-2",
-            "Coronavirus",
-            "human Coronavirus NL63",
-            "SARSr-CoV",
-            "Middle East respiratory syndrome coronavirus"
-        ],
-        "Can Cause": [
-            "common cold",
-            "severe acute respiratory syndrome",
-            "Middle East respiratory syndrome"
-        ]
-    },
-    "Epstein–Barr virus infection": {
-        "Caused By": [
-            "Epstein–Barr virus"
-        ],
-        "Can Cause": [
-            "infectious mononucleosis",
-            "Burkitt lymphoma",
-            "nasopharynx carcinoma",
-            "chronic active EBV infection",
-            "Epstein–Barr virus-positive DLBCL",
-            "NOS",
-            "Epstein-Barr virus-associated lymphoproliferative diseases"
-        ]
-    },
-    "autoimmune disease": {
-        "Caused By": [
-            "type II hypersensitivity"
-        ],
-        "Can Cause": [
-            "systemic lupus erythematosus",
-            "rheumatoid arthritis",
-            "nodding disease"
-        ]
-    },
-    "colchicine toxicity": {
-        "Caused By": [
-            "(S)-(−)-colchicine"
-        ],
-        "Can Cause": [
-            "hematuria",
-            "aplastic anemia",
-            "purpura",
-            "peripheral neuropathy",
-            "agranulocytosis",
-            "leukopenia",
-            "thrombocytopenia",
-            "exanthem",
-            "vesicular dermatitis",
-            "anuria",
-            "muscular disease",
-            "kidney disease",
-            "neuritis",
-            "alopecia"
+            "demyelination"
         ]
     },
     "reading disorder and écrites disorder": {
@@ -593,11 +498,6 @@
             "infective psychosis"
         ]
     },
-    "alcohol abuse": {
-        "Can Cause": [
-            "delirium tremens"
-        ]
-    },
     "fallopian tube disease": {
         "Anatomical Location": [
             "uterine tube"
@@ -606,10 +506,97 @@
             "Tubal factor infertility"
         ]
     },
+    "hematopoietic stem cell transplantation": {
+        "Can Cause": [
+            "Graft versus tumor effect"
+        ]
+    },
+    "thyroid adenoma": {
+        "Anatomical Location": [
+            "thyroid gland"
+        ],
+        "Can Cause": [
+            "thyroid nodule"
+        ]
+    },
+    "paranoid schizophrenia": {
+        "Different From": [
+            "paranoid personality disorder",
+            "paranoia",
+            "paranoial schizophrenia"
+        ],
+        "Can Cause": [
+            "paranoid delusion"
+        ]
+    },
+    "sideroblastic anaemia P": {
+        "Can Cause": [
+            "ineffective erythropoiesis"
+        ]
+    },
+    "pigment dispersion syndrome": {
+        "Can Cause": [
+            "pigmentary glaucoma"
+        ]
+    },
     "lacrimal duct obstruction": {
         "Can Cause": [
             "excessive tearing",
             "dacryocystocele"
+        ]
+    },
+    "hypersensitivity": {
+        "Can Cause": [
+            "Kounis syndrome"
+        ]
+    },
+    "Brugada syndrome": {
+        "Can Cause": [
+            "Ventricular Fibrillation"
+        ]
+    },
+    "aortic valve insufficiency": {
+        "Anatomical Location": [
+            "aortic valve"
+        ],
+        "Can Cause": [
+            "Watson's water hammer pulse"
+        ]
+    },
+    "colchicine toxicity": {
+        "Caused By": [
+            "(S)-(−)-colchicine"
+        ],
+        "Can Cause": [
+            "hematuria",
+            "agranulocytosis",
+            "leukopenia",
+            "thrombocytopenia",
+            "anuria",
+            "muscular disease",
+            "aplastic anemia",
+            "purpura",
+            "peripheral neuropathy",
+            "kidney disease",
+            "neuritis",
+            "alopecia",
+            "exanthem",
+            "vesicular dermatitis"
+        ]
+    },
+    "autoimmune disease": {
+        "Caused By": [
+            "type II hypersensitivity"
+        ],
+        "Can Cause": [
+            "systemic lupus erythematosus",
+            "rheumatoid arthritis",
+            "nodding disease"
+        ]
+    },
+    "alcohol abuse": {
+        "Can Cause": [
+            "delirium tremens"
         ]
     },
     "substance use disorder": {
@@ -631,29 +618,35 @@
             "ineffective erythropoiesis"
         ]
     },
-    "congestive heart failure": {
+    "congenital Zika virus infection": {
+        "Caused By": [
+            "Zika virus infection"
+        ],
         "Can Cause": [
-            "nutmeg liver"
+            "microcephaly"
         ]
     },
-    "glycerol kinase deficiency": {
+    "coronavirus disease": {
+        "Different From": [
+            "COVID-19",
+            "SARS-CoV-1",
+            "Kovid",
+            "SARS-CoV-2"
+        ],
+        "Caused By": [
+            "Human coronavirus OC43",
+            "Human coronavirus HKU1",
+            "Coronavirus",
+            "SARS-CoV-2",
+            "Human coronavirus 229E",
+            "human Coronavirus NL63",
+            "Middle East respiratory syndrome coronavirus",
+            "SARSr-CoV"
+        ],
         "Can Cause": [
-            "Hyperglycerolemia"
-        ]
-    },
-    "hypersensitivity": {
-        "Can Cause": [
-            "Kounis syndrome"
-        ]
-    },
-    "sex chromosome aberration": {
-        "Can Cause": [
-            "sex chromosome disorder"
-        ]
-    },
-    "chronic intestinal vascular insufficiency": {
-        "Can Cause": [
-            "Abdominal angina"
+            "common cold",
+            "severe acute respiratory syndrome",
+            "Middle East respiratory syndrome"
         ]
     },
     "COVID-19": {
@@ -662,15 +655,15 @@
             "COVID-19 mortality"
         ],
         "Different From": [
-            "COVID-19 pandemic",
+            "severe acute respiratory syndrome",
+            "Covid Inc.",
             "SARSr-CoV",
             "Middle East respiratory syndrome",
-            "SARS-CoV-2",
-            "severe acute respiratory syndrome",
             "coronavirus disease",
             "Kovid",
             "Coronavirus",
-            "Covid Inc."
+            "SARS-CoV-2",
+            "COVID-19 pandemic"
         ],
         "Caused By": [
             "SARS-CoV-2"
@@ -686,6 +679,158 @@
             "thrombosis",
             "acute respiratory distress syndrome",
             "COVID-19 pandemic"
+        ]
+    },
+    "chronic intestinal vascular insufficiency": {
+        "Can Cause": [
+            "Abdominal angina"
+        ]
+    },
+    "congestive heart failure": {
+        "Can Cause": [
+            "nutmeg liver"
+        ]
+    },
+    "XK aprosencephaly": {
+        "Can Cause": [
+            "microcephaly",
+            "imperforate anus",
+            "microphthalmia",
+            "Microstomia"
+        ]
+    },
+    "sex chromosome aberration": {
+        "Can Cause": [
+            "sex chromosome disorder"
+        ]
+    },
+    "orofacial clefting syndrome": {
+        "Can Cause": [
+            "cleft lip and cleft palate"
+        ]
+    },
+    "middle ear anomaly": {
+        "Can Cause": [
+            "conductive hearing loss"
+        ]
+    },
+    "partial duplication of the long arm of chromosome X": {
+        "Can Cause": [
+            "X-linked acrogigantism due to Xq26 microduplication"
+        ]
+    },
+    "mental disorder": {
+        "Different From": [
+            "mental health",
+            "mental illness",
+            "somatic disease"
+        ],
+        "Caused By": [
+            "causes of mental disorders"
+        ],
+        "Can Cause": [
+            "death",
+            "suicide",
+            "damage",
+            "somatic disease"
+        ]
+    },
+    "disease": {
+        "Characteristics": [
+            "symptom",
+            "duration",
+            "disease state",
+            "severity",
+            "disease burden",
+            "disease attributes"
+        ],
+        "Different From": [
+            "class of disease",
+            "disease of a particular individual"
+        ],
+        "Caused By": [
+            "disease causative agent"
+        ],
+        "Can Cause": [
+            "death",
+            "discomfort"
+        ]
+    },
+    "lung cancer": {
+        "Anatomical Location": [
+            "human lung"
+        ],
+        "Caused By": [
+            "tobacco smoking",
+            "asbestosis",
+            "passive smoking",
+            "smoking",
+            "air pollution",
+            "radon"
+        ],
+        "Can Cause": [
+            "death"
+        ]
+    },
+    "Fish odor syndrome": {
+        "Caused By": [
+            "insult",
+            "major depressive disorder"
+        ],
+        "Can Cause": [
+            "semen",
+            "urine",
+            "saliva",
+            "Breath",
+            "sweat"
+        ]
+    },
+    "influenza": {
+        "Anatomical Location": [
+            "respiratory system"
+        ],
+        "Characteristics": [
+            "contagiousness"
+        ],
+        "Different From": [
+            "Haemophilus influenzae"
+        ],
+        "Caused By": [
+            "Orthomyxoviridae"
+        ],
+        "Can Cause": [
+            "epidemic",
+            "influenza pandemic",
+            "disease outbreak"
+        ]
+    },
+    "diabetes": {
+        "Different From": [
+            "diabetes insipidus"
+        ],
+        "Can Cause": [
+            "diabetic foot",
+            "cataract",
+            "peripheral neuropathy",
+            "diabetic retinopathy",
+            "diabetic nephropathy"
+        ]
+    },
+    "myocardial infarction": {
+        "Can Cause": [
+            "heart failure"
+        ]
+    },
+    "arterial hypertension": {
+        "Characteristics": [
+            "complications of hypertension"
+        ],
+        "Different From": [
+            "pulmonary hypertension",
+            "intracranial hypertension"
+        ],
+        "Can Cause": [
+            "heart failure"
         ]
     },
     "snakebite": {
@@ -727,14 +872,14 @@
     "gonorrhea": {
         "Anatomical Location": [
             "uterine tube",
-            "tonsil",
             "meninges",
-            "rectum",
-            "prostate",
             "throat",
+            "rectum",
+            "tonsil",
+            "joint",
+            "prostate",
             "urethra",
             "uterus",
-            "joint",
             "eye"
         ],
         "Caused By": [
@@ -777,22 +922,22 @@
             "abnormally high value"
         ],
         "Caused By": [
-            "portal vein thrombosis",
             "restrictive cardiomyopathy",
+            "portal vein thrombosis",
             "pericarditis",
-            "liver cirrhosis",
-            "schistosomiasis"
+            "schistosomiasis",
+            "liver cirrhosis"
         ]
     },
     "gestational diabetes": {
         "Different From": [
             "type-1 diabetes",
             "diabetes insipidus",
-            "maturity-onset diabetes of the young",
             "nephrogenic diabetes insipidus",
             "type 2 diabetes",
-            "gestational diabetes insipidus",
-            "central diabetes insipidus"
+            "central diabetes insipidus",
+            "maturity-onset diabetes of the young",
+            "gestational diabetes insipidus"
         ]
     },
     "cataract": {
@@ -800,12 +945,12 @@
             "Catarata"
         ],
         "Caused By": [
-            "human ageing",
             "ichthyosis",
+            "human ageing",
             "vitiligo",
             "rubella",
-            "ultraviolet radiation",
-            "diabetes"
+            "diabetes",
+            "ultraviolet radiation"
         ]
     },
     "breast cancer": {
@@ -904,9 +1049,9 @@
         "Anatomical Location": [
             "pleura",
             "human gastrointestinal tract",
-            "tonsil",
             "conjunctivitis",
             "lymph node",
+            "tonsil",
             "spleen",
             "lung",
             "eye",
@@ -916,249 +1061,16 @@
             "Francisella tularensis"
         ]
     },
-    "congenital Zika virus infection": {
-        "Caused By": [
-            "Zika virus infection"
-        ],
-        "Can Cause": [
-            "microcephaly"
-        ]
-    },
-    "XK aprosencephaly": {
-        "Can Cause": [
-            "microcephaly",
-            "imperforate anus",
-            "microphthalmia",
-            "Microstomia"
-        ]
-    },
-    "orofacial clefting syndrome": {
-        "Can Cause": [
-            "cleft lip and cleft palate"
-        ]
-    },
-    "middle ear anomaly": {
-        "Can Cause": [
-            "conductive hearing loss"
-        ]
-    },
-    "partial duplication of the long arm of chromosome X": {
-        "Can Cause": [
-            "X-linked acrogigantism due to Xq26 microduplication"
-        ]
-    },
-    "mental disorder": {
-        "Different From": [
-            "mental health",
-            "mental illness",
-            "somatic disease"
-        ],
-        "Caused By": [
-            "causes of mental disorders"
-        ],
-        "Can Cause": [
-            "death",
-            "suicide",
-            "damage",
-            "somatic disease"
-        ]
-    },
-    "disease": {
-        "Characteristics": [
-            "symptom",
-            "disease state",
-            "severity",
-            "duration",
-            "disease burden",
-            "disease attributes"
-        ],
-        "Different From": [
-            "disease of a particular individual",
-            "class of disease"
-        ],
-        "Caused By": [
-            "disease causative agent"
-        ],
-        "Can Cause": [
-            "death",
-            "discomfort"
-        ]
-    },
-    "lung cancer": {
-        "Anatomical Location": [
-            "human lung"
-        ],
-        "Caused By": [
-            "tobacco smoking",
-            "passive smoking",
-            "smoking",
-            "asbestosis",
-            "air pollution",
-            "radon"
-        ],
-        "Can Cause": [
-            "death"
-        ]
-    },
-    "Fish odor syndrome": {
-        "Caused By": [
-            "insult",
-            "major depressive disorder"
-        ],
-        "Can Cause": [
-            "semen",
-            "urine",
-            "saliva",
-            "Breath",
-            "sweat"
-        ]
-    },
-    "influenza": {
-        "Anatomical Location": [
-            "respiratory system"
-        ],
-        "Characteristics": [
-            "contagiousness"
-        ],
-        "Different From": [
-            "Haemophilus influenzae"
-        ],
-        "Caused By": [
-            "Orthomyxoviridae"
-        ],
-        "Can Cause": [
-            "epidemic",
-            "influenza pandemic",
-            "disease outbreak"
-        ]
-    },
-    "diabetes": {
-        "Different From": [
-            "diabetes insipidus"
-        ],
-        "Can Cause": [
-            "diabetic foot",
-            "cataract",
-            "peripheral neuropathy",
-            "diabetic retinopathy",
-            "diabetic nephropathy"
-        ]
-    },
-    "myocardial infarction": {
-        "Can Cause": [
-            "heart failure"
-        ]
-    },
-    "arterial hypertension": {
-        "Characteristics": [
-            "complications of hypertension"
-        ],
-        "Different From": [
-            "pulmonary hypertension",
-            "intracranial hypertension"
-        ],
-        "Can Cause": [
-            "heart failure"
-        ]
-    },
-    "Hereditary resistance to anti-vitamin K": {
-        "Can Cause": [
-            "vitamin K"
-        ]
-    },
-    "Chandipura encephalitis": {
-        "Caused By": [
-            "Chandipura vesiculovirus"
-        ],
-        "Can Cause": [
-            "encephalitis"
-        ]
-    },
-    "rabies": {
-        "Caused By": [
-            "rabies virus"
-        ],
-        "Can Cause": [
-            "encephalitis",
-            "myelitis"
-        ]
-    },
-    "hypothyroidism": {
-        "Can Cause": [
-            "myxedema"
-        ]
-    },
-    "allergy": {
-        "Different From": [
-            "Pseudoallergy",
-            "drug intolerance",
-            "sensibility"
-        ],
-        "Caused By": [
-            "allergen"
-        ],
-        "Can Cause": [
-            "runny nose",
-            "allergic response"
-        ]
-    },
-    "poliomyelitis": {
-        "Anatomical Location": [
-            "peripheral nervous system"
-        ],
-        "Caused By": [
-            "poliovirus"
-        ],
-        "Can Cause": [
-            "Otter Valley polio epidemic",
-            "1916 polio epidemic"
-        ]
-    },
-    "tuberculosis": {
-        "Different From": [
-            "mycobacterium infectious disease"
-        ],
-        "Caused By": [
-            "Mycobacterium tuberculosis"
-        ],
-        "Can Cause": [
-            "pulmonary toxicity",
-            "Pott disease"
-        ]
-    },
-    "epilepsy": {
-        "Caused By": [
-            "asphyxia neonatorum"
-        ],
-        "Can Cause": [
-            "Postictal  twilight state"
-        ]
-    },
-    "cancer": {
-        "Characteristics": [
-            "malignancy"
-        ],
-        "Different From": [
-            "carcinoma"
-        ],
-        "Caused By": [
-            "causes of cancer",
-            "infectious causes of cancer"
-        ],
-        "Can Cause": [
-            "cancer pain"
-        ]
-    },
     "botulism": {
         "Caused By": [
-            "botulinum toxin group",
-            "Clostridium botulinum"
+            "Clostridium botulinum",
+            "botulinum toxin group"
         ]
     },
     "hepatitis C": {
         "Anatomical Location": [
-            "lymphatic system",
             "bone marrow",
+            "lymphatic system",
             "liver"
         ],
         "Caused By": [
@@ -1184,8 +1096,8 @@
         "Anatomical Location": [
             "human musculoskeletal system",
             "endothelium",
-            "nervous system",
             "kidney",
+            "nervous system",
             "liver",
             "lung",
             "heart"
@@ -1196,12 +1108,12 @@
     },
     "brucellosis": {
         "Caused By": [
-            "Brucella neotomae",
-            "Brucella canis",
             "Brucella abortus",
+            "Brucella neotomae",
             "Brucella melitensis",
-            "Brucella suis",
-            "Brucella"
+            "Brucella canis",
+            "Brucella",
+            "Brucella suis"
         ]
     },
     "gastroenteritis": {
@@ -1243,8 +1155,8 @@
     "Asperger syndrome": {
         "Different From": [
             "Alzheimer's disease",
-            "schizoid personality disorder",
-            "high-functioning autism"
+            "high-functioning autism",
+            "schizoid personality disorder"
         ]
     },
     "sudden infant death syndrome": {
@@ -1315,8 +1227,8 @@
     "mumps": {
         "Anatomical Location": [
             "meninges",
-            "salivary gland",
             "gonad",
+            "salivary gland",
             "pancreas"
         ],
         "Caused By": [
@@ -1387,8 +1299,8 @@
     },
     "intellectual disability": {
         "Different From": [
-            "developmental disability",
-            "learning disability"
+            "learning disability",
+            "developmental disability"
         ]
     },
     "arteriosclerosis": {
@@ -1400,10 +1312,10 @@
             "human ageing",
             "hyperlipidemia",
             "heredity",
-            "diabetes",
-            "arterial hypertension",
             "stress",
             "hyperuricemia",
+            "diabetes",
+            "arterial hypertension",
             "obesity",
             "man"
         ]
@@ -1498,8 +1410,8 @@
     },
     "chronic obstructive pulmonary disease": {
         "Caused By": [
-            "smoking",
-            "dust"
+            "dust",
+            "smoking"
         ]
     },
     "genetic disease": {
@@ -1518,15 +1430,15 @@
     },
     "post-traumatic stress disorder": {
         "Different From": [
-            "posttraumatic stress disorder in children and teens",
             "acute stress reaction",
-            "let-down effect"
+            "let-down effect",
+            "posttraumatic stress disorder in children and teens"
         ],
         "Caused By": [
             "physical abuse",
             "psychological abuse",
-            "combat",
             "sexual violence",
+            "combat",
             "refugee",
             "war"
         ]
@@ -1592,17 +1504,17 @@
     },
     "fetishism": {
         "Different From": [
-            "kink",
-            "fetishism"
+            "fetishism",
+            "kink"
         ]
     },
     "borderline personality disorder": {
         "Different From": [
             "dissociative identity disorder",
             "bipolar disorder",
+            "histrionic personality disorder",
             "complex post-traumatic stress disorder",
-            "dependent personality disorder",
-            "histrionic personality disorder"
+            "dependent personality disorder"
         ]
     },
     "anogenital venereal wart": {
@@ -1705,9 +1617,9 @@
     "paracoccidioidomycosis": {
         "Anatomical Location": [
             "zone of skin",
+            "bone",
             "human lung",
-            "lymph node",
-            "bone"
+            "lymph node"
         ],
         "Caused By": [
             "infection"
@@ -1745,9 +1657,9 @@
     },
     "Kuru": {
         "Different From": [
+            "koro",
             "Kuru",
-            "Kuru Kingdom",
-            "koro"
+            "Kuru Kingdom"
         ],
         "Caused By": [
             "prion"
@@ -1755,15 +1667,15 @@
     },
     "bronchospasm": {
         "Anatomical Location": [
-            "bronchus",
-            "bronchiole"
+            "bronchiole",
+            "bronchus"
         ]
     },
     "male infertility": {
         "Caused By": [
-            "aspermia",
             "unknown",
-            "oligospermia"
+            "oligospermia",
+            "aspermia"
         ]
     },
     "social anxiety disorder": {
@@ -1866,22 +1778,22 @@
     },
     "shigellosis": {
         "Caused By": [
-            "Shigella sonnei",
-            "Shigella boydii",
-            "Shigella dysenteriae",
             "Shigella flexneri",
+            "Shigella sonnei",
+            "Shigella dysenteriae",
+            "Shigella boydii",
             "Shigella"
         ]
     },
     "leishmaniasis": {
         "Caused By": [
-            "Leishmania tropica",
-            "Leishmania infantum",
-            "Leishmania donovani",
             "Leishmania mexicana",
             "Leishmania braziliensis",
             "Leishmania major",
-            "Leishmania"
+            "Leishmania",
+            "Leishmania tropica",
+            "Leishmania infantum",
+            "Leishmania donovani"
         ]
     },
     "Sjögren's syndrome": {
@@ -2013,16 +1925,16 @@
     },
     "actinomycosis": {
         "Anatomical Location": [
-            "intestine",
             "jaw",
-            "respiratory system",
             "neck",
-            "skin",
-            "muscle"
+            "intestine",
+            "respiratory system",
+            "muscle",
+            "skin"
         ],
         "Caused By": [
-            "Actinomyces israelii",
-            "Actinomycetales"
+            "Actinomycetales",
+            "Actinomyces israelii"
         ]
     },
     "vestibular schwannoma": {
@@ -2052,8 +1964,8 @@
     },
     "dysthymic disorder": {
         "Different From": [
-            "depressive personality disorder",
-            "schizoid personality disorder"
+            "schizoid personality disorder",
+            "depressive personality disorder"
         ]
     },
     "cystoisosporiasis": {
@@ -2078,9 +1990,9 @@
     },
     "dirofilariasis": {
         "Caused By": [
+            "Dirofilaria repens",
             "Dirofilaria tenuis",
             "Dirofilaria immitis",
-            "Dirofilaria repens",
             "infection"
         ]
     },
@@ -2136,8 +2048,8 @@
     },
     "theileriasis": {
         "Caused By": [
-            "Theileria",
-            "Theileria parva"
+            "Theileria parva",
+            "Theileria"
         ]
     },
     "lymphopenia": {
@@ -2172,11 +2084,11 @@
             "schizophrenia",
             "Asperger syndrome",
             "dysthymic disorder",
-            "delusional disorder",
-            "simple-type schizophrenia",
-            "depressive personality disorder",
             "avoidant personality disorder",
-            "schizotypal personality disorder"
+            "delusional disorder",
+            "schizotypal personality disorder",
+            "simple-type schizophrenia",
+            "depressive personality disorder"
         ],
         "Caused By": [
             "childhood trauma",
@@ -2235,21 +2147,21 @@
     },
     "periodontitis": {
         "Caused By": [
-            "Fusobacterium nucleatum",
-            "Campylobacter rectus",
-            "Peptostreptococcus micros",
-            "Parvimonas micra",
-            "Campylobacter gracilis",
-            "Enterococcus faecalis V583",
+            "Porphyromonas gingivalis",
             "Eikenella corrodens",
-            "Eubacterium nodatum",
             "Prevotella nigrescens",
             "Actinobacillus actinomycetemcomitans",
+            "Eubacterium nodatum",
             "Treponema denticola",
             "Campylobacter concisus",
+            "Peptostreptococcus micros",
+            "Parvimonas micra",
             "Tannerella forsythia",
+            "Fusobacterium nucleatum",
+            "Campylobacter rectus",
+            "Campylobacter gracilis",
+            "Enterococcus faecalis V583",
             "Prevotella intermedia",
-            "Porphyromonas gingivalis",
             "smoking"
         ]
     },
@@ -2265,9 +2177,9 @@
     },
     "Sheehan's syndrome": {
         "Caused By": [
-            "hypovolemic shock",
             "complication of pregnancy",
             "childbirth and the puerperium",
+            "hypovolemic shock",
             "bleeding"
         ]
     },
@@ -2301,8 +2213,8 @@
     },
     "St. Louis encephalitis": {
         "Anatomical Location": [
-            "meninges",
             "human brain",
+            "meninges",
             "spinal cord"
         ],
         "Caused By": [
@@ -2361,9 +2273,9 @@
     },
     "vascular dementia": {
         "Caused By": [
-            "diabetes",
             "arterial hypertension",
-            "stroke"
+            "stroke",
+            "diabetes"
         ]
     },
     "nervous system malformations": {
@@ -2408,9 +2320,9 @@
         ],
         "Caused By": [
             "mental depression",
+            "obsessive-compulsive disorder",
             "stress",
-            "anxiety",
-            "obsessive-compulsive disorder"
+            "anxiety"
         ]
     },
     "neuromyelitis optica": {
@@ -2474,8 +2386,8 @@
             "liver"
         ],
         "Caused By": [
-            "liver cirrhosis",
-            "aflatoxins"
+            "aflatoxins",
+            "liver cirrhosis"
         ]
     },
     "retinal detachment": {
@@ -2542,9 +2454,9 @@
     },
     "tinea capitis vale": {
         "Anatomical Location": [
-            "scalp",
+            "eyebrow",
             "eyelashes",
-            "eyebrow"
+            "scalp"
         ]
     },
     "Whipple disease": {
@@ -2576,12 +2488,12 @@
     "maturity-onset diabetes of the young": {
         "Different From": [
             "type-1 diabetes",
-            "nephrogenic diabetes insipidus",
-            "type 2 diabetes",
             "gestational diabetes",
             "diabetes insipidus",
-            "central diabetes insipidus",
-            "Latent autoimmune diabetes"
+            "Latent autoimmune diabetes",
+            "nephrogenic diabetes insipidus",
+            "type 2 diabetes",
+            "central diabetes insipidus"
         ]
     },
     "thoracic outlet syndrome": {
@@ -2812,10 +2724,10 @@
         "Anatomical Location": [
             "kidney",
             "spleen",
-            "muscle",
             "liver",
-            "brain",
-            "lung"
+            "muscle",
+            "lung",
+            "brain"
         ],
         "Caused By": [
             "Echinococcus",
@@ -2839,8 +2751,8 @@
     },
     "Murray Valley encephalitis": {
         "Anatomical Location": [
-            "meninges",
-            "human brain"
+            "human brain",
+            "meninges"
         ],
         "Caused By": [
             "Murray Valley encephalitis virus"
@@ -2853,10 +2765,10 @@
     },
     "Babesiosis": {
         "Caused By": [
-            "Babesia bovis",
             "Babesia microti",
-            "Babesia",
-            "Babesia divergens"
+            "Babesia bovis",
+            "Babesia divergens",
+            "Babesia"
         ]
     },
     "bacterial vaginosis": {
@@ -2884,9 +2796,9 @@
             "thyroid gland"
         ],
         "Caused By": [
+            "ionizing radiation",
             "multiple endocrine neoplasia type 2A",
-            "iodine-131",
-            "ionizing radiation"
+            "iodine-131"
         ]
     },
     "glycogen storage disease IV": {
@@ -2906,10 +2818,10 @@
     },
     "sparganosis": {
         "Caused By": [
-            "Spirometra mansonoides",
+            "Spirometra erinaceieuropaei",
             "Sparganum",
-            "Sparganum proliferum",
-            "Spirometra erinaceieuropaei"
+            "Spirometra mansonoides",
+            "Sparganum proliferum"
         ]
     },
     "ascariasis": {
@@ -2927,171 +2839,13 @@
     },
     "body dysmorphic disorder": {
         "Different From": [
-            "body image disturbance",
-            "dysphoria"
+            "dysphoria",
+            "body image disturbance"
         ]
     },
     "Fanconi anemia": {
         "Different From": [
             "Fanconi syndrome"
-        ]
-    },
-    "postpartum depression": {
-        "Different From": [
-            "maternity blues",
-            "matrescence"
-        ]
-    },
-    "acrodermatitis enteropathica": {
-        "Different From": [
-            "acrodermatitis"
-        ]
-    },
-    "articular cartilage disease": {
-        "Anatomical Location": [
-            "articular cartilage"
-        ]
-    },
-    "erythrasma": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "proctitis": {
-        "Caused By": [
-            "Neisseria gonorrhoeae"
-        ]
-    },
-    "endometrial cancer": {
-        "Anatomical Location": [
-            "endometrium"
-        ]
-    },
-    "peripheral neuropathy": {
-        "Anatomical Location": [
-            "peripheral nervous system"
-        ]
-    },
-    "skin disease": {
-        "Anatomical Location": [
-            "zone of skin"
-        ]
-    },
-    "amebiasis": {
-        "Caused By": [
-            "Entamoeba histolytica"
-        ]
-    },
-    "XY gonadal dysgenesis": {
-        "Different From": [
-            "Swyer-James syndrome"
-        ]
-    },
-    "scleroderma": {
-        "Different From": [
-            "Scleroderma",
-            "scleredema"
-        ]
-    },
-    "syndrome of Inappropriate antidiuretic hormone secretion": {
-        "Different From": [
-            "primary polydipsia",
-            "nephrogenic diabetes insipidus",
-            "central diabetes insipidus",
-            "nephrogenic syndrome of inappropriate antidiuresis",
-            "dipsogenic diabetes insipidus",
-            "gestational diabetes insipidus",
-            "diabetes insipidus"
-        ]
-    },
-    "melioidosis": {
-        "Caused By": [
-            "Burkholderia pseudomallei"
-        ]
-    },
-    "McLeod syndrome": {
-        "Different From": [
-            "Swyer-James syndrome"
-        ]
-    },
-    "myxedema": {
-        "Caused By": [
-            "hypothyroidism"
-        ]
-    },
-    "milk allergy": {
-        "Different From": [
-            "lactose intolerance"
-        ],
-        "Caused By": [
-            "milk"
-        ]
-    },
-    "spondylolisthesis": {
-        "Different From": [
-            "spondylosis"
-        ]
-    },
-    "epidermodysplasia verruciformis": {
-        "Caused By": [
-            "human papillomavirus infection"
-        ]
-    },
-    "vulvovaginal candidiasis": {
-        "Anatomical Location": [
-            "vulva",
-            "vagina"
-        ]
-    },
-    "gallbladder cancer": {
-        "Anatomical Location": [
-            "gallbladder"
-        ]
-    },
-    "cerebral edema": {
-        "Different From": [
-            "hydrocephalus"
-        ]
-    },
-    "polymyositis": {
-        "Different From": [
-            "poliomyelitis"
-        ],
-        "Caused By": [
-            "autoimmune disease"
-        ]
-    },
-    "human granulocytic anaplasmosis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "noma": {
-        "Different From": [
-            "Noma neonatorum"
-        ],
-        "Caused By": [
-            "malnutrition"
-        ]
-    },
-    "Burkitt lymphoma": {
-        "Caused By": [
-            "Epstein–Barr virus infection"
-        ]
-    },
-    "Buruli ulcer disease": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "byssinosis": {
-        "Caused By": [
-            "exposure to cotton dust"
-        ]
-    },
-    "CADASIL": {
-        "Caused By": [
-            "mutation"
         ]
     },
     "histrionic personality disorder": {
@@ -3117,12 +2871,12 @@
     "schizotypal personality disorder": {
         "Different From": [
             "autism",
-            "avoidant personality disorder",
-            "schizoid personality disorder"
+            "schizoid personality disorder",
+            "avoidant personality disorder"
         ],
         "Caused By": [
-            "childhood trauma",
             "child neglect",
+            "childhood trauma",
             "genetics"
         ]
     },
@@ -3223,6 +2977,164 @@
     "nephropathia epidemica": {
         "Caused By": [
             "infection"
+        ]
+    },
+    "postpartum depression": {
+        "Different From": [
+            "maternity blues",
+            "matrescence"
+        ]
+    },
+    "acrodermatitis enteropathica": {
+        "Different From": [
+            "acrodermatitis"
+        ]
+    },
+    "articular cartilage disease": {
+        "Anatomical Location": [
+            "articular cartilage"
+        ]
+    },
+    "erythrasma": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "proctitis": {
+        "Caused By": [
+            "Neisseria gonorrhoeae"
+        ]
+    },
+    "endometrial cancer": {
+        "Anatomical Location": [
+            "endometrium"
+        ]
+    },
+    "peripheral neuropathy": {
+        "Anatomical Location": [
+            "peripheral nervous system"
+        ]
+    },
+    "skin disease": {
+        "Anatomical Location": [
+            "zone of skin"
+        ]
+    },
+    "amebiasis": {
+        "Caused By": [
+            "Entamoeba histolytica"
+        ]
+    },
+    "XY gonadal dysgenesis": {
+        "Different From": [
+            "Swyer-James syndrome"
+        ]
+    },
+    "scleroderma": {
+        "Different From": [
+            "Scleroderma",
+            "scleredema"
+        ]
+    },
+    "syndrome of Inappropriate antidiuretic hormone secretion": {
+        "Different From": [
+            "diabetes insipidus",
+            "primary polydipsia",
+            "nephrogenic diabetes insipidus",
+            "central diabetes insipidus",
+            "nephrogenic syndrome of inappropriate antidiuresis",
+            "dipsogenic diabetes insipidus",
+            "gestational diabetes insipidus"
+        ]
+    },
+    "melioidosis": {
+        "Caused By": [
+            "Burkholderia pseudomallei"
+        ]
+    },
+    "McLeod syndrome": {
+        "Different From": [
+            "Swyer-James syndrome"
+        ]
+    },
+    "myxedema": {
+        "Caused By": [
+            "hypothyroidism"
+        ]
+    },
+    "milk allergy": {
+        "Different From": [
+            "lactose intolerance"
+        ],
+        "Caused By": [
+            "milk"
+        ]
+    },
+    "spondylolisthesis": {
+        "Different From": [
+            "spondylosis"
+        ]
+    },
+    "epidermodysplasia verruciformis": {
+        "Caused By": [
+            "human papillomavirus infection"
+        ]
+    },
+    "vulvovaginal candidiasis": {
+        "Anatomical Location": [
+            "vulva",
+            "vagina"
+        ]
+    },
+    "gallbladder cancer": {
+        "Anatomical Location": [
+            "gallbladder"
+        ]
+    },
+    "cerebral edema": {
+        "Different From": [
+            "hydrocephalus"
+        ]
+    },
+    "polymyositis": {
+        "Different From": [
+            "poliomyelitis"
+        ],
+        "Caused By": [
+            "autoimmune disease"
+        ]
+    },
+    "human granulocytic anaplasmosis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "noma": {
+        "Different From": [
+            "Noma neonatorum"
+        ],
+        "Caused By": [
+            "malnutrition"
+        ]
+    },
+    "Burkitt lymphoma": {
+        "Caused By": [
+            "Epstein–Barr virus infection"
+        ]
+    },
+    "Buruli ulcer disease": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "byssinosis": {
+        "Caused By": [
+            "exposure to cotton dust"
+        ]
+    },
+    "CADASIL": {
+        "Caused By": [
+            "mutation"
         ]
     },
     "demodicosis": {
@@ -3394,10 +3306,10 @@
     },
     "intermittent claudication": {
         "Caused By": [
-            "thromboangiitis obliterans",
-            "peripheral artery disease",
+            "spinal stenosis",
             "Aortoiliac occlusive disease",
-            "spinal stenosis"
+            "thromboangiitis obliterans",
+            "peripheral artery disease"
         ]
     },
     "clonorchiasis": {
@@ -3436,8 +3348,8 @@
     },
     "toxic shock syndrome": {
         "Caused By": [
-            "Streptococcus pyogenes",
-            "Staphylococcus aureus"
+            "Staphylococcus aureus",
+            "Streptococcus pyogenes"
         ]
     },
     "pulmonary hypertension": {
@@ -3492,9 +3404,9 @@
     },
     "cystinuria": {
         "Anatomical Location": [
-            "kidney",
             "ureter",
-            "urinary bladder"
+            "urinary bladder",
+            "kidney"
         ]
     },
     "Wolfram syndrome": {
@@ -3541,8 +3453,8 @@
     },
     "intracranial aneurysm": {
         "Caused By": [
-            "connective tissue disease",
-            "unknown"
+            "unknown",
+            "connective tissue disease"
         ]
     },
     "impulse control disorder": {
@@ -3557,13 +3469,13 @@
     },
     "dicrocoeliasis": {
         "Anatomical Location": [
+            "gallbladder",
             "hepatic portal system",
-            "bile duct",
-            "gallbladder"
+            "bile duct"
         ],
         "Caused By": [
-            "Dicrocoelium",
-            "Dicrocoelium dendriticum"
+            "Dicrocoelium dendriticum",
+            "Dicrocoelium"
         ]
     },
     "monogenic disease": {
@@ -3573,11 +3485,11 @@
     },
     "diphyllobothriasis": {
         "Caused By": [
+            "Diphyllobothrium",
             "Diphyllobothrium cordatum",
-            "Dibothriocephalus latus",
             "Diphyllobothrium hians",
-            "Diphyllobothrium dendriticum",
-            "Diphyllobothrium"
+            "Dibothriocephalus latus",
+            "Diphyllobothrium dendriticum"
         ]
     },
     "dopamine beta-hydroxylase deficiency": {
@@ -3698,9 +3610,9 @@
     },
     "cryptosporidiosis": {
         "Caused By": [
+            "Cryptosporidium muris",
             "Cryptosporidium hominis",
             "Cryptosporidium fragile",
-            "Cryptosporidium muris",
             "Cryptosporidium parvum",
             "Cryptosporidium"
         ]
@@ -3750,170 +3662,6 @@
             "Pick disease"
         ]
     },
-    "neuroleptic malignant syndrome": {
-        "Caused By": [
-            "antipsychotics"
-        ]
-    },
-    "Fraser syndrome": {
-        "Different From": [
-            "Frasier syndrome"
-        ]
-    },
-    "cerebral venous sinus thrombosis": {
-        "Anatomical Location": [
-            "cranial cavity"
-        ],
-        "Caused By": [
-            "thrombophilia"
-        ]
-    },
-    "focal dystonia": {
-        "Anatomical Location": [
-            "muscle"
-        ]
-    },
-    "allergic bronchopulmonary aspergillosis": {
-        "Anatomical Location": [
-            "respiratory tract"
-        ]
-    },
-    "Kyasanur forest disease": {
-        "Anatomical Location": [
-            "blood vessel",
-            "human brain",
-            "meninges",
-            "spleen",
-            "liver",
-            "lung"
-        ],
-        "Caused By": [
-            "Kyasanur Forest disease virus"
-        ]
-    },
-    "hyperprolactinemia": {
-        "Characteristics": [
-            "abnormally high value"
-        ]
-    },
-    "neutropenia": {
-        "Characteristics": [
-            "abnormally low value"
-        ]
-    },
-    "autism spectrum disorder": {
-        "Different From": [
-            "autism"
-        ]
-    },
-    "angiokeratoma of Fordyce": {
-        "Different From": [
-            "pearly penile papules"
-        ]
-    },
-    "freemartinism": {
-        "Caused By": [
-            "gestational microchimerism"
-        ]
-    },
-    "endemic goiter": {
-        "Caused By": [
-            "iodine deficiency"
-        ]
-    },
-    "Prinzmetal's angina": {
-        "Caused By": [
-            "vasospasm"
-        ]
-    },
-    "cryptococcosis": {
-        "Different From": [
-            "cryptosporidiosis"
-        ],
-        "Caused By": [
-            "Cryptococcus neoformans",
-            "Cryptococcus gattii"
-        ]
-    },
-    "delayed sleep phase disorder": {
-        "Caused By": [
-            "night owl"
-        ]
-    },
-    "micropenis": {
-        "Characteristics": [
-            "short"
-        ],
-        "Caused By": [
-            "medical genetics"
-        ]
-    },
-    "Müllerian agenesis": {
-        "Different From": [
-            "gonadal agenesis"
-        ]
-    },
-    "hypercalcemia": {
-        "Characteristics": [
-            "abnormally high value"
-        ]
-    },
-    "taeniasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "lymphangitis": {
-        "Caused By": [
-            "Streptococcus pyogenes"
-        ]
-    },
-    "HAM": {
-        "Anatomical Location": [
-            "spinal cord"
-        ]
-    },
-    "jaw-winking syndrome": {
-        "Different From": [
-            "Marcus Gunn pupil"
-        ]
-    },
-    "spinal stenosis": {
-        "Caused By": [
-            "Paget's disease of bone",
-            "spinal cord neoplasm",
-            "spondylosis",
-            "scoliosis",
-            "achondroplasia",
-            "rheumatoid arthritis",
-            "osteoarthritis"
-        ]
-    },
-    "combat disorder": {
-        "Caused By": [
-            "combat disorder"
-        ]
-    },
-    "Conn's syndrome": {
-        "Different From": [
-            "hyperaldosteronism"
-        ]
-    },
-    "pemphigus": {
-        "Different From": [
-            "pemphigoid"
-        ]
-    },
-    "short QT syndrome": {
-        "Caused By": [
-            "mutation"
-        ]
-    },
-    "mycoplasma infection": {
-        "Caused By": [
-            "infection"
-        ]
-    },
     "gas gangrene": {
         "Anatomical Location": [
             "muscle tissue"
@@ -3961,14 +3709,178 @@
     },
     "malignant hyperthermia": {
         "Caused By": [
-            "mutation",
             "succinylcholine",
-            "anaesthesia"
+            "anaesthesia",
+            "mutation"
         ]
     },
     "urolithiasis": {
         "Anatomical Location": [
             "lower urinary tract"
+        ]
+    },
+    "neuroleptic malignant syndrome": {
+        "Caused By": [
+            "antipsychotics"
+        ]
+    },
+    "Fraser syndrome": {
+        "Different From": [
+            "Frasier syndrome"
+        ]
+    },
+    "cerebral venous sinus thrombosis": {
+        "Anatomical Location": [
+            "cranial cavity"
+        ],
+        "Caused By": [
+            "thrombophilia"
+        ]
+    },
+    "focal dystonia": {
+        "Anatomical Location": [
+            "muscle"
+        ]
+    },
+    "allergic bronchopulmonary aspergillosis": {
+        "Anatomical Location": [
+            "respiratory tract"
+        ]
+    },
+    "Kyasanur forest disease": {
+        "Anatomical Location": [
+            "meninges",
+            "blood vessel",
+            "human brain",
+            "spleen",
+            "lung",
+            "liver"
+        ],
+        "Caused By": [
+            "Kyasanur Forest disease virus"
+        ]
+    },
+    "hyperprolactinemia": {
+        "Characteristics": [
+            "abnormally high value"
+        ]
+    },
+    "neutropenia": {
+        "Characteristics": [
+            "abnormally low value"
+        ]
+    },
+    "autism spectrum disorder": {
+        "Different From": [
+            "autism"
+        ]
+    },
+    "angiokeratoma of Fordyce": {
+        "Different From": [
+            "pearly penile papules"
+        ]
+    },
+    "freemartinism": {
+        "Caused By": [
+            "gestational microchimerism"
+        ]
+    },
+    "endemic goiter": {
+        "Caused By": [
+            "iodine deficiency"
+        ]
+    },
+    "Prinzmetal's angina": {
+        "Caused By": [
+            "vasospasm"
+        ]
+    },
+    "cryptococcosis": {
+        "Different From": [
+            "cryptosporidiosis"
+        ],
+        "Caused By": [
+            "Cryptococcus gattii",
+            "Cryptococcus neoformans"
+        ]
+    },
+    "delayed sleep phase disorder": {
+        "Caused By": [
+            "night owl"
+        ]
+    },
+    "micropenis": {
+        "Characteristics": [
+            "short"
+        ],
+        "Caused By": [
+            "medical genetics"
+        ]
+    },
+    "Müllerian agenesis": {
+        "Different From": [
+            "gonadal agenesis"
+        ]
+    },
+    "hypercalcemia": {
+        "Characteristics": [
+            "abnormally high value"
+        ]
+    },
+    "taeniasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "lymphangitis": {
+        "Caused By": [
+            "Streptococcus pyogenes"
+        ]
+    },
+    "HAM": {
+        "Anatomical Location": [
+            "spinal cord"
+        ]
+    },
+    "jaw-winking syndrome": {
+        "Different From": [
+            "Marcus Gunn pupil"
+        ]
+    },
+    "spinal stenosis": {
+        "Caused By": [
+            "spinal cord neoplasm",
+            "spondylosis",
+            "rheumatoid arthritis",
+            "Paget's disease of bone",
+            "achondroplasia",
+            "scoliosis",
+            "osteoarthritis"
+        ]
+    },
+    "combat disorder": {
+        "Caused By": [
+            "combat disorder"
+        ]
+    },
+    "Conn's syndrome": {
+        "Different From": [
+            "hyperaldosteronism"
+        ]
+    },
+    "pemphigus": {
+        "Different From": [
+            "pemphigoid"
+        ]
+    },
+    "short QT syndrome": {
+        "Caused By": [
+            "mutation"
+        ]
+    },
+    "mycoplasma infection": {
+        "Caused By": [
+            "infection"
         ]
     },
     "parasitic infectious diseases": {
@@ -4158,8 +4070,8 @@
     "phlebotomus fever": {
         "Caused By": [
             "sandfly fever Naples virus",
-            "Toscana virus",
-            "Sandfly fever Sicilian virus"
+            "Sandfly fever Sicilian virus",
+            "Toscana virus"
         ]
     },
     "peritoneal carcinoma": {
@@ -4174,15 +4086,15 @@
     },
     "nocardiosis": {
         "Caused By": [
+            "Nocardia transvalensis",
+            "Nocardia paucivorans",
+            "Nocardia abscessus",
             "Nocardia nova",
             "Nocardia cyriacigeorgica",
             "Nocardia brevicatena",
-            "Nocardia abscessus",
             "Nocardia farcinica",
-            "Nocardia brasiliensis",
-            "Nocardia transvalensis",
-            "Nocardia paucivorans",
-            "Nocardia asteroides"
+            "Nocardia asteroides",
+            "Nocardia brasiliensis"
         ]
     },
     "myotonic dystrophy": {
@@ -4399,8 +4311,8 @@
         ],
         "Caused By": [
             "Thelazia californiensis",
-            "Thelazia",
-            "Thelazia callipaeda"
+            "Thelazia callipaeda",
+            "Thelazia"
         ]
     },
     "Pickardt syndrome": {
@@ -4410,8 +4322,8 @@
     },
     "fasciolopsiasis": {
         "Anatomical Location": [
-            "small intestine",
             "duodenum",
+            "small intestine",
             "pancreas",
             "liver"
         ],
@@ -4426,8 +4338,8 @@
     },
     "chronic granulomatous disease": {
         "Anatomical Location": [
-            "zone of skin",
             "human lung",
+            "zone of skin",
             "bone"
         ]
     },
@@ -4515,8 +4427,8 @@
     },
     "tauopathy": {
         "Caused By": [
-            "microtubule associated protein tau",
-            "neurofibrillary tangle"
+            "neurofibrillary tangle",
+            "microtubule associated protein tau"
         ]
     },
     "tinea manuum": {
@@ -4526,7 +4438,7 @@
     },
     "trypanosomiasis": {
         "Caused By": [
-            "jopa piska popa chileen"
+            "Trypanosoma"
         ]
     },
     "retinal vascular occlusion": {
@@ -4586,16 +4498,16 @@
         "Anatomical Location": [
             "pleura",
             "abdomen",
-            "brain",
+            "skin",
             "lung",
-            "skin"
+            "brain"
         ],
         "Caused By": [
             "Paragonimus uterobilateralis",
-            "Paragonimus heterotremus",
-            "Paragonimus",
-            "Paragonimus mexicanus",
             "Paragonimus kellicotti",
+            "Paragonimus heterotremus",
+            "Paragonimus mexicanus",
+            "Paragonimus",
             "Paragonimus westermani"
         ]
     },
@@ -4636,11 +4548,11 @@
             "zone of skin"
         ],
         "Caused By": [
+            "Leishmania aethiopica",
+            "Leishmania tropica",
             "Leishmania mexicana",
             "Leishmania braziliensis",
-            "Leishmania aethiopica",
-            "Leishmania",
-            "Leishmania tropica"
+            "Leishmania"
         ]
     },
     "viral pneumonia": {
@@ -4695,8 +4607,8 @@
     },
     "factitious disorder": {
         "Different From": [
-            "conversion disorder",
-            "malingering"
+            "malingering",
+            "conversion disorder"
         ]
     },
     "Bolivian hemorrhagic fever": {
@@ -4722,8 +4634,8 @@
     },
     "chromoblastomycosis": {
         "Caused By": [
-            "Chaetothyriales",
-            "injury"
+            "injury",
+            "Chaetothyriales"
         ]
     },
     "rectum cancer": {
@@ -4738,8 +4650,8 @@
     },
     "Ross River fever": {
         "Anatomical Location": [
-            "muscular system",
-            "joint"
+            "joint",
+            "muscular system"
         ],
         "Caused By": [
             "Ross River virus"
@@ -4757,9 +4669,9 @@
         "Caused By": [
             "Ehrlichia phagocytophila",
             "Ehrlichia muris",
-            "Ehrlichia canis",
             "Ehrlichia ewingii",
-            "Ehrlichia chaffeensis"
+            "Ehrlichia chaffeensis",
+            "Ehrlichia canis"
         ]
     },
     "arbovirosis": {
@@ -4945,16 +4857,16 @@
     },
     "substance dependence": {
         "Different From": [
+            "addiction",
             "non-controlled substance abuse",
             "abuse of medicaments",
-            "substance use disorder",
-            "addiction"
+            "substance use disorder"
         ]
     },
     "Pthirus pubis infestation": {
         "Caused By": [
-            "infestation",
-            "Pthirus pubis"
+            "Pthirus pubis",
+            "infestation"
         ]
     },
     "pleural tuberculosis": {
@@ -5173,10 +5085,10 @@
     },
     "heterophyiasis": {
         "Anatomical Location": [
+            "lymph node",
             "intestine",
             "lung",
-            "brain",
-            "lymph node"
+            "brain"
         ],
         "Caused By": [
             "Heterophyes heterophyes"
@@ -5207,8 +5119,8 @@
     },
     "mental depression": {
         "Different From": [
-            "major depressive disorder",
-            "depression"
+            "depression",
+            "major depressive disorder"
         ]
     },
     "pylorospasm": {
@@ -5239,20 +5151,20 @@
     },
     "toxascariasis": {
         "Caused By": [
-            "Toxascaris leonina",
-            "infection"
+            "infection",
+            "Toxascaris leonina"
         ]
     },
     "trichostrongyloidosis": {
         "Caused By": [
-            "Trichostrongylus axei",
-            "Ostertagia circumcincta",
-            "Trichostrongylus colubriformis",
             "Mecistocirrus digitatus",
+            "Trichostrongylus axei",
             "Trichostrongylus skrjabini",
             "Trichostrongylus probolurus",
-            "Trichostrongylus",
+            "Ostertagia circumcincta",
+            "Trichostrongylus colubriformis",
             "Trichostrongylus vitrinus",
+            "Trichostrongylus",
             "Haemonchus contortus",
             "Ostertagia ostertagi"
         ]
@@ -5395,6 +5307,51 @@
             "infection"
         ]
     },
+    "dientamoebiasis": {
+        "Caused By": [
+            "Dientamoeba fragilis"
+        ]
+    },
+    "dysbaric osteonecrosis": {
+        "Caused By": [
+            "decompression sickness"
+        ]
+    },
+    "ectoparasitism": {
+        "Caused By": [
+            "ectoparasite"
+        ]
+    },
+    "Griscelli syndrome type 1": {
+        "Different From": [
+            "Acrocephalopolydactyly"
+        ]
+    },
+    "endometriosis of ovary": {
+        "Anatomical Location": [
+            "ovary"
+        ]
+    },
+    "ependymal tumor": {
+        "Anatomical Location": [
+            "lateral ventricle"
+        ]
+    },
+    "esophageal candidiasis": {
+        "Anatomical Location": [
+            "esophagus"
+        ]
+    },
+    "spleen cancer": {
+        "Anatomical Location": [
+            "spleen"
+        ]
+    },
+    "female reproductive system disease": {
+        "Anatomical Location": [
+            "female reproductive system"
+        ]
+    },
     "Flea-borne spotted fever": {
         "Caused By": [
             "Rickettsia felis"
@@ -5491,12 +5448,12 @@
             "blood vessel"
         ],
         "Caused By": [
+            "Bayou virus",
+            "Andes virus",
             "Black Creek Canal virus",
             "New York virus",
             "Calabazo virus",
-            "Bayou virus",
-            "Virus sin Nombre",
-            "Andes virus"
+            "Virus sin Nombre"
         ]
     },
     "osteoarticular tuberculosis": {
@@ -5511,8 +5468,8 @@
     },
     "herpes simplex": {
         "Caused By": [
-            "Human herpesvirus 2",
-            "Human alphaherpesvirus 1"
+            "Human alphaherpesvirus 1",
+            "Human herpesvirus 2"
         ]
     },
     "large-cell lung carcinoma": {
@@ -5610,51 +5567,6 @@
             "vitelline duct"
         ]
     },
-    "dientamoebiasis": {
-        "Caused By": [
-            "Dientamoeba fragilis"
-        ]
-    },
-    "dysbaric osteonecrosis": {
-        "Caused By": [
-            "decompression sickness"
-        ]
-    },
-    "ectoparasitism": {
-        "Caused By": [
-            "ectoparasite"
-        ]
-    },
-    "Griscelli syndrome type 1": {
-        "Different From": [
-            "Acrocephalopolydactyly"
-        ]
-    },
-    "endometriosis of ovary": {
-        "Anatomical Location": [
-            "ovary"
-        ]
-    },
-    "ependymal tumor": {
-        "Anatomical Location": [
-            "lateral ventricle"
-        ]
-    },
-    "esophageal candidiasis": {
-        "Anatomical Location": [
-            "esophagus"
-        ]
-    },
-    "spleen cancer": {
-        "Anatomical Location": [
-            "spleen"
-        ]
-    },
-    "female reproductive system disease": {
-        "Anatomical Location": [
-            "female reproductive system"
-        ]
-    },
     "crater-like holes of optic disc": {
         "Anatomical Location": [
             "optic disc"
@@ -5736,6 +5648,41 @@
         ],
         "Caused By": [
             "infection"
+        ]
+    },
+    "Powassan encephalitis": {
+        "Caused By": [
+            "Powassan virus"
+        ]
+    },
+    "primary cutaneous amyloidosis": {
+        "Anatomical Location": [
+            "zone of skin"
+        ]
+    },
+    "pseudovaginal perineoscrotal hypospadias": {
+        "Caused By": [
+            "5-alpha-reductase deficiency"
+        ]
+    },
+    "kidney papillary necrosis": {
+        "Anatomical Location": [
+            "renal papilla"
+        ]
+    },
+    "reproductive system disease": {
+        "Anatomical Location": [
+            "reproductive system"
+        ]
+    },
+    "respiratory system cancer": {
+        "Anatomical Location": [
+            "respiratory system"
+        ]
+    },
+    "retinal vasculitis": {
+        "Anatomical Location": [
+            "retina"
         ]
     },
     "scleredema": {
@@ -5873,13 +5820,13 @@
             "kidney"
         ],
         "Caused By": [
+            "Saaremaa virus",
             "Hantaan River virus",
+            "Seoul virus",
+            "Puumala virus",
             "Dobrava-Belgrade virus",
             "Amur virus",
-            "Saaremaa virus",
-            "Hantavirus",
-            "Puumala virus",
-            "Seoul virus"
+            "Hantavirus"
         ]
     },
     "morbid obesity": {
@@ -5940,41 +5887,6 @@
     "Diencephalic syndrome": {
         "Caused By": [
             "diencephalic neoplasm"
-        ]
-    },
-    "Powassan encephalitis": {
-        "Caused By": [
-            "Powassan virus"
-        ]
-    },
-    "primary cutaneous amyloidosis": {
-        "Anatomical Location": [
-            "zone of skin"
-        ]
-    },
-    "pseudovaginal perineoscrotal hypospadias": {
-        "Caused By": [
-            "5-alpha-reductase deficiency"
-        ]
-    },
-    "kidney papillary necrosis": {
-        "Anatomical Location": [
-            "renal papilla"
-        ]
-    },
-    "reproductive system disease": {
-        "Anatomical Location": [
-            "reproductive system"
-        ]
-    },
-    "respiratory system cancer": {
-        "Anatomical Location": [
-            "respiratory system"
-        ]
-    },
-    "retinal vasculitis": {
-        "Anatomical Location": [
-            "retina"
         ]
     },
     "Borna disease": {
@@ -6148,8 +6060,8 @@
     },
     "melancholia": {
         "Different From": [
-            "melancholia",
-            "Melancholia"
+            "Melancholia",
+            "melancholia"
         ]
     },
     "hyperinsulinemia": {
@@ -6159,8 +6071,8 @@
     },
     "cow milk allergy": {
         "Different From": [
-            "lactose intolerance",
-            "cow's milk intolerance"
+            "cow's milk intolerance",
+            "lactose intolerance"
         ]
     },
     "transitional cell carcinoma of the ovary": {
@@ -6176,6 +6088,349 @@
     "nickel allergic contact dermatitis": {
         "Caused By": [
             "nickel"
+        ]
+    },
+    "Middle East respiratory syndrome": {
+        "Different From": [
+            "Middle-Earth Role Playing"
+        ],
+        "Caused By": [
+            "Middle East respiratory syndrome coronavirus"
+        ]
+    },
+    "degeneration of macula and posterior pole": {
+        "Anatomical Location": [
+            "macula of retina"
+        ]
+    },
+    "hair follicle neoplasm": {
+        "Anatomical Location": [
+            "hair follicle"
+        ]
+    },
+    "elephantiasis": {
+        "Caused By": [
+            "podoconiosis",
+            "elephantiasis nostras",
+            "filarial elephantiasis"
+        ]
+    },
+    "Congenital dislocation of the knee": {
+        "Anatomical Location": [
+            "knee"
+        ]
+    },
+    "intracranial hypotension": {
+        "Caused By": [
+            "cerebrospinal fluid leak"
+        ]
+    },
+    "Interstitial granulomatous dermatitis": {
+        "Different From": [
+            "Ackerman syndrome"
+        ]
+    },
+    "chromosomal deletion syndrome": {
+        "Caused By": [
+            "deletion mutation"
+        ]
+    },
+    "nervous system cancer": {
+        "Anatomical Location": [
+            "nervous system"
+        ]
+    },
+    "heart septal defect": {
+        "Anatomical Location": [
+            "cardiac septum"
+        ]
+    },
+    "overnutrition": {
+        "Different From": [
+            "forced induction"
+        ]
+    },
+    "intravenous leiomyomatosis": {
+        "Anatomical Location": [
+            "blood vessel"
+        ]
+    },
+    "fetal alcohol spectrum disorders": {
+        "Caused By": [
+            "alcohol use during pregnancy"
+        ]
+    },
+    "Idiopathic sclerosing mesenteritis": {
+        "Anatomical Location": [
+            "mesentery"
+        ]
+    },
+    "haemophilus meningitis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "Hyperglycerolemia": {
+        "Caused By": [
+            "glycerol kinase deficiency"
+        ]
+    },
+    "Acrocephalopolydactyly": {
+        "Different From": [
+            "Griscelli syndrome type 1"
+        ]
+    },
+    "hypoplastic tibiae-postaxial polydactyly syndrome": {
+        "Different From": [
+            "Werner syndrome"
+        ]
+    },
+    "Primary tumors of the heart": {
+        "Anatomical Location": [
+            "heart"
+        ]
+    },
+    "salivary gland disease": {
+        "Anatomical Location": [
+            "salivary gland"
+        ]
+    },
+    "maxillary sinus cancer": {
+        "Anatomical Location": [
+            "maxillary sinus"
+        ]
+    },
+    "vaginal disease": {
+        "Anatomical Location": [
+            "vagina"
+        ]
+    },
+    "vulvar disease": {
+        "Anatomical Location": [
+            "vulva"
+        ]
+    },
+    "Chapare hemorrhagic fever": {
+        "Caused By": [
+            "Chapare virus"
+        ]
+    },
+    "epidural abscess": {
+        "Anatomical Location": [
+            "epidural space"
+        ]
+    },
+    "pulmonary aspergilloma": {
+        "Anatomical Location": [
+            "human lung"
+        ]
+    },
+    "sensory system disease": {
+        "Anatomical Location": [
+            "sensory nervous system"
+        ]
+    },
+    "intestinal botulism": {
+        "Caused By": [
+            "Clostridium botulinum"
+        ]
+    },
+    "cutaneous lupus erythematosus": {
+        "Anatomical Location": [
+            "zone of skin"
+        ]
+    },
+    "lower respiratory tract disease": {
+        "Anatomical Location": [
+            "lower respiratory tract"
+        ]
+    },
+    "tuberculous salpingitis": {
+        "Anatomical Location": [
+            "uterine tube"
+        ]
+    },
+    "lujo hemorrhagic fever": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "Whitewater Arroyo hemorrhagic fever": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "acanthocephaliasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "baylisascariasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "philophthalmiasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "mesocestoidiasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "parasitic Ichthyosporea infectious disease": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "dioctophymiasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "Alkhurma hemorrhagic fever": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "wound botulism": {
+        "Caused By": [
+            "Clostridium botulinum"
+        ]
+    },
+    "paralytic poliomyelitis": {
+        "Anatomical Location": [
+            "central nervous system"
+        ]
+    },
+    "spinal polio": {
+        "Anatomical Location": [
+            "spinal cord"
+        ]
+    },
+    "Balkan hemorrhagic fever": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "O'nyong'nyong fever": {
+        "Caused By": [
+            "O'nyong'nyong virus"
+        ]
+    },
+    "Barmah Forest virus disease": {
+        "Anatomical Location": [
+            "muscle",
+            "lymph node",
+            "liver",
+            "blood"
+        ],
+        "Caused By": [
+            "Barmah Forest virus"
+        ]
+    },
+    "intestinal schistosomiasis": {
+        "Caused By": [
+            "Schistosoma"
+        ]
+    },
+    "oral cavity carcinoma in situ": {
+        "Anatomical Location": [
+            "oral cavity"
+        ]
+    },
+    "pharynx carcinoma in situ": {
+        "Anatomical Location": [
+            "pharynx"
+        ]
+    },
+    "gall bladder carcinoma in situ": {
+        "Anatomical Location": [
+            "gallbladder"
+        ]
+    },
+    "bile duct carcinoma in situ": {
+        "Anatomical Location": [
+            "bile duct"
+        ]
+    },
+    "bronchus carcinoma in situ": {
+        "Anatomical Location": [
+            "bronchiole",
+            "bronchus"
+        ]
+    },
+    "respiratory system benign neoplasm": {
+        "Anatomical Location": [
+            "respiratory system"
+        ]
+    },
+    "paranasal sinus cancer": {
+        "Anatomical Location": [
+            "paranasal sinus"
+        ]
+    },
+    "gastrointestinal system benign neoplasm": {
+        "Anatomical Location": [
+            "human digestive system"
+        ]
+    },
+    "reproductive organ benign neoplasm": {
+        "Anatomical Location": [
+            "reproductive system"
+        ]
+    },
+    "bladder benign neoplasm": {
+        "Anatomical Location": [
+            "urinary bladder"
+        ]
+    },
+    "biliary tract neoplasm": {
+        "Anatomical Location": [
+            "biliary tract"
+        ]
+    },
+    "anal canal cancer": {
+        "Anatomical Location": [
+            "anal canal"
+        ]
+    },
+    "X-linked disease": {
+        "Anatomical Location": [
+            "X chromosome"
+        ]
+    },
+    "autosomal dominant disease": {
+        "Caused By": [
+            "autosomal dominant"
+        ]
+    },
+    "nicotine dependence": {
+        "Caused By": [
+            "tobacco smoking",
+            "nicotine"
+        ]
+    },
+    "sinoatrial node disease": {
+        "Anatomical Location": [
+            "sinoatrial node"
+        ]
+    },
+    "endocardium disease": {
+        "Anatomical Location": [
+            "endocardium"
+        ]
+    },
+    "pericardium disease": {
+        "Anatomical Location": [
+            "pericardium"
+        ]
+    },
+    "tricuspid valve disease": {
+        "Anatomical Location": [
+            "tricuspid valve"
         ]
     },
     "bone squamous cell carcinoma": {
@@ -6423,153 +6678,6 @@
             "ileum"
         ]
     },
-    "oral cavity carcinoma in situ": {
-        "Anatomical Location": [
-            "oral cavity"
-        ]
-    },
-    "pharynx carcinoma in situ": {
-        "Anatomical Location": [
-            "pharynx"
-        ]
-    },
-    "gall bladder carcinoma in situ": {
-        "Anatomical Location": [
-            "gallbladder"
-        ]
-    },
-    "bile duct carcinoma in situ": {
-        "Anatomical Location": [
-            "bile duct"
-        ]
-    },
-    "bronchus carcinoma in situ": {
-        "Anatomical Location": [
-            "bronchiole",
-            "bronchus"
-        ]
-    },
-    "respiratory system benign neoplasm": {
-        "Anatomical Location": [
-            "respiratory system"
-        ]
-    },
-    "paranasal sinus cancer": {
-        "Anatomical Location": [
-            "paranasal sinus"
-        ]
-    },
-    "gastrointestinal system benign neoplasm": {
-        "Anatomical Location": [
-            "human digestive system"
-        ]
-    },
-    "reproductive organ benign neoplasm": {
-        "Anatomical Location": [
-            "reproductive system"
-        ]
-    },
-    "bladder benign neoplasm": {
-        "Anatomical Location": [
-            "urinary bladder"
-        ]
-    },
-    "biliary tract neoplasm": {
-        "Anatomical Location": [
-            "biliary tract"
-        ]
-    },
-    "anal canal cancer": {
-        "Anatomical Location": [
-            "anal canal"
-        ]
-    },
-    "X-linked disease": {
-        "Anatomical Location": [
-            "X chromosome"
-        ]
-    },
-    "autosomal dominant disease": {
-        "Caused By": [
-            "autosomal dominant"
-        ]
-    },
-    "nicotine dependence": {
-        "Caused By": [
-            "tobacco smoking",
-            "nicotine"
-        ]
-    },
-    "sinoatrial node disease": {
-        "Anatomical Location": [
-            "sinoatrial node"
-        ]
-    },
-    "endocardium disease": {
-        "Anatomical Location": [
-            "endocardium"
-        ]
-    },
-    "pericardium disease": {
-        "Anatomical Location": [
-            "pericardium"
-        ]
-    },
-    "tricuspid valve disease": {
-        "Anatomical Location": [
-            "tricuspid valve"
-        ]
-    },
-    "Hyperglycerolemia": {
-        "Caused By": [
-            "glycerol kinase deficiency"
-        ]
-    },
-    "Acrocephalopolydactyly": {
-        "Different From": [
-            "Griscelli syndrome type 1"
-        ]
-    },
-    "hypoplastic tibiae-postaxial polydactyly syndrome": {
-        "Different From": [
-            "Werner syndrome"
-        ]
-    },
-    "Primary tumors of the heart": {
-        "Anatomical Location": [
-            "heart"
-        ]
-    },
-    "salivary gland disease": {
-        "Anatomical Location": [
-            "salivary gland"
-        ]
-    },
-    "maxillary sinus cancer": {
-        "Anatomical Location": [
-            "maxillary sinus"
-        ]
-    },
-    "vaginal disease": {
-        "Anatomical Location": [
-            "vagina"
-        ]
-    },
-    "vulvar disease": {
-        "Anatomical Location": [
-            "vulva"
-        ]
-    },
-    "Chapare hemorrhagic fever": {
-        "Caused By": [
-            "Chapare virus"
-        ]
-    },
-    "epidural abscess": {
-        "Anatomical Location": [
-            "epidural space"
-        ]
-    },
     "ileal neoplasm": {
         "Anatomical Location": [
             "ileum"
@@ -6680,120 +6788,254 @@
             "nasal cavity"
         ]
     },
-    "pulmonary aspergilloma": {
+    "chylocele of tunica vaginalis": {
         "Anatomical Location": [
-            "human lung"
+            "Tunica vaginalis"
         ]
     },
-    "sensory system disease": {
+    "Eastern equine encephalitis": {
+        "Caused By": [
+            "Eastern equine encephalitis virus"
+        ]
+    },
+    "Western equine encephalitis": {
         "Anatomical Location": [
-            "sensory nervous system"
-        ]
-    },
-    "intestinal botulism": {
+            "meninges",
+            "spinal cord",
+            "brain"
+        ],
         "Caused By": [
-            "Clostridium botulinum"
+            "Western equine encephalitis virus"
         ]
     },
-    "cutaneous lupus erythematosus": {
+    "cholesteatoma of attic": {
         "Anatomical Location": [
-            "zone of skin"
+            "epitympanic recess"
         ]
     },
-    "lower respiratory tract disease": {
+    "lens disease": {
         "Anatomical Location": [
-            "lower respiratory tract"
+            "lens"
         ]
     },
-    "tuberculous salpingitis": {
+    "basal ganglia cerebrovascular disease": {
         "Anatomical Location": [
-            "uterine tube"
+            "basal ganglia"
         ]
     },
-    "lujo hemorrhagic fever": {
+    "Brucella suis brucellosis": {
         "Caused By": [
             "infection"
         ]
     },
-    "Whitewater Arroyo hemorrhagic fever": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "acanthocephaliasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "baylisascariasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "philophthalmiasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "mesocestoidiasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "parasitic Ichthyosporea infectious disease": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "dioctophymiasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "Alkhurma hemorrhagic fever": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "wound botulism": {
-        "Caused By": [
-            "Clostridium botulinum"
-        ]
-    },
-    "paralytic poliomyelitis": {
+    "dislocation of ear ossicle": {
         "Anatomical Location": [
-            "central nervous system"
+            "auditory ossicle"
         ]
     },
-    "spinal polio": {
+    "total internal ophthalmoplegia": {
+        "Anatomical Location": [
+            "pupil"
+        ]
+    },
+    "common wart": {
+        "Caused By": [
+            "human papillomavirus infection"
+        ]
+    },
+    "pseudomembranous conjunctivitis": {
+        "Caused By": [
+            "Corynebacterium diphtheriae"
+        ]
+    },
+    "small intestine diverticulitis": {
+        "Anatomical Location": [
+            "small intestine"
+        ]
+    },
+    "appendix lymphoma": {
+        "Anatomical Location": [
+            "appendix"
+        ]
+    },
+    "vertebral artery occlusion": {
+        "Anatomical Location": [
+            "vertebral artery"
+        ]
+    },
+    "scleral disease": {
+        "Anatomical Location": [
+            "sclera"
+        ]
+    },
+    "spinal meningioma": {
         "Anatomical Location": [
             "spinal cord"
         ]
     },
-    "Balkan hemorrhagic fever": {
+    "fallopian tube endometriosis": {
+        "Anatomical Location": [
+            "uterine tube"
+        ]
+    },
+    "autonomic neuropathy": {
+        "Different From": [
+            "autonomic nervous system disease"
+        ]
+    },
+    "Bowman's membrane folds or rupture": {
+        "Anatomical Location": [
+            "Bowman's membrane"
+        ]
+    },
+    "pericardium cancer": {
+        "Anatomical Location": [
+            "pericardium"
+        ]
+    },
+    "hypopigmentation of eyelid": {
+        "Anatomical Location": [
+            "eyelid"
+        ]
+    },
+    "hypertrichosis of eyelid": {
+        "Anatomical Location": [
+            "eyelid"
+        ]
+    },
+    "hypotrichosis of eyelid": {
+        "Anatomical Location": [
+            "eyelid"
+        ]
+    },
+    "parametrium malignant neoplasm": {
+        "Anatomical Location": [
+            "parametrium"
+        ]
+    },
+    "Bordetella parapertussis whooping cough": {
         "Caused By": [
             "infection"
         ]
     },
-    "O'nyong'nyong fever": {
-        "Caused By": [
-            "O'nyong'nyong virus"
-        ]
-    },
-    "Barmah Forest virus disease": {
+    "uterine adnexa cancer": {
         "Anatomical Location": [
-            "lymph node",
-            "liver",
-            "blood",
-            "muscle"
-        ],
-        "Caused By": [
-            "Barmah Forest virus"
+            "adnexa of uterus"
         ]
     },
-    "intestinal schistosomiasis": {
+    "round ligament malignant neoplasm": {
+        "Anatomical Location": [
+            "round ligament of uterus"
+        ]
+    },
+    "bladder neck cancer": {
+        "Anatomical Location": [
+            "neck of urinary bladder"
+        ]
+    },
+    "bladder sarcoma": {
+        "Anatomical Location": [
+            "urinary bladder"
+        ]
+    },
+    "bladder trigone cancer": {
+        "Anatomical Location": [
+            "trigone of the urinary bladder"
+        ]
+    },
+    "bladder lymphoma": {
+        "Anatomical Location": [
+            "urinary bladder"
+        ]
+    },
+    "glans penis cancer": {
+        "Anatomical Location": [
+            "glans penis"
+        ]
+    },
+    "penis sarcoma": {
+        "Anatomical Location": [
+            "human penis"
+        ]
+    },
+    "tibial neuropathy": {
+        "Anatomical Location": [
+            "tibial nerve"
+        ]
+    },
+    "ureteral benign neoplasm": {
+        "Anatomical Location": [
+            "ureter"
+        ]
+    },
+    "peripheral nervous system neoplasm": {
+        "Anatomical Location": [
+            "peripheral nervous system"
+        ]
+    },
+    "schwannoma of ureter": {
+        "Anatomical Location": [
+            "ureter"
+        ]
+    },
+    "trachea sarcoma": {
+        "Anatomical Location": [
+            "trachea"
+        ]
+    },
+    "female reproductive organ cancer": {
+        "Anatomical Location": [
+            "female reproductive system"
+        ]
+    },
+    "tracheal lymphoma": {
+        "Anatomical Location": [
+            "trachea"
+        ]
+    },
+    "frontal lobe neoplasm": {
+        "Anatomical Location": [
+            "frontal lobe"
+        ]
+    },
+    "mediastinum neurofibroma": {
+        "Anatomical Location": [
+            "mediastinum"
+        ]
+    },
+    "kernicterus due to isoimmunization": {
         "Caused By": [
-            "Schistosoma"
+            "neonatal alloimmune disease"
+        ]
+    },
+    "radial nerve lesion": {
+        "Anatomical Location": [
+            "radial nerve"
+        ]
+    },
+    "ulnar nerve lesion": {
+        "Anatomical Location": [
+            "ulnar nerve"
+        ]
+    },
+    "descending colon cancer": {
+        "Anatomical Location": [
+            "descending colon"
+        ]
+    },
+    "echinostomiasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "splenic flexure cancer": {
+        "Anatomical Location": [
+            "splenic flexure"
+        ]
+    },
+    "sigmoid colon cancer": {
+        "Anatomical Location": [
+            "sigmoid colon"
         ]
     },
     "femoral vein thrombophlebitis": {
@@ -6914,10 +7156,10 @@
             "blood vessel",
             "bone marrow",
             "central nervous system",
+            "heart",
             "spleen",
             "liver",
-            "lung",
-            "heart"
+            "lung"
         ],
         "Caused By": [
             "Borrelia recurrentis"
@@ -6925,92 +7167,12 @@
     },
     "tick-borne relapsing fever": {
         "Caused By": [
-            "Borrelia hermsii",
-            "Borrelia duttoni",
+            "Borrelia crocidurae",
             "Borrelia hispanica",
             "Borrelia turicatae",
             "Borrelia parkeri",
-            "Borrelia crocidurae"
-        ]
-    },
-    "Middle East respiratory syndrome": {
-        "Different From": [
-            "Middle-Earth Role Playing"
-        ],
-        "Caused By": [
-            "Middle East respiratory syndrome coronavirus"
-        ]
-    },
-    "degeneration of macula and posterior pole": {
-        "Anatomical Location": [
-            "macula of retina"
-        ]
-    },
-    "hair follicle neoplasm": {
-        "Anatomical Location": [
-            "hair follicle"
-        ]
-    },
-    "elephantiasis": {
-        "Caused By": [
-            "elephantiasis nostras",
-            "podoconiosis",
-            "filarial elephantiasis"
-        ]
-    },
-    "Congenital dislocation of the knee": {
-        "Anatomical Location": [
-            "knee"
-        ]
-    },
-    "intracranial hypotension": {
-        "Caused By": [
-            "cerebrospinal fluid leak"
-        ]
-    },
-    "Interstitial granulomatous dermatitis": {
-        "Different From": [
-            "Ackerman syndrome"
-        ]
-    },
-    "chromosomal deletion syndrome": {
-        "Caused By": [
-            "deletion mutation"
-        ]
-    },
-    "nervous system cancer": {
-        "Anatomical Location": [
-            "nervous system"
-        ]
-    },
-    "heart septal defect": {
-        "Anatomical Location": [
-            "cardiac septum"
-        ]
-    },
-    "overnutrition": {
-        "Different From": [
-            "forced induction"
-        ]
-    },
-    "intravenous leiomyomatosis": {
-        "Anatomical Location": [
-            "blood vessel"
-        ]
-    },
-    "fetal alcohol spectrum disorders": {
-        "Caused By": [
-            "alcohol use during pregnancy"
-        ]
-    },
-    "Idiopathic sclerosing mesenteritis": {
-        "Anatomical Location": [
-            "mesentery"
-        ]
-    },
-    "haemophilus meningitis": {
-        "Caused By": [
-            "infection"
+            "Borrelia hermsii",
+            "Borrelia duttoni"
         ]
     },
     "hemangioma of subcutaneous tissue": {
@@ -7273,6 +7435,107 @@
             "spinal cord"
         ]
     },
+    "choroid disease": {
+        "Anatomical Location": [
+            "choroid"
+        ]
+    },
+    "gastrointestinal tularemia": {
+        "Anatomical Location": [
+            "human digestive system"
+        ]
+    },
+    "dystrophies primarily involving the retinal pigment epithelium": {
+        "Anatomical Location": [
+            "retinal pigment epithelium"
+        ]
+    },
+    "ureteral disease": {
+        "Anatomical Location": [
+            "ureter"
+        ]
+    },
+    "Quartan fever": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "dipetalonemiasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "ureteral lymphoma": {
+        "Anatomical Location": [
+            "ureter"
+        ]
+    },
+    "sphenoidal sinus cancer": {
+        "Anatomical Location": [
+            "sphenoidal sinus"
+        ]
+    },
+    "sphenoid sinus squamous cell carcinoma": {
+        "Anatomical Location": [
+            "sphenoidal sinus"
+        ]
+    },
+    "seminal vesicle adenocarcinoma": {
+        "Anatomical Location": [
+            "seminal vesicula"
+        ]
+    },
+    "atheroembolism of kidney": {
+        "Anatomical Location": [
+            "kidney"
+        ]
+    },
+    "Partington X-linked mental retardation syndrome": {
+        "Different From": [
+            "Silver-Russell syndrome",
+            "X-linked"
+        ]
+    },
+    "cecal disease": {
+        "Anatomical Location": [
+            "cecum"
+        ]
+    },
+    "cecum cancer": {
+        "Anatomical Location": [
+            "cecum"
+        ]
+    },
+    "cecum lymphoma": {
+        "Anatomical Location": [
+            "cecum"
+        ]
+    },
+    "cecum carcinoma": {
+        "Anatomical Location": [
+            "cecum"
+        ]
+    },
+    "penile disease": {
+        "Anatomical Location": [
+            "human penis"
+        ]
+    },
+    "pulmonary systemic sclerosis": {
+        "Anatomical Location": [
+            "human lung"
+        ]
+    },
+    "breast angiomatosis": {
+        "Anatomical Location": [
+            "breast"
+        ]
+    },
+    "central nervous system tuberculosis": {
+        "Anatomical Location": [
+            "central nervous system"
+        ]
+    },
     "supratentorial cancer": {
         "Anatomical Location": [
             "supratentorial region"
@@ -7426,101 +7689,6 @@
             "Skene's gland"
         ]
     },
-    "chylocele of tunica vaginalis": {
-        "Anatomical Location": [
-            "Tunica vaginalis"
-        ]
-    },
-    "Eastern equine encephalitis": {
-        "Caused By": [
-            "Eastern equine encephalitis virus"
-        ]
-    },
-    "Western equine encephalitis": {
-        "Anatomical Location": [
-            "meninges",
-            "spinal cord",
-            "brain"
-        ],
-        "Caused By": [
-            "Western equine encephalitis virus"
-        ]
-    },
-    "cholesteatoma of attic": {
-        "Anatomical Location": [
-            "epitympanic recess"
-        ]
-    },
-    "lens disease": {
-        "Anatomical Location": [
-            "lens"
-        ]
-    },
-    "basal ganglia cerebrovascular disease": {
-        "Anatomical Location": [
-            "basal ganglia"
-        ]
-    },
-    "Brucella suis brucellosis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "dislocation of ear ossicle": {
-        "Anatomical Location": [
-            "auditory ossicle"
-        ]
-    },
-    "total internal ophthalmoplegia": {
-        "Anatomical Location": [
-            "pupil"
-        ]
-    },
-    "common wart": {
-        "Caused By": [
-            "human papillomavirus infection"
-        ]
-    },
-    "pseudomembranous conjunctivitis": {
-        "Caused By": [
-            "Corynebacterium diphtheriae"
-        ]
-    },
-    "small intestine diverticulitis": {
-        "Anatomical Location": [
-            "small intestine"
-        ]
-    },
-    "appendix lymphoma": {
-        "Anatomical Location": [
-            "appendix"
-        ]
-    },
-    "vertebral artery occlusion": {
-        "Anatomical Location": [
-            "vertebral artery"
-        ]
-    },
-    "scleral disease": {
-        "Anatomical Location": [
-            "sclera"
-        ]
-    },
-    "spinal meningioma": {
-        "Anatomical Location": [
-            "spinal cord"
-        ]
-    },
-    "fallopian tube endometriosis": {
-        "Anatomical Location": [
-            "uterine tube"
-        ]
-    },
-    "autonomic neuropathy": {
-        "Different From": [
-            "autonomic nervous system disease"
-        ]
-    },
     "ovary sarcoma": {
         "Anatomical Location": [
             "ovary"
@@ -7670,107 +7838,6 @@
     "sweat gland neoplasm": {
         "Anatomical Location": [
             "sweat gland"
-        ]
-    },
-    "choroid disease": {
-        "Anatomical Location": [
-            "choroid"
-        ]
-    },
-    "gastrointestinal tularemia": {
-        "Anatomical Location": [
-            "human digestive system"
-        ]
-    },
-    "dystrophies primarily involving the retinal pigment epithelium": {
-        "Anatomical Location": [
-            "retinal pigment epithelium"
-        ]
-    },
-    "ureteral disease": {
-        "Anatomical Location": [
-            "ureter"
-        ]
-    },
-    "Quartan fever": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "dipetalonemiasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "ureteral lymphoma": {
-        "Anatomical Location": [
-            "ureter"
-        ]
-    },
-    "sphenoidal sinus cancer": {
-        "Anatomical Location": [
-            "sphenoidal sinus"
-        ]
-    },
-    "sphenoid sinus squamous cell carcinoma": {
-        "Anatomical Location": [
-            "sphenoidal sinus"
-        ]
-    },
-    "seminal vesicle adenocarcinoma": {
-        "Anatomical Location": [
-            "seminal vesicula"
-        ]
-    },
-    "atheroembolism of kidney": {
-        "Anatomical Location": [
-            "kidney"
-        ]
-    },
-    "Partington X-linked mental retardation syndrome": {
-        "Different From": [
-            "Silver-Russell syndrome",
-            "X-linked"
-        ]
-    },
-    "cecal disease": {
-        "Anatomical Location": [
-            "cecum"
-        ]
-    },
-    "cecum cancer": {
-        "Anatomical Location": [
-            "cecum"
-        ]
-    },
-    "cecum lymphoma": {
-        "Anatomical Location": [
-            "cecum"
-        ]
-    },
-    "cecum carcinoma": {
-        "Anatomical Location": [
-            "cecum"
-        ]
-    },
-    "penile disease": {
-        "Anatomical Location": [
-            "human penis"
-        ]
-    },
-    "pulmonary systemic sclerosis": {
-        "Anatomical Location": [
-            "human lung"
-        ]
-    },
-    "breast angiomatosis": {
-        "Anatomical Location": [
-            "breast"
-        ]
-    },
-    "central nervous system tuberculosis": {
-        "Anatomical Location": [
-            "central nervous system"
         ]
     },
     "liver angiosarcoma": {
@@ -8048,8 +8115,8 @@
     },
     "sagittal sinus thrombosis": {
         "Anatomical Location": [
-            "superior sagittal sinus",
-            "inferior sagittal sinus"
+            "inferior sagittal sinus",
+            "superior sagittal sinus"
         ]
     },
     "lateral sinus thrombosis": {
@@ -8156,161 +8223,6 @@
     "cerebellar vermis medulloblastoma": {
         "Anatomical Location": [
             "cerebellar vermis"
-        ]
-    },
-    "Bowman's membrane folds or rupture": {
-        "Anatomical Location": [
-            "Bowman's membrane"
-        ]
-    },
-    "pericardium cancer": {
-        "Anatomical Location": [
-            "pericardium"
-        ]
-    },
-    "hypopigmentation of eyelid": {
-        "Anatomical Location": [
-            "eyelid"
-        ]
-    },
-    "hypertrichosis of eyelid": {
-        "Anatomical Location": [
-            "eyelid"
-        ]
-    },
-    "hypotrichosis of eyelid": {
-        "Anatomical Location": [
-            "eyelid"
-        ]
-    },
-    "parametrium malignant neoplasm": {
-        "Anatomical Location": [
-            "parametrium"
-        ]
-    },
-    "Bordetella parapertussis whooping cough": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "uterine adnexa cancer": {
-        "Anatomical Location": [
-            "adnexa of uterus"
-        ]
-    },
-    "round ligament malignant neoplasm": {
-        "Anatomical Location": [
-            "round ligament of uterus"
-        ]
-    },
-    "bladder neck cancer": {
-        "Anatomical Location": [
-            "neck of urinary bladder"
-        ]
-    },
-    "bladder sarcoma": {
-        "Anatomical Location": [
-            "urinary bladder"
-        ]
-    },
-    "bladder trigone cancer": {
-        "Anatomical Location": [
-            "trigone of the urinary bladder"
-        ]
-    },
-    "bladder lymphoma": {
-        "Anatomical Location": [
-            "urinary bladder"
-        ]
-    },
-    "glans penis cancer": {
-        "Anatomical Location": [
-            "glans penis"
-        ]
-    },
-    "penis sarcoma": {
-        "Anatomical Location": [
-            "human penis"
-        ]
-    },
-    "tibial neuropathy": {
-        "Anatomical Location": [
-            "tibial nerve"
-        ]
-    },
-    "ureteral benign neoplasm": {
-        "Anatomical Location": [
-            "ureter"
-        ]
-    },
-    "peripheral nervous system neoplasm": {
-        "Anatomical Location": [
-            "peripheral nervous system"
-        ]
-    },
-    "schwannoma of ureter": {
-        "Anatomical Location": [
-            "ureter"
-        ]
-    },
-    "trachea sarcoma": {
-        "Anatomical Location": [
-            "trachea"
-        ]
-    },
-    "female reproductive organ cancer": {
-        "Anatomical Location": [
-            "female reproductive system"
-        ]
-    },
-    "tracheal lymphoma": {
-        "Anatomical Location": [
-            "trachea"
-        ]
-    },
-    "frontal lobe neoplasm": {
-        "Anatomical Location": [
-            "frontal lobe"
-        ]
-    },
-    "mediastinum neurofibroma": {
-        "Anatomical Location": [
-            "mediastinum"
-        ]
-    },
-    "kernicterus due to isoimmunization": {
-        "Caused By": [
-            "neonatal alloimmune disease"
-        ]
-    },
-    "radial nerve lesion": {
-        "Anatomical Location": [
-            "radial nerve"
-        ]
-    },
-    "ulnar nerve lesion": {
-        "Anatomical Location": [
-            "ulnar nerve"
-        ]
-    },
-    "descending colon cancer": {
-        "Anatomical Location": [
-            "descending colon"
-        ]
-    },
-    "echinostomiasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "splenic flexure cancer": {
-        "Anatomical Location": [
-            "splenic flexure"
-        ]
-    },
-    "sigmoid colon cancer": {
-        "Anatomical Location": [
-            "sigmoid colon"
         ]
     },
     "bronchial neoplasm": {
@@ -9414,106 +9326,6 @@
             "sternum"
         ]
     },
-    "lung lymphoma": {
-        "Anatomical Location": [
-            "human lung"
-        ]
-    },
-    "vagina botryoid rhabdomyosarcoma": {
-        "Anatomical Location": [
-            "vagina"
-        ]
-    },
-    "kidney pelvis sarcomatoid transitional cell carcinoma": {
-        "Anatomical Location": [
-            "renal pelvis"
-        ]
-    },
-    "pineal region mature teratoma": {
-        "Anatomical Location": [
-            "pineal gland"
-        ]
-    },
-    "mediastinal malignant lymphoma": {
-        "Anatomical Location": [
-            "mediastinum"
-        ]
-    },
-    "small bowel fibrosarcoma": {
-        "Anatomical Location": [
-            "small intestine"
-        ]
-    },
-    "spinal cord primitive neuroectodermal neoplasm": {
-        "Anatomical Location": [
-            "spinal cord"
-        ]
-    },
-    "ureter small cell carcinoma": {
-        "Anatomical Location": [
-            "ureter"
-        ]
-    },
-    "urethra inverted papilloma": {
-        "Anatomical Location": [
-            "urethra"
-        ]
-    },
-    "sphenoidal sinus neoplasm": {
-        "Anatomical Location": [
-            "sphenoidal sinus"
-        ]
-    },
-    "malignant gastric teratoma": {
-        "Anatomical Location": [
-            "stomach"
-        ]
-    },
-    "pancreatic cholera": {
-        "Caused By": [
-            "VIPoma"
-        ]
-    },
-    "disease of anatomical entity": {
-        "Anatomical Location": [
-            "anatomical entity"
-        ]
-    },
-    "tendon sheath lipoma": {
-        "Anatomical Location": [
-            "tendon sheath"
-        ]
-    },
-    "ciliary body epithelioid cell melanoma": {
-        "Anatomical Location": [
-            "ciliary body"
-        ]
-    },
-    "uveal epithelioid cell melanoma": {
-        "Anatomical Location": [
-            "uvea"
-        ]
-    },
-    "choroid epithelioid cell melanoma": {
-        "Anatomical Location": [
-            "choroid"
-        ]
-    },
-    "basaloid squamous cell skin carcinoma": {
-        "Anatomical Location": [
-            "zone of skin"
-        ]
-    },
-    "esophageal basaloid squamous cell carcinoma": {
-        "Anatomical Location": [
-            "esophagus"
-        ]
-    },
-    "spinal cord dermoid cyst": {
-        "Anatomical Location": [
-            "spinal cord"
-        ]
-    },
     "malignant melanocytic peripheral nerve sheath tumor of mediastinum": {
         "Anatomical Location": [
             "peripheral nervous system"
@@ -9619,6 +9431,136 @@
             "superior vena cava"
         ]
     },
+    "lung lymphoma": {
+        "Anatomical Location": [
+            "human lung"
+        ]
+    },
+    "vagina botryoid rhabdomyosarcoma": {
+        "Anatomical Location": [
+            "vagina"
+        ]
+    },
+    "kidney pelvis sarcomatoid transitional cell carcinoma": {
+        "Anatomical Location": [
+            "renal pelvis"
+        ]
+    },
+    "pineal region mature teratoma": {
+        "Anatomical Location": [
+            "pineal gland"
+        ]
+    },
+    "mediastinal malignant lymphoma": {
+        "Anatomical Location": [
+            "mediastinum"
+        ]
+    },
+    "small bowel fibrosarcoma": {
+        "Anatomical Location": [
+            "small intestine"
+        ]
+    },
+    "spinal cord primitive neuroectodermal neoplasm": {
+        "Anatomical Location": [
+            "spinal cord"
+        ]
+    },
+    "ureter small cell carcinoma": {
+        "Anatomical Location": [
+            "ureter"
+        ]
+    },
+    "urethra inverted papilloma": {
+        "Anatomical Location": [
+            "urethra"
+        ]
+    },
+    "sphenoidal sinus neoplasm": {
+        "Anatomical Location": [
+            "sphenoidal sinus"
+        ]
+    },
+    "malignant gastric teratoma": {
+        "Anatomical Location": [
+            "stomach"
+        ]
+    },
+    "pancreatic cholera": {
+        "Caused By": [
+            "VIPoma"
+        ]
+    },
+    "disease of anatomical entity": {
+        "Anatomical Location": [
+            "anatomical entity"
+        ]
+    },
+    "tendon sheath lipoma": {
+        "Anatomical Location": [
+            "tendon sheath"
+        ]
+    },
+    "ciliary body epithelioid cell melanoma": {
+        "Anatomical Location": [
+            "ciliary body"
+        ]
+    },
+    "uveal epithelioid cell melanoma": {
+        "Anatomical Location": [
+            "uvea"
+        ]
+    },
+    "choroid epithelioid cell melanoma": {
+        "Anatomical Location": [
+            "choroid"
+        ]
+    },
+    "basaloid squamous cell skin carcinoma": {
+        "Anatomical Location": [
+            "zone of skin"
+        ]
+    },
+    "esophageal basaloid squamous cell carcinoma": {
+        "Anatomical Location": [
+            "esophagus"
+        ]
+    },
+    "spinal cord dermoid cyst": {
+        "Anatomical Location": [
+            "spinal cord"
+        ]
+    },
+    "cutaneous anthrax": {
+        "Anatomical Location": [
+            "zone of skin"
+        ]
+    },
+    "epididymis adenomatoid tumor": {
+        "Anatomical Location": [
+            "mesothelium"
+        ]
+    },
+    "bladder tuberculosis": {
+        "Anatomical Location": [
+            "urinary bladder"
+        ]
+    },
+    "sarcomatosis of the meninges": {
+        "Anatomical Location": [
+            "meninges"
+        ]
+    },
+    "meninges sarcoma": {
+        "Anatomical Location": [
+            "meninges"
+        ]
+    },
+    "maxillary sinus adenocarcinoma": {
+        "Anatomical Location": [
+            "maxillary sinus"
+        ]
+    },
     "leptomeninges sarcoma": {
         "Anatomical Location": [
             "leptomeninx"
@@ -9669,34 +9611,44 @@
             "pericardium"
         ]
     },
-    "cutaneous anthrax": {
+    "upper respiratory tract disease": {
         "Anatomical Location": [
-            "zone of skin"
+            "upper respiratory tract"
         ]
     },
-    "epididymis adenomatoid tumor": {
+    "angioid streaks of choroid": {
         "Anatomical Location": [
-            "mesothelium"
+            "choroid"
         ]
     },
-    "bladder tuberculosis": {
+    "bulbar polio": {
         "Anatomical Location": [
-            "urinary bladder"
+            "brain stem"
         ]
     },
-    "sarcomatosis of the meninges": {
+    "lymph node disease": {
         "Anatomical Location": [
-            "meninges"
+            "lymph node"
         ]
     },
-    "meninges sarcoma": {
+    "tertiary neurosyphilis": {
         "Anatomical Location": [
-            "meninges"
+            "spinal cord"
         ]
     },
-    "maxillary sinus adenocarcinoma": {
+    "Nipah virus encephalitis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "fusariosis": {
+        "Caused By": [
+            "Fusarium"
+        ]
+    },
+    "artery disease": {
         "Anatomical Location": [
-            "maxillary sinus"
+            "artery"
         ]
     },
     "olfactory groove meningioma": {
@@ -10067,119 +10019,15 @@
             "bile duct"
         ]
     },
-    "orofaciodigital syndrome VIII": {
-        "Different From": [
-            "Edwards syndrome"
-        ]
-    },
-    "paraquat exposure": {
+    "vaccinia": {
         "Caused By": [
-            "paraquat dichloride"
-        ]
-    },
-    "upper respiratory tract disease": {
-        "Anatomical Location": [
-            "upper respiratory tract"
-        ]
-    },
-    "angioid streaks of choroid": {
-        "Anatomical Location": [
-            "choroid"
-        ]
-    },
-    "bulbar polio": {
-        "Anatomical Location": [
-            "brain stem"
-        ]
-    },
-    "lymph node disease": {
-        "Anatomical Location": [
-            "lymph node"
-        ]
-    },
-    "tertiary neurosyphilis": {
-        "Anatomical Location": [
-            "spinal cord"
-        ]
-    },
-    "Nipah virus encephalitis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "fusariosis": {
-        "Caused By": [
-            "Fusarium"
-        ]
-    },
-    "artery disease": {
-        "Anatomical Location": [
-            "artery"
+            "smallpox vaccine",
+            "Vaccinia virus"
         ]
     },
     "chromosomal duplication syndrome": {
         "Caused By": [
             "gene duplication"
-        ]
-    },
-    "Carney-Stratakis syndrome": {
-        "Different From": [
-            "Carney's triad"
-        ]
-    },
-    "chicken egg allergy": {
-        "Caused By": [
-            "chicken egg allergen"
-        ]
-    },
-    "shellfish allergy": {
-        "Caused By": [
-            "shellfish"
-        ]
-    },
-    "respiratory allergy": {
-        "Anatomical Location": [
-            "respiratory tract"
-        ]
-    },
-    "apricot allergy": {
-        "Caused By": [
-            "apricot"
-        ]
-    },
-    "Atlantic cod allergy": {
-        "Caused By": [
-            "Gadus morhua"
-        ]
-    },
-    "zebrafish allergy": {
-        "Caused By": [
-            "Danio rerio"
-        ]
-    },
-    "rainbow trout allergy": {
-        "Caused By": [
-            "rainbow trout"
-        ]
-    },
-    "Atlantic salmon allergy": {
-        "Caused By": [
-            "Atlantic salmon"
-        ]
-    },
-    "goat milk allergy": {
-        "Caused By": [
-            "goat milk"
-        ]
-    },
-    "beta-lactam allergy": {
-        "Caused By": [
-            "β-lactam antibiotic"
-        ]
-    },
-    "scedosporiosis": {
-        "Caused By": [
-            "infection"
         ]
     },
     "Spirurida infectious disease": {
@@ -10253,45 +10101,19 @@
             "infection"
         ]
     },
-    "vascular neoplasm": {
-        "Different From": [
-            "vascular tissue neoplasm"
-        ]
-    },
-    "deafness, aminoglycoside-induced": {
-        "Caused By": [
-            "aminoglycoside antibiotic"
-        ]
-    },
-    "mosaic variegated aneuploidy syndrome 1": {
-        "Caused By": [
-            "aneuploidy"
-        ]
-    },
-    "vaccinia": {
-        "Caused By": [
-            "smallpox vaccine",
-            "Vaccinia virus"
-        ]
-    },
-    "isolated growth hormone deficiency type III": {
-        "Different From": [
-            "Fleischer's syndrome"
-        ]
-    },
-    "prostatic adenoma": {
-        "Anatomical Location": [
-            "prostate"
-        ]
-    },
-    "vitamin B12 deficiency anemia": {
-        "Caused By": [
-            "vitamin B12 deficiency"
-        ]
-    },
     "pulmonary arteriovenous malformations": {
         "Anatomical Location": [
             "lung"
+        ]
+    },
+    "orofaciodigital syndrome VIII": {
+        "Different From": [
+            "Edwards syndrome"
+        ]
+    },
+    "paraquat exposure": {
+        "Caused By": [
+            "paraquat dichloride"
         ]
     },
     "benign parathyroid gland neoplasm": {
@@ -10535,6 +10357,91 @@
             "Trichomonas tenax"
         ]
     },
+    "Carney-Stratakis syndrome": {
+        "Different From": [
+            "Carney's triad"
+        ]
+    },
+    "chicken egg allergy": {
+        "Caused By": [
+            "chicken egg allergen"
+        ]
+    },
+    "shellfish allergy": {
+        "Caused By": [
+            "shellfish"
+        ]
+    },
+    "respiratory allergy": {
+        "Anatomical Location": [
+            "respiratory tract"
+        ]
+    },
+    "apricot allergy": {
+        "Caused By": [
+            "apricot"
+        ]
+    },
+    "Atlantic cod allergy": {
+        "Caused By": [
+            "Gadus morhua"
+        ]
+    },
+    "zebrafish allergy": {
+        "Caused By": [
+            "Danio rerio"
+        ]
+    },
+    "rainbow trout allergy": {
+        "Caused By": [
+            "rainbow trout"
+        ]
+    },
+    "Atlantic salmon allergy": {
+        "Caused By": [
+            "Atlantic salmon"
+        ]
+    },
+    "goat milk allergy": {
+        "Caused By": [
+            "goat milk"
+        ]
+    },
+    "beta-lactam allergy": {
+        "Caused By": [
+            "β-lactam antibiotic"
+        ]
+    },
+    "scedosporiosis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "vascular neoplasm": {
+        "Different From": [
+            "vascular tissue neoplasm"
+        ]
+    },
+    "deafness, aminoglycoside-induced": {
+        "Caused By": [
+            "aminoglycoside antibiotic"
+        ]
+    },
+    "mosaic variegated aneuploidy syndrome 1": {
+        "Caused By": [
+            "aneuploidy"
+        ]
+    },
+    "tongue squamous cell carcinoma": {
+        "Anatomical Location": [
+            "tongue"
+        ]
+    },
+    "motor developmental delay due to 14q32.2 paternally expressed gene defect": {
+        "Caused By": [
+            "maternal uniparental disomy of chromosome 14"
+        ]
+    },
     "severe Canavan disease": {
         "Characteristics": [
             "severe"
@@ -10545,35 +10452,9 @@
             "moderate"
         ]
     },
-    "humerus trochlea aplasia": {
+    "prostatic adenoma": {
         "Anatomical Location": [
-            "trochlea of humerus"
-        ]
-    },
-    "tongue squamous cell carcinoma": {
-        "Anatomical Location": [
-            "tongue"
-        ]
-    },
-    "nephrogenic syndrome of inappropriate antidiuresis": {
-        "Different From": [
-            "nephrogenic diabetes insipidus",
-            "central diabetes insipidus",
-            "dipsogenic diabetes insipidus",
-            "gestational diabetes insipidus",
-            "diabetes insipidus",
-            "primary polydipsia",
-            "syndrome of Inappropriate antidiuretic hormone secretion"
-        ]
-    },
-    "X-linked acrogigantism due to Xq26 microduplication": {
-        "Caused By": [
-            "partial duplication of the long arm of chromosome X"
-        ]
-    },
-    "motor developmental delay due to 14q32.2 paternally expressed gene defect": {
-        "Caused By": [
-            "maternal uniparental disomy of chromosome 14"
+            "prostate"
         ]
     },
     "cleft hard palate": {
@@ -10586,50 +10467,19 @@
             "medulla oblongata"
         ]
     },
-    "aortic arch defects": {
-        "Anatomical Location": [
-            "Aortic arches"
-        ]
-    },
-    "commissural lip fistula": {
-        "Anatomical Location": [
-            "labial commissure of mouth"
-        ]
-    },
-    "malformations of the auditory ossicles": {
-        "Anatomical Location": [
-            "auditory ossicle"
-        ]
-    },
-    "indomethacin embryofetopathy": {
-        "Caused By": [
-            "indomethacin"
-        ]
-    },
-    "methimazole embryofetopathy": {
-        "Caused By": [
-            "methimazole"
-        ]
-    },
-    "immune-mediated necrotizing myopathy": {
-        "Caused By": [
-            "unknown",
-            "statin"
-        ]
-    },
-    "5-fluorouracil poisoning": {
-        "Caused By": [
-            "fluorouracil"
-        ]
-    },
-    "maternal hyperthermia induced birth defects": {
-        "Caused By": [
-            "Hyperthermie"
-        ]
-    },
     "49,XXXYY syndrome": {
         "Caused By": [
             "developmental defect during embryogenesis"
+        ]
+    },
+    "isolated growth hormone deficiency type III": {
+        "Different From": [
+            "Fleischer's syndrome"
+        ]
+    },
+    "aortic arch defects": {
+        "Anatomical Location": [
+            "Aortic arches"
         ]
     },
     "mycophenolate mofetil embryopathy": {
@@ -10642,55 +10492,20 @@
             "Neurenteric canal"
         ]
     },
-    "ketamine-induced biliary dilatation": {
-        "Caused By": [
-            "ketamine"
-        ]
-    },
-    "apodia": {
-        "Different From": [
-            "Limbless vertebrates"
-        ]
-    },
-    "carbon monoxide-induced parkinsonism": {
-        "Caused By": [
-            "carbon monoxide poisoning"
-        ]
-    },
-    "cyanide-induced parkinsonism": {
-        "Caused By": [
-            "cyanide poisoning"
-        ]
-    },
-    "rare parkinsonian syndrome due to intoxication": {
-        "Caused By": [
-            "intoxication"
-        ]
-    },
-    "miscellaneous movement disorder due to neurodegenerative disease": {
-        "Caused By": [
-            "neurodegeneration"
-        ]
-    },
-    "Mycobacterium xenopi infection": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "Hendra virus infection": {
-        "Caused By": [
-            "Hendra virus"
-        ]
-    },
-    "syndrome with 46,XX disorder of sex development": {
-        "Characteristics": [
-            "human X chromosome"
-        ]
-    },
     "acitretin/etretinate embryopathy": {
         "Caused By": [
             "etretinate",
             "acitretin"
+        ]
+    },
+    "commissural lip fistula": {
+        "Anatomical Location": [
+            "labial commissure of mouth"
+        ]
+    },
+    "humerus trochlea aplasia": {
+        "Anatomical Location": [
+            "trochlea of humerus"
         ]
     },
     "human infection by orthopoxvirus": {
@@ -10701,6 +10516,21 @@
     "great vessels malformation": {
         "Anatomical Location": [
             "great vessels"
+        ]
+    },
+    "ketamine-induced biliary dilatation": {
+        "Caused By": [
+            "ketamine"
+        ]
+    },
+    "apodia": {
+        "Different From": [
+            "Limbless vertebrates"
+        ]
+    },
+    "malformations of the auditory ossicles": {
+        "Anatomical Location": [
+            "auditory ossicle"
         ]
     },
     "scorpion envenomation": {
@@ -10724,6 +10554,36 @@
             "infection"
         ]
     },
+    "indomethacin embryofetopathy": {
+        "Caused By": [
+            "indomethacin"
+        ]
+    },
+    "methimazole embryofetopathy": {
+        "Caused By": [
+            "methimazole"
+        ]
+    },
+    "carbon monoxide-induced parkinsonism": {
+        "Caused By": [
+            "carbon monoxide poisoning"
+        ]
+    },
+    "cyanide-induced parkinsonism": {
+        "Caused By": [
+            "cyanide poisoning"
+        ]
+    },
+    "rare parkinsonian syndrome due to intoxication": {
+        "Caused By": [
+            "intoxication"
+        ]
+    },
+    "miscellaneous movement disorder due to neurodegenerative disease": {
+        "Caused By": [
+            "neurodegeneration"
+        ]
+    },
     "epidermal disease": {
         "Anatomical Location": [
             "epidermis"
@@ -10734,9 +10594,56 @@
             "dermis"
         ]
     },
+    "vitamin B12 deficiency anemia": {
+        "Caused By": [
+            "vitamin B12 deficiency"
+        ]
+    },
     "systemic monochloroacetate poisoning": {
         "Caused By": [
             "chloroacetic acid"
+        ]
+    },
+    "immune-mediated necrotizing myopathy": {
+        "Caused By": [
+            "unknown",
+            "statin"
+        ]
+    },
+    "Mycobacterium xenopi infection": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "Hendra virus infection": {
+        "Caused By": [
+            "Hendra virus"
+        ]
+    },
+    "nephrogenic syndrome of inappropriate antidiuresis": {
+        "Different From": [
+            "diabetes insipidus",
+            "primary polydipsia",
+            "syndrome of Inappropriate antidiuretic hormone secretion",
+            "nephrogenic diabetes insipidus",
+            "central diabetes insipidus",
+            "dipsogenic diabetes insipidus",
+            "gestational diabetes insipidus"
+        ]
+    },
+    "X-linked acrogigantism due to Xq26 microduplication": {
+        "Caused By": [
+            "partial duplication of the long arm of chromosome X"
+        ]
+    },
+    "5-fluorouracil poisoning": {
+        "Caused By": [
+            "fluorouracil"
+        ]
+    },
+    "maternal hyperthermia induced birth defects": {
+        "Caused By": [
+            "Hyperthermie"
         ]
     },
     "disease of glomerular basement membrane": {
@@ -10747,6 +10654,11 @@
     "nephropathy secondary to a storage or other metabolic disease": {
         "Caused By": [
             "metabolic disease"
+        ]
+    },
+    "syndrome with 46,XX disorder of sex development": {
+        "Characteristics": [
+            "human X chromosome"
         ]
     },
     "congenital anomaly of superior vena cava": {
@@ -10764,41 +10676,6 @@
             "cisterna magna"
         ]
     },
-    "internal carotid agenesis": {
-        "Anatomical Location": [
-            "internal carotid artery"
-        ]
-    },
-    "syndrome with 46,XY disorder of sex development": {
-        "Characteristics": [
-            "human Y chromosome"
-        ]
-    },
-    "constitutional anemia due to iron metabolism disorder": {
-        "Caused By": [
-            "iron metabolism disease"
-        ]
-    },
-    "alpha granule disease": {
-        "Anatomical Location": [
-            "platelet alpha granule"
-        ]
-    },
-    "posterior fossa malformation": {
-        "Anatomical Location": [
-            "posterior cranial fossa"
-        ]
-    },
-    "atrioventricular valve anomaly": {
-        "Anatomical Location": [
-            "atrioventricular valve"
-        ]
-    },
-    "congenital anomaly of the great arteries": {
-        "Anatomical Location": [
-            "great arteries"
-        ]
-    },
     "49,XYYYY syndrome": {
         "Different From": [
             "XYYY syndrome"
@@ -10812,71 +10689,6 @@
     "envenomization by  Bothrops lanceolatus": {
         "Caused By": [
             "snakebite"
-        ]
-    },
-    "canine teeth, absence of upper permanent": {
-        "Anatomical Location": [
-            "maxillary canine"
-        ]
-    },
-    "Bowen syndrome of multiple malformations": {
-        "Different From": [
-            "Bowen's disease"
-        ]
-    },
-    "Nakajo-Nishimura syndrome": {
-        "Different From": [
-            "Nakajo syndrome"
-        ]
-    },
-    "DEND syndrome": {
-        "Different From": [
-            "Dent disease"
-        ]
-    },
-    "monosomy X": {
-        "Different From": [
-            "Turner syndrome"
-        ]
-    },
-    "Creeping myiasis": {
-        "Caused By": [
-            "infection"
-        ]
-    },
-    "Triploid syndrome": {
-        "Caused By": [
-            "triploidy"
-        ]
-    },
-    "anal disease": {
-        "Anatomical Location": [
-            "anus"
-        ]
-    },
-    "chromosome 10 anomaly": {
-        "Anatomical Location": [
-            "human chromosome 10"
-        ]
-    },
-    "post-cardiac arrest syndrome": {
-        "Caused By": [
-            "cardiac arrest"
-        ]
-    },
-    "drug-induced hearing loss": {
-        "Caused By": [
-            "ototoxicity"
-        ]
-    },
-    "obstructive nephropathy": {
-        "Caused By": [
-            "obstructive uropathy"
-        ]
-    },
-    "pancreatic squamous cell carcinoma": {
-        "Anatomical Location": [
-            "pancreas"
         ]
     },
     "epididymis disease": {
@@ -10905,6 +10717,31 @@
             "Bartholin's gland"
         ]
     },
+    "internal carotid agenesis": {
+        "Anatomical Location": [
+            "internal carotid artery"
+        ]
+    },
+    "syndrome with 46,XY disorder of sex development": {
+        "Characteristics": [
+            "human Y chromosome"
+        ]
+    },
+    "constitutional anemia due to iron metabolism disorder": {
+        "Caused By": [
+            "iron metabolism disease"
+        ]
+    },
+    "alpha granule disease": {
+        "Anatomical Location": [
+            "platelet alpha granule"
+        ]
+    },
+    "posterior fossa malformation": {
+        "Anatomical Location": [
+            "posterior cranial fossa"
+        ]
+    },
     "bulimia nervosa": {
         "Characteristics": [
             "overeating",
@@ -10914,76 +10751,6 @@
     "distal muscular dystrophy with anterior tibial onset": {
         "Anatomical Location": [
             "tibialis anterior muscle"
-        ]
-    },
-    "primary angiitis of the central nervous system": {
-        "Anatomical Location": [
-            "blood vessel"
-        ]
-    },
-    "pediatric multisystem inflammatory syndrome": {
-        "Caused By": [
-            "SARS-CoV-2"
-        ]
-    },
-    "gene duplication disease": {
-        "Caused By": [
-            "gene duplication"
-        ]
-    },
-    "kidney cortex disease": {
-        "Anatomical Location": [
-            "renal cortex"
-        ]
-    },
-    "legume allergy": {
-        "Caused By": [
-            "legume"
-        ]
-    },
-    "persistent mild asthma": {
-        "Characteristics": [
-            "mild"
-        ]
-    },
-    "vegetable allergy": {
-        "Caused By": [
-            "vegetable"
-        ]
-    },
-    "T2-high asthma": {
-        "Characteristics": [
-            "Th2 cells"
-        ]
-    },
-    "human cytomegalovirus infection": {
-        "Caused By": [
-            "human betaherpesvirus 5"
-        ]
-    },
-    "celery allergy": {
-        "Caused By": [
-            "Apium graveolens"
-        ]
-    },
-    "persistent moderate asthma": {
-        "Characteristics": [
-            "moderate"
-        ]
-    },
-    "XYYY syndrome": {
-        "Different From": [
-            "49,XYYYY syndrome"
-        ]
-    },
-    "Cotton Excreting Diseases": {
-        "Caused By": [
-            "Münchausen syndrome"
-        ]
-    },
-    "Pneumonia caused by Pseudomonas aeruginosa infection": {
-        "Caused By": [
-            "Pseudomonas aeruginosa"
         ]
     },
     "lophomoniasis": {
@@ -11009,6 +10776,26 @@
     "Oz virus disease": {
         "Caused By": [
             "Oz virus"
+        ]
+    },
+    "canine teeth, absence of upper permanent": {
+        "Anatomical Location": [
+            "maxillary canine"
+        ]
+    },
+    "Bowen syndrome of multiple malformations": {
+        "Different From": [
+            "Bowen's disease"
+        ]
+    },
+    "atrioventricular valve anomaly": {
+        "Anatomical Location": [
+            "atrioventricular valve"
+        ]
+    },
+    "congenital anomaly of the great arteries": {
+        "Anatomical Location": [
+            "great arteries"
         ]
     },
     "heroin intoxication": {
@@ -11077,29 +10864,29 @@
     },
     "common cold": {
         "Caused By": [
-            "human parainfluenza",
-            "Rhinovirus",
             "Coronaviridae",
-            "respiratory syncytial virus",
             "human bocavirus",
-            "Adenoviridae",
-            "Human metapneumovirus"
+            "Human metapneumovirus",
+            "Rhinovirus",
+            "human parainfluenza",
+            "respiratory syncytial virus",
+            "Adenoviridae"
         ]
     },
     "malaria": {
         "Caused By": [
-            "Plasmodium vivax",
-            "Plasmodium knowlesi",
             "Plasmodium falciparum",
+            "Plasmodium knowlesi",
+            "Plasmodium vivax",
             "Plasmodium ovale",
             "Plasmodium malariae"
         ]
     },
     "pneumonia": {
         "Caused By": [
-            "smoking",
             "aspiration pneumonia",
-            "infection"
+            "infection",
+            "smoking"
         ]
     },
     "smallpox": {
@@ -11123,10 +10910,10 @@
     "dissociative identity disorder": {
         "Different From": [
             "schizophrenia",
-            "dissociative disorder not otherwise specified",
-            "antisocial personality disorder",
             "alter ego",
             "personality disorder",
+            "antisocial personality disorder",
+            "dissociative disorder not otherwise specified",
             "mood swing",
             "split personality",
             "persona in a work of fiction"
@@ -11136,35 +10923,19 @@
             "psychological trauma"
         ]
     },
-    "HIV/AIDS": {
+    "primary angiitis of the central nervous system": {
         "Anatomical Location": [
-            "T-lymphocytes"
-        ],
-        "Different From": [
-            "simian acquired immunodeficiency syndrome"
-        ],
-        "Caused By": [
-            "HIV"
-        ],
-        "Can Cause": [
-            "death from AIDS-related complications"
+            "blood vessel"
         ]
     },
-    "Ebola hemorrhagic fever": {
-        "Characteristics": [
-            "contagiousness"
-        ],
+    "pediatric multisystem inflammatory syndrome": {
         "Caused By": [
-            "Orthoebolavirus zairense",
-            "Ebolavirus"
-        ],
-        "Can Cause": [
-            "Western African Ebola virus epidemic"
+            "SARS-CoV-2"
         ]
     },
-    "pleurisy": {
-        "Can Cause": [
-            "pleural friction rub"
+    "gene duplication disease": {
+        "Caused By": [
+            "gene duplication"
         ]
     },
     "impetigo": {
@@ -11218,13 +10989,13 @@
         "Different From": [
             "attention deficit hyperactivity disorder",
             "complex post-traumatic stress disorder",
-            "autism spectrum disorder",
             "schizotypal personality disorder",
+            "autism spectrum disorder",
             "neurodivergence"
         ],
         "Caused By": [
-            "environment",
             "causes of autism",
+            "environment",
             "heredity"
         ]
     },
@@ -11296,9 +11067,9 @@
             "meninges"
         ],
         "Caused By": [
+            "cranial leak of cerebrospinal fluid",
             "Haemophilus influenzae",
             "Listeria monocytogenes",
-            "cranial leak of cerebrospinal fluid",
             "Streptococcus pneumoniae",
             "Neisseria meningitidis",
             "virus"
@@ -11325,6 +11096,235 @@
         ],
         "Different From": [
             "heel pad syndrome"
+        ]
+    },
+    "kidney cortex disease": {
+        "Anatomical Location": [
+            "renal cortex"
+        ]
+    },
+    "Nakajo-Nishimura syndrome": {
+        "Different From": [
+            "Nakajo syndrome"
+        ]
+    },
+    "legume allergy": {
+        "Caused By": [
+            "legume"
+        ]
+    },
+    "persistent mild asthma": {
+        "Characteristics": [
+            "mild"
+        ]
+    },
+    "vegetable allergy": {
+        "Caused By": [
+            "vegetable"
+        ]
+    },
+    "T2-high asthma": {
+        "Characteristics": [
+            "Th2 cells"
+        ]
+    },
+    "DEND syndrome": {
+        "Different From": [
+            "Dent disease"
+        ]
+    },
+    "human cytomegalovirus infection": {
+        "Caused By": [
+            "human betaherpesvirus 5"
+        ]
+    },
+    "monosomy X": {
+        "Different From": [
+            "Turner syndrome"
+        ]
+    },
+    "celery allergy": {
+        "Caused By": [
+            "Apium graveolens"
+        ]
+    },
+    "Creeping myiasis": {
+        "Caused By": [
+            "infection"
+        ]
+    },
+    "Triploid syndrome": {
+        "Caused By": [
+            "triploidy"
+        ]
+    },
+    "anal disease": {
+        "Anatomical Location": [
+            "anus"
+        ]
+    },
+    "chromosome 10 anomaly": {
+        "Anatomical Location": [
+            "human chromosome 10"
+        ]
+    },
+    "post-cardiac arrest syndrome": {
+        "Caused By": [
+            "cardiac arrest"
+        ]
+    },
+    "drug-induced hearing loss": {
+        "Caused By": [
+            "ototoxicity"
+        ]
+    },
+    "obstructive nephropathy": {
+        "Caused By": [
+            "obstructive uropathy"
+        ]
+    },
+    "pancreatic squamous cell carcinoma": {
+        "Anatomical Location": [
+            "pancreas"
+        ]
+    },
+    "persistent moderate asthma": {
+        "Characteristics": [
+            "moderate"
+        ]
+    },
+    "XYYY syndrome": {
+        "Different From": [
+            "49,XYYYY syndrome"
+        ]
+    },
+    "Cotton Excreting Diseases": {
+        "Caused By": [
+            "Münchausen syndrome"
+        ]
+    },
+    "Pneumonia caused by Pseudomonas aeruginosa infection": {
+        "Caused By": [
+            "Pseudomonas aeruginosa"
+        ]
+    },
+    "Hereditary resistance to anti-vitamin K": {
+        "Can Cause": [
+            "vitamin K"
+        ]
+    },
+    "Chandipura encephalitis": {
+        "Caused By": [
+            "Chandipura vesiculovirus"
+        ],
+        "Can Cause": [
+            "encephalitis"
+        ]
+    },
+    "rabies": {
+        "Caused By": [
+            "rabies virus"
+        ],
+        "Can Cause": [
+            "encephalitis",
+            "myelitis"
+        ]
+    },
+    "hypothyroidism": {
+        "Can Cause": [
+            "myxedema"
+        ]
+    },
+    "allergy": {
+        "Different From": [
+            "sensibility",
+            "drug intolerance",
+            "Pseudoallergy"
+        ],
+        "Caused By": [
+            "allergen"
+        ],
+        "Can Cause": [
+            "runny nose",
+            "allergic response"
+        ]
+    },
+    "poliomyelitis": {
+        "Anatomical Location": [
+            "peripheral nervous system"
+        ],
+        "Caused By": [
+            "poliovirus"
+        ],
+        "Can Cause": [
+            "Otter Valley polio epidemic",
+            "1916 polio epidemic"
+        ]
+    },
+    "tuberculosis": {
+        "Different From": [
+            "mycobacterium infectious disease"
+        ],
+        "Caused By": [
+            "Mycobacterium tuberculosis"
+        ],
+        "Can Cause": [
+            "pulmonary toxicity",
+            "Pott disease"
+        ]
+    },
+    "epilepsy": {
+        "Caused By": [
+            "asphyxia neonatorum"
+        ],
+        "Can Cause": [
+            "Postictal  twilight state"
+        ]
+    },
+    "cancer": {
+        "Characteristics": [
+            "malignancy"
+        ],
+        "Different From": [
+            "carcinoma"
+        ],
+        "Caused By": [
+            "causes of cancer",
+            "infectious causes of cancer"
+        ],
+        "Can Cause": [
+            "cancer pain"
+        ]
+    },
+    "HIV/AIDS": {
+        "Anatomical Location": [
+            "T-lymphocytes"
+        ],
+        "Different From": [
+            "simian acquired immunodeficiency syndrome"
+        ],
+        "Caused By": [
+            "HIV"
+        ],
+        "Can Cause": [
+            "death from AIDS-related complications"
+        ]
+    },
+    "Ebola hemorrhagic fever": {
+        "Characteristics": [
+            "contagiousness"
+        ],
+        "Caused By": [
+            "Ebolavirus",
+            "Orthoebolavirus zairense"
+        ],
+        "Can Cause": [
+            "Western African Ebola virus epidemic"
+        ]
+    },
+    "pleurisy": {
+        "Can Cause": [
+            "pleural friction rub"
         ]
     }
 }

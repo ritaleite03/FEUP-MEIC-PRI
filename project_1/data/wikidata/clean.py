@@ -1,8 +1,11 @@
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from utils import *
 
 KEYS = {
-    'specialities': 'Health Speciality', 
-    'symptoms': 'Symptoms',
+    'specialities': 'Specialty', 
+    'symptoms': 'Symptoms List',
     'medicalExams': 'Medical Exams',
     'drugs': 'Drugs and Therapy',
     'transmissionProcesses': 'Transmission Processes',
