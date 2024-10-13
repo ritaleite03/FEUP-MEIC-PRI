@@ -8,15 +8,6 @@ def merge(wikidata_content, wikipedia_content):
             disease = wikipedia_diseases[wikidata_disease.lower()]
             merge_data(wikidata_information, wikipedia_content[disease])
 
-        else:
-            for wikipedia_disease, wikipedia_information in wikidata_content.items():
-                if "Alias" in wikipedia_disease:
-                    alias = {disease.lower(): disease for disease in wikipedia_disease["Alias"]}
-                    if wikidata_disease.lower() in alias:
-                        disease = alias[wikidata_disease.lower()]
-                        merge_data(wikidata_information, wikipedia_information)
-                        break
-
     return wikipedia_content
     
 
