@@ -50,6 +50,16 @@ def clean(file_content):
                     else:
                         final_items.append(item[0].upper() + item[1:])
 
+                if k == "specialities":
+                    final_specialties = []
+                    print("before", final_items)
+                    for specialty in final_items:
+                        if specialty in ["Infectious disease", "Pediatric", "Orthopedic", "Genetic"]:
+                            final_specialties.append(specialty + "s")
+                        else:
+                            final_specialties.append(specialty)
+
+                    final_items = final_specialties
                 
                 temp[v] = final_items
 
