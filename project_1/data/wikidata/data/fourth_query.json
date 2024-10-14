@@ -423,7 +423,6 @@
             "Alzheimer disease",
             "Familial",
             "Alzheimer's dementia",
-            "Alzheimer’s disease",
             "Alzheimers",
             "Alzheimers dementia",
             "Alzheimers disease"
@@ -1004,7 +1003,6 @@
             "Heart-hand syndrome type 1",
             "HOLT-ORAM SYNDROME",
             "HOLT-ORAM SYNDROME; HOS",
-            "Holt–oram syndrome",
             "Hos1"
         ]
     },
@@ -1030,7 +1028,7 @@
             "Rhinopharyngitis"
         ]
     },
-    "Zollinger–Ellison syndrome": {
+    "Zollinger-Ellison syndrome": {
         "Alias": [
             "Zollinger-ellison syndrome",
             "Z-e syndrome"
@@ -1400,7 +1398,7 @@
     },
     "diphtheria": {
         "Alias": [
-            "Bull  neck"
+            "Bull neck"
         ]
     },
     "disease": {
@@ -1628,7 +1626,6 @@
             "Churg strauss syndrome",
             "Churg-strauss syndrome",
             "Churg-strauss vasculitis",
-            "Churg–strauss syndrome",
             "Eosinophilic granulomatosis with polyangiitis",
             "Eosinophilic granulomatosis with polyangitis",
             "Eosinophilic granulomatous vasculitides",
@@ -1710,7 +1707,7 @@
             "Bacillus anthracis infection"
         ]
     },
-    "Norman–Roberts syndrome": {
+    "Norman-Roberts syndrome": {
         "Alias": [
             "LIS2",
             "Lissencephaly 2",
@@ -2757,7 +2754,7 @@
             "HD",
             "Huntington's chorea",
             "Huntington chorea",
-            "Huntington’s disease",
+            "Huntington's disease",
             "HUNTINGTON DISEASE; HD"
         ]
     },
@@ -2970,13 +2967,13 @@
             "Salmon patch nevus"
         ]
     },
-    "Klüver–Bucy syndrome": {
+    "Klüver-Bucy syndrome": {
         "Alias": [
             "Kluver bucy syndrome",
             "Kluver-bucy syndrome",
             "Klver-bucy syndrome",
-            "Post-encephalitic klüver–bucy syndrome",
-            "Post-traumatic klüver–bucy syndrome"
+            "Post-encephalitic klüver-bucy syndrome",
+            "Post-traumatic klüver-bucy syndrome"
         ]
     },
     "poisoning by drugs": {
@@ -2990,7 +2987,7 @@
     "ataxia telangiectasia": {
         "Alias": [
             "AT",
-            "A–T",
+            "A-T",
             "Complementation group a",
             "Complementation group c",
             "Complementation group d",
@@ -3001,13 +2998,11 @@
             "ATAXIA-TELANGIECTASIA",
             "Ataxia-telangiectasia variant",
             "ATAXIA-TELANGIECTASIA; AT",
-            "Ataxia–telangiectasia",
             "Boder-sedgwick syndrome",
             "Cerebello-oculocutaneous telangiectasia",
             "Immunodeficiency with ataxia telangiectasia",
             "Louis bar syndrome",
-            "Louis-bar syndrome",
-            "Louis–bar syndrome"
+            "Louis-bar syndrome"
         ]
     },
     "mantle cell lymphoma": {
@@ -3207,10 +3202,10 @@
             "Primary cns lymphoma"
         ]
     },
-    "Plummer–Vinson syndrome": {
+    "Plummer-Vinson syndrome": {
         "Alias": [
             "PVS",
-            "Paterson–brown–kelly syndrome",
+            "Paterson-brown-kelly syndrome",
             "Patterson-kelly syndrome",
             "Sideropenic dysphagia"
         ]
@@ -3307,7 +3302,7 @@
             "Tolosa hunt syndrome",
             "Tolosa-hunt syndrome",
             "Tolosa-hunt syndrome (disorder)",
-            "Tolosa–hunt syndrome; ths"
+            "Tolosa-hunt syndrome; ths"
         ]
     },
     "monilethrix": {
@@ -3626,7 +3621,7 @@
             "Malarial hemoglobinuria"
         ]
     },
-    "Parry–Romberg syndrome": {
+    "Parry-Romberg syndrome": {
         "Alias": [
             "PHA",
             "Progressive facial hemiatrophy",
@@ -3775,7 +3770,6 @@
             "Li-fraumeni",
             "Li-fraumeni familial cancer susceptibility syndrome",
             "Li-fraumeni familiar cancer susceptibility syndrome",
-            "Li–fraumeni syndrome",
             "Sarcoma",
             "Breast",
             "Leukaemia and adrenal gland syndrome",
@@ -3990,7 +3984,7 @@
             "Radial mononeuropathy",
             "Radial neuropathy",
             "Radial neuropathy (disorder)",
-            "Uberon:0001492 peripheral neuropathy"
+            "Uberon peripheral neuropathy"
         ]
     },
     "Takayasu's arteritis": {
@@ -4150,7 +4144,7 @@
             "Turner syndrome (disorder)",
             "Turner's syndrome nos",
             "Turner's syndrome nos (disorder)",
-            "Ullrich–turner syndrome",
+            "Ullrich-turner syndrome",
             "Xo syndrome"
         ]
     },
@@ -4190,7 +4184,7 @@
         "Alias": [
             "ALMS",
             "Alstrom syndrome",
-            "Alstrom–halgren syndrome"
+            "Alstrom-halgren syndrome"
         ]
     },
     "pulmonary emphysema": {
@@ -4309,7 +4303,7 @@
             "Autosomal dominant",
             "AICARDI-GOUTIERES SYNDROME 1; AGS1",
             "Aicardi-goutieres syndrome type 1",
-            "Aicardi–goutières syndrome",
+            "Aicardi-goutières syndrome",
             "Cree encephalitis",
             "Encephalopathy",
             "Familial infantile",
@@ -4792,7 +4786,7 @@
             "Hyperbilirubinemia"
         ]
     },
-    "Lucey–Driscoll syndrome": {
+    "Lucey-Driscoll syndrome": {
         "Alias": [
             "Breast milk jaundice",
             "HBLRTFN",
@@ -4960,7 +4954,7 @@
         "Alias": [
             "Allergic disease",
             "Allergies",
-            "GO:0016068",
+            "GO ",
             "Hypersensitivity",
             "Immunologic diseases. allergy"
         ]
@@ -5090,7 +5084,7 @@
             "Melf",
             "Lafora disease",
             "EPM2",
-            "Epilepsy progressive myoclonic  2",
+            "Epilepsy progressive myoclonic 2",
             "2A"
         ]
     },
@@ -5517,7 +5511,7 @@
             "Splenomegaly-neutropenia-rheumatoid arthritis syndrome"
         ]
     },
-    "tonic–clonic seizure": {
+    "tonic-clonic seizure": {
         "Alias": [
             "Epilepsy with generalized tonic-clonic seizures",
             "Epileptic seizures",
@@ -5815,7 +5809,7 @@
             "Intracranial"
         ]
     },
-    "Legg–Calvé–Perthes disease": {
+    "Legg-Calvé-Perthes disease": {
         "Alias": [
             "Legg-calvé-perthes disease",
             "Aseptic necrosis of the capital femoral epiphysis",
@@ -5844,7 +5838,7 @@
             "Macular holes"
         ]
     },
-    "Guillain–Barré syndrome": {
+    "Guillain-Barré syndrome": {
         "Alias": [
             "GBS",
             "Guillain-barré syndrome",
@@ -5910,7 +5904,7 @@
             "Capillary leak syndrome",
             "Capillary leak syndrome (disorder)",
             "Clarkson disease",
-            "Clarkson’s disease",
+            "Clarkson's disease",
             "Idiopathic capillary leak syndrome",
             "SCLS",
             "Systemic capillary leak syndrome",
@@ -6404,7 +6398,6 @@
         "Alias": [
             "Cronkhite-canada disease",
             "Cronkhite-canada syndrome",
-            "Cronkhite–canada syndrome",
             "Gastric cronkhite canada polyposis",
             "Gastrointestinal polyposis-ectodermal changes syndrome",
             "Gastrointestinal polyposis-skin pigmentation-alopecia-fingernail changes syndrome",
@@ -6703,7 +6696,7 @@
         "Alias": [
             "Epidermolysis bullosa simplex",
             "Epidermolysis bullosa simplex (disorder)",
-            "Weber–cockayne syndrome"
+            "Weber-cockayne syndrome"
         ]
     },
     "Neonatal herpes simplex": {
@@ -6829,8 +6822,7 @@
             "Alopecia decalvans",
             "Folliculitis decalvans",
             "Quinquaud's decalvans folliculitis",
-            "Quinquaud's disease",
-            "Quinquaud’s disease"
+            "Quinquaud's disease"
         ]
     },
     "neutropenia": {
@@ -7229,7 +7221,7 @@
         "Alias": [
             "Fibrous dysplasia",
             "Osteodysplasia",
-            "Jaffe–lichtenstein syndrome"
+            "Jaffe-lichtenstein syndrome"
         ]
     },
     "multiple myeloma": {
@@ -7281,7 +7273,7 @@
             "Hypothalamus disorder"
         ]
     },
-    "Hypotrichosis–acro-osteolysis–onychogryphosis–palmoplantar keratoderma–periodontitis syndrome": {
+    "Hypotrichosis-acro-osteolysis-onychogryphosis-palmoplantar keratoderma-periodontitis syndrome": {
         "Alias": [
             "Hopp syndrome",
             "Hypotrichosis-osteolysis-periodontitis-palmoplantar hyperkeratosis syndrome",
@@ -7290,7 +7282,7 @@
             "Hypotrichosis-striate palmoplantar keratoderma-acroosteolysis-periodontitis syndrome"
         ]
     },
-    "hypotrichosis–lymphedema–telangiectasia syndrome": {
+    "hypotrichosis-lymphedema-telangiectasia syndrome": {
         "Alias": [
             "HLTS",
             "HYPOTRICHOSIS-LYMPHEDEMA-TELANGIECTASIA SYNDROME",
@@ -7454,7 +7446,7 @@
             "BLM",
             "BLOOM SYNDROME; BLM",
             "Bloom-torre-machacek syndrome",
-            "Bloom–torre–machacekoom-torre-machacek syndrome",
+            "Bloom-torre-machacekoom-torre-machacek syndrome",
             "Bsyn",
             "Congenital telangiectatic erythema",
             "Congenital telangiectatic erythema syndrome",
@@ -7639,7 +7631,7 @@
             "Isolated inherited macrothrombocytopenia"
         ]
     },
-    "Il-1R–Associated kinase 4 deficiency": {
+    "Il-1R-Associated kinase 4 deficiency": {
         "Alias": [
             "Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency",
             "Interleukin receptor-associated kinase deficiency",
@@ -7822,13 +7814,13 @@
             "FHS",
             "FLHS",
             "Pelletier-leisti syndrome",
-            "Pelletier–leisti syndrome,",
+            "Pelletier-leisti syndrome,",
             "Short stature with delayed bone age",
             "Expressive language delay",
             "A triangular face with a prominent nose and deep-set eyes"
         ]
     },
-    "Flynn–Aird syndrome": {
+    "Flynn-Aird syndrome": {
         "Alias": [
             "Cataracts",
             "Retinitis pigmentosa",
@@ -7854,7 +7846,7 @@
             "Goltz-gorlin syndrome"
         ]
     },
-    "Foix–Chavany–Marie syndrome": {
+    "Foix-Chavany-Marie syndrome": {
         "Alias": [
             "Anterior opercular syndrome",
             "Bilateral anterior opercular syndrome",
@@ -7926,7 +7918,7 @@
     },
     "GM1 gangliosidosis type 1": {
         "Alias": [
-            "Beta galactosidase  deficiency type 1",
+            "Beta galactosidase deficiency type 1",
             "Beta-galactosidase-1 deficiency",
             "Gangliosidosis generalized gm1 infantile form",
             "Gangliosidosis generalized gm1 type 1",
@@ -8067,7 +8059,7 @@
             "With nephrocalcinosis and indicanuria"
         ]
     },
-    "Pallister–Killian syndrome": {
+    "Pallister-Killian syndrome": {
         "Alias": [
             "PKS",
             "Pallister-killian syndrome",
@@ -8360,7 +8352,7 @@
             "Cerebral embolism with cerebral infarction"
         ]
     },
-    "neonatal hypoxic-ischemic  encephalopathy": {
+    "neonatal hypoxic-ischemic encephalopathy": {
         "Alias": [
             "HIE",
             "Hypoxic ischaemic encephalopathy of newborn",
@@ -8439,7 +8431,7 @@
             "FOCAL PALMOPLANTAR AND GINGIVAL"
         ]
     },
-    "Foix–Alajouanine syndrome": {
+    "Foix-Alajouanine syndrome": {
         "Alias": [
             "Angiodysgenetic necrotizing myelopathy",
             "Familial osteosclerosis with abnormalities of the nervous system and meninges",
@@ -8493,7 +8485,6 @@
             "And partial agenesis of corpus callosum",
             "Opitz-kaveggia syndrome",
             "OPITZ-KAVEGGIA SYNDROME; OKS",
-            "Opitz–kaveggia syndrome",
             "OKS"
         ]
     },
@@ -8777,7 +8768,7 @@
     },
     "Beckwith-Wiedemann syndrome": {
         "Alias": [
-            "Beckwith–wiedemann syndrome"
+            "Beckwith-wiedemann syndrome"
         ]
     },
     "Sydenham's chorea": {
@@ -8923,7 +8914,7 @@
             "Eyelid myoclonia with and without absences"
         ]
     },
-    "Johnson–Munson syndrome": {
+    "Johnson-Munson syndrome": {
         "Alias": [
             "APHALANGY WITH HEMIVERTEBRAE",
             "Aphalangy-hemivertebrae-urogenital-intestinal dysgenesis syndrome",
@@ -9172,7 +9163,7 @@
     },
     "Juvenile hyaline fibromatosis": {
         "Alias": [
-            "Murray–puretic–drescher syndrome"
+            "Murray-puretic-drescher syndrome"
         ]
     },
     "idiopathic juvenile osteoporosis": {
@@ -9281,7 +9272,7 @@
     },
     "type III hypersensitivity": {
         "Alias": [
-            "GO:0001802",
+            "GO ",
             "Hypersensitivity reaction type iii",
             "Hypersensitivity reaction type iii disease",
             "Immune complex disease"
@@ -9334,7 +9325,7 @@
             "TRIMETHYLAMINURIA; TMAU"
         ]
     },
-    "Howel–Evans syndrome": {
+    "Howel-Evans syndrome": {
         "Alias": [
             "TOC",
             "Bennion-patterson syndrome",
@@ -9409,7 +9400,7 @@
             "Glucocorticoid-sensitive hypertension",
             "Glucocorticoid-suppressible hyperaldosteronism",
             "Hyperaldosteronism",
-            "Familial  type 1",
+            "Familial type 1",
             "Familial",
             "Type 1"
         ]
@@ -9453,7 +9444,7 @@
     },
     "hypersensitivity": {
         "Alias": [
-            "GO:0002524",
+            "GO ",
             "Hypersensitivity reaction disease"
         ]
     },
@@ -9568,7 +9559,7 @@
             "Lung mucinous cystadenocarcinoma"
         ]
     },
-    "Young–Madders syndrome": {
+    "Young-Madders syndrome": {
         "Alias": [
             "Pseudo-trisomy 13 syndrome",
             "Holoprosencephaly-polydactyly syndrome",
@@ -9614,7 +9605,7 @@
             "Ghosal syndrome"
         ]
     },
-    "Nicolaides–Baraitser syndrome": {
+    "Nicolaides-Baraitser syndrome": {
         "Alias": [
             "NCBRS",
             "Nbs",
@@ -9939,7 +9930,7 @@
             "Steatosis of the liver"
         ]
     },
-    "Roussy–Lévy syndrome": {
+    "Roussy-Lévy syndrome": {
         "Alias": [
             "Roussy-lévy syndrome",
             "Hereditary areflexic dystasia",
@@ -9971,7 +9962,6 @@
             "Microcephalic primordial dwarfism",
             "Virchow-seckel dwarfism",
             "Virchow-seckel syndrome",
-            "Virchow–seckel dwarfism",
             "Bird-headed dwarf of seckel"
         ]
     },
@@ -10100,7 +10090,7 @@
             "Testicular hypoplasia"
         ]
     },
-    "microphthalmia–dermal aplasia–sclerocornea syndrome": {
+    "microphthalmia-dermal aplasia-sclerocornea syndrome": {
         "Alias": [
             "Microphthalmia with linear skin defects syndrome",
             "Midas syndrome",
@@ -10112,7 +10102,7 @@
             "Midline cervical cleft"
         ]
     },
-    "Mirhosseini–Holmes–Walton syndrome": {
+    "Mirhosseini-Holmes-Walton syndrome": {
         "Alias": [
             "Mirhosseini-holmes-walton syndrome",
             "RETINOPATHY",
@@ -10214,7 +10204,7 @@
             "Tinea pedis (disorder)"
         ]
     },
-    "inborn errors of purine–pyrimidine metabolism": {
+    "inborn errors of purine-pyrimidine metabolism": {
         "Alias": [
             "Disorder of purine or pyrimidine metabolism",
             "Inborn errors of purine-pyrimidine metabolism",
@@ -10267,7 +10257,7 @@
             "Wild type abeta2-microglobulinic amyloidosis"
         ]
     },
-    "Haim–Munk syndrome": {
+    "Haim-Munk syndrome": {
         "Alias": [
             "HMS",
             "Cochin jewish disorder",
@@ -10478,8 +10468,7 @@
             "Monosomy 7q11.23",
             "WILLIAMS-BEUREN SYNDROME",
             "Williams-beuren syndrome (wbs)",
-            "WILLIAMS-BEUREN SYNDROME; WBS",
-            "Williams–beuren syndrome"
+            "WILLIAMS-BEUREN SYNDROME; WBS"
         ]
     },
     "Malonyl-CoA decarboxylase deficiency": {
@@ -10991,7 +10980,7 @@
             "Otomandibular syndrome"
         ]
     },
-    "Hemihyperplasia–multiple lipomatosis syndrome": {
+    "Hemihyperplasia-multiple lipomatosis syndrome": {
         "Alias": [
             "HHML"
         ]
@@ -11020,7 +11009,7 @@
             "Lymphatic dysplasia",
             "Generalized",
             "Lymphedem-lymphangiectasia-intellectual disability syndrome",
-            "Intestinal lymphagiectasia–lymphedema–mental retardation syndrome"
+            "Intestinal lymphagiectasia-lymphedema-mental retardation syndrome"
         ]
     },
     "urethral cancer": {
@@ -11329,7 +11318,7 @@
             "Hepatosplenic γδ t-cell lymphoma"
         ]
     },
-    "Jackson–Weiss syndrome": {
+    "Jackson-Weiss syndrome": {
         "Alias": [
             "JWS",
             "Craniosynostosis-midfacial hypoplasia-foot abnormalities syndrome",
@@ -11339,7 +11328,7 @@
             "Jackson-weiss syndrome"
         ]
     },
-    "Jaffe–Campanacci syndrome": {
+    "Jaffe-Campanacci syndrome": {
         "Alias": [
             "Disseminated nonossifying fibromas in association with cafe-au-lait spots",
             "Fibromatosis multiple non ossifying",
@@ -11400,15 +11389,14 @@
     "mediastinal malignant germ cell tumor": {
         "Alias": [
             "Germ cell tumor of mediastinum",
-            "Malignant  germ cell tumor of mediastinum",
+            "Malignant germ cell tumor of mediastinum",
             "Malignant germ cell neoplasm of mediastinum",
             "Malignant germ cell neoplasm of the mediastinum",
-            "Malignant germ cell tumor of mediastinum",
             "Malignant germ cell tumor of the mediastinum",
             "Malignant mediastinal germ cell neoplasm",
             "Malignant mediastinal germ cell tumor",
             "Mediastinal germ cell cancer",
-            "Mediastinal germ cell malignant  neoplasm",
+            "Mediastinal germ cell malignant neoplasm",
             "Mediastinal germ cell neoplasm",
             "Mediastinal germ cell tumor",
             "Malignant",
@@ -11475,7 +11463,7 @@
             "Singapore ear"
         ]
     },
-    "Marden–Walker syndrome": {
+    "Marden-Walker syndrome": {
         "Alias": [
             "MARDEN-WALKER SYNDROME",
             "MARDEN-WALKER SYNDROME; MWKS",
@@ -11772,7 +11760,7 @@
             "Peutz jeghers polyp",
             "Peutz-jeghers polyp of small intestine",
             "Peutz-jeghers small bowel hamartoma",
-            "Peutz–jeghers syndrome"
+            "Peutz-jeghers syndrome"
         ]
     },
     "Femoral-facial syndrome": {
@@ -11975,7 +11963,7 @@
             "Multifocal lymphangioendotheliomatosis with thrombocytopenia"
         ]
     },
-    "Johnson–McMillin syndrome": {
+    "Johnson-McMillin syndrome": {
         "Alias": [
             "Aadh syndrome",
             "Alopecia anosmia deafness hypogonadism syndrome",
@@ -12022,7 +12010,6 @@
         "Alias": [
             "Krause-kivlin syndrome",
             "Krause-van schooneveld-kivlin syndrome",
-            "Krause–van schooneveld–kivlin syndrome",
             "Obsolete peters-plus syndrome",
             "Peters anomaly with short limb dwarfism",
             "Peters anomaly with short-limb dwarfism",
@@ -12030,7 +12017,7 @@
             "Peters-plus syndrome"
         ]
     },
-    "Libman–Sacks endocarditis": {
+    "Libman-Sacks endocarditis": {
         "Alias": [
             "Atypical verrucal endocarditis",
             "Libman-sacks endocarditis",
@@ -12054,7 +12041,7 @@
             "Obstetric brachial palsy"
         ]
     },
-    "Lenz–Majewski syndrome": {
+    "Lenz-Majewski syndrome": {
         "Alias": [
             "Hyperostotic dwarfism lenz-majewski type",
             "Lenz majewski hyperostotic dwarfism",
@@ -12382,7 +12369,7 @@
             "Lymphocyte function-associated antigen 1 immunodeficiency"
         ]
     },
-    "Rosai–Dorfman disease": {
+    "Rosai-Dorfman disease": {
         "Alias": [
             "Histiocytosis",
             "Sinus",
@@ -12413,7 +12400,7 @@
         "Alias": [
             "Acth resistance",
             "Adrenal unresponsiveness to acth",
-            "Adrenocorticotropin  resistance syndrome",
+            "Adrenocorticotropin resistance syndrome",
             "Familial glucocorticoid deficiency 1",
             "GCCD1",
             "GLUCOCORTICOID DEFICIENCY 1; GCCD1"
@@ -12457,7 +12444,7 @@
             "Pyorrhea"
         ]
     },
-    "Walker–Warburg syndrome": {
+    "Walker-Warburg syndrome": {
         "Alias": [
             "Walker-warburg syndrome",
             "MDDGA1",
@@ -12501,7 +12488,7 @@
             "Ligneous conjunctivitis"
         ]
     },
-    "Limb–mammary syndrome": {
+    "Limb-mammary syndrome": {
         "Alias": [
             "LMS",
             "LIMB-MAMMARY SYNDROME",
@@ -12761,7 +12748,7 @@
             "Elevated liver enzymes and low platelet"
         ]
     },
-    "Landau–Kleffner syndrome": {
+    "Landau-Kleffner syndrome": {
         "Alias": [
             "Landau-kleffner syndrome",
             "Acquired aphasia with convulsive disorder",
@@ -12839,7 +12826,7 @@
             "Jervell and lange-nielson syndrome (disorder)",
             "Jervell and lange-nielson syndrome (finding)",
             "Jervell lange-nielsen syndrome",
-            "Long qt  jervell and lange-nielsen syndrome",
+            "Long qt jervell and lange-nielsen syndrome",
             "Prolonged qt interval in ekg and sudden death",
             "Surdo-cardiac syndrome"
         ]
@@ -12933,7 +12920,7 @@
             "Glomerular sclerosis"
         ]
     },
-    "metabolic dysfunction–associated steatotic liver disease": {
+    "metabolic dysfunction-associated steatotic liver disease": {
         "Alias": [
             "NAFLD1",
             "NAFLD",
@@ -13076,7 +13063,7 @@
             "And coarse face with full lips"
         ]
     },
-    "Frank–Ter Haar syndrome": {
+    "Frank-Ter Haar syndrome": {
         "Alias": [
             "FTHS",
             "Autosomal recessive melnick-needles syndrome (formerly)",
@@ -13266,12 +13253,12 @@
     },
     "Localized lipodystrophy": {
         "Alias": [
-            "Centrifugal lipodystrophy  (subtype)",
-            "Drug-induced localized lipodystrophy  (subtype)",
+            "Centrifugal lipodystrophy (subtype)",
+            "Drug-induced localized lipodystrophy (subtype)",
             "Focal lipodystrophy",
-            "Idiopathic localized lipodystrophy  (subtype)",
-            "Panniculitis and localized lipodystrophy  (subtype)",
-            "Pressure-induced localized lipoatrophy  (subtype)"
+            "Idiopathic localized lipodystrophy (subtype)",
+            "Panniculitis and localized lipodystrophy (subtype)",
+            "Pressure-induced localized lipoatrophy (subtype)"
         ]
     },
     "annular pancreas": {
@@ -13428,7 +13415,7 @@
             "Ribose-5-p isomerase deficiency"
         ]
     },
-    "Lowry–MacLean syndrome": {
+    "Lowry-MacLean syndrome": {
         "Alias": [
             "LOWRY-MACLEAN SYNDROME"
         ]
@@ -14020,7 +14007,7 @@
         "Alias": [
             "Egg allergy",
             "Allergy of egg",
-            "Allergy of foodon:03420194",
+            "Allergy of foodon ",
             "Allergy to eggs",
             "Allergy to eggs (disorder)"
         ]
@@ -14045,7 +14032,7 @@
             "Phace syndrome",
             "Phaces association",
             "Phaces syndrome",
-            "Posterior fossa malformations–hemangiomas–arterial anomalies–cardiac defects–eye abnormalities–sternal cleft and supraumbilical raphe syndrome"
+            "Posterior fossa malformations-hemangiomas-arterial anomalies-cardiac defects-eye abnormalities-sternal cleft and supraumbilical raphe syndrome"
         ]
     },
     "Regional odontodysplasia": {
@@ -14163,7 +14150,7 @@
             "Spastic paraplegia type 7"
         ]
     },
-    "Léri–Weill dyschondrosteosis": {
+    "Léri-Weill dyschondrosteosis": {
         "Alias": [
             "Leri-weill dyschondrosteosis",
             "Léri-weill dyschondrosteosis"
@@ -14725,12 +14712,11 @@
             "Broad ligament laceration syndrome (disorder)"
         ]
     },
-    "Melnick–Needles syndrome": {
+    "Melnick-Needles syndrome": {
         "Alias": [
             "Melnick-needles osteodysplasty",
             "MELNICK-NEEDLES SYNDROME",
             "MELNICK-NEEDLES SYNDROME; MNS",
-            "Melnick–needles osteodysplasty",
             "MNS",
             "Osteodysplasty of melnick and needles"
         ]
@@ -14827,7 +14813,7 @@
         "Alias": [
             "SCS",
             "Acrocephalosyndactyly type iii",
-            "Saethre–chotzen syndrome"
+            "Saethre-chotzen syndrome"
         ]
     },
     "Odontoma dysphagia syndrome": {
@@ -14838,7 +14824,7 @@
             "Odontomatosis-aortae esophagus stenosis syndrome"
         ]
     },
-    "Odonto–Tricho–Ungual–Digital–Palmar syndrome": {
+    "Odonto-Tricho-Ungual-Digital-Palmar syndrome": {
         "Alias": [
             "Odonto-tricho-ungual-digito-palmar syndrome",
             "Mendoza-valiente type",
@@ -14857,7 +14843,7 @@
             "Oguchi disease type 1"
         ]
     },
-    "Oliver–McFarlane syndrome": {
+    "Oliver-McFarlane syndrome": {
         "Alias": [
             "OMCS",
             "Eyelashes long mental retardation",
@@ -15187,7 +15173,7 @@
     "Onychomatricoma": {
         "Alias": [
             "Onychomatricoma",
-            "Uberon:0002283 neoplasm (disease)"
+            "Uberon neoplasm (disease)"
         ]
     },
     "Opsismodysplasia": {
@@ -15284,7 +15270,7 @@
             "FSAD"
         ]
     },
-    "McKusick–Kaufman syndrome": {
+    "McKusick-Kaufman syndrome": {
         "Alias": [
             "MCKUSICK-KAUFMAN SYNDROME",
             "MKKS",
@@ -15392,10 +15378,9 @@
             "Dillan 4p syndrome",
             "Pitt syndrome",
             "Pitt-rogers-danks syndrome",
-            "Pitt–rogers–danks syndrome",
             "PRDS",
             "WHS",
-            "Wolf–hirschhorn syndrome",
+            "Wolf-hirschhorn syndrome",
             "4p deletion syndrome"
         ]
     },
@@ -15506,7 +15491,7 @@
             "Goldberg-shprintzen megacolon syndrome",
             "GOLDBERG-SHPRINTZEN SYNDROME",
             "GOLDBERG-SHPRINTZEN SYNDROME; GOSHS",
-            "Goldberg–shprintzen",
+            "Goldberg-shprintzen",
             "GOSHS",
             "Megacolon-microcephaly syndrome",
             "Shprintzen-goldberg craniosynostosis syndrome"
@@ -16137,7 +16122,6 @@
             "Bowen-conradi hutterite syndrome",
             "BOWEN-CONRADI SYNDROME",
             "BOWEN-CONRADI SYNDROME; BWCNS",
-            "Bowen–conradi syndrome",
             "BWCNS"
         ]
     },
@@ -17288,7 +17272,7 @@
             "Jacobsen distal 11q deletion syndrome"
         ]
     },
-    "Kapur–Toriello syndrome": {
+    "Kapur-Toriello syndrome": {
         "Alias": [
             "Cleft lip/palate-facial",
             "Eye",
@@ -17435,7 +17419,7 @@
             "Tumor of the paraganglion"
         ]
     },
-    "Prader–Willi syndrome": {
+    "Prader-Willi syndrome": {
         "Alias": [
             "Prader-willi syndrome",
             "PWS",
@@ -17598,7 +17582,7 @@
             "TYPE IV",
             "AUTOSOMAL DOMINANT",
             "Vascular type",
-            "Sack–barabas syndrome",
+            "Sack-barabas syndrome",
             "Vascular type ehlers-danlos syndrome"
         ]
     },
@@ -17832,8 +17816,8 @@
             "Distal chromosome 22q11.2 deletion syndrome",
             "Distal del(22)(q11.2)",
             "Distal monosomy 22q11.2",
-            "Sedlačková’s syndrome",
-            "Shprintzen’s syndrome",
+            "Sedlačková's syndrome",
+            "Shprintzen's syndrome",
             "Takao syndrome",
             "Velo-cardiofacial syndrome",
             "Velofacial hypoplasia"
@@ -18310,7 +18294,6 @@
             "Trisomy 17p13.3",
             "16p13.3 microduplication syndrome",
             "17q12 microduplication syndrome",
-            "17q21.31 microduplication  syndrome",
             "17q21.31 microduplication syndrome",
             "Chromosome 17q21.31 duplication syndrome",
             "Distal duplication 16p",
@@ -18324,7 +18307,7 @@
             "Trisomy 17q21.31"
         ]
     },
-    "Potocki–Shaffer syndrome": {
+    "Potocki-Shaffer syndrome": {
         "Alias": [
             "POTOCKI-SHAFFER SYNDROME",
             "11p11.2 deletion",
@@ -18370,7 +18353,7 @@
             "Necrotizing sialometaplasia (disorder)"
         ]
     },
-    "Neonatal ichthyosis–sclerosing cholangitis syndrome": {
+    "Neonatal ichthyosis-sclerosing cholangitis syndrome": {
         "Alias": [
             "NISCH"
         ]
@@ -18653,7 +18636,7 @@
             "Serous cystoma"
         ]
     },
-    "Lymphedema–distichiasis syndrome": {
+    "Lymphedema-distichiasis syndrome": {
         "Alias": [
             "Hereditary lymphedema-distichiasis syndrome (subtype)",
             "Lymphedema with distichiasis",
@@ -19663,7 +19646,7 @@
             "Retiform hemangioendothelioma"
         ]
     },
-    "retinal degeneration  associated with rhodopsin mutations": {
+    "retinal degeneration associated with rhodopsin mutations": {
         "Alias": [
             "RP4",
             "Retinitis pigmentosa 4"
@@ -20843,7 +20826,7 @@
             "Susceptibility to juvenile absence epilepsy 1"
         ]
     },
-    "hereditary  ataxia": {
+    "hereditary ataxia": {
         "Alias": [
             "Hereditary ataxia",
             "Hereditary cerebellar ataxia",
@@ -20937,7 +20920,7 @@
     "ileum cancer": {
         "Alias": [
             "Cancer of ileum",
-            "Ileal malignant  neoplasm",
+            "Ileal malignant neoplasm",
             "Malignant ileum neoplasm",
             "Malignant neoplasm of ileum"
         ]
@@ -21355,7 +21338,7 @@
             "Autosomal recessive dystrophic epidermolysis bullosa generalisata gravis",
             "Autosomal recessive dystrophic epidermolysis bullosa",
             "Hallopeau-siemens type",
-            "Hallopeau–siemens disease",
+            "Hallopeau-siemens disease",
             "Severe generalized rdeb",
             "Severe generalized recessive dystrophic epidermolysis bullosa"
         ]
@@ -22136,7 +22119,7 @@
             "TRICHOHEPATOENTERIC SYNDROME 1"
         ]
     },
-    "tricho–dento–osseous syndrome": {
+    "tricho-dento-osseous syndrome": {
         "Alias": [
             "TDO",
             "Enamel hypoplasia and hypocalcification with associated strikingly curly hair",
@@ -22354,7 +22337,7 @@
     "Johanson-Blizzard syndrome": {
         "Alias": [
             "Johanson-blizzard syndrome (disorder)",
-            "Johanson–blizzard syndrome",
+            "Johanson-blizzard syndrome",
             "JBS"
         ]
     },
@@ -22539,14 +22522,14 @@
     },
     "Tumoral calcinosis": {
         "Alias": [
-            "Teuschländer’s disease"
+            "Teuschländer's disease"
         ]
     },
     "type IV hypersensitivity": {
         "Alias": [
             "Delayed hypersensitivity response",
             "Delayed-type hypersensitivity",
-            "GO:0001806",
+            "GO ",
             "Hypersensitivity reaction type iv disease",
             "Hypersensitivity",
             "Delayed"
@@ -23224,7 +23207,7 @@
     },
     "gluten allergy": {
         "Alias": [
-            "Allergy of foodon:03420177",
+            "Allergy of foodon ",
             "Allergy of gluten",
             "Allergy to gluten",
             "Gluten allergic reaction",
@@ -23734,7 +23717,7 @@
             "Basal cell carcinomas and peripheral vasodilation with cyanosis"
         ]
     },
-    "Rosenthal–Kloepfer syndrome": {
+    "Rosenthal-Kloepfer syndrome": {
         "Alias": [
             "ACROMEGALOID CHANGES",
             "Cutis verticis gyrata and corneal leukoma",
@@ -24007,8 +23990,7 @@
     "Pemphigus erythematosus": {
         "Alias": [
             "Seborrheic pemphigus",
-            "Senear-usher syndrome",
-            "Senear–usher syndrome"
+            "Senear-usher syndrome"
         ]
     },
     "penicillin drug reaction": {
@@ -24136,7 +24118,7 @@
             "Type 1 syndactyly-microcephaly-intellectual disability syndrome"
         ]
     },
-    "Keppen–Lubinsky syndrome": {
+    "Keppen-Lubinsky syndrome": {
         "Alias": [
             "Generalized lipodystrophy-progeroid features-severe intellectual disability syndrome",
             "KEPPEN-LUBINSKY SYNDROME",
@@ -24288,13 +24270,13 @@
             "Disorder of diaphragm"
         ]
     },
-    "Say–Meyer syndrome": {
+    "Say-Meyer syndrome": {
         "Alias": [
             "Say-meyer syndrome",
             "TRIGONOCEPHALY WITH SHORT STATURE AND DEVELOPMENTAL DELAY"
         ]
     },
-    "scalp–ear–nipple syndrome": {
+    "scalp-ear-nipple syndrome": {
         "Alias": [
             "Sen syndrome",
             "SENS",
@@ -24303,7 +24285,7 @@
             "SCALP-EAR-NIPPLE SYNDROME; SENS"
         ]
     },
-    "Schinzel–Giedion syndrome": {
+    "Schinzel-Giedion syndrome": {
         "Alias": [
             "SGS",
             "SCHINZEL-GIEDION MIDFACE RETRACTION SYNDROME",
@@ -24319,7 +24301,7 @@
             "Schmitt-gillenwater-kelly syndrome"
         ]
     },
-    "Schöpf–Schulz–Passarge syndrome": {
+    "Schöpf-Schulz-Passarge syndrome": {
         "Alias": [
             "SSPS",
             "Eccrine tumors with ectodermal dysplasia",
@@ -24467,7 +24449,7 @@
             "Ohdo-madokoro-sonoda syndrome"
         ]
     },
-    "Rabson–Mendenhall syndrome": {
+    "Rabson-Mendenhall syndrome": {
         "Alias": [
             "RMS",
             "Rabson-mendenhall syndrome"
@@ -25031,16 +25013,16 @@
             "Rheumatic disorder"
         ]
     },
-    "Succinyl-CoA:3-oxoacid CoA transferase deficiency": {
+    "Succinyl-CoA -oxoacid CoA transferase deficiency": {
         "Alias": [
             "Ketoacidosis due to scot deficiency",
             "Oxct1 deficiency",
             "Scot deficiency",
             "SCOTD",
             "Succinyl-coa acetoacetate transferase deficiency",
-            "Succinyl-coa:3-ketoacid coa-transferase deficiency",
-            "Succinyl-coa:3-oxoacid-coa transferase deficiency",
-            "Succinyl-coa:3-oxoacid-coa transferase deficiency; scotd",
+            "Succinyl-coa -ketoacid coa-transferase deficiency",
+            "Succinyl-coa -oxoacid-coa transferase deficiency",
+            "Succinyl-coa -oxoacid-coa transferase deficiency; scotd",
             "Succinyl-coa:acetoacetate transferase deficiency"
         ]
     },
@@ -25460,7 +25442,7 @@
             "Tetrasomy type 9p"
         ]
     },
-    "Teunissen–Cremers syndrome": {
+    "Teunissen-Cremers syndrome": {
         "Alias": [
             "Ankylosis of stapes",
             "Hyperopia",
@@ -25476,7 +25458,6 @@
         "Alias": [
             "Canal dehiscence syndrome",
             "Minor's syndrome",
-            "Minor’s syndrome",
             "Minorbs syndrome",
             "Scd syndrome",
             "Semicircular canal dehiscence",
@@ -25722,7 +25703,7 @@
             "N24SWD",
             "Non-24",
             "Non-24-hour sleep-wake syndrome",
-            "Non-24-hour sleep–wake disorder"
+            "Non-24-hour sleep-wake disorder"
         ]
     },
     "ampulla of Vater neoplasm": {
@@ -26297,7 +26278,7 @@
             "Retinaitis"
         ]
     },
-    "Wilson–Turner syndrome": {
+    "Wilson-Turner syndrome": {
         "Alias": [
             "WTS",
             "Mental retardation",
@@ -26331,7 +26312,7 @@
             "Wolcott-rallison syndrome"
         ]
     },
-    "Woodhouse–Sakati syndrome": {
+    "Woodhouse-Sakati syndrome": {
         "Alias": [
             "Diabetes-hypogonadism-deafness-intellectual disability syndrome",
             "Extrapyramidal disorder",
@@ -27035,7 +27016,7 @@
             "Type ii second degree av block"
         ]
     },
-    "Wallis–Zieff–Goldblatt syndrome": {
+    "Wallis-Zieff-Goldblatt syndrome": {
         "Alias": [
             "Brachydactyly",
             "Enlarged diaphysis",
@@ -27100,7 +27081,7 @@
             "Klippel-feil and turner syndrome",
             "Klippel-feil deformity",
             "Deafness and facial asymmetry",
-            "Klippel–feil syndrome"
+            "Klippel-feil syndrome"
         ]
     },
     "vein disorder": {
@@ -27191,7 +27172,7 @@
             "Lesion of ulnar nerve",
             "Lesion of ulnar nerve (disorder)",
             "NOS",
-            "Uberon:0001494 peripheral nerve lesion",
+            "Uberon peripheral nerve lesion",
             "Ulnar nerve lesion (disorder)",
             "Ulnar nerve lesion [ambiguous]",
             "Ulnar nerve lesion nos (disorder)",
@@ -27206,7 +27187,7 @@
             "Radial nerve lesion nos (disorder)",
             "Radial nerve lesions",
             "Radial nerve lesions (disorder)",
-            "Uberon:0001492 peripheral nerve lesion"
+            "Uberon peripheral nerve lesion"
         ]
     },
     "nevus": {
@@ -27545,7 +27526,7 @@
             "Btp1 syndrome"
         ]
     },
-    "Klippel–Trénaunay–Weber syndrome": {
+    "Klippel-Trénaunay-Weber syndrome": {
         "Alias": [
             "Klippel-trenaunay syndrome",
             "Klippel-trenaunay-weber syndrome",
@@ -27665,7 +27646,7 @@
             "Infection of meibomian gland",
             "Internal hordeola",
             "Meibomian adenitis",
-            "Uberon:0001818 hordeolum"
+            "Uberon hordeolum"
         ]
     },
     "tracheal cancer": {
@@ -27852,7 +27833,7 @@
             "Hobnail hemangioma"
         ]
     },
-    "Taussig–Bing syndrome": {
+    "Taussig-Bing syndrome": {
         "Alias": [
             "Taussig-bing syndrome",
             "Dorv with subpulmonary vsd",
@@ -27908,7 +27889,7 @@
             "Renal insufficiency"
         ]
     },
-    "Urban–Rogers–Meyer syndrome": {
+    "Urban-Rogers-Meyer syndrome": {
         "Alias": [
             "Intellectual disability-short stature-hand contractures-genital anomalies syndrome",
             "Prader-willi habitus-osteopenia-camptodactyly syndrome",
@@ -28069,7 +28050,7 @@
             "Rhesus isoimmunisation of the newborn"
         ]
     },
-    "Romano–Ward syndrome": {
+    "Romano-Ward syndrome": {
         "Alias": [
             "Romano-ward syndrome",
             "Long q-t syndrome",
@@ -28269,7 +28250,7 @@
     },
     "middle lobe syndrome": {
         "Alias": [
-            "Brock’s syndrome"
+            "Brock's syndrome"
         ]
     },
     "anismus": {
@@ -29159,7 +29140,7 @@
             "Von hippel-lindau syndrome (vhl)",
             "Modifiers of",
             "VON HIPPEL-LINDAU SYNDROME; VHL",
-            "Von hippel–lindau disease"
+            "Von hippel-lindau disease"
         ]
     },
     "astereognosia": {
@@ -29218,14 +29199,13 @@
             "AND ARTHROPATHY; MONA",
             "Nao syndrome",
             "Nodulosis-arthropathy-osteolysis syndrome",
-            "Nodulosis–arthropathy–osteolysis syndrome",
             "Osteolysis",
             "Hereditary multicentric",
             "Torg-winchester syndrome",
             "Formerly"
         ]
     },
-    "short rib – polydactyly syndrome": {
+    "short rib- polydactyly syndrome": {
         "Alias": [
             "Obsolete short rib-polydactyly syndrome",
             "Short rib-polydactyly syndrome"
@@ -29301,7 +29281,6 @@
             "SMAPME",
             "Hereditary myoclonus-progressive distal muscular atrophy syndrome",
             "Jankovic-rivera syndrome",
-            "Jankovic–rivera syndrome",
             "Myoclonus",
             "Hereditary",
             "With progressive distal muscular atrophy",
@@ -30004,7 +29983,7 @@
     },
     "wheat allergy": {
         "Alias": [
-            "Allergy of foodon:00001141",
+            "Allergy of foodon ",
             "Allergy to wheat",
             "Wheat allergic reaction",
             "Wheat hypersensitivity"
@@ -30369,7 +30348,7 @@
             "Renal wilms tumor",
             "Wilm's tumour",
             "Wilms tumour",
-            "Wilms’ tumour"
+            "Wilms' tumour"
         ]
     },
     "skin atrophy": {
@@ -30405,14 +30384,14 @@
             "Idiopathic congestive splenomegaly"
         ]
     },
-    "DeSanctis–Cacchione syndrome": {
+    "DeSanctis-Cacchione syndrome": {
         "Alias": [
             "DE SANCTIS-CACCHIONE SYNDROME",
             "Xeroderma pigmentosum group d",
             "Xerodermic idiocy"
         ]
     },
-    "Hurler–Scheie syndrome": {
+    "Hurler-Scheie syndrome": {
         "Alias": [
             "Mucopolysaccharidosis type i h-s",
             "MPS I H/S",
@@ -30543,7 +30522,7 @@
             "Tumor of the paranasal sinus"
         ]
     },
-    "Abruzzo–Erickson syndrome": {
+    "Abruzzo-Erickson syndrome": {
         "Alias": [
             "ABERS",
             "ABRUZZO-ERICKSON SYNDROME",
@@ -30574,7 +30553,7 @@
             "Familial hyperlipoproteinemia",
             "Hyperlipemia",
             "Hyperlipidaemia",
-            "Primary  hyperlipemia"
+            "Primary hyperlipemia"
         ]
     },
     "hyperlipoproteinemia type V": {
@@ -31404,7 +31383,7 @@
             "Ca larynx - supraglottis",
             "Ca larynx - supraglottis (disorder)",
             "Cancer of supraglottic part of larynx",
-            "Cancer of uberon:0036263",
+            "Cancer of uberon ",
             "Malignant neoplasm of extrinsic larynx",
             "Malignant neoplasm of supraglottic part of larynx",
             "Malignant neoplasm of supraglottis",
@@ -31417,10 +31396,10 @@
             "Malignant tumor of supraglottis",
             "Malignant tumor of supraglottis (disorder)",
             "Malignant tumor of the supraglottis",
-            "Malignant uberon:0036263 neoplasm",
+            "Malignant uberon neoplasm",
             "Supraglottic part of larynx cancer",
             "Supraglottis",
-            "Uberon:0036263 cancer"
+            "Uberon cancer"
         ]
     },
     "2,4 Dienoyl-CoA reductase deficiency": {
@@ -31527,7 +31506,7 @@
     "retinal dystrophies primarily involving Bruch's membrane": {
         "Alias": [
             "Retinal dystrophies primarily involving bruch membrane",
-            "Uberon:0003957 genetic retinal dystrophy"
+            "Uberon genetic retinal dystrophy"
         ]
     },
     "mucocele of appendix": {
@@ -32382,7 +32361,7 @@
             "Lisch epithelial corneal dystrophy"
         ]
     },
-    "Sturge–Weber syndrome": {
+    "Sturge-Weber syndrome": {
         "Alias": [
             "SWS",
             "Sturge-weber syndrome",
@@ -32438,10 +32417,10 @@
             "Eosinophilic endomyocardial disease"
         ]
     },
-    "albinism–deafness syndrome": {
+    "albinism-deafness syndrome": {
         "Alias": [
             "Woolf syndrome",
-            "Ziprkowski–margolis syndrome"
+            "Ziprkowski-margolis syndrome"
         ]
     },
     "Schnyder corneal dystrophy": {
@@ -33834,7 +33813,7 @@
             "Acute retinal necrosis (disorder)"
         ]
     },
-    "Zimmermann–Laband syndrome": {
+    "Zimmermann-Laband syndrome": {
         "Alias": [
             "ZLS",
             "Gingival fibromatosis-hepatosplenomegaly-other anomalies syndrome",
@@ -33992,7 +33971,7 @@
             "Nystagmus with congenital zonular cataract"
         ]
     },
-    "Zori–Stalker–Williams syndrome": {
+    "Zori-Stalker-Williams syndrome": {
         "Alias": [
             "PECTUS EXCAVATUM",
             "MACROCEPHALY",
@@ -34090,7 +34069,7 @@
     "scrofula": {
         "Alias": [
             "Tuberculous cervical lymphadenitis",
-            "King’s evil",
+            "King's evil",
             "Lymph node tuberculosis",
             "Tuberculosis",
             "Lymph node"
@@ -34135,8 +34114,7 @@
             "Glaucomatocyclitic crisis",
             "Glaucomatocyclitic crisis (disorder)",
             "Posner-schlossman syndrome",
-            "Terrien-viel syndrome",
-            "Posner–schlossman syndrome"
+            "Terrien-viel syndrome"
         ]
     },
     "keratitis": {
@@ -34656,7 +34634,7 @@
             "Ischemic contracture"
         ]
     },
-    "Jansky–Bielschowsky disease": {
+    "Jansky-Bielschowsky disease": {
         "Alias": [
             "Jansky-bielschowsky disease",
             "Late infantile ncl",
@@ -34958,7 +34936,6 @@
             "Meckel-gruber syndrome",
             "Dysencephalia splanchnocystica",
             "Gruber syndrome",
-            "Meckel–gruber syndrome",
             "Meckel's syndrome"
         ]
     },
@@ -35172,7 +35149,7 @@
             "Cementum caries",
             "Cementum caries (disorder)",
             "Dental caries of root surface",
-            "Uberon:0001753 dental caries"
+            "Uberon dental caries"
         ]
     },
     "renal artery atheroma": {
@@ -35649,7 +35626,7 @@
             "Hay fever",
             "Pollenosis",
             "Pollinosis",
-            "Allergy of foodon:03420279",
+            "Allergy of foodon ",
             "Allergy of pollen"
         ]
     },
@@ -35877,7 +35854,7 @@
             "Lesion of common peroneal nerve",
             "NOS",
             "Lesion of lateral popliteal nerve",
-            "Uberon:0001324 peripheral nerve lesion"
+            "Uberon peripheral nerve lesion"
         ]
     },
     "lesion of sciatic nerve": {
@@ -36694,7 +36671,7 @@
             "Sarcosporidiosis"
         ]
     },
-    "synpolydactyly  type 1": {
+    "synpolydactyly type 1": {
         "Alias": [
             "SPD1"
         ]
@@ -37341,11 +37318,11 @@
             "Vermiform appendix cancer"
         ]
     },
-    "Dejerine–Sottas disease": {
+    "Dejerine-Sottas disease": {
         "Alias": [
             "Charcot-marie-tooth type 3",
-            "Dejerine–sottas neuropathy",
-            "Dejerine–sottas syndrome",
+            "Dejerine-sottas neuropathy",
+            "Dejerine-sottas syndrome",
             "Hereditary motor and sensory polyneuropathy type iii",
             "Onion bulb neuropathy",
             "Progressive hypertrophic interstitial polyneuropathy of childhood"
@@ -37476,7 +37453,7 @@
             "Bullous impetigo"
         ]
     },
-    "Buschke–Ollendorff syndrome": {
+    "Buschke-Ollendorff syndrome": {
         "Alias": [
             "Buschke-ollendorff syndrome"
         ]
@@ -37607,7 +37584,7 @@
             "Arteritic aion"
         ]
     },
-    "arthrogryposis–renal dysfunction–cholestasis syndrome": {
+    "arthrogryposis-renal dysfunction-cholestasis syndrome": {
         "Alias": [
             "Arc syndrome",
             "ARCS1",
@@ -37773,7 +37750,7 @@
     },
     "brain cancer": {
         "Alias": [
-            "Brain malignant  neoplasm",
+            "Brain malignant neoplasm",
             "Malignant brain neoplasm",
             "Malignant brain tumor",
             "Malignant brain tumour",
@@ -38106,7 +38083,7 @@
         "Alias": [
             "SIF",
             "OMA",
-            "Cogan’s ocular motor apraxia",
+            "Cogan's ocular motor apraxia",
             "Ocular apraxia",
             "Saccadic initiation failure"
         ]
@@ -38166,7 +38143,7 @@
     },
     "Atypical tuberous myxedema": {
         "Alias": [
-            "Jadassohn–dosseker syndrome"
+            "Jadassohn-dosseker syndrome"
         ]
     },
     "fallopian tube cancer": {
@@ -38382,9 +38359,9 @@
             "Zone of skin candidiasis"
         ]
     },
-    "myelodysplastic–myeloproliferative diseases": {
+    "myelodysplastic-myeloproliferative diseases": {
         "Alias": [
-            "Myelodysplastic–myeloproliferative disease"
+            "Myelodysplastic-myeloproliferative disease"
         ]
     },
     "hypermethioninemia": {
@@ -38865,7 +38842,7 @@
             "Nose diseases"
         ]
     },
-    "Barraquer–Simons syndrome": {
+    "Barraquer-Simons syndrome": {
         "Alias": [
             "APLD",
             "SUSCEPTIBILITY TO",
@@ -38881,7 +38858,7 @@
             "Susceptibility to partial acquired lipodystrophy"
         ]
     },
-    "Naegeli–Franceschetti–Jadassohn syndrome": {
+    "Naegeli-Franceschetti-Jadassohn syndrome": {
         "Alias": [
             "NAEGELI SYNDROME",
             "Naegeli-franceschetti-jadassohn syndrome",
@@ -39664,14 +39641,14 @@
         "Alias": [
             "EKC",
             "Epidemic keratoconjunctivitis",
-            "Sanders’ disease",
+            "Sanders' disease",
             "Shipyard eye"
         ]
     },
     "food allergy": {
         "Alias": [
             "Food hypersensitivity",
-            "Allergy of foodon:00002403"
+            "Allergy of foodon "
         ]
     },
     "asplenia with cardiovascular anomalies": {
@@ -40242,7 +40219,7 @@
             "Craniofrontonasal syndrome"
         ]
     },
-    "Craniosynostosis–anal anomalies–porokeratosis syndrome": {
+    "Craniosynostosis-anal anomalies-porokeratosis syndrome": {
         "Alias": [
             "Cap syndrome",
             "CDAGS SYNDROME",
@@ -40251,7 +40228,7 @@
             "And porokeratosis"
         ]
     },
-    "cranio–lenticulo–sutural dysplasia": {
+    "cranio-lenticulo-sutural dysplasia": {
         "Alias": [
             "Boyadjiev-jabs syndrome",
             "CLSD",
@@ -40650,7 +40627,7 @@
             "Worsening angina"
         ]
     },
-    "Deficiency of the interleukin-1–receptor antagonist": {
+    "Deficiency of the interleukin-1-receptor antagonist": {
         "Alias": [
             "OMPP",
             "Autoinflammatory disease due to interleukin-1 receptor antagonist deficiency",
@@ -41111,7 +41088,7 @@
             "Primary malignant neoplasm of placenta"
         ]
     },
-    "Bazex–Dupré–Christol syndrome": {
+    "Bazex-Dupré-Christol syndrome": {
         "Alias": [
             "BAZEX SYNDROME",
             "BAZEX SYNDROME; BZX",
@@ -42038,7 +42015,7 @@
         "Alias": [
             "Multiple symmetric lipomatosis",
             "Madelung's disease",
-            "Benign symmetric lipomatosis of launois–bensaude",
+            "Benign symmetric lipomatosis of launois-bensaude",
             "Cephalothoracic lipodystrophy",
             "Cervical symmetrical lipomatosis",
             "Launois-bensaude's lipomatosis",
@@ -42337,7 +42314,7 @@
             "Visceral myopathy"
         ]
     },
-    "Berk–Tabatznik syndrome": {
+    "Berk-Tabatznik syndrome": {
         "Alias": [
             "Berk tabatznik syndrome",
             "Cleft nare",
@@ -42391,7 +42368,7 @@
     "spinocerebellar ataxia type 34": {
         "Alias": [
             "Erythrokeratodermia with ataxia",
-            "Giroux–barbeau syndrome",
+            "Giroux-barbeau syndrome",
             "SCA34",
             "SPINOCEREBELLAR ATAXIA 34",
             "SPINOCEREBELLAR ATAXIA 34; SCA34",
@@ -42451,7 +42428,7 @@
             "Susceptibility to",
             "NASAL POLYPS",
             "AND ASPIRIN INTOLERANCE",
-            "Samter’s triad"
+            "Samter's triad"
         ]
     },
     "partial androgen insensitivity syndrome": {
@@ -42680,7 +42657,7 @@
             "Plantar verrucous skin carcinoma"
         ]
     },
-    "Epstein–Barr virus infection": {
+    "Epstein-Barr virus infection": {
         "Alias": [
             "Caebv infection",
             "Caebv syndrome",
@@ -42828,7 +42805,7 @@
             "Coronary atherosclerosis"
         ]
     },
-    "Hand–Schüller–Christian disease": {
+    "Hand-Schüller-Christian disease": {
         "Alias": [
             "Multifocal eosinophilic granuloma",
             "Chronic multifocal langerhans cell histiocytosis",
@@ -43088,11 +43065,11 @@
             "Tumor of the ethmoidal sinus"
         ]
     },
-    "Niemann–Pick disease, type C": {
+    "Niemann-Pick disease, type C": {
         "Alias": [
             "Niemann-pick disease",
             "Type c",
-            "Niemann–pick c"
+            "Niemann-pick c"
         ]
     },
     "peliosis hepatis": {
@@ -43103,7 +43080,7 @@
     },
     "drug allergy": {
         "Alias": [
-            "Allergy of ecto:0000509",
+            "Allergy of ecto ",
             "Drug hypersensitivity"
         ]
     },
@@ -43370,7 +43347,7 @@
             "Catastrophic aps"
         ]
     },
-    "Catel–Manzke syndrome": {
+    "Catel-Manzke syndrome": {
         "Alias": [
             "CATMANS",
             "Catel manzke syndrome",
@@ -44339,7 +44316,7 @@
             "Lichen ruber planus",
             "Lichen",
             "Ruber planus",
-            "Lupus erythematosus–lichen planus overlap syndrome",
+            "Lupus erythematosus-lichen planus overlap syndrome",
             "Peno-gingival syndrome"
         ]
     },
@@ -44699,7 +44676,7 @@
             "Malignant osseous tumor"
         ]
     },
-    "Ritscher–Schinzel syndrome": {
+    "Ritscher-Schinzel syndrome": {
         "Alias": [
             "RTSC",
             "Ritscher-schinzel syndrome",
@@ -44740,7 +44717,7 @@
             "Psoriasis vulgaris"
         ]
     },
-    "Kelley–Seegmiller syndrome": {
+    "Kelley-Seegmiller syndrome": {
         "Alias": [
             "Hrpt-related hyperuricemia",
             "Hypoxanthine guanine phosphoribosyltransferase partial deficiency",
@@ -44954,7 +44931,7 @@
             "Pudendal nerve neuralgia",
             "Pudendal neuralgia by pudendal nerve entrapment",
             "Pudendalgia",
-            "Uberon:0011390 neuralgia"
+            "Uberon neuralgia"
         ]
     },
     "congenital dyserythropoietic anemia": {
@@ -45255,7 +45232,7 @@
             "Whipworm infection"
         ]
     },
-    "Miller–Dieker lissencephaly syndrome": {
+    "Miller-Dieker lissencephaly syndrome": {
         "Alias": [
             "MDS",
             "Lissencephaly due to 17p13.3 deletion",
@@ -45279,9 +45256,7 @@
             "Silver russell dwarfism",
             "Silver-russell dwarfism",
             "SILVER-RUSSELL SYNDROME",
-            "SILVER-RUSSELL SYNDROME; SRS",
-            "Silver–russell dwarfism",
-            "Russell–silver syndrome"
+            "SILVER-RUSSELL SYNDROME; SRS"
         ]
     },
     "allergic contact dermatitis": {
@@ -45489,7 +45464,7 @@
     "apple allergy": {
         "Alias": [
             "Allergy of malus domestica",
-            "DOID:0060504",
+            "DOID ",
             "Malus domestica fruit allergy"
         ]
     },
@@ -45621,7 +45596,7 @@
         "Alias": [
             "HGPS",
             "Cockayne's syndrome",
-            "Hutchinson–gilford progeria syndrome",
+            "Hutchinson-gilford progeria syndrome",
             "Neill-dingwall syndrome",
             "Kenny syndrome"
         ]
@@ -46034,12 +46009,12 @@
             "Cervical wilms' tumor"
         ]
     },
-    "Werdnig–Hoffmann disease": {
+    "Werdnig-Hoffmann disease": {
         "Alias": [
             "Spinal muscular atrophy type 1",
             "Werdnig-hoffman disease",
             "Werdnig-hoffmann disease",
-            "Werdnig–hoffmann syndrome",
+            "Werdnig-hoffmann syndrome",
             "SMA1",
             "Hereditary motor neuropathy proximal type i",
             "Hmn (hereditary motor neuropathy) proximal type i",
@@ -46307,7 +46282,7 @@
         "Alias": [
             "Meningioma of the tuberculum sellae",
             "Meningioma of tuberculum sellae",
-            "Uberon:0035298 sella turcica neoplasm"
+            "Uberon sella turcica neoplasm"
         ]
     },
     "mixed ductal-endocrine carcinoma": {
@@ -46598,7 +46573,7 @@
     },
     "tree nut allergy": {
         "Alias": [
-            "Allergy of foodon:03400685",
+            "Allergy of foodon ",
             "Allergy to nuts",
             "Allergy to nuts (disorder)",
             "Allergy to nuts other than peanuts",
@@ -46764,7 +46739,7 @@
             "Supraglottic part of larynx verrucous carcinoma",
             "Supraglottic verrucous carcinoma",
             "Supraglottis verrucous carcinoma",
-            "Uberon:0036263 verrucous carcinoma",
+            "Uberon verrucous carcinoma",
             "Verrucous carcinoma of supraglottis",
             "Verrucous carcinoma of the supraglottis"
         ]
@@ -46780,7 +46755,7 @@
             "Supraglottic squamous cell carcinoma",
             "Supraglottis epidermoid carcinoma",
             "Supraglottis squamous cell carcinoma",
-            "Uberon:0036263 squamous cell carcinoma"
+            "Uberon squamous cell carcinoma"
         ]
     },
     "gestational ovarian choriocarcinoma": {
@@ -47193,7 +47168,6 @@
             "Behcet syndrome",
             "Behçet-adamantiades syndrome",
             "Behçet's disease",
-            "Behçet’s syndrome",
             "Morbus behcet",
             "Morbus behçet",
             "Morbus behçet's syndrome",
@@ -48058,7 +48032,7 @@
             "Ectopic thymus"
         ]
     },
-    "ectrodactyly–ectodermal dysplasia–cleft syndrome": {
+    "ectrodactyly-ectodermal dysplasia-cleft syndrome": {
         "Alias": [
             "Eec syndrome",
             "Ectrodactyly-ectodermal dysplasia-clefting syndrome",
@@ -48193,7 +48167,7 @@
             "Volendam neurodegenerative disease"
         ]
     },
-    "Marshall–Smith syndrome": {
+    "Marshall-Smith syndrome": {
         "Alias": [
             "Accelerated skeletal maturation-facial dysmorphism-failure to thrive syndrome",
             "Marshall-smith syndrome",
@@ -48507,7 +48481,7 @@
             "Neoplasm of supraglottis",
             "Neoplasm of supraglottis (disorder)",
             "Neoplasm of the supraglottis",
-            "Neoplasm of uberon:0036263",
+            "Neoplasm of uberon ",
             "Supraglottic neoplasm",
             "Supraglottic part of larynx neoplasm (disease)",
             "Supraglottic part of larynx tumor",
@@ -48517,8 +48491,8 @@
             "Tumor of supraglottic part of larynx",
             "Tumor of supraglottis",
             "Tumor of the supraglottis",
-            "Uberon:0036263 neoplasm (disease)",
-            "Uberon:0036263 tumor"
+            "Uberon neoplasm (disease)",
+            "Uberon tumor"
         ]
     },
     "larynx leiomyosarcoma": {
@@ -49056,7 +49030,7 @@
             "Supraglottic part of larynx carcinoma",
             "Supraglottic throat cancer",
             "Supraglottis carcinoma",
-            "Uberon:0036263 carcinoma"
+            "Uberon carcinoma"
         ]
     },
     "subglottis carcinoma": {
@@ -49118,7 +49092,7 @@
     },
     "uterine ligament clear cell adenocarcinoma": {
         "Alias": [
-            "Uberon:0036262 clear cell adenocarcinoma",
+            "Uberon clear cell adenocarcinoma",
             "Uterine ligament clear cell adenocarcinoma"
         ]
     },
@@ -49376,7 +49350,7 @@
             "Somatisation"
         ]
     },
-    "Bonnet–Dechaume–Blanc syndrome": {
+    "Bonnet-Dechaume-Blanc syndrome": {
         "Alias": [
             "Bonnet-dechaume-blanc syndrome",
             "CAMS2",
@@ -49880,7 +49854,7 @@
             "Fibrosis of breast"
         ]
     },
-    "Fitzsimmons–Guilbert syndrome": {
+    "Fitzsimmons-Guilbert syndrome": {
         "Alias": [
             "Fitzsimmons syndrome",
             "Fitzsimmons-guilbert syndrome",
@@ -50117,7 +50091,7 @@
         "Alias": [
             "Subungual glomus tumor",
             "Subungual glomus tumour",
-            "Uberon:0004105 glomus tumor"
+            "Uberon glomus tumor"
         ]
     },
     "facial cleft": {
@@ -50210,7 +50184,7 @@
     },
     "suprasellar meningioma": {
         "Alias": [
-            "Uberon:0003689 meningioma (disease)"
+            "Uberon meningioma (disease)"
         ]
     },
     "Gasserian ganglion meningioma": {
@@ -51786,8 +51760,7 @@
             "Smith lemli opitz syndrome",
             "SMITH-LEMLI-OPITZ SYNDROME",
             "SMITH-LEMLI-OPITZ SYNDROME; SLOS",
-            "Smith-opitz-inborn syndrome",
-            "Smith–lemli–opitz syndrome"
+            "Smith-opitz-inborn syndrome"
         ]
     },
     "C-P angle neurinoma": {
@@ -53770,7 +53743,7 @@
             "Cholestanol storage disease (disorder)",
             "CTX",
             "Sterol 27-hydroxylase deficiency",
-            "Van bogaert–scherer–epstein syndrome",
+            "Van bogaert-scherer-epstein syndrome",
             "Xanthomatosis",
             "Cerebrotendinous"
         ]
@@ -54732,11 +54705,10 @@
             "Chédiak-higashi disease",
             "CHEDIAK-HIGASHI SYNDROME",
             "CHEDIAK-HIGASHI SYNDROME; CHS",
-            "Chédiak-higashi-steinbrink syndrome",
-            "Chédiak–higashi syndrome"
+            "Chédiak-higashi-steinbrink syndrome"
         ]
     },
-    "Kocher–Debre–Semelaigne syndrome": {
+    "Kocher-Debre-Semelaigne syndrome": {
         "Alias": [
             "Kocher-debré-semelaigne syndrome",
             "Hoffman syndrome",
@@ -55147,7 +55119,7 @@
             "Scleroderma (rheumatic diseases)"
         ]
     },
-    "Wolff–Parkinson–White syndrome": {
+    "Wolff-Parkinson-White syndrome": {
         "Alias": [
             "Wolff-parkinson-white syndrome",
             "Preexcitation syndrome",
@@ -55354,7 +55326,7 @@
             "Femoral nerve dysfunction",
             "Femoral nerve lesions",
             "Femoral neuropathy (disorder)",
-            "Uberon:0001267 peripheral nerve lesion"
+            "Uberon peripheral nerve lesion"
         ]
     },
     "paraplegia": {
@@ -56031,7 +56003,7 @@
             "Median nerve lesion",
             "Median nerve palsy",
             "Median neuropathy",
-            "Uberon:0001148 peripheral neuropathy"
+            "Uberon peripheral neuropathy"
         ]
     },
     "vulvar liposarcoma": {
@@ -56344,7 +56316,7 @@
             "Lipid proteinosis",
             "Lipoid proteinosis of urbach and wiethe",
             "LIPOPROTEINOSIS",
-            "Urbach–wiethe disease"
+            "Urbach-wiethe disease"
         ]
     },
     "ureter carcinoma": {
@@ -57885,13 +57857,13 @@
     },
     "uterine ligament mucinous adenocarcinoma": {
         "Alias": [
-            "Uberon:0036262 mucinous adenocarcinoma",
+            "Uberon mucinous adenocarcinoma",
             "Uterine ligament mucinous adenocarcinoma"
         ]
     },
     "uterine ligament adenocarcinoma": {
         "Alias": [
-            "Uberon:0036262 adenocarcinoma",
+            "Uberon adenocarcinoma",
             "Uterine ligament adenocarcinoma"
         ]
     },
@@ -58185,7 +58157,7 @@
             "Idiopathic pulmonary hemosiderosis"
         ]
     },
-    "Charcot–Marie–Tooth disease": {
+    "Charcot-Marie-Tooth disease": {
         "Alias": [
             "Charcot-marie-tooth disease",
             "Peroneal muscular atrophy",
@@ -59002,7 +58974,7 @@
     },
     "uterine ligament serous adenocarcinoma": {
         "Alias": [
-            "Uberon:0036262 serous adenocarcinoma",
+            "Uberon serous adenocarcinoma",
             "Uterine ligament serous adenocarcinoma"
         ]
     },
@@ -59360,7 +59332,6 @@
             "Abrikosoff's granulous cell tumor",
             "Abrikosoff's tumor",
             "Abrikosov's tumor",
-            "Abrikosov’s tumor",
             "Abrikossoff tumor",
             "Abrikossoff's tumor",
             "Giant granulocellular abrikosov's tumor",
@@ -59402,7 +59373,7 @@
     },
     "uterine ligament endometrioid adenocarcinoma": {
         "Alias": [
-            "Uberon:0036262 endometrioid adenocarcinoma",
+            "Uberon endometrioid adenocarcinoma",
             "Uterine ligament endometrioid adenocarcinoma"
         ]
     },
@@ -61145,7 +61116,7 @@
             "Hay-wells syndrome"
         ]
     },
-    "Stevens–Johnson syndrome": {
+    "Stevens-Johnson syndrome": {
         "Alias": [
             "SJS",
             "Stevens-johnson syndrome",
@@ -70000,7 +69971,6 @@
             "Crigler-najjar syndrome",
             "Type i",
             "Type i (disorder)",
-            "Crigler–najjar syndrome",
             "Criglerův-najjarův syndrom"
         ]
     },
@@ -74522,7 +74492,7 @@
             "Retinitis pigmentosa type 35",
             "RP 35",
             "RP35",
-            "DOID:0110357",
+            "DOID ",
             "RETINITIS PIGMENTOSA 35",
             "RETINITIS PIGMENTOSA 35; RP35"
         ]
@@ -75431,7 +75401,7 @@
     "X-linked amelogenesis imperfecta hypoplastic/hypomaturation 2": {
         "Alias": [
             "AIH3",
-            "Amelogenesis imperfecta  type ie x-linked 2",
+            "Amelogenesis imperfecta type ie x-linked 2",
             "Amelogenesis imperfecta 3 hypoplastic type",
             "Amelogenesis imperfecta 3",
             "Hypoplastic type",
@@ -75995,7 +75965,7 @@
             "Hereditary breast and ovarian cancer",
             "Hereditary breast and ovarian cancer syndrome",
             "Hereditary breast ovarian cancer syndrome",
-            "Hereditary breast–ovarian cancer syndrome",
+            "Hereditary breast-ovarian cancer syndrome",
             "Hereditary breast/ovarian cancer (brca1",
             "Syndrome",
             "HBOC",
@@ -81443,7 +81413,7 @@
     },
     "Indian prawn allergy": {
         "Alias": [
-            "Allergy of foodon:03000005",
+            "Allergy of foodon ",
             "Allergy of indian prawn",
             "Fenneropenaeus indicus allergy"
         ]
@@ -81525,7 +81495,7 @@
             "Heat stress disorders"
         ]
     },
-    "Epstein–Barr virus-positive DLBCL, NOS": {
+    "Epstein-Barr virus-positive DLBCL, NOS": {
         "Alias": [
             "Age-related ebv positive b-cell lymphoproliferative disorder",
             "Ebv positive diffuse large b-cell lymphoma of the elderly",
@@ -81682,13 +81652,13 @@
     },
     "brown shrimp allergy": {
         "Alias": [
-            "Allergy of foodon:03000003",
+            "Allergy of foodon ",
             "Farfantepenaeus aztecus allergy"
         ]
     },
     "green mud crab allergy": {
         "Alias": [
-            "Allergy of foodon:03000004",
+            "Allergy of foodon ",
             "Allergy of green mud crab",
             "Scylla paramamosain allergy"
         ]
@@ -81940,7 +81910,7 @@
     },
     "DOOR syndrome": {
         "Alias": [
-            "Deafness – onychodystrophy",
+            "Deafness - onychodystrophy",
             "Autosomal recessive",
             "Door syndrome",
             "Doors syndrome",
@@ -84099,7 +84069,7 @@
     },
     "fish allergy": {
         "Alias": [
-            "Allergy of foodon:00001248",
+            "Allergy of foodon ",
             "Fish allergy"
         ]
     },
@@ -84753,13 +84723,12 @@
     "Cockayne syndrome type 1": {
         "Alias": [
             "CSA",
-            "Cockayne syndrome  type i",
+            "Cockayne syndrome type i",
             "Cockayne syndrome a",
             "COCKAYNE SYNDROME A; CSA",
             "Cockayne syndrome classic form",
             "Cockayne syndrome classical",
-            "Cockayne syndrome type a",
-            "Cockayne syndrome type i"
+            "Cockayne syndrome type a"
         ]
     },
     "nephronophthisis 9": {
@@ -87887,7 +87856,7 @@
     "Frontofacionasal dysplasia": {
         "Alias": [
             "Ffnd",
-            "Fronto-facio-nasal  dyplasia",
+            "Fronto-facio-nasal dyplasia",
             "Fronto-facio-nasal dysostosis",
             "Frontofacionasal dysostosis",
             "FRONTOFACIONASAL DYSPLASIA",
@@ -88167,7 +88136,7 @@
             "2",
             "Formerly",
             "Lamellar ichthyosis 2",
-            "ORDO:313"
+            "ORDO "
         ]
     },
     "autosomal dominant nonsyndromic deafness 3B": {
@@ -90131,7 +90100,6 @@
             "Cupped metaphyses and cone-shaped epiphyses of knees with brachydactyly",
             "Intellectual disability-short stature-wedge-shaped epiphyses of knees syndrome",
             "METAPHYSEAL ACROSCYPHODYSPLASIA",
-            "Wedge-shaped  epiphyses of knees",
             "Wedge-shaped epiphyses of knees",
             "Wedge-shaped epiphyses of the knees with mental retardation and short stature"
         ]
@@ -90457,7 +90425,7 @@
             "Soft tissue perineurioma"
         ]
     },
-    "Freeman–Sheldon syndrome": {
+    "Freeman-Sheldon syndrome": {
         "Alias": [
             "DA2A",
             "Distal arthrogryposis type 2a",
@@ -91187,7 +91155,7 @@
     },
     "acquired deficiency anemia": {
         "Alias": [
-            "Rare  acquired deficiency anemia"
+            "Rare acquired deficiency anemia"
         ]
     },
     "rare hemorrhagic disorder due to a coagulation factors defect": {
@@ -93151,7 +93119,7 @@
         "Alias": [
             "HMWK",
             "Fitzgerald trait",
-            "FITZGERALD TRAIT  KININOGEN DEFICIENCY",
+            "FITZGERALD TRAIT KININOGEN DEFICIENCY",
             "TOTAL",
             "INCLUDED",
             "Flaujeac factor deficiency",
@@ -93235,7 +93203,7 @@
             "Acquired word blindnesses"
         ]
     },
-    "marfanoid–progeroid–lipodystrophy syndrome": {
+    "marfanoid-progeroid-lipodystrophy syndrome": {
         "Alias": [
             "MFLS",
             "Marfan lipodystrophy syndrome",
@@ -93306,7 +93274,7 @@
             "Immunodeficiency-centromeric instability-facial anomalies syndrome type 3"
         ]
     },
-    "Vogt–Koyanagi–Harada syndrome": {
+    "Vogt-Koyanagi-Harada syndrome": {
         "Alias": [
             "Vogt-koyanagi-harada syndrome",
             "Vogt-koyanagi syndrome",
@@ -93316,8 +93284,7 @@
             "Uveomeningoencephalitic syndrome",
             "Vkh disease",
             "Vkh syndrome",
-            "Vogt-koyanagi-harada disease (disorder)",
-            "Vogt–koyanagi–harada disease"
+            "Vogt-koyanagi-harada disease (disorder)"
         ]
     },
     "oligodendroglioma": {
@@ -93462,15 +93429,14 @@
             "Limb-girdle muscular dystrophy type 1d"
         ]
     },
-    "Ellis–Van Creveld syndrome": {
+    "Ellis-Van Creveld syndrome": {
         "Alias": [
             "Chondroectodermal dysplasia (disorder)",
             "ELLIS-VAN CREVELD SYNDROME; EVC",
-            "Ellis–van creveld syndrome",
+            "Ellis-van creveld syndrome",
             "Mesodermic dysplasia",
             "Mesoectodermal dysplasia",
             "EVC",
-            "Ellis-van creveld syndrome",
             "Ellis van creveld syndrome",
             "Chondroectodermal dysplasia"
         ]
@@ -96260,7 +96226,7 @@
             "Vascular tissue disease"
         ]
     },
-    "Dyggve–Melchior–Clausen syndrome": {
+    "Dyggve-Melchior-Clausen syndrome": {
         "Alias": [
             "DMC",
             "Dmc disease",
@@ -96599,7 +96565,6 @@
             "Maturity onset diabetes of the young",
             "TYPE 2",
             "MATURITY-ONSET DIABETES OF THE YOUNG",
-            " type 2",
             "TYPE 2; MODY2",
             "MODY 2",
             "Mody 2 monogenic diabetes type 2",
@@ -97764,7 +97729,7 @@
     },
     "Secondary interstitial lung disease specific to childhood associated with a connective tissue disease": {
         "Alias": [
-            "Secondary  ild specific to childhood associated with a connective tissue disease"
+            "Secondary ild specific to childhood associated with a connective tissue disease"
         ]
     },
     "Absent radius-anogenital anomalies syndrome": {
@@ -97827,7 +97792,7 @@
             "Geleophysic dwarfism syndrome"
         ]
     },
-    "keratitis–ichthyosis–deafness syndrome": {
+    "keratitis-ichthyosis-deafness syndrome": {
         "Alias": [
             "Desmons syndrome",
             "ICHTHYOSIFORM ERYTHRODERMA",
@@ -97848,8 +97813,7 @@
             "Glomerulonephritis - pulmonary hemorrhage",
             "GOODPASTURE SYNDROME",
             "Pulmonary renal syndrome",
-            "Rapidly progressive glomerulonephritis with pulmonary hemorrhage",
-            "Anti–glomerular basement membrane disease"
+            "Rapidly progressive glomerulonephritis with pulmonary hemorrhage"
         ]
     },
     "encephalocele": {
@@ -97964,7 +97928,7 @@
             "PIERRE ROBIN SEQUENCE WITH FACIAL AND DIGITAL ANOMALIES",
             "Pierre robin sequence-faciodigital anomaly syndrome",
             "Pierre robin syndrome",
-            " faciodigital anomaly",
+            "Faciodigital anomaly",
             "Robin sequence with facial and digital anomalies"
         ]
     },
@@ -98441,7 +98405,6 @@
         "Alias": [
             "HTC2",
             "Cgh",
-            "Chromosome  xq27.1 interchromosomal insertion syndrome",
             "Chromosome xq27.1 interchromosomal insertion syndrome",
             "Congenital generalized hypertrichosis",
             "Macias-flores type",
@@ -99279,7 +99242,7 @@
     },
     "von Hippel anomaly": {
         "Alias": [
-            "Von hippel  angioma"
+            "Von hippel angioma"
         ]
     },
     "coloboma of eyelid": {
@@ -99479,7 +99442,7 @@
         "Alias": [
             "Partial duplication of chromosome xp",
             "Partial duplication of the short arm of chromosome type x",
-            "Partial trisomy of  chromosome xp",
+            "Partial trisomy of chromosome xp",
             "Partial trisomy of the short arm of chromosome x"
         ]
     },
@@ -99487,7 +99450,7 @@
         "Alias": [
             "Partial duplication of chromosome xq",
             "Partial duplication of the long arm of chromosome type x",
-            "Partial trisomy of  chromosome xq",
+            "Partial trisomy of chromosome xq",
             "Partial trisomy of the long arm of chromosome x"
         ]
     },
@@ -99543,7 +99506,7 @@
     },
     "secondary interstitial lung disease specific to childhood associated with a systemic disease": {
         "Alias": [
-            "Secondary  ild specific to childhood associated with a systemic disease"
+            "Secondary ild specific to childhood associated with a systemic disease"
         ]
     },
     "secondary interstitial lung disease specific to childhood associated with a systemic vasculitis": {
@@ -100173,7 +100136,7 @@
     "congenital anomaly of the great arteries": {
         "Alias": [
             "Congenital aorta",
-            "Aortic arch or  pulmonary arteries anomaly"
+            "Aortic arch or pulmonary arteries anomaly"
         ]
     },
     "atrial defect and interatrial communication": {
@@ -103900,7 +103863,7 @@
     },
     "Okamoto syndrome": {
         "Alias": [
-            "Au–kline syndrome",
+            "Au-kline syndrome",
             "Congenital hydronephrosis with cleft palate",
             "Characteristic facies",
             "Hypotonia",
@@ -107351,7 +107314,7 @@
             "HYPOMAGNESEMIA",
             "FAMILIAL",
             "With hypercalciuria and nephrocalcinosis",
-            "WITH HYPERCALCIURIA AND NEPHROCALCINOSIS  HYPERCALCIURIA",
+            "WITH HYPERCALCIURIA AND NEPHROCALCINOSIS HYPERCALCIURIA",
             "INCLUDED",
             "Isolated renal",
             "Primary",
@@ -107535,7 +107498,7 @@
     "genetic hypoparathyroidism": {
         "Alias": [
             "Familial hypoparathyroidism",
-            "Hereditary  hypoparathyroidism"
+            "Hereditary hypoparathyroidism"
         ]
     },
     "chronic acquired demyelinating polyneuropathy": {
@@ -107610,7 +107573,7 @@
             "Dysmorphism-pectus carinatum-joint laxity syndrome",
             "Guizar vasquez sanchez manzano syndrome",
             "Guízar vázquez-sánchez-manzano syndrome",
-            "Guizar–vasquez–sanchez–manzano syndrome"
+            "Guizar-vasquez-sanchez-manzano syndrome"
         ]
     },
     "congenital temporomandibular joint ankylosis": {
@@ -108827,7 +108790,7 @@
             "Margarita island ectodermal dysplasia"
         ]
     },
-    "envenomization by  Bothrops lanceolatus": {
+    "envenomization by Bothrops lanceolatus": {
         "Alias": [
             "Envenomization by the martinique lancehead viper"
         ]
@@ -108848,7 +108811,7 @@
             "AND OTHER ABNORMALITIES"
         ]
     },
-    "frontonasal dysplasia  Klippel–Feil syndrome": {
+    "frontonasal dysplasia Klippel-Feil syndrome": {
         "Alias": [
             "Fragoso cid garcia hernandez syndrome"
         ]
@@ -108872,7 +108835,7 @@
             "Glass chapman hockley syndrome"
         ]
     },
-    "Graham–Boyle–Troxell syndrome": {
+    "Graham-Boyle-Troxell syndrome": {
         "Alias": [
             "Cystic hamartoma of lung and kidney",
             "Cystic hamartomata of lung and kidney"
@@ -111958,7 +111921,7 @@
             "Dandy-walker malformation and hydrocephalus"
         ]
     },
-    "inherited Creutzfeldt–Jakob disease": {
+    "inherited Creutzfeldt-Jakob disease": {
         "Alias": [
             "CJD",
             "CREUTZFELDT-JAKOB DISEASE",
@@ -112687,7 +112650,7 @@
             "TYPE 2"
         ]
     },
-    "X-linked agammaglobulinemia  type 2": {
+    "X-linked agammaglobulinemia type 2": {
         "Alias": [
             "AGMX2",
             "IMD61",
@@ -113447,7 +113410,7 @@
     "hemoglobin M disease": {
         "Alias": [
             "Generalized reductase deficiency",
-            "Inherited  methemoglobinemia type 2",
+            "Inherited methemoglobinemia type 2",
             "M hemoglobinopathy"
         ]
     },
@@ -113603,7 +113566,7 @@
             "Sbla syndrome"
         ]
     },
-    "Best’s vitelliform macular dystrophy": {
+    "Best's vitelliform macular dystrophy": {
         "Alias": [
             "BMD",
             "VMD2",
@@ -114411,12 +114374,12 @@
             "Spontaneous ejaculation"
         ]
     },
-    "Chung–Jansen syndrome": {
+    "Chung-Jansen syndrome": {
         "Alias": [
-            "Phip–related disorder"
+            "Phip-related disorder"
         ]
     },
-    "Hiatt–Neu–Cooper neurodevelopmental syndrome": {
+    "Hiatt-Neu-Cooper neurodevelopmental syndrome": {
         "Alias": [
             "Hiatt-neu-cooper neurodevelopmental syndrome"
         ]
@@ -114868,7 +114831,6 @@
             "Severe intellectual disability-aplasia/hypoplasia of thumb and hallux syndrome",
             "TEMPLE-BARAITSER SYNDROME",
             "TEMPLE-BARAITSER SYNDROME; TMBTS",
-            "Temple–baraitser syndrome",
             "TMBTS"
         ]
     },
@@ -114991,7 +114953,7 @@
             "Primary",
             "5",
             "Encephalopathy-hypertrophic cardiomyopathy-renal tubular disease syndrome",
-            "ORDO:319678"
+            "ORDO "
         ]
     },
     "primary coenzyme Q10 deficiency 6": {
@@ -115896,7 +115858,7 @@
     },
     "dominant beta-thalassemia": {
         "Alias": [
-            "Autosomal dominant  beta thalassemia",
+            "Autosomal dominant beta thalassemia",
             "BETA-THALASSEMIA",
             "DOMINANT INCLUSION BODY TYPE",
             "Dyserythropoietic anemia",
@@ -116312,7 +116274,7 @@
     },
     "split foot": {
         "Alias": [
-            "Cleft  foot"
+            "Cleft foot"
         ]
     },
     "non-syndromic brachydactyly of fingers": {
@@ -120779,7 +120741,7 @@
     },
     "diffuse cystic renal dysplasia": {
         "Alias": [
-            "Quick links         evs home         nci thesaurus         nci term browser         term suggestion         nci terminology resources  renal dysplasia diffuse cystic"
+            "Quick links evs home nci thesaurus nci term browser term suggestion nci terminology resources renal dysplasia diffuse cystic"
         ]
     },
     "immunodeficiency 66": {
@@ -121657,7 +121619,7 @@
     },
     "inborn disorder of phenylalanine or tyrosine metabolism": {
         "Alias": [
-            "Abnormality of phenylalanine or tyrosine  metabolism",
+            "Abnormality of phenylalanine or tyrosine metabolism",
             "Disorder of phenylalanine or tyrosine metabolism"
         ]
     },
@@ -122215,7 +122177,7 @@
             "NYS1",
             "NYSTAGMUS 1",
             "CONGENITAL",
-            " x- linked",
+            "X- linked",
             "X-LINKED",
             "X-LINKED; NYS1",
             "Infantile",
@@ -123267,7 +123229,6 @@
         "Alias": [
             "R9",
             "Chromosome 9 ring",
-            "Ring  9",
             "Ring 9",
             "Ring chromosome 9 syndrome",
             "Ring chromosome type 9"

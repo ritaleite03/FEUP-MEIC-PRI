@@ -1,7 +1,7 @@
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from utils import *
+from utils import load_json, save_json, sanitize_data
 
 def clean(content):
     content_cleaned = {}
@@ -43,8 +43,8 @@ def clean(content):
 
 
 if __name__ == "__main__":
-    file_content = get_json("wikipedia_diseases.json")
+    file_content = load_json("wikipedia_diseases.json")
 
-    content_cleaned = clean(file_content)
+    content_cleaned = clean(sanitize_data(file_content))
 
-    write_to_file("wikipedia.json", content_cleaned)
+    save_json("wikipedia.json", content_cleaned)

@@ -67,7 +67,7 @@
             "ELISEA",
             "Physical examination",
             "Immunofluorescence microscopy",
-            "Sabin–feldman dye test"
+            "Sabin-feldman dye test"
         ],
         "Drugs and Therapy": [
             "Sulfadiazine",
@@ -79,7 +79,7 @@
         ],
         "Transmission Processes": [
             "Blood transfusion",
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Placental transmission",
             "Haemocontact transmission of pathogen",
             "Organ transplantation"
@@ -115,7 +115,7 @@
             "Streptomycin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Airborne transmission",
             "Contact transmission",
             "Vector-borne transmission"
@@ -137,7 +137,7 @@
             "Mebendazole"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Contact transmission"
         ]
     },
@@ -186,7 +186,7 @@
             "Streptomycin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Airborne transmission",
             "Contact transmission",
             "Vector-borne transmission"
@@ -210,7 +210,7 @@
             "ELISEA"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "listeriosis": {
@@ -262,7 +262,7 @@
             "Bacampicillin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Hospital-acquired infection",
             "Airborne transmission",
             "Placental transmission",
@@ -306,7 +306,7 @@
             "Azithromycin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Airborne transmission",
             "Contact transmission",
             "Vector-borne transmission"
@@ -788,7 +788,7 @@
             "Metronidazole"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "hepatitis E": {
@@ -815,7 +815,7 @@
             "Ribavirin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "salmonellosis": {
@@ -840,7 +840,7 @@
             "Ringer's lactate solution"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Water-borne transmission",
             "Food-borne transmission"
         ]
@@ -871,7 +871,7 @@
             "Azithromycin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "Rift Valley fever": {
@@ -1051,7 +1051,7 @@
             "Azithromycin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "Chagas disease": {
@@ -1630,7 +1630,7 @@
             "Praziquantel"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Contact transmission"
         ]
     },
@@ -1663,7 +1663,7 @@
             "Pyrantel pamoate"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "boutonneuse fever": {
@@ -1737,7 +1737,7 @@
             "Metronidazole"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "primary amebic meningoencephalitis": {
@@ -1905,7 +1905,7 @@
             "Azithromycin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "epidemic typhus": {
@@ -2009,7 +2009,7 @@
             "Imidacloprid"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "cowpox": {
@@ -2113,7 +2113,7 @@
             "Albendazol"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "endemic typhus": {
@@ -2279,7 +2279,7 @@
         ],
         "Transmission Processes": [
             "Contact transmission",
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "human monocytic ehrlichiosis": {
@@ -2345,7 +2345,7 @@
             "Flubendazole"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "cutaneous leishmaniasis": {
@@ -2480,7 +2480,7 @@
             "Headache"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "ehrlichiosis": {
@@ -2624,7 +2624,7 @@
             "Tetracycline"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "Eastern equine encephalitis": {
@@ -2729,7 +2729,7 @@
             "Mebendazole"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Autoinvasion"
         ]
     },
@@ -2753,7 +2753,7 @@
             "Ivermectin"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "pasteurellosis": {
@@ -2840,7 +2840,7 @@
             "Sulfamethoxazole/trimethoprim"
         ],
         "Transmission Processes": [
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "African tick-bite fever": {
@@ -2868,7 +2868,7 @@
             "Contact transmission"
         ]
     },
-    "Epstein–Barr virus infection": {
+    "Epstein-Barr virus infection": {
         "Specialty": [
             "Infectious diseases"
         ],
@@ -3372,7 +3372,7 @@
         ],
         "Transmission Processes": [
             "Contact transmission",
-            "Fecal–oral route"
+            "Fecal-oral route"
         ]
     },
     "dengue fever": {
@@ -4045,7 +4045,7 @@
             "Praziquantel"
         ],
         "Transmission Processes": [
-            "Fecal–oral route",
+            "Fecal-oral route",
             "Autoinvasion"
         ]
     },
@@ -4477,7 +4477,7 @@
         ],
         "Symptoms List": [
             "Face of the giant panda sign",
-            "Kayser–fleischer ring",
+            "Kayser-fleischer ring",
             "Blue nails",
             "Personality change",
             "Jaundice",
@@ -4665,7 +4665,7 @@
             "Ciprofloxacin"
         ]
     },
-    "Norman–Roberts syndrome": {
+    "Norman-Roberts syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -6667,7 +6667,7 @@
             "Irritability"
         ]
     },
-    "Guillain–Barré syndrome": {
+    "Guillain-Barré syndrome": {
         "Specialty": [
             "Neurology"
         ],
@@ -7009,7 +7009,7 @@
             "Ciprofloxacin"
         ]
     },
-    "Zollinger–Ellison syndrome": {
+    "Zollinger-Ellison syndrome": {
         "Specialty": [
             "Endocrinology"
         ],
@@ -7639,7 +7639,7 @@
             "Medical genetics"
         ]
     },
-    "Parry–Romberg syndrome": {
+    "Parry-Romberg syndrome": {
         "Specialty": [
             "Neurology"
         ]
@@ -8438,7 +8438,7 @@
             "Lorenzo's oil"
         ]
     },
-    "Klüver–Bucy syndrome": {
+    "Klüver-Bucy syndrome": {
         "Specialty": [
             "Psychiatry",
             "Neurology"
@@ -9464,7 +9464,7 @@
             "Differential diagnosis"
         ],
         "Drugs and Therapy": [
-            "Serotonin–norepinephrine reuptake inhibitor",
+            "Serotonin-norepinephrine reuptake inhibitor",
             "Opioid",
             "Sodium oxybate",
             "Medical cannabis",
@@ -10229,7 +10229,7 @@
             "Clopidogrel"
         ]
     },
-    "Prader–Willi syndrome": {
+    "Prader-Willi syndrome": {
         "Specialty": [
             "Neurology",
             "Pediatrics",
@@ -11434,7 +11434,7 @@
             "Endocrinology"
         ]
     },
-    "McCune–Albright syndrome": {
+    "McCune-Albright syndrome": {
         "Specialty": [
             "Medical genetics"
         ],
@@ -12273,7 +12273,7 @@
             "Dizziness"
         ],
         "Medical Exams": [
-            "Dix–hallpike test"
+            "Dix-hallpike test"
         ]
     },
     "pseudohypoparathyroidism": {
@@ -12561,7 +12561,7 @@
             "Pregabalin"
         ]
     },
-    "Dejerine–Sottas disease": {
+    "Dejerine-Sottas disease": {
         "Specialty": [
             "Neurology"
         ]
@@ -12974,7 +12974,7 @@
             "Medical genetics"
         ]
     },
-    "Bonnet–Dechaume–Blanc syndrome": {
+    "Bonnet-Dechaume-Blanc syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -13199,7 +13199,7 @@
             "(2r)-daptomycin"
         ]
     },
-    "Wolff–Parkinson–White syndrome": {
+    "Wolff-Parkinson-White syndrome": {
         "Specialty": [
             "Cardiology"
         ],
@@ -14218,7 +14218,7 @@
             "Bleeding"
         ]
     },
-    "Charcot–Marie–Tooth disease": {
+    "Charcot-Marie-Tooth disease": {
         "Specialty": [
             "Neurology"
         ],
@@ -14258,7 +14258,7 @@
             "Papaverine"
         ]
     },
-    "Stevens–Johnson syndrome": {
+    "Stevens-Johnson syndrome": {
         "Specialty": [
             "Dermatology"
         ]
@@ -15497,7 +15497,7 @@
             "Neurology"
         ]
     },
-    "Vogt–Koyanagi–Harada syndrome": {
+    "Vogt-Koyanagi-Harada syndrome": {
         "Specialty": [
             "Ophthalmology"
         ],
@@ -15719,7 +15719,7 @@
             "Oncology"
         ]
     },
-    "Freeman–Sheldon syndrome": {
+    "Freeman-Sheldon syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -15833,7 +15833,7 @@
             "Medical genetics"
         ]
     },
-    "Ellis–Van Creveld syndrome": {
+    "Ellis-Van Creveld syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -16275,7 +16275,7 @@
             "Rheumatoid arthritis"
         ]
     },
-    "tonic–clonic seizure": {
+    "tonic-clonic seizure": {
         "Specialty": [
             "Neurology"
         ],
@@ -16511,7 +16511,7 @@
             "Bromocriptine"
         ]
     },
-    "Pallister–Killian syndrome": {
+    "Pallister-Killian syndrome": {
         "Symptoms List": [
             "Polydactyly",
             "Developmental language disorder",
@@ -16716,7 +16716,7 @@
             "Medical genetics"
         ]
     },
-    "Legg–Calvé–Perthes disease": {
+    "Legg-Calvé-Perthes disease": {
         "Specialty": [
             "Orthopedics",
             "Rheumatology"
@@ -16751,7 +16751,7 @@
             "Medical genetics"
         ]
     },
-    "Lhermitte–Duclos disease": {
+    "Lhermitte-Duclos disease": {
         "Specialty": [
             "Oncology"
         ]
@@ -16936,7 +16936,7 @@
             "Procyclidine"
         ]
     },
-    "Libman–Sacks endocarditis": {
+    "Libman-Sacks endocarditis": {
         "Specialty": [
             "Rheumatology"
         ]
@@ -17047,7 +17047,7 @@
             "Interventional radiology"
         ]
     },
-    "metabolic dysfunction–associated steatotic liver disease": {
+    "metabolic dysfunction-associated steatotic liver disease": {
         "Specialty": [
             "Gastroenterology"
         ]
@@ -17108,7 +17108,7 @@
             "Obstetrics"
         ]
     },
-    "Rosai–Dorfman disease": {
+    "Rosai-Dorfman disease": {
         "Specialty": [
             "Hematology"
         ]
@@ -17957,7 +17957,7 @@
             "Dl-ofloxacin"
         ]
     },
-    "Walker–Warburg syndrome": {
+    "Walker-Warburg syndrome": {
         "Specialty": [
             "Neurology",
             "Ophthalmology",
@@ -17989,7 +17989,7 @@
             "Neurology"
         ]
     },
-    "Landau–Kleffner syndrome": {
+    "Landau-Kleffner syndrome": {
         "Specialty": [
             "Psychiatry",
             "Neurology"
@@ -18452,7 +18452,7 @@
             "Neurology"
         ]
     },
-    "Klippel–Trénaunay–Weber syndrome": {
+    "Klippel-Trénaunay-Weber syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -18856,7 +18856,7 @@
             "Neurology"
         ]
     },
-    "Sturge–Weber syndrome": {
+    "Sturge-Weber syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -18963,7 +18963,7 @@
             "Griseofulvin"
         ]
     },
-    "May–Hegglin anomaly": {
+    "May-Hegglin anomaly": {
         "Specialty": [
             "Hematology"
         ]
@@ -19580,7 +19580,7 @@
             "Rheumatology"
         ]
     },
-    "Niemann–Pick disease, type C": {
+    "Niemann-Pick disease, type C": {
         "Specialty": [
             "Neurology",
             "Endocrinology"
@@ -19688,7 +19688,7 @@
             "Weight loss"
         ]
     },
-    "Ritscher–Schinzel syndrome": {
+    "Ritscher-Schinzel syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -20048,7 +20048,7 @@
             "Medical genetics"
         ]
     },
-    "Miller–Dieker lissencephaly syndrome": {
+    "Miller-Dieker lissencephaly syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -20374,7 +20374,7 @@
             "Oncology"
         ]
     },
-    "Werdnig–Hoffmann disease": {
+    "Werdnig-Hoffmann disease": {
         "Specialty": [
             "Neurology"
         ]
@@ -22190,7 +22190,7 @@
             "Albinism"
         ]
     },
-    "Roussy–Lévy syndrome": {
+    "Roussy-Lévy syndrome": {
         "Specialty": [
             "Neurology"
         ]
@@ -22208,7 +22208,7 @@
             "Oncology"
         ]
     },
-    "inborn errors of purine–pyrimidine metabolism": {
+    "inborn errors of purine-pyrimidine metabolism": {
         "Specialty": [
             "Endocrinology"
         ]
@@ -22448,7 +22448,7 @@
             "Oral and maxillofacial surgery"
         ]
     },
-    "Léri–Weill dyschondrosteosis": {
+    "Léri-Weill dyschondrosteosis": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -23759,7 +23759,7 @@
             "Neurology"
         ]
     },
-    "Rabson–Mendenhall syndrome": {
+    "Rabson-Mendenhall syndrome": {
         "Specialty": [
             "Endocrinology"
         ]
@@ -23973,7 +23973,7 @@
             "Medical genetics"
         ]
     },
-    "Jansky–Bielschowsky disease": {
+    "Jansky-Bielschowsky disease": {
         "Specialty": [
             "Endocrinology"
         ]
@@ -24059,7 +24059,7 @@
             "Urology"
         ]
     },
-    "short rib – polydactyly syndrome": {
+    "short rib- polydactyly syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -25617,7 +25617,7 @@
             "Medical genetics"
         ]
     },
-    "ectrodactyly–ectodermal dysplasia–cleft syndrome": {
+    "ectrodactyly-ectodermal dysplasia-cleft syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -25862,7 +25862,7 @@
             "Urology"
         ]
     },
-    "Fitzsimmons–Guilbert syndrome": {
+    "Fitzsimmons-Guilbert syndrome": {
         "Symptoms List": [
             "Brachydactyly"
         ]
@@ -25877,7 +25877,7 @@
             "Medical genetics"
         ]
     },
-    "Foix–Alajouanine syndrome": {
+    "Foix-Alajouanine syndrome": {
         "Specialty": [
             "Neurology"
         ]
@@ -26117,7 +26117,7 @@
             "Immunology"
         ]
     },
-    "Haim–Munk syndrome": {
+    "Haim-Munk syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -26240,7 +26240,7 @@
             "Cardiology"
         ]
     },
-    "neonatal hypoxic-ischemic  encephalopathy": {
+    "neonatal hypoxic-ischemic encephalopathy": {
         "Specialty": [
             "Pediatrics"
         ]
@@ -26269,7 +26269,7 @@
             "Diarrhea"
         ]
     },
-    "Howel–Evans syndrome": {
+    "Howel-Evans syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -26535,7 +26535,7 @@
             "Hematology"
         ]
     },
-    "Jaffe–Campanacci syndrome": {
+    "Jaffe-Campanacci syndrome": {
         "Symptoms List": [
             "Nonossifying fibroma",
             "Café au lait spot",
@@ -26765,7 +26765,7 @@
             "Rheumatology"
         ]
     },
-    "Letterer–Siwe disease": {
+    "Letterer-Siwe disease": {
         "Specialty": [
             "Oncology"
         ],
@@ -26788,7 +26788,7 @@
             "Dermatology"
         ]
     },
-    "Limb–mammary syndrome": {
+    "Limb-mammary syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -27038,7 +27038,7 @@
             "Neurology"
         ],
         "Symptoms List": [
-            "Mizuo–nakamura phenomenon"
+            "Mizuo-nakamura phenomenon"
         ]
     },
     "ophthalmia nodosa": {
@@ -27671,7 +27671,7 @@
             "Endocrinology"
         ]
     },
-    "Schöpf–Schulz–Passarge syndrome": {
+    "Schöpf-Schulz-Passarge syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -27748,7 +27748,7 @@
             "Medical genetics"
         ]
     },
-    "Smith–Fineman–Myers syndrome": {
+    "Smith-Fineman-Myers syndrome": {
         "Symptoms List": [
             "Facial hypotonia"
         ]
@@ -27928,7 +27928,7 @@
             "Methotrexate"
         ]
     },
-    "Taussig–Bing syndrome": {
+    "Taussig-Bing syndrome": {
         "Specialty": [
             "Medical genetics"
         ],
@@ -28054,7 +28054,7 @@
             "Infectious diseases"
         ]
     },
-    "tricho–dento–osseous syndrome": {
+    "tricho-dento-osseous syndrome": {
         "Specialty": [
             "Gastroenterology"
         ]
@@ -28276,7 +28276,7 @@
             "Oncology"
         ]
     },
-    "Urban–Rogers–Meyer syndrome": {
+    "Urban-Rogers-Meyer syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -28445,7 +28445,7 @@
             "Medical genetics"
         ]
     },
-    "Zimmermann–Laband syndrome": {
+    "Zimmermann-Laband syndrome": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -28875,7 +28875,7 @@
             "Infectious diseases"
         ]
     },
-    "myelodysplastic–myeloproliferative diseases": {
+    "myelodysplastic-myeloproliferative diseases": {
         "Specialty": [
             "Hematology"
         ]
@@ -29072,7 +29072,7 @@
             "Neurology"
         ]
     },
-    "Hand–Schüller–Christian disease": {
+    "Hand-Schüller-Christian disease": {
         "Specialty": [
             "Hematology"
         ]
@@ -29234,7 +29234,7 @@
             "Endocrinology"
         ]
     },
-    "Unna–Thost disease": {
+    "Unna-Thost disease": {
         "Specialty": [
             "Medical genetics"
         ]
@@ -41799,7 +41799,7 @@
             "Infectious diseases"
         ]
     },
-    "Chung–Jansen syndrome": {
+    "Chung-Jansen syndrome": {
         "Specialty": [
             "Neurology",
             "Medical genetics"
@@ -42286,7 +42286,7 @@
             "Isotretinoin"
         ]
     },
-    "Plummer–Vinson syndrome": {
+    "Plummer-Vinson syndrome": {
         "Specialty": [
             "Gastroenterology"
         ],
@@ -42690,7 +42690,7 @@
             "Levomilnacipran",
             "Wake therapy",
             "Mood stabilizer",
-            "Serotonin–norepinephrine reuptake inhibitor",
+            "Serotonin-norepinephrine reuptake inhibitor",
             "Levosulpiride",
             "Maprotiline",
             "(s)-duloxetine",

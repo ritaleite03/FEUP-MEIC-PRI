@@ -16,13 +16,13 @@ def merge(f1_content, f2_content):
 
 
 if __name__ == "__main__":
-    f1_content = get_json("./data/first_query.json")
-    f2_content = get_json("./data/second_query.json")
-    f3_content = get_json("./data/third_query.json")
-    f4_content = get_json("./data/fourth_query.json")
+    f1_content = load_json("./data/first_query.json")
+    f2_content = load_json("./data/second_query.json")
+    f3_content = load_json("./data/third_query.json")
+    f4_content = load_json("./data/fourth_query.json")
 
     content = merge(f1_content, f2_content)
     content = merge(content, f3_content)
     content = merge(content, f4_content)
 
-    write_to_file("wikidata.json", content)
+    save_json("wikidata.json", content)

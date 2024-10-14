@@ -1,7 +1,7 @@
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from utils import *
+from utils import load_json, save_json, sanitize_data
 
 KEYS = {
     'specialities': 'Specialty', 
@@ -52,7 +52,7 @@ def clean(file_content):
 
                 if k == "specialities":
                     final_specialties = []
-                    print("before", final_items)
+
                     for specialty in final_items:
                         if specialty in ["Infectious disease", "Pediatric", "Orthopedic", "Genetic"]:
                             final_specialties.append(specialty + "s")
@@ -69,20 +69,21 @@ def clean(file_content):
 
 
 if __name__ == "__main__":
-    f1_content = get_json("./raw_data/first_query.json")
-    f2_content = get_json("./raw_data/second_query.json")
-    f3_content = get_json("./raw_data/third_query.json")
-    f4_content = get_json("./raw_data/fourth_query.json")
+    f1_content = load_json("./raw_data/first_query.json")
+    f2_content = load_json("./raw_data/second_query.json")
+    f3_content = load_json("./raw_data/third_query.json")
+    f4_content = load_json("./raw_data/fourth_query.json")
 
-    f1_cleaned = clean(f1_content)
-    f2_cleaned = clean(f2_content)
-    f3_cleaned = clean(f3_content)
-    f4_cleaned = clean(f4_content)
 
-    write_to_file("./data/first_query.json", f1_cleaned)
-    write_to_file("./data/second_query.json", f2_cleaned)
-    write_to_file("./data/third_query.json", f3_cleaned)
-    write_to_file("./data/fourth_query.json", f4_cleaned)
+    f1_cleaned = clean(sanitize_data(f1_content))
+    f2_cleaned = clean(sanitize_data(f2_content))
+    f3_cleaned = clean(sanitize_data(f3_content))
+    f4_cleaned = clean(sanitize_data(f4_content))
+
+    save_json("./data/first_query.json", f1_cleaned)
+    save_json("./data/second_query.json", f2_cleaned)
+    save_json("./data/third_query.json", f3_cleaned)
+    save_json("./data/fourth_query.json", f4_cleaned)
 
 
 
