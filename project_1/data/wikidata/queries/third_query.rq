@@ -3,8 +3,6 @@ SELECT ?diseaseLabel
       (GROUP_CONCAT(DISTINCT ?geneticAssociationLabel; separator=", ") as ?geneticAssociations)
       (GROUP_CONCAT(DISTINCT ?prevalenceLabel; separator=", ") as ?prevalence)
       (GROUP_CONCAT(DISTINCT ?riskFactorLabel; separator=", ") as ?riskFactors)
-      (GROUP_CONCAT(DISTINCT ?ageOnsetLabel; separator=", ") as ?ageOnsets)
-      (GROUP_CONCAT(DISTINCT ?oppositeOfLabel; separator=", ") as ?oppositOf)
 WHERE {
     # disease instance of class of disease
     ?disease wdt:P31 wd:Q112193867.
@@ -39,27 +37,11 @@ WHERE {
       FILTER(LANG(?riskFactorLabel) = "en").
     }
  
-    # age of onset
-    OPTIONAL {
-      ?disease wdt:P2841 ?ageOnset.
-      ?ageOnset rdfs:label ?ageOnsetLabel.
-      FILTER(LANG(?ageOnsetLabel) = "en").
-    }
-  
-    # opposite of
-    OPTIONAL {
-      ?disease wdt:P461 ?oppositeOf_.
-      ?oppositeOf_ rdfs:label ?oppositeOfLabel.
-      FILTER(LANG(?oppositeOfLabel) = "en").
-    }
- 
     FILTER(
       BOUND(?treatment)            ||
       BOUND(?geneticAssociation)   ||
       BOUND(?prevalence_)          ||
       BOUND(?riskFactor)           ||
-      BOUND(?ageOnset)             ||
-      BOUND(?oppositeOf_)
     )
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
