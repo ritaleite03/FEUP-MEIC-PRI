@@ -155,7 +155,7 @@
             "Chlamydophila psittaci"
         ],
         "Can Cause": [
-            "Psittacosis outbreak of 1929–1930"
+            "Psittacosis outbreak of 1929-1930"
         ]
     },
     "severe acute respiratory syndrome": {
@@ -167,7 +167,7 @@
             "Sars-cov-1"
         ],
         "Can Cause": [
-            "2002–2004 sars outbreak"
+            "2002-2004 sars outbreak"
         ]
     },
     "liver cirrhosis": {
@@ -673,16 +673,16 @@
             "Thyroid nodule"
         ]
     },
-    "Epstein–Barr virus infection": {
+    "Epstein-Barr virus infection": {
         "Caused By": [
-            "Epstein–barr virus"
+            "Epstein-barr virus"
         ],
         "Can Cause": [
             "Infectious mononucleosis",
             "Burkitt lymphoma",
             "Nasopharynx carcinoma",
             "Chronic active ebv infection",
-            "Epstein–barr virus-positive dlbcl",
+            "Epstein-barr virus-positive dlbcl",
             "NOS",
             "Epstein-barr virus-associated lymphoproliferative diseases"
         ]
@@ -927,7 +927,7 @@
             "Asphyxia neonatorum"
         ],
         "Can Cause": [
-            "Postictal  twilight state"
+            "Postictal twilight state"
         ]
     },
     "McKusick type metaphyseal dysplasia": {
@@ -1583,7 +1583,7 @@
             "Zone of skin"
         ]
     },
-    "Guillain–Barré syndrome": {
+    "Guillain-Barré syndrome": {
         "Anatomical Location": [
             "Peripheral nervous system"
         ]
@@ -1617,7 +1617,7 @@
         ],
         "Caused By": [
             "Human betaherpesvirus 5",
-            "Epstein–barr virus"
+            "Epstein-barr virus"
         ]
     },
     "fetishism": {
@@ -1642,7 +1642,7 @@
     },
     "Hodgkin lymphoma": {
         "Caused By": [
-            "Epstein–barr virus infection"
+            "Epstein-barr virus infection"
         ]
     },
     "chronic fatigue syndrome": {
@@ -1656,7 +1656,7 @@
             "Human herpesvirus 7",
             "Borna disease virus",
             "Human herpesvirus 6",
-            "Epstein–barr virus"
+            "Epstein-barr virus"
         ]
     },
     "cerebral palsy": {
@@ -3381,7 +3381,7 @@
             "Rickettsia felis"
         ]
     },
-    "Foix–Alajouanine syndrome": {
+    "Foix-Alajouanine syndrome": {
         "Different From": [
             "Alcoholic cerebellar degeneration"
         ]
@@ -3972,7 +3972,7 @@
             "Mediastinum"
         ]
     },
-    "neonatal hypoxic-ischemic  encephalopathy": {
+    "neonatal hypoxic-ischemic encephalopathy": {
         "Caused By": [
             "Neonatal hypoxemia"
         ]
@@ -4131,7 +4131,7 @@
     },
     "Gilbert syndrome": {
         "Different From": [
-            "Guillain–barré syndrome"
+            "Guillain-barré syndrome"
         ]
     },
     "erythema infectiosum": {
@@ -4258,7 +4258,7 @@
             "Nasopharynx"
         ],
         "Caused By": [
-            "Epstein–barr virus infection"
+            "Epstein-barr virus infection"
         ]
     },
     "Gardner's syndrome": {
@@ -4668,7 +4668,7 @@
             "Loa loa"
         ]
     },
-    "Klippel–Trénaunay–Weber syndrome": {
+    "Klippel-Trénaunay-Weber syndrome": {
         "Different From": [
             "Parkes weber syndrome"
         ]
@@ -5496,7 +5496,7 @@
     },
     "Burkitt lymphoma": {
         "Caused By": [
-            "Epstein–barr virus infection"
+            "Epstein-barr virus infection"
         ]
     },
     "Buruli ulcer disease": {
@@ -5685,7 +5685,7 @@
     },
     "Parkes Weber syndrome": {
         "Different From": [
-            "Klippel–trénaunay–weber syndrome"
+            "Klippel-trénaunay-weber syndrome"
         ]
     },
     "peanut allergy": {
@@ -5743,7 +5743,7 @@
     },
     "Potter's syndrome": {
         "Different From": [
-            "Doege–potter syndrome"
+            "Doege-potter syndrome"
         ]
     },
     "choledochal cyst": {
@@ -6733,7 +6733,7 @@
             "Human lung"
         ]
     },
-    "Charcot–Marie–Tooth disease": {
+    "Charcot-Marie-Tooth disease": {
         "Caused By": [
             "Mutation"
         ]
@@ -10567,7 +10567,7 @@
             "Cow's milk intolerance"
         ]
     },
-    "envenomization by  Bothrops lanceolatus": {
+    "envenomization by Bothrops lanceolatus": {
         "Caused By": [
             "Snakebite"
         ]

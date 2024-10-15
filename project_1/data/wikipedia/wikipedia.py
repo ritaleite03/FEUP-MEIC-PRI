@@ -121,14 +121,13 @@ for letter in ascii_uppercase:
         # for section in page.sections:
         #     all_diseases |= (extract_diseases_from_section(section))
 
-        for link in page.links.keys():
+        for link, page in page.links.items():
             if link.startswith("List of") or link.startswith("Outline of"):
                 continue
-            disease_page = wiki_wiki.page(link)
-            if not disease_page.exists():
+            if not page.exists():
                 print("Disease not found: " + link)
                 continue
-            all_diseases[disease_page.title] = get_disease_info(disease_page)
+            all_diseases[page.title] = get_disease_info(page)
 
 with open('wikipedia_diseases.json', 'w', encoding='UTF-8') as file:
     json.dump(all_diseases, file, ensure_ascii=False, indent=4)
