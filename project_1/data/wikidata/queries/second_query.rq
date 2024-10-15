@@ -1,6 +1,5 @@
 SELECT ?diseaseLabel 
       (GROUP_CONCAT(DISTINCT ?anatomicalLocationLabel; separator=", ") as ?anatomicalLocation)
-      (GROUP_CONCAT(DISTINCT ?characteristicLabel; separator=", ") as ?characteristics)
       (GROUP_CONCAT(DISTINCT ?diffFromLabel; separator=", ") as ?diffFrom)
       (GROUP_CONCAT(DISTINCT ?causeLabel; separator=", ") as ?causes)
       (GROUP_CONCAT(DISTINCT ?canCauseLabel; separator=", ") as ?canCause)
@@ -15,13 +14,6 @@ WHERE {
       ?disease wdt:P927 ?anatomicalLocation_.
       ?anatomicalLocation_ rdfs:label ?anatomicalLocationLabel.
       FILTER(LANG(?anatomicalLocationLabel) = "en").
-    }
-  
-    # has characteristic
-    OPTIONAL {
-      ?disease wdt:P1552 ?characteristic.
-      ?characteristic rdfs:label ?characteristicLabel.
-      FILTER(LANG(?characteristicLabel) = "en").
     }
   
     # different from
@@ -47,11 +39,10 @@ WHERE {
  
     FILTER(
       BOUND(?anatomicalLocation_)  ||
-      BOUND(?characteristic)       ||
       BOUND(?diffFrom_)            ||
       BOUND(?cause)                ||
       BOUND(?canCause_)
-    )
+  )
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
  } 

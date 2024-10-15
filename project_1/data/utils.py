@@ -37,3 +37,25 @@ def __clean_text(text):
     cleaned_text = cleaned_text.replace('’', '\'') 
     cleaned_text = cleaned_text.replace('== References ==', '')
     return cleaned_text
+
+def group_change_names(data):
+    for key in data.keys():
+        if "Caused by" in data[key]:
+            data[key]["Causes List"] = data[key]["Caused by"]
+            del data[key]["Caused by"]
+        if "Drugs and Therapy" in data[key]:
+            if "Treatments List" not in data[key]:
+                data[key]["Treatments List"] = []
+            data[key]["Treatments List"].extend(data[key]["Drugs and Therapy"])
+            del data[key]["Drugs and Therapy"]
+    return data
+
+def delete_low_value_keys(data):
+    for key in data:
+        if "Age Onsets" in data[key]:
+            del data[key]["Age Onsets"]
+        if "Characteristics" in data[key]:
+            del data[key]["Characteristics"]
+        if "Opposit Of" in data[key]:
+            del data[key]["Opposit Of"]
+    return data
