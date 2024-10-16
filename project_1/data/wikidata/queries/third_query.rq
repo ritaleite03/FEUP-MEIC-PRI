@@ -41,7 +41,7 @@ WHERE {
       BOUND(?treatment)            ||
       BOUND(?geneticAssociation)   ||
       BOUND(?prevalence_)          ||
-      BOUND(?riskFactor)           ||
+      BOUND(?riskFactor)
     )
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }

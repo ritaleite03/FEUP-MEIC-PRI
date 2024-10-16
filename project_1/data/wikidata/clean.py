@@ -10,15 +10,12 @@ KEYS = {
     'drugs': 'Drugs and Therapy',
     'transmissionProcesses': 'Transmission Processes',
     'anatomicalLocation': 'Anatomical Location',
-    'characteristics': 'Characteristics',
     'diffFrom': 'Different From',
     'causes': 'Caused By',
     'canCause': 'Can Cause',
     'treatments': 'Treatments List',
     'geneticAssociations': 'Genetic Associations',
     'riskFactors': 'Risk Factors List',
-    'ageOnsets': 'Age Onsets',
-    'oppositOf': 'Opposit Of',
     'alias': 'Alias'
 }
 
