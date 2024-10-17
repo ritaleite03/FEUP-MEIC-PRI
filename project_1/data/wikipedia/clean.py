@@ -7,6 +7,9 @@ def clean(content):
     content_cleaned = {}
 
     for disease, information in content.items():
+        if(disease == "Lists of diseases" or disease == "Disease" or disease == "List of phobias"):
+            continue
+        
         content_cleaned[disease] = information
 
         delete = []
