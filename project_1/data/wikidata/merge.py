@@ -25,4 +25,6 @@ if __name__ == "__main__":
     content = merge(content, f3_content)
     content = merge(content, f4_content)
 
+    content = group_change_names(content)
+
     save_json("wikidata.json", content)
