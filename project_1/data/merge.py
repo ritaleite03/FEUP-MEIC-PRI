@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     for title, details in content.items():
         document = {
-            "name": title,
+            "id": title,
         }
         
         for atribute, atribute_value in details.items():
