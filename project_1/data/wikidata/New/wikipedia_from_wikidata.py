@@ -1,6 +1,6 @@
 import wikipediaapi
 import sys
-sys.path.append('../')
+sys.path.append('../../')
 from utils import load_json, save_json
 from bs4 import BeautifulSoup
 import requests
@@ -101,7 +101,7 @@ def get_disease_info(disease_page):
                 td = row.find('td')
                 if td:
                     info = get_row_info(row)
-                    disease_info["Treatment List"] =  get_row_list(info)
+                    disease_info["Treatments List"] =  get_row_list(info)
 
             elif row.find('th') and row.find('th').text == "Prevention":
                 td = row.find('td')
@@ -174,7 +174,7 @@ def main(file, endfile, wiki_wiki):
     save_json(endfile, all_diseases)
 
 if __name__ == "__main__":
-    file = "wikidata.json"
+    file = "../wikidata.json"
     endfile = "wikipedia_from_wikidata.json"
 
     wiki_wiki = wikipediaapi.Wikipedia('PRI-Proj', 'en')

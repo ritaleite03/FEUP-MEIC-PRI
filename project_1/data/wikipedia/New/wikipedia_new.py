@@ -75,7 +75,7 @@ def get_disease_info(disease_page):
 
             elif row.find('th') and row.find('th').text == "Treatment":
                 info = get_row_info(row)
-                disease_info["Treatment List"] =  get_row_list(info)
+                disease_info["Treatments List"] =  get_row_list(info)
 
             elif row.find('th') and row.find('th').text == "Prevention":
                 disease_info["Prevention"] = get_row_info(row)
