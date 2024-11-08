@@ -1,4 +1,4 @@
-from utils import load_json, save_json
+from utils import delete_low_value_keys, load_json, save_json, group_change_names, delete_low_value_keys
 import json
 
 def load_json(filepath):
@@ -31,23 +31,18 @@ if __name__ == "__main__":
 
     content = merge(wikidata_content, wikipedia_content)
 
+    content = group_change_names(content)
+
+    content = delete_low_value_keys(content)
+
     solr_documents = []
 
-    for title, details in content.items():
-        document = {
-            "id": title,
-        }
-        
-        for atribute, atribute_value in details.items():
-            if isinstance(atribute_value, str) or isinstance(atribute_value, list)or isinstance(atribute_value, int):
-                document[atribute] = atribute_value
-            else:
-                atribute_value_list = []
-                for subatribute, subatribute_value in atribute_value.items():
-                    atribute_value_list.append(subatribute_value)
-                document[atribute] = atribute_value_list    
-                        
-        solr_documents.append(document)
+    for key, value in content.items():
+        new_entry = {}
+        new_entry["id"] = key  
+        for k, v in value.items():
+            new_entry[k] = v
+        solr_documents.append(new_entry)
 
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(solr_documents, f, ensure_ascii=False, indent=4)

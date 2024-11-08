@@ -58,7 +58,7 @@
               "indexed": true
           },
           {
-              "name": "Risk_factors.*",
+              "name": "Risk factors.*",
               "type":  "improvedTextField",
               "indexed": true
           },
@@ -92,25 +92,25 @@
           "multiValued": true
       },
       {
-          "name": "Caused_By",
+          "name": "Caused By",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Can_Cause",
+          "name": "Can Cause",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Different_From",
+          "name": "Different From",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Risk_factors_List",
+          "name": "Risk Factors List",
           "type": "listType",
           "indexed": true,
           "multiValued": true
@@ -122,37 +122,37 @@
           "multiValued": true
       },
       {
-          "name": "Symptoms_List",
+          "name": "Symptoms List",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Medical_Exams",
+          "name": "Medical Exams",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Transmission_Processes",
+          "name": "Transmission Processes",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Anatomical_Location",
+          "name": "Anatomical Location",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Treatment_List",
+          "name": "Treatments List",
           "type": "listType",
           "indexed": true,
           "multiValued": true
       },
       {
-          "name": "Genetic_Associations",
+          "name": "Genetic Associations",
           "type": "listType",
           "indexed": true,
           "multiValued": true
@@ -163,11 +163,11 @@
           "indexed": true
       },
       {
-          "name": "Total_Revisions",
+          "name": "Total Revisions",
           "type": "totalRevisionsType"
       },
       {
-          "name": "Last_Revision_Date",
+          "name": "Last Revision Date",
           "type": "lastRevisionDateType"
       }
   ]

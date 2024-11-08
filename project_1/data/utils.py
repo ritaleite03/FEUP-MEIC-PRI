@@ -43,9 +43,6 @@ def __clean_text(text):
 
 def group_change_names(data):
     for key in data.keys():
-        if "Caused by" in data[key]:
-            data[key]["Causes List"] = data[key]["Caused by"]
-            del data[key]["Caused by"]
         if "Drugs and Therapy" in data[key]:
             if "Treatments List" not in data[key]:
                 data[key]["Treatments List"] = []
