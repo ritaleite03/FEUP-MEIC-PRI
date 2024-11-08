@@ -1,4 +1,4 @@
-from utils import load_json, save_json
+from utils import load_json, save_json, delete_low_value_keys
 
 def merge(wikidata_content, wikipedia_content):
     wikipedia_diseases = {disease.lower(): disease for disease in wikipedia_content.keys()}
@@ -21,6 +21,8 @@ if __name__ == "__main__":
     wikipedia_content = load_json("./wikipedia/New/wikipedia_complete.json")
 
     content = merge(wikidata_content, wikipedia_content)
+
+    content = delete_low_value_keys(content)
 
     solr_documents = []
 
