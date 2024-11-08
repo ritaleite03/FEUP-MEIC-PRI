@@ -114,7 +114,7 @@ def get_disease_info(disease_page):
                 td = row.find('td')
                 if td:
                     info = get_row_info(row)
-                    disease_info["Risk factors List"] =  get_row_list(info)
+                    disease_info["Risk Factors List"] =  get_row_list(info)
 
             elif row.find('th') and row.find('th').text == "Complications":
                 td = row.find('td')

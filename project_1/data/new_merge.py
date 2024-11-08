@@ -18,7 +18,7 @@ def merge_data(wikidata_disease_information, wikipedia_disease_information):
 
 if __name__ == "__main__":
     wikidata_content = load_json("./wikidata/wikidata.json")
-    wikipedia_content = load_json("./wikipedia/New/wikipedia_complete.json")
+    wikipedia_content = load_json("./wikipedia/wikipedia_complete.json")
 
     content = merge(wikidata_content, wikipedia_content)
 

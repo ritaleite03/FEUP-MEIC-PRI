@@ -84,7 +84,7 @@ def get_disease_info(disease_page):
 
             elif row.find('th') and row.find('th').text == "Risk factors":
                 info = get_row_info(row)
-                disease_info["Risk factors List"] =  get_row_list(info)
+                disease_info["Risk Factors List"] =  get_row_list(info)
 
             elif row.find('th') and row.find('th').text == "Complications":
                 full_info = {}
