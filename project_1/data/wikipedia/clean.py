@@ -46,8 +46,8 @@ def clean(content):
 
 
 if __name__ == "__main__":
-    file_content = load_json("wikipedia_diseases.json")
+    file_content = load_json("./New/wikipedia_new.json")
 
     content_cleaned = clean(sanitize_data(file_content))
 
-    save_json("wikipedia.json", content_cleaned)
+    save_json("./New/wikipedia_new_clean.json", content_cleaned)

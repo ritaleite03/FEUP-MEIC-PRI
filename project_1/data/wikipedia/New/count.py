@@ -6,6 +6,6 @@ def load_json(file_name):
     return json.load(f)
 
 if __name__ == "__main__":
-    data = load_json("../../data_complete.json")
+    data = load_json("../../wikidata/New/wikipedia_complete.json")
     print(len(data))
 

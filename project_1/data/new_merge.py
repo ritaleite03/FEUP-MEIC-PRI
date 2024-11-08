@@ -18,7 +18,7 @@ def merge_data(wikidata_disease_information, wikipedia_disease_information):
 
 if __name__ == "__main__":
     wikidata_content = load_json("./wikidata/wikidata.json")
-    wikipedia_content = load_json("./wikidata/New/wikipedia_complete.json")
+    wikipedia_content = load_json("./wikipedia/New/wikipedia_complete.json")
 
     content = merge(wikidata_content, wikipedia_content)
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     for key, value in content.items():
         new_entry = {}
-        new_entry["name"] = key  
+        new_entry["id"] = key  
         for k, v in value.items():
             new_entry[k] = v
         solr_documents.append(new_entry)

@@ -78,20 +78,18 @@ def get_disease_info(disease_page):
                 disease_info["Treatments List"] =  get_row_list(info)
 
             elif row.find('th') and row.find('th').text == "Prevention":
-                disease_info["Prevention"] = get_row_info(row)
+                full_info = {}
+                full_info["Summary"] = get_row_info(row)
+                disease_info["Prevention"] = full_info
 
             elif row.find('th') and row.find('th').text == "Risk factors":
                 info = get_row_info(row)
                 disease_info["Risk factors List"] =  get_row_list(info)
 
             elif row.find('th') and row.find('th').text == "Complications":
-                disease_info["Complications"] = get_row_info(row)
-            #elif row.find('th') and row.find('th').text == "Diagnostic method":
-            #    info = re.sub(r'\[\d+\]', '', row.find('td').text.strip().replace("\n", " "))
-            #    disease_info["Diagnostic method"] = info
-            #elif row.find('th') and row.find('th').text == "Prognosis":
-            #    info = re.sub(r'\[\d+\]', '', row.find('td').text.strip().replace("\n", " "))
-            #    disease_info["Prognosis"] = info
+                full_info = {}
+                full_info["Summary"] = get_row_info(row)
+                disease_info["Complications"] = full_info
  
     disease_info["Overview"] = disease_page.summary.strip().replace("\n", " ")
 
