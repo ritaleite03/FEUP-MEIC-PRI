@@ -1,0 +1,175 @@
+{
+  "add-field-type": [
+          {
+              "name": "improvedTextField",
+              "class": "solr.TextField",
+              "indexAnalyzer": {
+                  "tokenizer": {
+                      "class": "solr.StandardTokenizerFactory"
+                  },
+                  "filters": [
+                      {
+                          "class": "solr.ASCIIFoldingFilterFactory",
+                          "preserveOriginal": true 
+                      },
+                      {
+                          "class": "solr.LowerCaseFilterFactory"
+                      }
+                  ]
+              },
+              "queryAnalyzer": {  
+                  "tokenizer": {
+                      "class": "solr.StandardTokenizerFactory"
+                  },
+                  "filters": [
+                      {
+                          "class":"solr.ASCIIFoldingFilterFactory",
+                          "preserveOriginal":true
+                      },
+                      {
+                          "class":"solr.LowerCaseFilterFactory"
+                      }
+                  ]
+              }
+          },
+          {
+              "name": "listType",
+              "class": "solr.TextField"
+          },
+          {
+              "name": "totalRevisionsType",
+              "class": "solr.IntPointField"
+          },
+          {
+              "name": "lastRevisionDateType",
+              "class": "solr.DatePointField"
+          }
+  
+      ],
+      "add-dynamic-field": [
+          {
+              "name": "Symptoms.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          },
+          {
+              "name": "Causes.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          },
+          {
+              "name": "Risk_factors.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          },
+          {
+              "name": "Complications.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          },
+          {
+              "name": "Prevention.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          },
+          {
+              "name": "Diagnosis.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          },
+          {
+              "name": "Treatment.*",
+              "type":  "improvedTextField",
+              "indexed": true
+          }
+      ],
+
+      "add-field": [
+      {
+          "name": "Specialty",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Caused_By",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Can_Cause",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Different_From",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Risk_factors_List",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Alias",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Symptoms_List",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Medical_Exams",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Transmission_Processes",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Anatomical_Location",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Treatment_List",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Genetic_Associations",
+          "type": "listType",
+          "indexed": true,
+          "multiValued": true
+      },
+      {
+          "name": "Overview",
+          "type":  "improvedTextField",
+          "indexed": true
+      },
+      {
+          "name": "Total_Revisions",
+          "type": "totalRevisionsType"
+      },
+      {
+          "name": "Last_Revision_Date",
+          "type": "lastRevisionDateType"
+      }
+  ]
+
+}
