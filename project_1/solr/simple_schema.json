@@ -1,56 +1,8 @@
 {
     "add-field-type": [
         {
-            "name": "improvedTextField",
-            "class": "solr.TextField",
-            "indexAnalyzer": {
-                "tokenizer": {
-                    "class": "solr.StandardTokenizerFactory"
-                },
-                "filters": [
-                    {
-                        "class": "solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal": true 
-                    },
-                    {
-                        "class": "solr.LowerCaseFilterFactory"
-                    },
-                    {
-                        "class": "solr.StopFilterFactory",
-                        "words": "stopwords.txt"
-                    },
-                    {
-                        "class": "solr.SynonymGraphFilterFactory",
-                        "synonyms": "synonyms.txt",
-                        "ignoreCase": true,
-                        "expand": false
-                    }
-                ]
-            },
-            "queryAnalyzer": {  
-                "tokenizer": {
-                    "class": "solr.StandardTokenizerFactory"
-                },
-                "filters": [
-                    {
-                        "class":"solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal":true
-                    },
-                    {
-                        "class":"solr.LowerCaseFilterFactory"
-                    },
-                    {
-                        "class": "solr.StopFilterFactory",
-                        "words": "stopwords.txt"
-                    },
-                    {
-                        "class": "solr.SynonymGraphFilterFactory",
-                        "synonyms": "synonyms.txt",
-                        "ignoreCase": true,
-                        "expand": false
-                    }
-                ]
-            }
+            "name": "textField",
+            "class": "solr.TextField"
         },
         {
             "name": "listType",
@@ -68,44 +20,44 @@
     "add-dynamic-field": [
         {
             "name": "Symptoms.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },
         {
             "name": "Causes.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },
         {
             "name": "Risk factors.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },
         {
             "name": "Complications.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },
         {
             "name": "Prevention.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },  
         {
             "name": "Diagnosis.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },
         {
             "name": "Treatment.*",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         }
     ],
     "add-field": [
         {
             "name": "name",
-            "type": "improvedTextField",
+            "type": "textField",
             "indexed": true
         },
         {
@@ -182,7 +134,7 @@
         },
         {
             "name": "Overview",
-            "type":  "improvedTextField",
+            "type":  "textField",
             "indexed": true
         },
         {
