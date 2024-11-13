@@ -46,8 +46,11 @@ def clean(content):
 
 
 if __name__ == "__main__":
-    file_content = load_json("./New/wikipedia_new.json")
+    wiki_new = load_json("raw_data/wikipedia_new.json")
+    wiki_from_wikidata = load_json("raw_data/wikipedia_from_wikidata.json")
 
-    content_cleaned = clean(sanitize_data(file_content))
+    wiki_new_cleaned = clean(sanitize_data(wiki_new))
+    wiki_from_wikidata_cleaned = clean(sanitize_data(wiki_from_wikidata))
 
-    save_json("./New/wikipedia_new_clean.json", content_cleaned)
+    save_json("data/wikipedia_new_clean.json", wiki_new_cleaned)
+    save_json("data/wikipedia_from_wikidata_clean.json", wiki_from_wikidata_cleaned)

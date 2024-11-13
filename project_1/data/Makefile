@@ -5,8 +5,9 @@ clean:
 	rm -f wikidata/raw_data/*.json
 	rm -f wikidata/wikidata.json
 
+	rm -f wikipedia/raw_data/*.json
+	rm -f wikipedia/data/*.json
 	rm -f wikipedia/wikipedia.json
-	rm -f wikipedia/wikipedia_diseases.json
 
 	rm -f data.json
 
