@@ -17,5 +17,5 @@ curl -X POST -H 'Content-type:application/json' \
   --data-binary "@../solr/schema.json" \
   http://localhost:8983/solr/diseases/schema
 
-docker exec -it pri_proj bin/solr post -c diseases /data/data.json
+docker exec -it pri_proj bin/solr post -c diseases /data/data_complete.json
 

@@ -28,7 +28,8 @@ if __name__ == "__main__":
 
     for key, value in content.items():
         new_entry = {}
-        new_entry["id"] = key  
+        new_entry["id"] = "_" + key.lower().replace(" ", "_")
+        new_entry["name"] = key
         for k, v in value.items():
             new_entry[k] = v
         solr_documents.append(new_entry)
