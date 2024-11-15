@@ -29,9 +29,9 @@ if __name__ == "__main__":
     for key, value in content.items():
         new_entry = {}
         new_entry["id"] = "_" + key.lower().replace(" ", "_")
-        new_entry["name"] = key
+        new_entry["Name"] = key
         for k, v in value.items():
-            new_entry[k] = v
+            new_entry[k.replace(" ", "_")] = v
         solr_documents.append(new_entry)
 
     save_json('data.json', solr_documents)
