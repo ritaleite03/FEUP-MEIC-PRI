@@ -10,7 +10,7 @@
                 "filters": [
                     {
                         "class": "solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal": true 
+                        "preserveOriginal": true
                     },
                     {
                         "class": "solr.LowerCaseFilterFactory"
@@ -27,17 +27,17 @@
                     }
                 ]
             },
-            "queryAnalyzer": {  
+            "queryAnalyzer": {
                 "tokenizer": {
                     "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
                     {
-                        "class":"solr.ASCIIFoldingFilterFactory",
-                        "preserveOriginal":true
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
                     },
                     {
-                        "class":"solr.LowerCaseFilterFactory"
+                        "class": "solr.LowerCaseFilterFactory"
                     },
                     {
                         "class": "solr.StopFilterFactory",
@@ -68,43 +68,55 @@
     "add-dynamic-field": [
         {
             "name": "Symptoms.*",
-            "type":  "improvedTextField",
-            "indexed": true
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Causes.*",
-            "type":  "improvedTextField",
-            "indexed": true
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Risk_factors.*",
-            "type":  "improvedTextField",
-            "indexed": true
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Complications.*",
-            "type":  "improvedTextField",
-            "indexed": true
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Prevention.*",
-            "type":  "improvedTextField",
-            "indexed": true
-        },  
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
         {
             "name": "Diagnosis.*",
-            "type":  "improvedTextField",
-            "indexed": true
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Treatment.*",
-            "type":  "improvedTextField",
-            "indexed": true
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
         }
     ],
     "add-field": [
         {
             "name": "Name",
+            "type": "improvedTextField",
+            "indexed": true
+        },
+        {
+            "name": "Overview",
             "type": "improvedTextField",
             "indexed": true
         },
@@ -181,9 +193,22 @@
             "multiValued": true
         },
         {
-            "name": "Overview",
-            "type":  "improvedTextField",
-            "indexed": true
+            "name": "Opposit_Of",
+            "type": "listType",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Age_Onsets",
+            "type": "listType",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Characteristics",
+            "type": "listType",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Total_Revisions",

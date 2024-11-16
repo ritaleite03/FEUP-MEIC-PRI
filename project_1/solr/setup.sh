@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cd ../data
-
 docker stop pri_proj
 
 docker rm pri_proj
@@ -20,8 +18,7 @@ docker cp ../solr/synonyms.txt pri_proj:/var/solr/data/diseases/conf
 sleep 1
 
 curl -X POST -H 'Content-type:application/json' \
-  --data-binary "@../solr/schema.json" \
-  http://localhost:8983/solr/diseases/schema
+    --data-binary "@../solr/schema.json" \
+    http://localhost:8983/solr/diseases/schema
 
-docker exec -it pri_proj bin/solr post -c diseases /data/data.json
-
+docker exec -it pri_proj bin/solr post -c diseases /data/solr_data.json

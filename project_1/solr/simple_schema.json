@@ -20,38 +20,45 @@
     "add-dynamic-field": [
         {
             "name": "Symptoms.*",
-            "type":  "textField",
-            "indexed": true
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Causes.*",
-            "type":  "textField",
-            "indexed": true
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Risk factors.*",
-            "type":  "textField",
-            "indexed": true
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Complications.*",
-            "type":  "textField",
-            "indexed": true
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Prevention.*",
-            "type":  "textField",
-            "indexed": true
-        },  
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
+        },
         {
             "name": "Diagnosis.*",
-            "type":  "textField",
-            "indexed": true
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
         },
         {
             "name": "Treatment.*",
-            "type":  "textField",
-            "indexed": true
+            "type": "textField",
+            "indexed": true,
+            "multiValued": true
         }
     ],
     "add-field": [
@@ -134,7 +141,7 @@
         },
         {
             "name": "Overview",
-            "type":  "textField",
+            "type": "textField",
             "indexed": true
         },
         {
