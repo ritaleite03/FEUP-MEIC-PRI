@@ -1,6 +1,20 @@
 {
     "add-field-type": [
         {
+            "name": "TextField",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                }
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                }
+            }
+        },
+        {
             "name": "totalRevisionsType",
             "class": "solr.IntPointField"
         },
