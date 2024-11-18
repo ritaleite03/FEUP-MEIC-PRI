@@ -1,7 +1,0 @@
-{
-    "query": "hormone",
-    "params": {
-        "defType": "edismax",
-        "qf" : "Causes.*^1" 
-    }
-}

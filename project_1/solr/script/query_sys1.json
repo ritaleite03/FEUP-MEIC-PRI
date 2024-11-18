@@ -1,0 +1,10 @@
+{
+    "query": "fever vomit",
+    "params": {
+        "defType": "edismax",
+        "qf": "Name Overview Specialty Caused_By Can_Cause Different_From Risk_Factors_List Alias Symptoms_List  Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Genetic_Associations Opposit_Of Age_Onsets Characteristics Symptoms.Text Symptoms.Sections Causes.Text Causes.Sections Risk_factors.Text Risk_factors.Sections Complications.Text Complications.Sections Prevention.Text Prevention.Sections Diagnosis.Text Diagnosis.Sections Treatment.Text Treatment.Sections ",
+        "start": 0,
+        "rows": 21,
+        "q.op": "AND"
+    }
+}

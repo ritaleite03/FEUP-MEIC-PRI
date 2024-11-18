@@ -53,10 +53,6 @@
             }
         },
         {
-            "name": "listType",
-            "class": "solr.TextField"
-        },
-        {
             "name": "totalRevisionsType",
             "class": "solr.IntPointField"
         },
@@ -122,91 +118,91 @@
         },
         {
             "name": "Specialty",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Caused_By",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Can_Cause",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Different_From",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Risk_Factors_List",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Alias",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Symptoms_List",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Medical_Exams",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Transmission_Processes",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Anatomical_Location",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Treatments_List",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Genetic_Associations",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Opposit_Of",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Age_Onsets",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
         {
             "name": "Characteristics",
-            "type": "listType",
+            "type": "improvedTextField",
             "indexed": true,
             "multiValued": true
         },
