@@ -1,0 +1,101 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 56,
+    "params": {
+      "json": "{\"query\": \"fever vomit\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name Alias Overview Can_Cause Specialty Caused_By Risk_Factors_List Symptoms_List Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text Causes.Text Risk_factors.Text Complications.Text Prevention.Text Diagnosis.Text Treatment.Text\", \"start\": 0, \"rows\": 21, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 1691,
+    "start": 0,
+    "maxScore": 7.6143894,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_colorado_tick_fever",
+        "score": 7.6143894
+      },
+      {
+        "id": "_yellow_fever",
+        "score": 6.672398
+      },
+      {
+        "id": "_dengue_fever",
+        "score": 6.469602
+      },
+      {
+        "id": "_febrile_seizure",
+        "score": 5.9455757
+      },
+      {
+        "id": "_botulism",
+        "score": 5.6446915
+      },
+      {
+        "id": "_ascariasis",
+        "score": 5.6375856
+      },
+      {
+        "id": "_mitral_regurgitation",
+        "score": 5.3730116
+      },
+      {
+        "id": "_emetophobia",
+        "score": 4.796435
+      },
+      {
+        "id": "_quartan_fever",
+        "score": 4.530121
+      },
+      {
+        "id": "_gallbladder_cancer",
+        "score": 4.5151014
+      },
+      {
+        "id": "_tricyclic_antidepressant_overdose",
+        "score": 4.457605
+      },
+      {
+        "id": "_dermatomyositis",
+        "score": 4.3783603
+      },
+      {
+        "id": "_hern",
+        "score": 4.2297935
+      },
+      {
+        "id": "_hirschsprung's_disease",
+        "score": 4.2199597
+      },
+      {
+        "id": "_inhalant",
+        "score": 4.1259966
+      },
+      {
+        "id": "_rumination_syndrome",
+        "score": 4.116267
+      },
+      {
+        "id": "_pulmonary_embolism",
+        "score": 3.9963381
+      },
+      {
+        "id": "_urinary_tract_infection",
+        "score": 3.9727662
+      },
+      {
+        "id": "_paracetamol_poisoning",
+        "score": 3.821144
+      },
+      {
+        "id": "_proteus_syndrome",
+        "score": 3.778917
+      },
+      {
+        "id": "_cyclic_vomiting_syndrome",
+        "score": 3.7643657
+      }
+    ]
+  }
+}

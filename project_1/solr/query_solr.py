@@ -38,8 +38,10 @@ def fetch_solr_results(query_file, solr_uri, collection):
 
     # Fetch and print the results as JSON
     results = response.json()
-    print(json.dumps(results, indent=2))
-
+    output_file = 'resultados.json'
+    # Escrevendo os resultados no ficheiro
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     # Set up argument parsing for the command-line interface
