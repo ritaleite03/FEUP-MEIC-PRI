@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 5,
+    "params": {
+      "json": "{\"query\": \"persistent fatigue exhaustion\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name Alias Overview Can_Cause Specialty Caused_By Risk_Factors_List Symptoms_List Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Characteristics Age_Onsets Opposit_Of Different_From Genetic_Associations Symptoms.Text Causes.Text Risk_factors.Text Complications.Text Prevention.Text Diagnosis.Text Treatment.Text Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 980,
+    "start": 0,
+    "maxScore": 6.7337065,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_myalgic_encephalomyelitis/chronic_fatigue_syndrome",
+        "score": 6.7337065
+      },
+      {
+        "id": "_whooping_cough",
+        "score": 6.081622
+      },
+      {
+        "id": "_adenosine_monophosphate_deaminase_deficiency_type_1",
+        "score": 5.345995
+      },
+      {
+        "id": "_persistent_polyclonal_b-cell_lymphocytosis",
+        "score": 5.283087
+      },
+      {
+        "id": "_heart_failure",
+        "score": 5.0028014
+      },
+      {
+        "id": "_postpartum_depression",
+        "score": 4.850238
+      },
+      {
+        "id": "_hypermobility_spectrum_disorder",
+        "score": 4.753771
+      },
+      {
+        "id": "_hypereosinophilic_syndrome",
+        "score": 4.7113657
+      },
+      {
+        "id": "_caregiver_stress",
+        "score": 4.6724305
+      },
+      {
+        "id": "_dysthymia",
+        "score": 4.5931845
+      },
+      {
+        "id": "_camurati-engelmann_disease",
+        "score": 4.471171
+      },
+      {
+        "id": "_anterior_ischemic_optic_neuropathy",
+        "score": 4.4013004
+      },
+      {
+        "id": "_protein_s_deficiency",
+        "score": 4.340925
+      },
+      {
+        "id": "_fibromyalgia",
+        "score": 4.318386
+      },
+      {
+        "id": "_oncogenic_osteomalacia",
+        "score": 4.2502275
+      },
+      {
+        "id": "_heat_illness",
+        "score": 4.229776
+      },
+      {
+        "id": "_hypersomnia",
+        "score": 4.205309
+      },
+      {
+        "id": "_persistent_generalized_lymphadenopathy",
+        "score": 4.2039948
+      },
+      {
+        "id": "_acute_severe_asthma",
+        "score": 4.0367484
+      },
+      {
+        "id": "_median_rhomboid_glossitis",
+        "score": 3.9361506
+      }
+    ]
+  }
+}

@@ -14,12 +14,9 @@ curl http://localhost:8983/solr/diseases/config -d '{"set-user-property": {"upda
 docker cp ../solr/stopwords.txt pri_proj:/var/solr/data/diseases/conf
 sleep 1
 
-docker cp ../solr/synonyms.txt pri_proj:/var/solr/data/diseases/conf
-sleep 1
-
 curl -X POST -H 'Content-type:application/json' \
-     --data-binary "@schema.json" \
-     http://localhost:8983/solr/diseases/schema
+    --data-binary "@schema.json" \
+    http://localhost:8983/solr/diseases/schema
 
 docker exec -it pri_proj bin/solr post -c diseases /data/solr_data.json
 
