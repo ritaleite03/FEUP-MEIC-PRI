@@ -1,0 +1,15 @@
+_pulmonary_fibrosis
+_pneumonia
+_bronchitis
+_asthma
+_emphysema
+_black_lung_disease
+_baritosis
+_lung_cancer
+_chemical_pneumonitis
+_chronic_obstructive_pulmonary_disease
+_pneumatosis
+_bird_fancier's_lung
+_farmer's_lung
+_alpha-1_antitrypsin_deficiency
+_idiopathic_pulmonary_fibrosis

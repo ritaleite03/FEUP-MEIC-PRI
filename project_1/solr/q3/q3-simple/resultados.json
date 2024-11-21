@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 3,
+    "params": {
+      "json": "{\"query\": \"pollution lungs\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name Alias Overview Can_Cause Specialty Caused_By Risk_Factors_List Symptoms_List Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text Causes.Text Risk_factors.Text Complications.Text Prevention.Text Diagnosis.Text Treatment.Text\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 374,
+    "start": 0,
+    "maxScore": 5.1194134,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_osteopathia_striata_with_cranial_sclerosis",
+        "score": 5.1194134
+      },
+      {
+        "id": "_pulmonary_fibrosis",
+        "score": 4.870061
+      },
+      {
+        "id": "_pneumonia",
+        "score": 4.493431
+      },
+      {
+        "id": "_bronchitis",
+        "score": 4.4724684
+      },
+      {
+        "id": "_asthma",
+        "score": 4.377069
+      },
+      {
+        "id": "_emphysema",
+        "score": 4.0454845
+      },
+      {
+        "id": "_black_lung_disease",
+        "score": 3.9376845
+      },
+      {
+        "id": "_meacham_syndrome",
+        "score": 3.754238
+      },
+      {
+        "id": "_blepharospasm",
+        "score": 3.732731
+      },
+      {
+        "id": "_baritosis",
+        "score": 3.7019572
+      },
+      {
+        "id": "_goodpasture_syndrome",
+        "score": 2.9390607
+      },
+      {
+        "id": "_lung_cancer",
+        "score": 2.9101534
+      },
+      {
+        "id": "_pulmonary_embolism",
+        "score": 2.9062057
+      },
+      {
+        "id": "_sandhoff_disease",
+        "score": 2.8975806
+      },
+      {
+        "id": "_hand,_foot,_and_mouth_disease",
+        "score": 2.8724637
+      },
+      {
+        "id": "_leptospirosis",
+        "score": 2.8315597
+      },
+      {
+        "id": "_pneumocystosis",
+        "score": 2.75136
+      },
+      {
+        "id": "_patent_ductus_arteriosus",
+        "score": 2.7452927
+      },
+      {
+        "id": "_chemical_pneumonitis",
+        "score": 2.7452927
+      },
+      {
+        "id": "_pleurisy",
+        "score": 2.74437
+      }
+    ]
+  }
+}

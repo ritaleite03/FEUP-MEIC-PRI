@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 4,
+    "params": {
+      "json": "{\"query\": \"persistent fatigue exhaustion\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 980,
+    "start": 0,
+    "maxScore": 18.33807,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_heart_failure",
+        "score": 18.33807
+      },
+      {
+        "id": "_postpartum_depression",
+        "score": 16.157555
+      },
+      {
+        "id": "_adenosine_monophosphate_deaminase_deficiency_type_1",
+        "score": 16.037987
+      },
+      {
+        "id": "_hypermobility_spectrum_disorder",
+        "score": 14.473411
+      },
+      {
+        "id": "_hypereosinophilic_syndrome",
+        "score": 14.134096
+      },
+      {
+        "id": "_microscopic_colitis",
+        "score": 14.082771
+      },
+      {
+        "id": "_caregiver_stress",
+        "score": 14.017292
+      },
+      {
+        "id": "_camurati-engelmann_disease",
+        "score": 13.413513
+      },
+      {
+        "id": "_myalgic_encephalomyelitis/chronic_fatigue_syndrome",
+        "score": 12.822746
+      },
+      {
+        "id": "_oncogenic_osteomalacia",
+        "score": 12.750683
+      },
+      {
+        "id": "_heat_illness",
+        "score": 12.689329
+      },
+      {
+        "id": "_fibromyalgia",
+        "score": 12.354717
+      },
+      {
+        "id": "_lung_cancer",
+        "score": 11.852703
+      },
+      {
+        "id": "_osteopathia_striata_with_cranial_sclerosis",
+        "score": 11.770403
+      },
+      {
+        "id": "_adrenal_crisis",
+        "score": 11.657043
+      },
+      {
+        "id": "_hypochondriasis",
+        "score": 11.37002
+      },
+      {
+        "id": "_idiopathic_hypersomnia",
+        "score": 11.319685
+      },
+      {
+        "id": "_biphenotypic_acute_leukaemia",
+        "score": 11.169613
+      },
+      {
+        "id": "_polymyalgia_rheumatica",
+        "score": 11.025756
+      },
+      {
+        "id": "_occupational_heat_stress",
+        "score": 11.012961
+      }
+    ]
+  }
+}

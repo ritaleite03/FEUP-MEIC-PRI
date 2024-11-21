@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 6,
+    "params": {
+      "json": "{\"query\": \"pollution lungs\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name Alias Overview Can_Cause Specialty Caused_By Risk_Factors_List Symptoms_List Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text Causes.Text Risk_factors.Text Complications.Text Prevention.Text Diagnosis.Text Treatment.Text\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 602,
+    "start": 0,
+    "maxScore": 6.9028816,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_neuroendocrine_hyperplasia",
+        "score": 6.9028816
+      },
+      {
+        "id": "_pulmonary_fibrosis",
+        "score": 6.512597
+      },
+      {
+        "id": "_black_lung_disease",
+        "score": 5.1883564
+      },
+      {
+        "id": "_lung_cancer",
+        "score": 5.0930443
+      },
+      {
+        "id": "_chronic_obstructive_pulmonary_disease",
+        "score": 4.927315
+      },
+      {
+        "id": "_pneumatosis",
+        "score": 4.8949604
+      },
+      {
+        "id": "_osteopathia_striata_with_cranial_sclerosis",
+        "score": 4.657531
+      },
+      {
+        "id": "_emphysema",
+        "score": 4.420582
+      },
+      {
+        "id": "_asthma",
+        "score": 4.3382382
+      },
+      {
+        "id": "_pneumonia",
+        "score": 4.2823877
+      },
+      {
+        "id": "_bronchitis",
+        "score": 4.2130466
+      },
+      {
+        "id": "_bird_fancier's_lung",
+        "score": 3.6466508
+      },
+      {
+        "id": "_farmer's_lung",
+        "score": 3.6019106
+      },
+      {
+        "id": "_large-cell_lung_carcinoma",
+        "score": 3.5079322
+      },
+      {
+        "id": "_adenocarcinoma_of_the_lung",
+        "score": 3.5078917
+      },
+      {
+        "id": "_blepharospasm",
+        "score": 3.4951737
+      },
+      {
+        "id": "_pulmonary_neuroendocrine_tumor",
+        "score": 3.4775538
+      },
+      {
+        "id": "_rheumatoid_lung_disease",
+        "score": 3.4281406
+      },
+      {
+        "id": "_basaloid_large_cell_carcinoma_of_the_lung",
+        "score": 3.315185
+      },
+      {
+        "id": "_giant-cell_carcinoma_of_the_lung",
+        "score": 3.306147
+      }
+    ]
+  }
+}
