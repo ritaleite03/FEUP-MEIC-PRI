@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 29,
+    "params": {
+      "json": "{\"query\": \"fever vomit\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 952,
+    "start": 0,
+    "maxScore": 12.73465,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_dengue_fever",
+        "score": 12.73465
+      },
+      {
+        "id": "_adrenocorticotropic_hormone_deficiency",
+        "score": 12.615551
+      },
+      {
+        "id": "_hives",
+        "score": 12.479655
+      },
+      {
+        "id": "_beta-ketothiolase_deficiency",
+        "score": 12.43162
+      },
+      {
+        "id": "_oropouche_fever",
+        "score": 12.424047
+      },
+      {
+        "id": "_blackwater_fever",
+        "score": 12.400942
+      },
+      {
+        "id": "_rocky_mountain_spotted_fever",
+        "score": 12.185987
+      },
+      {
+        "id": "_viral_hemorrhagic_fever",
+        "score": 12.176167
+      },
+      {
+        "id": "_cogan_syndrome",
+        "score": 11.9791355
+      },
+      {
+        "id": "_yellow_fever",
+        "score": 11.905552
+      },
+      {
+        "id": "_hepatitis_a",
+        "score": 11.810259
+      },
+      {
+        "id": "_febrile_seizure",
+        "score": 11.709703
+      },
+      {
+        "id": "_q_fever",
+        "score": 11.432089
+      },
+      {
+        "id": "_streptococcal_pharyngitis",
+        "score": 10.855698
+      },
+      {
+        "id": "_alkhurma_virus",
+        "score": 10.440596
+      },
+      {
+        "id": "_foodborne_illness",
+        "score": 10.416199
+      },
+      {
+        "id": "_lassa_fever",
+        "score": 10.388336
+      },
+      {
+        "id": "_colorado_tick_fever",
+        "score": 10.349867
+      },
+      {
+        "id": "_trench_fever",
+        "score": 10.060358
+      },
+      {
+        "id": "_thyroid_storm",
+        "score": 10.021717
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 11,
+    "params": {
+      "json": "{\"query\": \"fever vomit\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name Alias Overview Can_Cause Specialty Caused_By Risk_Factors_List Symptoms_List Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text Causes.Text Risk_factors.Text Complications.Text Prevention.Text Diagnosis.Text Treatment.Text\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 581,
+    "start": 0,
+    "maxScore": 6.803056,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_yellow_fever",
+        "score": 6.803056
+      },
+      {
+        "id": "_dengue_fever",
+        "score": 6.136506
+      },
+      {
+        "id": "_febrile_seizure",
+        "score": 5.106535
+      },
+      {
+        "id": "_ascariasis",
+        "score": 4.8013916
+      },
+      {
+        "id": "_emetophobia",
+        "score": 4.267957
+      },
+      {
+        "id": "_botulism",
+        "score": 3.9515917
+      },
+      {
+        "id": "_brucellosis",
+        "score": 3.6830335
+      },
+      {
+        "id": "_pediculosis_corporis",
+        "score": 3.489702
+      },
+      {
+        "id": "_typhoid_fever",
+        "score": 3.469156
+      },
+      {
+        "id": "_epidemic_typhus",
+        "score": 3.3643727
+      },
+      {
+        "id": "_paratyphoid_fever",
+        "score": 3.359028
+      },
+      {
+        "id": "_tularemia",
+        "score": 3.3344145
+      },
+      {
+        "id": "_crimean-congo_hemorrhagic_fever",
+        "score": 3.263752
+      },
+      {
+        "id": "_argentine_hemorrhagic_fever",
+        "score": 3.2633543
+      },
+      {
+        "id": "_hives",
+        "score": 3.2280264
+      },
+      {
+        "id": "_spotted_fever",
+        "score": 3.2124972
+      },
+      {
+        "id": "_rat-bite_fever",
+        "score": 3.2124972
+      },
+      {
+        "id": "_haverhill_fever",
+        "score": 3.187184
+      },
+      {
+        "id": "_japanese_spotted_fever",
+        "score": 3.187184
+      },
+      {
+        "id": "_blackwater_fever",
+        "score": 3.1791494
+      }
+    ]
+  }
+}
