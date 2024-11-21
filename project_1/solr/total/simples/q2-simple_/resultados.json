@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 7,
+    "params": {
+      "json": "{\"query\": \"surgery heart cardiovascular\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name Alias Overview Can_Cause Specialty Caused_By Risk_Factors_List Symptoms_List Medical_Exams Transmission_Processes Anatomical_Location Treatments_List Characteristics Age_Onsets Opposit_Of Different_From Genetic_Associations Symptoms.Text Causes.Text Risk_factors.Text Complications.Text Prevention.Text Diagnosis.Text Treatment.Text Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 1683,
+    "start": 0,
+    "maxScore": 7.0038157,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_congenital_heart_defect",
+        "score": 7.0038157
+      },
+      {
+        "id": "_coronary_artery_disease",
+        "score": 6.842186
+      },
+      {
+        "id": "_hypertensive_heart_disease",
+        "score": 6.076968
+      },
+      {
+        "id": "_atrioventricular_septal_defect",
+        "score": 5.9883327
+      },
+      {
+        "id": "_cardiovascular_disease",
+        "score": 5.8205214
+      },
+      {
+        "id": "_peripheral_artery_disease",
+        "score": 5.7371197
+      },
+      {
+        "id": "_valvular_heart_disease",
+        "score": 5.566437
+      },
+      {
+        "id": "_hypercholesterolemia",
+        "score": 5.54836
+      },
+      {
+        "id": "_da_costa's_syndrome",
+        "score": 5.4744616
+      },
+      {
+        "id": "_metabolic_syndrome",
+        "score": 5.4567204
+      },
+      {
+        "id": "_single_ventricle",
+        "score": 5.452067
+      },
+      {
+        "id": "_hypoplastic_right_heart_syndrome",
+        "score": 5.4053626
+      },
+      {
+        "id": "_cardiomyopathy",
+        "score": 5.279483
+      },
+      {
+        "id": "_thyroid_storm",
+        "score": 5.223853
+      },
+      {
+        "id": "_abdominal_aortic_aneurysm",
+        "score": 5.211006
+      },
+      {
+        "id": "_heart_failure",
+        "score": 5.1123896
+      },
+      {
+        "id": "_atherosclerosis",
+        "score": 5.0154552
+      },
+      {
+        "id": "_asplenia_with_cardiovascular_anomalies",
+        "score": 4.857172
+      },
+      {
+        "id": "_pulmonary_valve_stenosis",
+        "score": 4.837282
+      },
+      {
+        "id": "_constrictive_pericarditis",
+        "score": 4.8268557
+      }
+    ]
+  }
+}
