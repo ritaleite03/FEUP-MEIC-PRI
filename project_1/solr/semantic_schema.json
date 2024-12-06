@@ -1,0 +1,225 @@
+{
+    "add-field-type": [
+        {
+            "name": "improvedTextField",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    },
+                    {
+                        "class": "solr.StopFilterFactory",
+                        "words": "stopwords.txt"
+                    },
+                    {
+                        "class": "solr.PorterStemFilterFactory"
+                    }
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    },
+                    {
+                        "class": "solr.StopFilterFactory",
+                        "words": "stopwords.txt"
+                    },
+                    {
+                        "class": "solr.PorterStemFilterFactory"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "totalRevisionsType",
+            "class": "solr.IntPointField"
+        },
+        {
+            "name": "lastRevisionDateType",
+            "class": "solr.DatePointField"
+        },
+        {
+            "name": "courseVector",
+            "class": "solr.DenseVectorField",
+            "vectorDimension": 384,
+            "similarityFunction": "cosine",
+            "knnAlgorithm": "hnsw"
+        }
+    ],
+    "add-dynamic-field": [
+        {
+            "name": "Symptoms.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Causes.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Risk_factors.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Complications.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Prevention.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Diagnosis.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Treatment.*",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        }
+    ],
+    "add-field": [
+        {
+            "name": "Name",
+            "type": "improvedTextField",
+            "indexed": true
+        },
+        {
+            "name": "Overview",
+            "type": "improvedTextField",
+            "indexed": true
+        },
+        {
+            "name": "Specialty",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Caused_By",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Can_Cause",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Different_From",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Risk_Factors_List",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Alias",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Symptoms_List",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Medical_Exams",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Transmission_Processes",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Anatomical_Location",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Treatments_List",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Genetic_Associations",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Opposit_Of",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Age_Onsets",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Characteristics",
+            "type": "improvedTextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Total_Revisions",
+            "type": "totalRevisionsType"
+        },
+        {
+            "name": "Last_Revision_Date",
+            "type": "lastRevisionDateType"
+        },
+        {
+            "name": "vector",
+            "type": "courseVector",
+            "indexed": true,
+            "stored": true
+        }
+    ]
+}
