@@ -1,2 +1,4 @@
 .DS_STORE
 __pycache__
+solr/semantic_data.json
+solr/src

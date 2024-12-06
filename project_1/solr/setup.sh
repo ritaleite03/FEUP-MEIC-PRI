@@ -39,8 +39,10 @@ docker exec pri_proj solr create_core -c diseases_semantic
 
 curl http://localhost:8983/solr/diseases_semantic/config -d '{"set-user-property": {"update.autoCreateFields":"false"}}'
 
+# SEMANTIC CORE
+
 curl -X POST -H 'Content-type:application/json' \
     --data-binary "@semantic_schema.json" \
     http://localhost:8983/solr/diseases_semantic/schema
 
-docker exec -it pri_proj bin/solr post -c diseases_semantic /data/semantic_courses.json
+docker exec -it pri_proj bin/solr post -c diseases_semantic /data/semantic_data.json
