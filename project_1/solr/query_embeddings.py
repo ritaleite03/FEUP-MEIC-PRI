@@ -13,9 +13,9 @@ def solr_knn_query(endpoint, collection, embedding):
       
     url = f"{endpoint}/{collection}/select"
     data = {
-        "q": f"{{!knn f=vector topK=10}}{embedding}",
-        "fl": "Name,Overview,score",
-        "rows": 10,
+        "q": f"{{!knn f=vector topK=20}}{embedding}",
+        "fl": "id,Name,Overview,score",
+        "rows": 20,
         "wt": "json"
     }
     
