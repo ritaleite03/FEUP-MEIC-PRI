@@ -19,9 +19,9 @@ query_solr = {
     },
 }
 
+
 @app.route("/search", methods=["GET"])
 def search():
-
     user_query = request.args.get("query")
     query_solr["query"] = user_query
 
@@ -43,6 +43,7 @@ def search():
     documents = solr_results_to_documents(solr_results)
     return json.dumps(documents, indent=2, ensure_ascii=False)
 
+
 def solr_results_to_documents(solr_results):
     file = open("../data/data.json")
     data = json.load(file)
@@ -53,3 +54,6 @@ def solr_results_to_documents(solr_results):
         documents.append(document)
     return documents
 
+
+if __name__ == "__main__":
+    app.run(host="localhost", port=5222, debug=True)
