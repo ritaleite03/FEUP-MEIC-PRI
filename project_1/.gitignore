@@ -2,3 +2,4 @@
 __pycache__
 solr/semantic_data.json
 solr/src
+backend/.venv
