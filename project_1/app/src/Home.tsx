@@ -6,8 +6,10 @@ import "font-awesome/css/font-awesome.min.css";
 import Header from "./components/Header";
 
 function Home() {
+    const [lastInputValue, setLastInputValue] = useState("");
     const [inputValue, setInputValue] = useState("");
     const [diseases, setDiseases] = useState<Array<Record<string, any>>>([]);
+    const [selectedDiseases, setSelectedDiseases] = useState<string[]>([]);
 
     const handleSubmit = async (event: any) => {
         event.preventDefault();
@@ -24,12 +26,24 @@ function Home() {
         } else {
             const data = await response.json();
             setDiseases(data);
+            setLastInputValue(inputValue);
         }
+    };
+
+    const handleCheckboxChange = (id: string) => {
+        console.log(selectedDiseases);
+        setSelectedDiseases((prevSelected) => {
+            if (prevSelected.includes(id)) {
+                return prevSelected.filter((item) => item !== id);
+            } else {
+                return [...prevSelected, id];
+            }
+        });
     };
 
     return (
         <div>
-            <Header></Header>
+            <Header />
             <main>
                 <form onSubmit={handleSubmit}>
                     <input
@@ -47,11 +61,18 @@ function Home() {
                         diseases.map((disease, index) => (
                             <Card
                                 key={index}
-                                style={{ width: "80%", margin: "1em auto" }}
+                                style={{
+                                    width: "80%",
+                                    margin: "1em auto",
+                                    display: "flex",
+                                    alignItems: "center",
+                                    justifyContent: "space-between",
+                                }}
                             >
                                 <Link
                                     to={`/disease/${disease["id"]}`}
                                     state={{ disease }}
+                                    style={{ textDecoration: "none", flex: 1 }}
                                 >
                                     <Card.Body>
                                         <Card.Title>
@@ -60,7 +81,7 @@ function Home() {
                                         <Card.Text>
                                             {disease["Overview"] !== undefined
                                                 ? disease["Overview"].length >
-                                                  100
+                                                  500
                                                     ? disease[
                                                           "Overview"
                                                       ].substring(0, 500) +
@@ -70,6 +91,16 @@ function Home() {
                                         </Card.Text>
                                     </Card.Body>
                                 </Link>
+                                <input
+                                    type="checkbox"
+                                    checked={selectedDiseases.includes(
+                                        disease["id"]
+                                    )}
+                                    onChange={() =>
+                                        handleCheckboxChange(disease["id"])
+                                    }
+                                    style={{ margin: "10px" }}
+                                />
                             </Card>
                         ))
                     ) : (
