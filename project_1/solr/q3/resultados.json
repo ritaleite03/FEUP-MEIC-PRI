@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 31,
+    "params": {
+      "json": "{\"query\": \"pollution lungs\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 602,
+    "start": 0,
+    "maxScore": 20.708645,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_neuroendocrine_hyperplasia",
+        "score": 20.708645
+      },
+      {
+        "id": "_pulmonary_fibrosis",
+        "score": 17.645926
+      },
+      {
+        "id": "_asthma",
+        "score": 15.9383745
+      },
+      {
+        "id": "_osteopathia_striata_with_cranial_sclerosis",
+        "score": 13.972592
+      },
+      {
+        "id": "_chronic_obstructive_pulmonary_disease",
+        "score": 13.43337
+      },
+      {
+        "id": "_black_lung_disease",
+        "score": 13.080168
+      },
+      {
+        "id": "_alveolar_capillary_dysplasia",
+        "score": 12.64038
+      },
+      {
+        "id": "_williams-campbell_syndrome",
+        "score": 12.64038
+      },
+      {
+        "id": "_bronchitis",
+        "score": 12.639139
+      },
+      {
+        "id": "_lung_cancer",
+        "score": 12.580078
+      },
+      {
+        "id": "_meacham_syndrome",
+        "score": 10.856323
+      },
+      {
+        "id": "_blepharospasm",
+        "score": 10.485521
+      },
+      {
+        "id": "_growth_delay-hydrocephaly-lung_hypoplasia_syndrome",
+        "score": 10.150187
+      },
+      {
+        "id": "_emphysema",
+        "score": 9.821837
+      },
+      {
+        "id": "_alpha-1_antitrypsin_deficiency",
+        "score": 9.794925
+      },
+      {
+        "id": "_hyperkalemic_periodic_paralysis",
+        "score": 9.500019
+      },
+      {
+        "id": "_idiopathic_pulmonary_fibrosis",
+        "score": 9.111252
+      },
+      {
+        "id": "_pneumatosis",
+        "score": 9.082632
+      },
+      {
+        "id": "_salmonellosis",
+        "score": 8.674583
+      },
+      {
+        "id": "_another_syndrome",
+        "score": 8.516792
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 17,
+    "params": {
+      "json": "{\"query\": \"surgery heart cardiovascular\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
+    }
+  },
+  "response": {
+    "numFound": 1801,
+    "start": 0,
+    "maxScore": 21.682419,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "id": "_congenital_heart_defect",
+        "score": 21.682419
+      },
+      {
+        "id": "_aortopulmonary_window",
+        "score": 19.247137
+      },
+      {
+        "id": "_atrioventricular_septal_defect",
+        "score": 17.605947
+      },
+      {
+        "id": "_cardiomyopathy",
+        "score": 17.086946
+      },
+      {
+        "id": "_abdominal_aortic_aneurysm",
+        "score": 16.789
+      },
+      {
+        "id": "_peripheral_artery_disease",
+        "score": 16.419197
+      },
+      {
+        "id": "_hypertensive_heart_disease",
+        "score": 15.93989
+      },
+      {
+        "id": "_single_ventricle",
+        "score": 15.573
+      },
+      {
+        "id": "_valvular_heart_disease",
+        "score": 15.556881
+      },
+      {
+        "id": "_intestinal_ischemia",
+        "score": 15.532739
+      },
+      {
+        "id": "_hypercholesterolemia",
+        "score": 15.271498
+      },
+      {
+        "id": "_thyroid_storm",
+        "score": 15.066172
+      },
+      {
+        "id": "_pulmonary_atresia",
+        "score": 14.627179
+      },
+      {
+        "id": "_pulmonary_vein_stenosis",
+        "score": 14.4476595
+      },
+      {
+        "id": "_asplenia_with_cardiovascular_anomalies",
+        "score": 14.433844
+      },
+      {
+        "id": "_metabolic_syndrome",
+        "score": 14.396713
+      },
+      {
+        "id": "_left_ventricular_hypertrophy",
+        "score": 14.011663
+      },
+      {
+        "id": "_emanuel_syndrome",
+        "score": 13.728054
+      },
+      {
+        "id": "_cardiovascular_disease",
+        "score": 13.70597
+      },
+      {
+        "id": "_erectile_dysfunction",
+        "score": 13.520066
+      }
+    ]
+  }
+}
