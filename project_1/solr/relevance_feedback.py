@@ -1,4 +1,3 @@
-import requests
 import numpy as np
 
 def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_relevant_vectors: list[list[float]], alpha: float = 1, beta: float = 0.75, gamma: float = 0.15):
@@ -29,21 +28,15 @@ def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_
     # Qf = α*Qi + β*Σ(pos)/|pos| – γ*Σ(neg)/|neg|
 
     query_vector = np.array(query_vector)
-    print(f"query_vector: {query_vector}")
     relevant_vectors = list(map(np.array, relevant_vectors))
-    print(f"relevant_vectors: {relevant_vectors}")
     non_relevant_vectors = list(map(np.array, non_relevant_vectors))
-    print(f"non_relevant_vectors: {non_relevant_vectors}")
 
     weighted_query_vector = alpha * query_vector
-    print(f"weighted_query_vector: {weighted_query_vector}")
 
     if relevant_vectors:
         weighted_relevant_vectors = (beta / len(relevant_vectors)) * sum(relevant_vectors)
     else:
         weighted_relevant_vectors = 0
-
-    print(f"weighted_relevant_vectors: {weighted_relevant_vectors}")
 
 
     if non_relevant_vectors:
@@ -51,12 +44,8 @@ def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_
     else:
         weighted_non_relevant_vectors = 0
     
-    print(f"weighted_non_relevant_vectors: {weighted_non_relevant_vectors}")
-
     new_query_vector = weighted_query_vector + weighted_relevant_vectors - weighted_non_relevant_vectors
     
-    print(f"new_query_vector: {new_query_vector}")
-
 
     return new_query_vector
 
@@ -64,27 +53,9 @@ def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_
 def main():
     solr_uri = "http://localhost:8983/solr"
     collection = "diseases_semantic"
-    relevant_documents = [
-        "_pneumatosis",
-        "_black_lung_disease",
-        "_hypersensitivity_pneumonitis",
-        "_occupational_lung_disease",
-        "_asbestosis",
-        "_emphysema",
-        "_chronic_obstructive_pulmonary_disease",
-        "_respiratory_disease",
-        "_pneumoconiosis",
-        "_berylliosis",
-        "_chemical_pneumonitis",
-        "_bird_fancier's_lung",
-        "_bagassosis",
-        "_lung_cancer",
-        "_occupational_asthma"
-    ]
 
-    URL = f"{solr_uri}/{collection}/select"
-    HEADERS = { "Content-Type": "application/x-www-form-urlencoded" }
     rocchio(query_vector=[1, 2, 3], relevant_vectors=[[1, 2, 3], [4, 5, 6]], non_relevant_vectors=[[7, 8, 9], [10, 11, 12]])
+    
 
 if __name__ == "__main__":
     main()

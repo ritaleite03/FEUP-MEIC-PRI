@@ -1,15 +1,19 @@
+import os, sys
+sys.path.append(os.path.dirname(os.path.dirname((os.path.abspath(__file__)))))
+
 from flask import Flask
-from flask import request
-import sys
+from flask import request, abort
 from flask_cors import CORS
 import requests
 import json
+from solr.relevance_feedback import rocchio
+from solr.query_embeddings import solr_knn_query, text_to_embedding
 
 app = Flask(__name__)
 CORS(app, resources={r"/search": {"origins": "*"}})
 
 query_solr = {
-    "fields": "id Name score",
+    "fields": "id Name score vector",
     "sort": "score desc",
     "params": {
         "defType": "edismax",
@@ -21,9 +25,9 @@ query_solr = {
 }
 
 
-@app.route("/search", methods=["POST"])  # Alterar para POST
+@app.route("/search", methods=["POST"])
 def search():
-    user_query = request.json.get("query")  # Alterado para obter o JSON do corpo
+    user_query = request.json.get("query")
     query_solr["query"] = user_query
     print(user_query)
     solr_uri = "http://localhost:8983/solr"
@@ -33,10 +37,10 @@ def search():
 
     try:
         response = requests.post(uri, json=query_solr)
-        response.raise_for_status()  # Levanta erro se a solicitação falhar
+        response.raise_for_status()
     except requests.RequestException as e:
         print(f"Error querying Solr: {e}")
-        sys.exit(1)
+        abort(500)
 
     solr_results = response.json()
 
@@ -44,13 +48,30 @@ def search():
     print(documents)
     return json.dumps(documents, indent=2, ensure_ascii=False)
 
+@app.route("/relevance_feedback", methods=["POST"])
+def relevance_feedback():
+    query = request.form["query"]
+    relevant_vectors = request.form["relevant_vectors"]
+    non_relevant_vectors = request.form["non_relevant_vectors"]
+
+    query_vector = text_to_embedding(query)
+    new_query = rocchio(query_vector=query_vector, relevant_vectors=relevant_vectors, non_relevant_vectors=non_relevant_vectors)
+    
+    solr_uri = "http://localhost:8983/solr"
+    collection = "diseases_semantic"
+
+    try:
+        solr_knn_query(solr_uri, collection, new_query)
+    except Exception:
+        abort(500)
+
 
 def solr_results_to_documents(solr_results):
     file = open("../data/data.json")
     data = json.load(file)
     documents = []
     for doc in solr_results["response"]["docs"]:
-        document = {"Name": doc["Name"], "id": doc["id"]}
+        document = {"Name": doc["Name"], "id": doc["id"], "vector": doc["vector"]}
         document = {**document, **data[doc["Name"]]}
         documents.append(document)
     return documents
