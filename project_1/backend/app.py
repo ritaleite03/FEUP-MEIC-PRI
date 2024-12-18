@@ -10,7 +10,11 @@ from solr.relevance_feedback import rocchio
 from solr.query_embeddings import solr_knn_query, text_to_embedding
 
 app = Flask(__name__)
-CORS(app, resources={r"/search": {"origins": "*"}})
+CORS(app, resources={
+        r"/search": {"origins": "*"}, 
+        r"/relevance_feedback": {"origins": "*"}
+    }
+)
 
 query_solr = {
     "fields": "id Name score vector",
@@ -45,25 +49,31 @@ def search():
     solr_results = response.json()
 
     documents = solr_results_to_documents(solr_results)
-    print(documents)
     return json.dumps(documents, indent=2, ensure_ascii=False)
 
 @app.route("/relevance_feedback", methods=["POST"])
 def relevance_feedback():
-    query = request.form["query"]
-    relevant_vectors = request.form["relevant_vectors"]
-    non_relevant_vectors = request.form["non_relevant_vectors"]
+    query = request.json.get("query")
+    relevant_vectors = request.json.get("relevant_vectors")
+    non_relevant_vectors = request.json.get("non_relevant_vectors")
 
-    query_vector = text_to_embedding(query)
+    query_vector = text_to_embedding(query, convert_to_query_format=False)
+    query_vector = list(map(float, query_vector))
+
     new_query = rocchio(query_vector=query_vector, relevant_vectors=relevant_vectors, non_relevant_vectors=non_relevant_vectors)
-    
+    new_query = "[" + ",".join(map(str, new_query)) + "]"
+
     solr_uri = "http://localhost:8983/solr"
     collection = "diseases_semantic"
 
     try:
-        solr_knn_query(solr_uri, collection, new_query)
+        results = solr_knn_query(solr_uri, collection, new_query)
     except Exception:
         abort(500)
+    
+    documents = solr_results_to_documents(results)
+
+    return json.dumps(documents, indent=2, ensure_ascii=False)
 
 
 def solr_results_to_documents(solr_results):

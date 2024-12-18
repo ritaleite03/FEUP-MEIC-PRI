@@ -13,13 +13,42 @@ function Home() {
 
     const handleSubmit = async (event: any) => {
         event.preventDefault();
-        const response = await fetch("http://localhost:5223/search", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ query: inputValue }),
-        });
+        let response;
+
+        if (lastInputValue !== "" && lastInputValue === inputValue) {
+            const relevant_vectors = [];
+            const non_relevant_vectors = [];
+
+            diseases.forEach((disease) => {
+                if (selectedDiseases.some(d => d === disease["id"])) {
+                    relevant_vectors.push(disease["vector"]);
+                }
+                else {
+                    non_relevant_vectors.push(disease["vector"]);
+                }
+            })
+
+            response = await fetch("http://localhost:5223/relevance_feedback", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    query: inputValue,
+                    relevant_vectors: relevant_vectors,
+                    non_relevant_vectors: non_relevant_vectors
+                })
+            });
+        }
+        else {
+            response = await fetch("http://localhost:5223/search", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ query: inputValue }),
+            });
+        }
 
         if (!response.ok) {
             throw new Error(`Failed to fetch diseases: ${response.statusText}`);
@@ -31,7 +60,6 @@ function Home() {
     };
 
     const handleCheckboxChange = (id: string) => {
-        console.log(selectedDiseases);
         setSelectedDiseases((prevSelected) => {
             if (prevSelected.includes(id)) {
                 return prevSelected.filter((item) => item !== id);

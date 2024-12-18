@@ -1,9 +1,12 @@
 import requests
 from sentence_transformers import SentenceTransformer
 
-def text_to_embedding(text):
+def text_to_embedding(text, convert_to_query_format = True):
     model = SentenceTransformer('all-MiniLM-L6-v2')
     embedding = model.encode(text, convert_to_tensor=False).tolist()
+    
+    if not convert_to_query_format:
+        return embedding
     
     # Convert the embedding to the expected format
     embedding_str = "[" + ",".join(map(str, embedding)) + "]"
@@ -14,7 +17,7 @@ def solr_knn_query(endpoint, collection, embedding):
     url = f"{endpoint}/{collection}/select"
     data = {
         "q": f"{{!knn f=vector topK=20}}{embedding}",
-        "fl": "id,Name,Overview,score",
+        "fl": "id,Name,Overview,score,vector",
         "rows": 20,
         "wt": "json"
     }

@@ -1,6 +1,6 @@
 import numpy as np
 
-def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_relevant_vectors: list[list[float]], alpha: float = 1, beta: float = 0.75, gamma: float = 0.15):
+def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_relevant_vectors: list[list[float]], alpha: float = 1.0, beta: float = 0.75, gamma: float = 0.15):
     """
     Implements the Rocchio relevance feedback algorithm for updating a query vector.
 
@@ -47,13 +47,10 @@ def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_
     new_query_vector = weighted_query_vector + weighted_relevant_vectors - weighted_non_relevant_vectors
     
 
-    return new_query_vector
+    return new_query_vector.tolist()
 
 
 def main():
-    solr_uri = "http://localhost:8983/solr"
-    collection = "diseases_semantic"
-
     rocchio(query_vector=[1, 2, 3], relevant_vectors=[[1, 2, 3], [4, 5, 6]], non_relevant_vectors=[[7, 8, 9], [10, 11, 12]])
     
 
