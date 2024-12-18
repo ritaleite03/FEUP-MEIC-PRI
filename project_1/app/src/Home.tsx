@@ -4,13 +4,19 @@ import Card from "react-bootstrap/Card";
 import "./App.css";
 import "font-awesome/css/font-awesome.min.css";
 import Header from "./components/Header";
+import { useAppContext } from "./context";
 
 function Home() {
-    const [lastInputValue, setLastInputValue] = useState("");
-    const [inputValue, setInputValue] = useState("");
-    const [diseases, setDiseases] = useState<Array<Record<string, any>>>([]);
-    const [selectedDiseases, setSelectedDiseases] = useState<string[]>([]);
-
+    const {
+        diseases,
+        setDiseases,
+        selectedDiseases,
+        setSelectedDiseases,
+        lastInputValue,
+        setLastInputValue,
+        inputValue,
+        setInputValue,
+    } = useAppContext();
     const handleSubmit = async (event: any) => {
         event.preventDefault();
         let response;
