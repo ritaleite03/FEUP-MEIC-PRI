@@ -1,96 +1,85 @@
 {
-  "responseHeader": {
-    "status": 0,
-    "QTime": 20,
-    "params": {
-      "json": "{\"query\": \"fever vomit\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
-    }
-  },
   "response": {
-    "numFound": 952,
-    "start": 0,
-    "maxScore": 12.73465,
-    "numFoundExact": true,
     "docs": [
       {
-        "id": "_dengue_fever",
-        "score": 12.73465
+        "id": "_rocky_mountain_spotted_fever",
+        "score": 0.7170972972268097
       },
       {
         "id": "_adrenocorticotropic_hormone_deficiency",
-        "score": 12.615551
+        "score": 0.7
       },
       {
         "id": "_hives",
-        "score": 12.479655
+        "score": 0.6789267428361947
       },
       {
         "id": "_beta-ketothiolase_deficiency",
-        "score": 12.43162
+        "score": 0.6414739414675869
+      },
+      {
+        "id": "_dengue_fever",
+        "score": 0.6210606708621005
       },
       {
         "id": "_oropouche_fever",
-        "score": 12.424047
+        "score": 0.5920711187144864
       },
       {
         "id": "_blackwater_fever",
-        "score": 12.400942
-      },
-      {
-        "id": "_rocky_mountain_spotted_fever",
-        "score": 12.185987
+        "score": 0.5560960469236877
       },
       {
         "id": "_viral_hemorrhagic_fever",
-        "score": 12.176167
-      },
-      {
-        "id": "_cogan_syndrome",
-        "score": 11.9791355
-      },
-      {
-        "id": "_yellow_fever",
-        "score": 11.905552
+        "score": 0.5535372395674221
       },
       {
         "id": "_hepatitis_a",
-        "score": 11.810259
+        "score": 0.4831365552636402
       },
       {
-        "id": "_febrile_seizure",
-        "score": 11.709703
+        "id": "_yellow_fever",
+        "score": 0.474651921549459
+      },
+      {
+        "id": "_cogan_syndrome",
+        "score": 0.4408595344290337
       },
       {
         "id": "_q_fever",
-        "score": 11.432089
+        "score": 0.37866756277876185
+      },
+      {
+        "id": "_febrile_seizure",
+        "score": 0.3509603470397751
+      },
+      {
+        "id": "_gastroenteritis",
+        "score": 0.3
+      },
+      {
+        "id": "_crimean-congo_hemorrhagic_fever",
+        "score": 0.23258025953758216
       },
       {
         "id": "_streptococcal_pharyngitis",
-        "score": 10.855698
+        "score": 0.1818737703916417
       },
       {
         "id": "_alkhurma_virus",
-        "score": 10.440596
+        "score": 0.17583625588073568
+      },
+      {
+        "id": "_pontiac_fever",
+        "score": 0.15110617458784645
       },
       {
         "id": "_foodborne_illness",
-        "score": 10.416199
+        "score": 0.1399999961580154
       },
       {
-        "id": "_lassa_fever",
-        "score": 10.388336
-      },
-      {
-        "id": "_colorado_tick_fever",
-        "score": 10.349867
-      },
-      {
-        "id": "_trench_fever",
-        "score": 10.060358
-      },
-      {
-        "id": "_thyroid_storm",
-        "score": 10.021717
+        "id": "_murine_typhus",
+        "score": 0.12268276944846178
       }
     ]
   }

@@ -1,96 +1,85 @@
 {
-  "responseHeader": {
-    "status": 0,
-    "QTime": 12,
-    "params": {
-      "json": "{\"query\": \"persistent fatigue exhaustion\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
-    }
-  },
   "response": {
-    "numFound": 980,
-    "start": 0,
-    "maxScore": 18.33807,
-    "numFoundExact": true,
     "docs": [
       {
         "id": "_heart_failure",
-        "score": 18.33807
+        "score": 0.7
       },
       {
         "id": "_postpartum_depression",
-        "score": 16.157555
+        "score": 0.5374633468230613
       },
       {
         "id": "_adenosine_monophosphate_deaminase_deficiency_type_1",
-        "score": 16.037987
-      },
-      {
-        "id": "_hypermobility_spectrum_disorder",
-        "score": 14.473411
-      },
-      {
-        "id": "_hypereosinophilic_syndrome",
-        "score": 14.134096
-      },
-      {
-        "id": "_microscopic_colitis",
-        "score": 14.082771
-      },
-      {
-        "id": "_caregiver_stress",
-        "score": 14.017292
-      },
-      {
-        "id": "_camurati-engelmann_disease",
-        "score": 13.413513
+        "score": 0.479889759473627
       },
       {
         "id": "_myalgic_encephalomyelitis/chronic_fatigue_syndrome",
-        "score": 12.822746
+        "score": 0.4281697317992045
       },
       {
-        "id": "_oncogenic_osteomalacia",
-        "score": 12.750683
+        "id": "_hypermobility_spectrum_disorder",
+        "score": 0.3661245587787379
       },
       {
-        "id": "_heat_illness",
-        "score": 12.689329
+        "id": "_hypereosinophilic_syndrome",
+        "score": 0.3386983878134701
+      },
+      {
+        "id": "_microscopic_colitis",
+        "score": 0.3151837332399981
+      },
+      {
+        "id": "_caregiver_stress",
+        "score": 0.2714992903770233
       },
       {
         "id": "_fibromyalgia",
-        "score": 12.354717
+        "score": 0.2682115746399244
+      },
+      {
+        "id": "_camurati-engelmann_disease",
+        "score": 0.21482215165140942
+      },
+      {
+        "id": "_oncogenic_osteomalacia",
+        "score": 0.19383754904318828
+      },
+      {
+        "id": "_heat_illness",
+        "score": 0.16801542592811522
       },
       {
         "id": "_lung_cancer",
-        "score": 11.852703
+        "score": 0.14022266495603958
       },
       {
-        "id": "_osteopathia_striata_with_cranial_sclerosis",
-        "score": 11.770403
+        "id": "_hypersomnia",
+        "score": 0.12297335106451442
+      },
+      {
+        "id": "_combat_stress_reaction",
+        "score": 0.10587916692353408
+      },
+      {
+        "id": "_repetitive_strain_injury",
+        "score": 0.10028121039021924
       },
       {
         "id": "_adrenal_crisis",
-        "score": 11.657043
+        "score": 0.09584112016185344
       },
       {
-        "id": "_hypochondriasis",
-        "score": 11.37002
+        "id": "_orthostatic_intolerance",
+        "score": 0.07893943509974473
+      },
+      {
+        "id": "_osteopathia_striata_with_cranial_sclerosis",
+        "score": 0.07748965703400312
       },
       {
         "id": "_idiopathic_hypersomnia",
-        "score": 11.319685
-      },
-      {
-        "id": "_biphenotypic_acute_leukaemia",
-        "score": 11.169613
-      },
-      {
-        "id": "_polymyalgia_rheumatica",
-        "score": 11.025756
-      },
-      {
-        "id": "_occupational_heat_stress",
-        "score": 11.012961
+        "score": 0.06400537181972721
       }
     ]
   }

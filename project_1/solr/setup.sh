@@ -1,5 +1,3 @@
-#!/bin/bash
-
 docker stop pri_proj
 
 docker rm pri_proj

@@ -1,96 +1,85 @@
 {
-  "responseHeader": {
-    "status": 0,
-    "QTime": 17,
-    "params": {
-      "json": "{\"query\": \"surgery heart cardiovascular\", \"fields\": \"id score\", \"sort\": \"score desc\", \"params\": {\"defType\": \"edismax\", \"qf\": \"Name^2 Alias Overview^3 Can_Cause Specialty Caused_By Risk_Factors_List^4 Symptoms_List^4 Medical_Exams Transmission_Processes Anatomical_Location Treatments_List^4 Characteristics  Age_Onsets Opposit_Of Different_From Causes.Sections Symptoms.Sections Risk_factors.Sections Complications.Sections Prevention.Sections Diagnosis.Sections Treatment.Sections Genetic_Associations Symptoms.Text^3 Causes.Text^3 Risk_factors.Text^3 Complications.Text Prevention.Text Diagnosis.Text Treatment.Text^3\", \"start\": 0, \"rows\": 20, \"q.op\": \"OR\"}}"
-    }
-  },
   "response": {
-    "numFound": 1801,
-    "start": 0,
-    "maxScore": 21.682419,
-    "numFoundExact": true,
     "docs": [
       {
         "id": "_congenital_heart_defect",
-        "score": 21.682419
+        "score": 0.7
       },
       {
         "id": "_aortopulmonary_window",
-        "score": 19.247137
-      },
-      {
-        "id": "_atrioventricular_septal_defect",
-        "score": 17.605947
-      },
-      {
-        "id": "_cardiomyopathy",
-        "score": 17.086946
-      },
-      {
-        "id": "_abdominal_aortic_aneurysm",
-        "score": 16.789
-      },
-      {
-        "id": "_peripheral_artery_disease",
-        "score": 16.419197
-      },
-      {
-        "id": "_hypertensive_heart_disease",
-        "score": 15.93989
-      },
-      {
-        "id": "_single_ventricle",
-        "score": 15.573
+        "score": 0.4811697031427816
       },
       {
         "id": "_valvular_heart_disease",
-        "score": 15.556881
+        "score": 0.4524126194033353
+      },
+      {
+        "id": "_atrioventricular_septal_defect",
+        "score": 0.38922777567733136
+      },
+      {
+        "id": "_cardiomyopathy",
+        "score": 0.2739111994553055
+      },
+      {
+        "id": "_cardiac_shunt",
+        "score": 0.2705426239219346
+      },
+      {
+        "id": "_abdominal_aortic_aneurysm",
+        "score": 0.24566573588296128
+      },
+      {
+        "id": "_peripheral_artery_disease",
+        "score": 0.22140073499606525
+      },
+      {
+        "id": "_single_ventricle",
+        "score": 0.214021508011287
+      },
+      {
+        "id": "_hypertensive_heart_disease",
+        "score": 0.18738418082195457
       },
       {
         "id": "_intestinal_ischemia",
-        "score": 15.532739
+        "score": 0.1517283013715496
       },
       {
-        "id": "_hypercholesterolemia",
-        "score": 15.271498
+        "id": "_aortic_dissection",
+        "score": 0.14570902972688093
       },
       {
         "id": "_thyroid_storm",
-        "score": 15.066172
+        "score": 0.14512747835638345
+      },
+      {
+        "id": "_pulmonary_regurgitation",
+        "score": 0.12997821631145934
+      },
+      {
+        "id": "_hypercholesterolemia",
+        "score": 0.1294021589061736
+      },
+      {
+        "id": "_tricuspid_valve_stenosis",
+        "score": 0.1046866158065167
+      },
+      {
+        "id": "_loeffler_endocarditis",
+        "score": 0.09373795604274969
+      },
+      {
+        "id": "_hypoplastic_left_heart_syndrome",
+        "score": 0.09054387303005237
       },
       {
         "id": "_pulmonary_atresia",
-        "score": 14.627179
+        "score": 0.08513977908668588
       },
       {
-        "id": "_pulmonary_vein_stenosis",
-        "score": 14.4476595
-      },
-      {
-        "id": "_asplenia_with_cardiovascular_anomalies",
-        "score": 14.433844
-      },
-      {
-        "id": "_metabolic_syndrome",
-        "score": 14.396713
-      },
-      {
-        "id": "_left_ventricular_hypertrophy",
-        "score": 14.011663
-      },
-      {
-        "id": "_emanuel_syndrome",
-        "score": 13.728054
-      },
-      {
-        "id": "_cardiovascular_disease",
-        "score": 13.70597
-      },
-      {
-        "id": "_erectile_dysfunction",
-        "score": 13.520066
+        "id": "_myocardial_stunning",
+        "score": 0.08119316321490141
       }
     ]
   }
