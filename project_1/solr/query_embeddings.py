@@ -1,15 +1,15 @@
 import requests
 from sentence_transformers import SentenceTransformer
 
-def text_to_embedding(text, convert_to_query_format = True):
+def convert_to_query_format(embedding):
+    return "[" + ",".join(map(str, embedding)) + "]"
+
+def text_to_embedding(text, query_string_format):
     model = SentenceTransformer('all-MiniLM-L6-v2')
     embedding = model.encode(text, convert_to_tensor=False).tolist()
     
-    if not convert_to_query_format:
-        return embedding
-    
-    # Convert the embedding to the expected format
-    embedding_str = "[" + ",".join(map(str, embedding)) + "]"
+    embedding_str = convert_to_query_format(embedding) if query_string_format else embedding
+
     return embedding_str
 
 def solr_knn_query(endpoint, collection, embedding):

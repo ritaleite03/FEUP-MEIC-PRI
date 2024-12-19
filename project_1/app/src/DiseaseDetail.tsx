@@ -67,16 +67,16 @@ function DiseaseDetail() {
             value: disease["Overview"],
             icon: <FaRegQuestionCircle size={24} />,
         },
-        {
-            label: "Total Revisions",
-            value: disease["Total Revisions"],
-            icon: <FaRegQuestionCircle size={24} />,
-        },
-        {
-            label: "Last Revision Date",
-            value: disease["Last Revision Date"],
-            icon: <FaRegQuestionCircle size={24} />,
-        },
+        // {
+        //     label: "Total Revisions",
+        //     value: disease["Total Revisions"],
+        //     icon: <FaRegQuestionCircle size={24} />,
+        // },
+        // {
+        //     label: "Last Revision Date",
+        //     value: disease["Last Revision Date"],
+        //     icon: <FaRegQuestionCircle size={24} />,
+        // },
         {
             label: "Alias",
             value: disease["Alias"],

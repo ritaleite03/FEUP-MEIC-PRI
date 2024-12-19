@@ -1,6 +1,6 @@
 import numpy as np
 
-def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_relevant_vectors: list[list[float]], alpha: float = 1.0, beta: float = 0.75, gamma: float = 0.15):
+def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_relevant_vectors: list[list[float]], alpha: float = 1.0, beta: float = 16.0, gamma: float = 4.0):
     """
     Implements the Rocchio relevance feedback algorithm for updating a query vector.
 
@@ -13,11 +13,11 @@ def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_
     non_relevant_vectors : list[list[float]]
         A list of vectors representing non-relevant documents.
     alpha : float, optional
-        The weight applied to the original query vector (default is 1).
+        The weight applied to the original query vector.
     beta : float, optional
-        The weight applied to the sum of relevant document vectors (default is 0.75).
+        The weight applied to the sum of relevant document vectors.
     gamma : float, optional
-        The weight applied to the sum of non-relevant document vectors (default is 0.15).
+        The weight applied to the sum of non-relevant document vectors.
 
     Returns:
     -------

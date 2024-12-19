@@ -7,7 +7,8 @@ from flask_cors import CORS
 import requests
 import json
 from solr.relevance_feedback import rocchio
-from solr.query_embeddings import solr_knn_query, text_to_embedding
+from solr.query_embeddings import solr_knn_query, text_to_embedding, convert_to_query_format
+from solr.M3.mix_querys import hybrid_search
 
 app = Flask(__name__)
 CORS(app, resources={
@@ -35,11 +36,9 @@ def search():
 
     solr_uri = "http://localhost:8983/solr"
     collection = "diseases_semantic"
-
-    query_vector = text_to_embedding(query, convert_to_query_format=True)
     
     try:
-        results = solr_knn_query(solr_uri, collection, query_vector)
+        results = hybrid_search(solr_uri, collection, query, 0.5, 0.5)
     except requests.RequestException as e:
         print(f"Error querying Solr: {e}")
         abort(500)
@@ -53,11 +52,11 @@ def relevance_feedback():
     relevant_vectors = request.json.get("relevant_vectors")
     non_relevant_vectors = request.json.get("non_relevant_vectors")
 
-    query_vector = text_to_embedding(query, convert_to_query_format=False)
+    query_vector = text_to_embedding(query, False)
     query_vector = list(map(float, query_vector))
 
     new_query = rocchio(query_vector=query_vector, relevant_vectors=relevant_vectors, non_relevant_vectors=non_relevant_vectors)
-    new_query = "[" + ",".join(map(str, new_query)) + "]"
+    new_query = convert_to_query_format(new_query)
 
     solr_uri = "http://localhost:8983/solr"
     collection = "diseases_semantic"
