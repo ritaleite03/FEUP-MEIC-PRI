@@ -132,3 +132,4 @@
 1 0 _whooping_cough 1
 1 0 _yellow_fever 1
 1 0 _relapsing_fever 1
+1 0 _hemolytic-uremic_syndrome 1

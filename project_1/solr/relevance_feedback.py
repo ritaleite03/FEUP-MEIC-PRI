@@ -1,4 +1,11 @@
 import numpy as np
+import argparse
+import json
+import sys
+import os
+import requests
+from pathlib import Path
+from query_embeddings import solr_knn_query, text_to_embedding, convert_to_string_format
 
 def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_relevant_vectors: list[list[float]], alpha: float = 1.0, beta: float = 16.0, gamma: float = 4.0):
     """
@@ -50,9 +57,69 @@ def rocchio(query_vector: list[float], relevant_vectors: list[list[float]], non_
     return new_query_vector.tolist()
 
 
-def main():
-    rocchio(query_vector=[1, 2, 3], relevant_vectors=[[1, 2, 3], [4, 5, 6]], non_relevant_vectors=[[7, 8, 9], [10, 11, 12]])
-    
-
 if __name__ == "__main__":
-    main()
+    solr_endpoint = "http://localhost:8983/solr"
+    
+    collection = "diseases_semantic"
+    
+    parser = argparse.ArgumentParser(
+        description="Fetch search results from Solr and output them in JSON format."
+    )
+
+    parser.add_argument(
+        "--query",
+        type=str,
+        required=True,
+        help="Path to the JSON file containing the Solr query parameters.",
+    )
+    
+    parser.add_argument(
+        "--alpha",
+        type=float,
+        required=True,
+        help="Path to the JSON file containing the Solr query parameters.",
+    )
+
+    parser.add_argument(
+        "--beta",
+        type=float,
+        required=True,
+        help="Path to the JSON file containing the Solr query parameters.",
+    )
+
+    parser.add_argument(
+        "--gamma",
+        type=float,
+        required=True,
+        help="Path to the JSON file containing the Solr query parameters.",
+    )
+    
+    args = parser.parse_args()
+    alpha = args.alpha
+    beta = args.beta
+    gamma = args.gamma
+
+    print(alpha, beta, gamma)
+
+    query_vector = text_to_embedding(args.query, query_string_format=False)
+
+    semantic_response = solr_knn_query(solr_endpoint, collection, convert_to_string_format(query_vector))
+
+    qrels_file = open("qrels.txt",'r', encoding='utf-8')
+    relevant_ids = [line.strip() for line in qrels_file]
+    relevant_vectors = []
+    non_relevant_vectors = []
+
+    for doc in semantic_response['response']['docs']:
+        if doc['id'] in relevant_ids:
+            relevant_vectors.append(doc['vector'])
+        else:
+            non_relevant_vectors.append(doc['vector'])
+    
+    new_query_vector = rocchio(query_vector, relevant_vectors, non_relevant_vectors, alpha=alpha, beta=beta, gamma=gamma)
+
+    response = solr_knn_query(solr_endpoint, collection, convert_to_string_format(new_query_vector))
+
+    output_file = 'resultados.json'
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(response, f, indent=2, ensure_ascii=False)

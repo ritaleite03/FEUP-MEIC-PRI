@@ -7,7 +7,7 @@ from flask_cors import CORS
 import requests
 import json
 from solr.relevance_feedback import rocchio
-from solr.query_embeddings import solr_knn_query, text_to_embedding, convert_to_query_format
+from solr.query_embeddings import solr_knn_query, text_to_embedding, convert_to_string_format
 from solr.M3.mix_querys import hybrid_search
 
 app = Flask(__name__)
@@ -52,11 +52,11 @@ def relevance_feedback():
     relevant_vectors = request.json.get("relevant_vectors")
     non_relevant_vectors = request.json.get("non_relevant_vectors")
 
-    query_vector = text_to_embedding(query, False)
+    query_vector = text_to_embedding(query, query_string_format=False)
     query_vector = list(map(float, query_vector))
 
     new_query = rocchio(query_vector=query_vector, relevant_vectors=relevant_vectors, non_relevant_vectors=non_relevant_vectors)
-    new_query = convert_to_query_format(new_query)
+    new_query = convert_to_string_format(new_query)
 
     solr_uri = "http://localhost:8983/solr"
     collection = "diseases_semantic"

@@ -35,7 +35,7 @@ def solr_lexical_query(endpoint, collection, query):
 
 def hybrid_search(endpoint, collection, query, weight_semantic, weight_lexical):
 
-    embedding = text_to_embedding(query, True)
+    embedding = text_to_embedding(query, query_string_format=True)
 
 
     result_semantic = solr_knn_query(endpoint, collection, embedding)

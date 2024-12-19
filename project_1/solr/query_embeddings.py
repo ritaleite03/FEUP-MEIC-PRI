@@ -1,14 +1,14 @@
 import requests
 from sentence_transformers import SentenceTransformer
 
-def convert_to_query_format(embedding):
+def convert_to_string_format(embedding):
     return "[" + ",".join(map(str, embedding)) + "]"
 
 def text_to_embedding(text, query_string_format):
     model = SentenceTransformer('all-MiniLM-L6-v2')
     embedding = model.encode(text, convert_to_tensor=False).tolist()
     
-    embedding_str = convert_to_query_format(embedding) if query_string_format else embedding
+    embedding_str = convert_to_string_format(embedding) if query_string_format else embedding
 
     return embedding_str
 

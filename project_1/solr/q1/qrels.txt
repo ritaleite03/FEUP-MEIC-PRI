@@ -34,3 +34,4 @@ _viral_hemorrhagic_fever
 _whooping_cough
 _yellow_fever
 _relapsing_fever
+_hemolytic-uremic_syndrome

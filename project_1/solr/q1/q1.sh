@@ -76,5 +76,32 @@ python3 ../plot_pr_n.py \
   --results results_sys1_semantic_trec.txt results_sys2_semantic_trec.txt results_sys3_semantic_trec.txt \
   --labels "System 1" "System 2" "System 3" \
   --output prec_rec_sys_all_semantic.png
+  rm resultados_simple.json resultados_boosted.json resultados_weights.json
 
-rm resultados_simple.json resultados_boosted.json resultados_weights.json
+### Relevance Feedback ###
+cat qrels.txt | python3 ../qrels2trec.py > qrels_trec.txt
+# alpha = 1.0, beta = 0.75, gamma = 0.15
+python3 ../relevance_feedback.py --query "fever vomit" --alpha 1.0 --beta 0.75 --gamma 0.15
+python3 ../solr2trec.py > results_sys1_relevance_trec.txt
+./../src/trec_eval/trec_eval qrels_trec.txt results_sys1_relevance_trec.txt
+
+# alpha = 1.0, beta = 0.5, gamma = 0.1
+python3 ../relevance_feedback.py --query "fever vomit" --alpha 1.0 --beta 0.5 --gamma 0.1
+python3 ../solr2trec.py > results_sys2_relevance_trec.txt
+./../src/trec_eval/trec_eval qrels_trec.txt results_sys2_relevance_trec.txt
+
+# alpha = 1.0, beta = 1.0, gamma = 0.0
+python3 ../relevance_feedback.py --query "fever vomit" --alpha 1.0 --beta 1.0 --gamma 0.0
+python3 ../solr2trec.py > results_sys3_relevance_trec.txt
+./../src/trec_eval/trec_eval qrels_trec.txt results_sys3_relevance_trec.txt
+
+# alpha = 1.0, beta = 16.0, gamma = 4.0
+python3 ../relevance_feedback.py --query "fever vomit" --alpha 1.0 --beta 16.0 --gamma 4.0
+python3 ../solr2trec.py > results_sys4_relevance_trec.txt
+./../src/trec_eval/trec_eval qrels_trec.txt results_sys4_relevance_trec.txt
+
+python3 ../plot_pr_n.py \
+  --qrels qrels_trec.txt qrels_trec.txt qrels_trec.txt qrels_trec.txt \
+  --results results_sys1_relevance_trec.txt results_sys2_relevance_trec.txt results_sys3_relevance_trec.txt results_sys4_relevance_trec.txt \
+  --labels "System 1" "System 2" "System 3" "System 4"\
+  --output prec_rec_sys_all_relevance.png
