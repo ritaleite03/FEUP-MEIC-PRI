@@ -122,7 +122,7 @@ function Home() {
                                 }}
                             >
                                 <Link
-                                    to={`/disease/${disease.id}`}
+                                    to={`/disease/${encodeURIComponent(disease.id)}`}
                                     state={{ disease }}
                                     style={{ textDecoration: "none", flex: 1 }}
                                 >
