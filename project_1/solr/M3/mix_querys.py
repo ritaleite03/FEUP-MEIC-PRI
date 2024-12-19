@@ -70,6 +70,7 @@ if __name__ == "__main__":
 
     embedding = text_to_embedding(args.query)
 
+
     result_semantic = solr_knn_query(solr_endpoint, collection, embedding)
     result_semantic = result_semantic.get("response", {}).get("docs", [])
     top_score_semantic = result_semantic[0].get('score')
@@ -80,6 +81,7 @@ if __name__ == "__main__":
     # for doc in result_semantic:
         # print(f"* {doc.get('id')} {doc.get('Name')} [score: {doc.get('score'):.2f}]")
     
+    collection = "diseases"
     result_lexical = solr_lexical_query(solr_endpoint, collection, args.query)
     result_lexical = result_lexical.get("response", {}).get("docs", [])
     top_score_lexical = result_lexical[0].get('score')

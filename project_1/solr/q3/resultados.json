@@ -3,83 +3,83 @@
     "docs": [
       {
         "id": "_neuroendocrine_hyperplasia",
-        "score": 0.7
+        "score": 1.0
       },
       {
         "id": "_pulmonary_fibrosis",
-        "score": 0.5818155224258749
-      },
-      {
-        "id": "_black_lung_disease",
-        "score": 0.5230050634307541
-      },
-      {
-        "id": "_chronic_obstructive_pulmonary_disease",
-        "score": 0.4711024405405494
+        "score": 0.7487897040753361
       },
       {
         "id": "_asthma",
-        "score": 0.46011542141442685
-      },
-      {
-        "id": "_pneumatosis",
-        "score": 0.33550790756285714
+        "score": 0.6087329382990427
       },
       {
         "id": "_osteopathia_striata_with_cranial_sclerosis",
-        "score": 0.33455056156364377
+        "score": 0.4474955529729566
       },
       {
-        "id": "_emphysema",
-        "score": 0.28654885407971953
+        "id": "_chronic_obstructive_pulmonary_disease",
+        "score": 0.40326749346469315
       },
       {
-        "id": "_lung_cancer",
-        "score": 0.25476412971014845
+        "id": "_black_lung_disease",
+        "score": 0.37429716385195916
       },
       {
         "id": "_alveolar_capillary_dysplasia",
-        "score": 0.24485242910863228
+        "score": 0.3382248785315899
       },
       {
         "id": "_williams-campbell_syndrome",
-        "score": 0.24485242910863228
-      },
-      {
-        "id": "_hypersensitivity_pneumonitis",
-        "score": 0.24170885572666784
+        "score": 0.3382248785315899
       },
       {
         "id": "_bronchitis",
-        "score": 0.22739708833667815
+        "score": 0.33812308924656487
       },
       {
-        "id": "_occupational_lung_disease",
-        "score": 0.21923644427951677
-      },
-      {
-        "id": "_asbestosis",
-        "score": 0.20200091004673937
-      },
-      {
-        "id": "_respiratory_disease",
-        "score": 0.15429025189740342
-      },
-      {
-        "id": "_pneumoconiosis",
-        "score": 0.13634709005928558
-      },
-      {
-        "id": "_berylliosis",
-        "score": 0.1260410316219155
+        "id": "_lung_cancer",
+        "score": 0.3332787887124295
       },
       {
         "id": "_meacham_syndrome",
-        "score": 0.11817065100711413
+        "score": 0.1918929796807753
       },
       {
-        "id": "_respiratory_bronchiolitis",
-        "score": 0.1169955204495453
+        "id": "_blepharospasm",
+        "score": 0.16147906310878254
+      },
+      {
+        "id": "_growth_delay-hydrocephaly-lung_hypoplasia_syndrome",
+        "score": 0.13397430234764152
+      },
+      {
+        "id": "_emphysema",
+        "score": 0.10704238313896991
+      },
+      {
+        "id": "_alpha-1_antitrypsin_deficiency",
+        "score": 0.10483500744308503
+      },
+      {
+        "id": "_hyperkalemic_periodic_paralysis",
+        "score": 0.0806462315449505
+      },
+      {
+        "id": "_idiopathic_pulmonary_fibrosis",
+        "score": 0.04875878998869161
+      },
+      {
+        "id": "_pneumatosis",
+        "score": 0.04641132074016966
+      },
+      {
+        "id": "_salmonellosis",
+        "score": 0.012942331243659153
+      },
+      {
+        "id": "_hypersensitivity_pneumonitis",
+        "score": 0.0
       }
     ]
   }

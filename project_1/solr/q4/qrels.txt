@@ -19,3 +19,15 @@ _oncogenic_osteomalacia
 _persistent_polyclonal_b-cell_lymphocytosis
 _polymyalgia_rheumatica
 _postpartum_depression
+_repetitive_strain_injury
+_sleep_apnea
+_post-polio_syndrome
+_fatal_insomnia
+_sleep_disorder
+_restless_legs_syndrome
+_cyclic_vomiting_syndrome
+_narcolepsy
+_bipolar_disorder
+_morvan's_syndrome
+_postural_orthostatic_tachycardia_syndrome
+_non-24-hour_sleep-wake_disorder

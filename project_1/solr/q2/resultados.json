@@ -3,83 +3,83 @@
     "docs": [
       {
         "id": "_congenital_heart_defect",
-        "score": 0.7
+        "score": 1.0
       },
       {
         "id": "_aortopulmonary_window",
-        "score": 0.4811697031427816
-      },
-      {
-        "id": "_valvular_heart_disease",
-        "score": 0.4524126194033353
+        "score": 0.7016446115476749
       },
       {
         "id": "_atrioventricular_septal_defect",
-        "score": 0.38922777567733136
+        "score": 0.5005763656631858
       },
       {
         "id": "_cardiomyopathy",
-        "score": 0.2739111994553055
-      },
-      {
-        "id": "_cardiac_shunt",
-        "score": 0.2705426239219346
+        "score": 0.4369916370928826
       },
       {
         "id": "_abdominal_aortic_aneurysm",
-        "score": 0.24566573588296128
+        "score": 0.40048917266871475
       },
       {
         "id": "_peripheral_artery_disease",
-        "score": 0.22140073499606525
-      },
-      {
-        "id": "_single_ventricle",
-        "score": 0.214021508011287
+        "score": 0.35518324189115574
       },
       {
         "id": "_hypertensive_heart_disease",
-        "score": 0.18738418082195457
+        "score": 0.2964615718041109
+      },
+      {
+        "id": "_single_ventricle",
+        "score": 0.2515125234108352
+      },
+      {
+        "id": "_valvular_heart_disease",
+        "score": 0.2495377252123255
       },
       {
         "id": "_intestinal_ischemia",
-        "score": 0.1517283013715496
-      },
-      {
-        "id": "_aortic_dissection",
-        "score": 0.14570902972688093
-      },
-      {
-        "id": "_thyroid_storm",
-        "score": 0.14512747835638345
-      },
-      {
-        "id": "_pulmonary_regurgitation",
-        "score": 0.12997821631145934
+        "score": 0.24657999966431243
       },
       {
         "id": "_hypercholesterolemia",
-        "score": 0.1294021589061736
+        "score": 0.2145744002985413
       },
       {
-        "id": "_tricuspid_valve_stenosis",
-        "score": 0.1046866158065167
-      },
-      {
-        "id": "_loeffler_endocarditis",
-        "score": 0.09373795604274969
-      },
-      {
-        "id": "_hypoplastic_left_heart_syndrome",
-        "score": 0.09054387303005237
+        "id": "_thyroid_storm",
+        "score": 0.1894191540111044
       },
       {
         "id": "_pulmonary_atresia",
-        "score": 0.08513977908668588
+        "score": 0.13563650089624893
       },
       {
-        "id": "_myocardial_stunning",
-        "score": 0.08119316321490141
+        "id": "_pulmonary_vein_stenosis",
+        "score": 0.11364290419686583
+      },
+      {
+        "id": "_asplenia_with_cardiovascular_anomalies",
+        "score": 0.11195031628747258
+      },
+      {
+        "id": "_metabolic_syndrome",
+        "score": 0.10740126039635878
+      },
+      {
+        "id": "_left_ventricular_hypertrophy",
+        "score": 0.06022736335956072
+      },
+      {
+        "id": "_emanuel_syndrome",
+        "score": 0.025481377735072263
+      },
+      {
+        "id": "_cardiovascular_disease",
+        "score": 0.022775785364833
+      },
+      {
+        "id": "_cardiac_shunt",
+        "score": 0.0
       }
     ]
   }

@@ -2,84 +2,84 @@
   "response": {
     "docs": [
       {
-        "id": "_rocky_mountain_spotted_fever",
-        "score": 0.7170972972268097
+        "id": "_dengue_fever",
+        "score": 1.0
       },
       {
         "id": "_adrenocorticotropic_hormone_deficiency",
-        "score": 0.7
+        "score": 0.9560995424509192
       },
       {
         "id": "_hives",
-        "score": 0.6789267428361947
+        "score": 0.9060076308556086
       },
       {
         "id": "_beta-ketothiolase_deficiency",
-        "score": 0.6414739414675869
-      },
-      {
-        "id": "_dengue_fever",
-        "score": 0.6210606708621005
+        "score": 0.8883017015164032
       },
       {
         "id": "_oropouche_fever",
-        "score": 0.5920711187144864
+        "score": 0.8855102577173855
       },
       {
         "id": "_blackwater_fever",
-        "score": 0.5560960469236877
+        "score": 0.8769936448854433
+      },
+      {
+        "id": "_rocky_mountain_spotted_fever",
+        "score": 0.7977602100752214
       },
       {
         "id": "_viral_hemorrhagic_fever",
-        "score": 0.5535372395674221
-      },
-      {
-        "id": "_hepatitis_a",
-        "score": 0.4831365552636402
-      },
-      {
-        "id": "_yellow_fever",
-        "score": 0.474651921549459
+        "score": 0.7941405113948627
       },
       {
         "id": "_cogan_syndrome",
-        "score": 0.4408595344290337
+        "score": 0.7215137638858017
       },
       {
-        "id": "_q_fever",
-        "score": 0.37866756277876185
+        "id": "_yellow_fever",
+        "score": 0.6943905359992303
+      },
+      {
+        "id": "_hepatitis_a",
+        "score": 0.6592650832143662
       },
       {
         "id": "_febrile_seizure",
-        "score": 0.3509603470397751
+        "score": 0.6221996636113014
       },
       {
-        "id": "_gastroenteritis",
-        "score": 0.3
-      },
-      {
-        "id": "_crimean-congo_hemorrhagic_fever",
-        "score": 0.23258025953758216
+        "id": "_q_fever",
+        "score": 0.519869823545218
       },
       {
         "id": "_streptococcal_pharyngitis",
-        "score": 0.1818737703916417
+        "score": 0.3074093610126014
       },
       {
         "id": "_alkhurma_virus",
-        "score": 0.17583625588073568
-      },
-      {
-        "id": "_pontiac_fever",
-        "score": 0.15110617458784645
+        "score": 0.15440079058347506
       },
       {
         "id": "_foodborne_illness",
-        "score": 0.1399999961580154
+        "score": 0.14540794040988114
       },
       {
-        "id": "_murine_typhus",
-        "score": 0.12268276944846178
+        "id": "_lassa_fever",
+        "score": 0.13513750616030698
+      },
+      {
+        "id": "_colorado_tick_fever",
+        "score": 0.12095764989404423
+      },
+      {
+        "id": "_trench_fever",
+        "score": 0.014243256283881746
+      },
+      {
+        "id": "_gastroenteritis",
+        "score": 0.0
       }
     ]
   }

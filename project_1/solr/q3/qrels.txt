@@ -13,3 +13,17 @@ _bird_fancier's_lung
 _farmer's_lung
 _alpha-1_antitrypsin_deficiency
 _idiopathic_pulmonary_fibrosis
+_hypersensitivity_pneumonitis
+_occupational_lung_disease
+_asbestosis
+_respiratory_disease
+_pneumoconiosis
+_berylliosis
+_bagassosis
+_occupational_asthma
+_silicosis
+_byssinosis
+_desquamative_interstitial_pneumonia
+_bauxite_fibrosis
+_pulmonary_alveolar_proteinosis
+_siderosis
