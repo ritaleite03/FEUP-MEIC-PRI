@@ -1,0 +1,47 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color:gainsboro;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color:royalblue;
+  color:gainsboro;
+  margin: 0;
+  padding: 2em;
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 5em;
+  margin: auto;
+}
+
+main form input {
+  width: 80%;
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+main form button {
+  padding: 5px;
+  font-size: 1.5em;
+  margin: 0 5px;
+}
+
+main form button i {
+  color:dimgray;
+}
+
+main form button:hover i {
+  color:royalblue;
+}
+
+div a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,180 @@
+{
+    "add-field-type": [
+        {
+            "name": "TextField",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                }
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                }
+            }
+        },
+        {
+            "name": "totalRevisionsType",
+            "class": "solr.IntPointField"
+        },
+        {
+            "name": "lastRevisionDateType",
+            "class": "solr.DatePointField"
+        }
+    ],
+    "add-dynamic-field": [
+        {
+            "name": "Symptoms.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Causes.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Risk_factors.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Complications.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Prevention.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Diagnosis.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Treatment.*",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        }
+    ],
+    "add-field": [
+        {
+            "name": "Name",
+            "type": "TextField",
+            "indexed": true
+        },
+        {
+            "name": "Overview",
+            "type": "TextField",
+            "indexed": true
+        },
+        {
+            "name": "Specialty",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Caused_By",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Can_Cause",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Different_From",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Risk_Factors_List",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Alias",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Symptoms_List",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Medical_Exams",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Transmission_Processes",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Anatomical_Location",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Treatments_List",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Genetic_Associations",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Opposit_Of",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Age_Onsets",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Characteristics",
+            "type": "TextField",
+            "indexed": true,
+            "multiValued": true
+        },
+        {
+            "name": "Total_Revisions",
+            "type": "totalRevisionsType"
+        },
+        {
+            "name": "Last_Revision_Date",
+            "type": "lastRevisionDateType"
+        }
+    ]
+}

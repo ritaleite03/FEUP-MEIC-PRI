@@ -1,0 +1,15 @@
+SELECT ?diseaseLabel
+(GROUP_CONCAT(DISTINCT ?altLabel; separator=", ") as ?alias)
+WHERE {
+    # disease instance of class of disease
+    ?disease wdt:P31 wd:Q112193867.
+    ?disease rdfs:label ?diseaseLabel.
+    FILTER(LANG(?diseaseLabel) = "en").
+    
+    # alias
+    ?disease skos:altLabel ?altLabel. 
+    FILTER (lang(?altLabel) = "en") 
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+ } 
+GROUP BY ?disease ?diseaseLabel
