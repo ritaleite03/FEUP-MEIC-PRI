@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Apache Solr](https://img.shields.io/badge/Apache_Solr-EC6600?style=flat)](https://solr.apache.org/)
 
-## Contributors
+## 👥 Contributors
 
 | Name           | GitHub Username                                          |
 | -------------- | -------------------------------------------------------- |
@@ -12,22 +12,22 @@
 | Rita Leite     | [@ritaleite03](https://github.com/ritaleite03)           |
 | Tiago Azevedo  | [@TiagoAzevedo1903](https://github.com/TiagoAzevedo1903) |
 
-## Overview
+## 📂 Projects Overview
 
-This repository contains the assignment of the **Information Retrieval (PRI) course** at MEIC, FEUP.  
+Repository for the **Processamento e Recuperação de Informação (Information Retrieval)** course projects from MEIC - FEUP.
 
-The project develops a **specialized search engine for medical information**, aimed at **doctors and patients** seeking reliable disease data. Key features include:
+| Project                            | Description                                                              | Folder      |
+| ---------------------------------- | ------------------------------------------------------------------------ | ----------- |
+| Medical Search with Semantic & Lexical Indexing | Specialized search engine for medical information, aimed at doctors and patients seeking reliable disease data. | `project_1`|
 
-- Indexing medical documents using **Apache Solr**;
-- Three indexing strategies: simple, complex and complex with customized field weights;  
-- Hybrid search combining **lexical** and **semantic** search;
-- **Relevance feedback** implemented via the Rocchio algorithm;  
-- Evaluation using Mean Average Precision (MAP).
-
-## Grades
+## 🏆 Grades
 
 | Project   | Final |
 | --------- | ----- |
 | Project 1 | 18.0  |
+
+## ⚡ Quick Links
+
+- [Project 1 README – Medical Search with Semantic & Lexical Indexing](project_1/README.md)
 
 
